@@ -1,0 +1,3 @@
+This repository downloads the official ICANN root zone and removes the SOA records and any root zone records (not TLDs), as well as DNSSEC data, so the output (`outputs/root.include.zone`) can be `$INCLUDE`d into a custom root zone.
+
+The script at `script.sh` is run hourly by one of our servers, and updates are pushed to this repository.
