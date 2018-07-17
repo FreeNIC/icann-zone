@@ -3634,6 +3634,7 @@ cr.			172800	IN	NS	ca2.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
 CR.			86400	IN	DS	13334 8 2 120F74309A773F74D4AFA9DC4190097B9BCD2C9A6A4F83F164346ADF430AC84A
+CR.			86400	IN	DS	39844 8 2 53273C8AC1D0ACF9030D907C3A731BE98241E5EF6DBB51F5CE91CDB09534AB1C
 ca1.nic.cr.		172800	IN	A	185.159.197.100
 ca1.nic.cr.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:100
 ca2.nic.cr.		172800	IN	A	185.159.198.100
@@ -6447,6 +6448,8 @@ c.hkirc.net.hk.		172800	IN	A	203.119.2.218
 c.hkirc.net.hk.		172800	IN	AAAA	2001:dca:4000:0:0:0:cb77:2da
 d.hkirc.net.hk.		172800	IN	A	203.119.87.218
 d.hkirc.net.hk.		172800	IN	AAAA	2001:dca:2000:0:0:0:cb77:57da
+t.hkirc.net.hk.		172800	IN	A	202.12.31.53
+t.hkirc.net.hk.		172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 u.hkirc.net.hk.		172800	IN	A	210.201.138.58
 u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0:0:0:0:0:58
 v.hkirc.net.hk.		172800	IN	A	204.61.216.46
@@ -7055,6 +7058,16 @@ b2.in.afilias-nst.in.	172800	IN	A	199.249.125.1
 b2.in.afilias-nst.in.	172800	IN	AAAA	2001:500:4d:0:0:0:0:1
 c0.in.afilias-nst.in.	172800	IN	A	199.253.57.1
 c0.in.afilias-nst.in.	172800	IN	AAAA	2001:500:51:0:0:0:0:1
+inc.			172800	IN	NS	ns1.uniregistry.net.
+inc.			172800	IN	NS	ns2.uniregistry.info.
+inc.			172800	IN	NS	ns3.uniregistry.net.
+inc.			172800	IN	NS	ns4.uniregistry.info.
+INC.			86400	IN	DS	13636 8 1 6EAEBC6DDC7E32668027D425FE37084D6CB2D13D
+INC.			86400	IN	DS	13636 8 2 1F6E64CBE2F9FF7A4D33195D8EE394E09E58CB89477523A1B5B1113B0CD6C3F5
+INC.			86400	IN	DS	30851 8 1 3AADE4CBDC3F21A19C9226A1A1024F5DED2258B4
+INC.			86400	IN	DS	30851 8 2 8B99EE96E8AF9A793A6739CF31A1459C6511C31A50C42F4021B832DE7D2862C5
+INC.			86400	IN	DS	54391 8 1 FA3586612FB945097862A24E9AA44B93833DD849
+INC.			86400	IN	DS	54391 8 2 2B6CEC19FDEB49E6BAC193CDE6B3548FC1630292AE19EE07B5D4B501429D5693
 industries.		172800	IN	NS	demand.beta.aridns.net.au.
 industries.		172800	IN	NS	demand.alpha.aridns.net.au.
 industries.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -9940,7 +9953,7 @@ sec3.apnic.net.		172800	IN	AAAA	2001:dc0:1:0:4777:0:0:140
 dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
 ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
-ns2.barbadosdomain.net.	172800	IN	A	204.212.242.113
+ns2.barbadosdomain.net.	172800	IN	A	64.119.204.139
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4:0:0:0:0:11
 ns30.cdns.net.		172800	IN	A	194.0.1.30
@@ -17049,6 +17062,7 @@ xn--j1amh.		172800	IN	NS	dns3.dotukr.com.
 xn--j1amh.		172800	IN	NS	tier1.num.net.ua.
 xn--j6w193g.		172800	IN	NS	c.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	d.hkirc.net.hk.
+xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	v.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
