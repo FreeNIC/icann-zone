@@ -3925,7 +3925,6 @@ day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
-DAY.			86400	IN	DS	6004 8 2 B234546B39E5D53111E51B0033450F18AAC3B6489347BA2790FC7F6163AEBA89
 DAY.			86400	IN	DS	41746 8 2 BCD63DA0F1195997A0EA25780E7B0675EC7877052CD6FE837E8F112C1FAD3886
 dclk.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 dclk.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -14183,7 +14182,6 @@ ns2.ns.sx.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:10
 sy.			172800	IN	NS	sy.cctld.authdns.ripe.net.
 sy.			172800	IN	NS	ns1.tld.sy.
 sy.			172800	IN	NS	pch.anycast.tld.sy.
-SY.			86400	IN	DS	54706 8 2 F6E4245DCB9E41854E1CF8D0EB2ED1623194A22CFAC8B9EB185E6F017A808AEB
 pch.anycast.tld.sy.	172800	IN	A	204.61.216.71
 pch.anycast.tld.sy.	172800	IN	AAAA	2001:500:14:6071:ad:0:0:1
 ns1.tld.sy.		172800	IN	A	82.137.200.85
@@ -17469,7 +17467,6 @@ XN--O3CW4H.		86400	IN	DS	42580 8 2 FF4DE3F7DB4A4372D27970D4409E6D7EEFAB8D4FB20D5
 xn--ogbpf8fl.		172800	IN	NS	sy.cctld.authdns.ripe.net.
 xn--ogbpf8fl.		172800	IN	NS	ns1.tld.sy.
 xn--ogbpf8fl.		172800	IN	NS	pch.anycast.tld.sy.
-XN--OGBPF8FL.		86400	IN	DS	5389 8 2 BDA5EBBA132A69F16AF0AC54E75C67A11B767F3D7134AE19A8A916874FCCBC0C
 xn--otu796d.		172800	IN	NS	a.zdnscloud.com.
 xn--otu796d.		172800	IN	NS	b.zdnscloud.com.
 xn--otu796d.		172800	IN	NS	c.zdnscloud.com.
