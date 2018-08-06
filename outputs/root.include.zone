@@ -11613,11 +11613,17 @@ pk.			172800	IN	NS	n1.pknic.net.pk.
 pk.			172800	IN	NS	ns3.pknic.net.pk.
 pk.			172800	IN	NS	root-e.pknic.pk.
 pk.			172800	IN	NS	root-s.pknic.pk.
+pk.			172800	IN	NS	root-c1.pknic.pk.
+pk.			172800	IN	NS	root-c2.pknic.pk.
 ns.ntc.net.pk.		172800	IN	A	202.83.164.166
 ns1.ntc.net.pk.		172800	IN	A	202.83.164.167
 ns2.ntc.net.pk.		172800	IN	A	175.107.192.11
 n1.pknic.net.pk.	172800	IN	A	162.252.84.2
 ns3.pknic.net.pk.	172800	IN	A	199.192.75.54
+root-c1.pknic.pk.	172800	IN	A	185.159.197.160
+root-c1.pknic.pk.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:160
+root-c2.pknic.pk.	172800	IN	A	185.159.198.160
+root-c2.pknic.pk.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:160
 root-e.pknic.pk.	172800	IN	A	107.6.178.178
 root-s.pknic.pk.	172800	IN	A	119.81.34.90
 pl.			172800	IN	NS	a-dns.pl.
