@@ -1,5 +1,5 @@
-.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018081001 1800 900 604800 86400
-.			86400	IN	RRSIG	SOA 8 0 86400 20180823170000 20180810160000 41656 . EZJamIdUG1j4Lr8ms3GkbqMVJQQqxv66UGVZdenwDgIgDCUXbBXwIRdc6O1utS+BsOH0V7CB8AGsGxRw2p1tKZ5rADdCwp9mU42iorThatEM8c3j20re85J6kfRE+SyaMWHdPb1vlw3Gh44WEPSeQvpATEE/jzRKXEOtRZgdhBk1ASux3zDs3x2E5WBUjyC03a3zEs7XldkpvM9banCWCq6F3OvGiGeyok0zIbjrZPdzotd/7ZZ1udDSYvOmGjQRbIUfZiEoE0EE+0imvrh0V4CukxeS07EaHc7GuSNnjEV8gaFlmqdXTfHDJJ5ekUaNd8Gvx5pta0mjrjRSOdfo5g==
+.			86400	IN	SOA	a.root-servers.net. nstld.verisign-grs.com. 2018081002 1800 900 604800 86400
+.			86400	IN	RRSIG	SOA 8 0 86400 20180823170000 20180810160000 41656 . yeoolgT7BqEcn2oAbFUNVKr+VfKHDo6tYzZFfvtIrKtP4qRsVTxKInjzFyTIF3i5zbyFBA+j6A6sHc/GS28LEg0r8mt76uD9v1LK0AgBvEg4KEVxKF1yt4179KNoR56KKnrw4NzcErYz3Yknbq/rC1ahQtFHskP59MQ9lB/IO5oGc2nZe4qrxNLid5rdjwr54fC0K934RuXPqCrqoJYnC8cd8LgguozhjjpZZZ5RTVKqbMrm4VY+fdpQbLc2WkO/Wb65IoCwcLfCPZLU8cpKh8fJfkaRAMPAC/orb0gsB5N1fvn25851n7jqwS9UZmnrzAmWQqPc41JBBETGXyTJUA==
 .			518400	IN	NS	a.root-servers.net.
 .			518400	IN	NS	b.root-servers.net.
 .			518400	IN	NS	c.root-servers.net.
@@ -14922,8 +14922,9 @@ pt.			172800	IN	NS	b.dns.pt.
 pt.			172800	IN	NS	c.dns.pt.
 pt.			172800	IN	NS	d.dns.pt.
 pt.			172800	IN	NS	e.dns.pt.
+pt.			172800	IN	NS	f.dns.pt.
+pt.			172800	IN	NS	g.dns.pt.
 pt.			172800	IN	NS	ns.dns.br.
-pt.			172800	IN	NS	ns2.dns.pt.
 pt.			172800	IN	NS	ns2.nic.fr.
 pt.			172800	IN	NS	sns-pb.isc.org.
 PT.			86400	IN	DS	40995 7 1 43DEDCEEBA41380680784AA531819A6ED8172B6D
@@ -14947,12 +14948,14 @@ d.dns.pt.		172800	IN	A	185.39.210.1
 d.dns.pt.		172800	IN	AAAA	2a04:6d82:0:0:0:0:0:1
 e.dns.pt.		172800	IN	A	193.136.192.64
 e.dns.pt.		172800	IN	AAAA	2001:690:a00:4001:0:0:0:64
+f.dns.pt.		172800	IN	A	162.88.45.1
+f.dns.pt.		172800	IN	AAAA	2600:2000:3009:0:0:0:0:1
+g.dns.pt.		172800	IN	A	193.136.2.226
+g.dns.pt.		172800	IN	AAAA	2001:690:a80:4001:0:0:0:100
 gw01.dns.pt.		172800	IN	A	185.39.208.19
 gw01.dns.pt.		172800	IN	AAAA	2a04:6d80:0:0:0:0:0:19
 gw03.dns.pt.		172800	IN	A	204.61.216.114
 gw03.dns.pt.		172800	IN	AAAA	2001:500:14:6114:ad:0:0:1
-ns2.dns.pt.		172800	IN	A	193.136.2.226
-ns2.dns.pt.		172800	IN	AAAA	2001:690:a80:4001:0:0:0:100
 pub.			172800	IN	NS	demand.beta.aridns.net.au.
 pub.			172800	IN	NS	demand.alpha.aridns.net.au.
 pub.			172800	IN	NS	demand.delta.aridns.net.au.
