@@ -5528,11 +5528,20 @@ c.nic.frl.		172800	IN	A	212.18.248.87
 c.nic.frl.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:87
 d.nic.frl.		172800	IN	A	212.18.249.87
 d.nic.frl.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:87
-frogans.		172800	IN	NS	d.nic.fr.
-frogans.		172800	IN	NS	f.ext.nic.fr.
-frogans.		172800	IN	NS	g.ext.nic.fr.
+frogans.		172800	IN	NS	a0.nic.frogans.
+frogans.		172800	IN	NS	a2.nic.frogans.
+frogans.		172800	IN	NS	b0.nic.frogans.
+frogans.		172800	IN	NS	c0.nic.frogans.
 FROGANS.		86400	IN	DS	10474 8 2 24E7C4016DDF988172A375FB491541050980B3905BA31CB72D8DEB7F51696DEB
 FROGANS.		86400	IN	DS	44230 8 2 50F935219610318D526521F0E31C70705B462BDE2C9FDBA142969B27207B3B7F
+a0.nic.frogans.		172800	IN	A	65.22.188.1
+a0.nic.frogans.		172800	IN	AAAA	2a01:8840:b6:0:0:0:0:1
+a2.nic.frogans.		172800	IN	A	65.22.191.1
+a2.nic.frogans.		172800	IN	AAAA	2a01:8840:b9:0:0:0:0:1
+b0.nic.frogans.		172800	IN	A	65.22.189.1
+b0.nic.frogans.		172800	IN	AAAA	2a01:8840:b7:0:0:0:0:1
+c0.nic.frogans.		172800	IN	A	65.22.190.1
+c0.nic.frogans.		172800	IN	AAAA	2a01:8840:b8:0:0:0:0:1
 frontdoor.		172800	IN	NS	ac1.nstld.com.
 frontdoor.		172800	IN	NS	ac2.nstld.com.
 frontdoor.		172800	IN	NS	ac3.nstld.com.
