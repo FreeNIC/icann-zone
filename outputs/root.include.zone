@@ -3370,8 +3370,6 @@ ac3.nstld.com.		172800	IN	AAAA	2001:500:122:0:0:0:0:30
 ac4.nstld.com.		172800	IN	A	192.42.176.30
 ac4.nstld.com.		172800	IN	AAAA	2001:500:123:0:0:0:0:30
 ns1.pair.com.		172800	IN	A	209.68.1.11
-rain.psg.com.		172800	IN	A	147.28.0.34
-rain.psg.com.		172800	IN	AAAA	2001:418:1:0:0:0:0:34
 rip.psg.com.		172800	IN	A	147.28.0.39
 rip.psg.com.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
 ns1.ryce-rsp.com.	172800	IN	A	91.195.198.153
@@ -5477,8 +5475,8 @@ ns-mr.nic.fr.		172800	IN	A	194.0.9.1
 ns-mr.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-my.nic.fr.		172800	IN	A	192.134.0.49
 ns-my.nic.fr.		172800	IN	AAAA	2001:660:3006:1:0:0:1:1
-ns-sn.nic.fr.		172800	IN	A	192.134.0.49
-ns-sn.nic.fr.		172800	IN	AAAA	2001:660:3006:1:0:0:1:1
+ns-sn.nic.fr.		172800	IN	A	194.0.9.1
+ns-sn.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-td.nic.fr.		172800	IN	A	192.134.0.49
 ns-td.nic.fr.		172800	IN	AAAA	2001:660:3006:1:0:0:1:1
 ns2.nic.fr.		172800	IN	A	192.93.0.4
@@ -8772,7 +8770,6 @@ LR.			86400	IN	DS	29984 8 1 A5E2025D5C3B1F4853BDDA21AA6A751E552DC715
 LR.			86400	IN	DS	29984 8 2 AA0EC78A15474B054759A26A2BE9D85A97F5FE9FE485A206E68B4F83B07789F8
 ls.			172800	IN	NS	ns1.nic.ls.
 ls.			172800	IN	NS	ns2.nic.ls.
-ls.			172800	IN	NS	rain.psg.com.
 ls.			172800	IN	NS	ls-ns.anycast.pch.net.
 ls.			172800	IN	NS	ns-ls.afrinic.net.
 ns1.nic.ls.		172800	IN	A	196.43.249.1
