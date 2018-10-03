@@ -13878,11 +13878,6 @@ ns5.dns.nic.statefarm.	172800	IN	A	156.154.157.154
 ns5.dns.nic.statefarm.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:9a
 ns6.dns.nic.statefarm.	172800	IN	A	156.154.158.154
 ns6.dns.nic.statefarm.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:9a
-statoil.		172800	IN	NS	ac1.nstld.com.
-statoil.		172800	IN	NS	ac2.nstld.com.
-statoil.		172800	IN	NS	ac3.nstld.com.
-statoil.		172800	IN	NS	ac4.nstld.com.
-STATOIL.		86400	IN	DS	39909 8 2 62189F5DDF82FD8342CA7A83AFF34ED0BFC1EADF12DFF9CFAF9CE347016B5150
 stc.			172800	IN	NS	a.nic.stc.
 stc.			172800	IN	NS	b.nic.stc.
 stc.			172800	IN	NS	c.nic.stc.
