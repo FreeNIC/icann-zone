@@ -6757,9 +6757,11 @@ ns5.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:4c
 ns6.dns.nic.hsbc.	172800	IN	A	156.154.158.76
 ns6.dns.nic.hsbc.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:4c
 ht.			172800	IN	NS	ns.cocca.fr.
+ht.			172800	IN	NS	ns1.nic.ht.
 ht.			172800	IN	NS	ns3.nic.fr.
 ht.			172800	IN	NS	ht-ns.anycast.pch.net.
 ht.			172800	IN	NS	charles.cdec.polymtl.ca.
+ns1.nic.ht.		172800	IN	A	200.115.182.11
 hu.			172800	IN	NS	a.hu.
 hu.			172800	IN	NS	b.hu.
 hu.			172800	IN	NS	c.hu.
