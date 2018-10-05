@@ -5255,11 +5255,10 @@ fj.			172800	IN	NS	adns2.berkeley.edu.
 fj.			172800	IN	NS	auth00.ns.uu.net.
 manu.usp.ac.fj.		172800	IN	A	144.120.8.10
 teri.usp.ac.fj.		172800	IN	A	144.120.8.1
-fk.			172800	IN	NS	ns.horizon.net.fk.
-fk.			172800	IN	NS	euro-ns1.cw.net.
-fk.			172800	IN	NS	euro-ns2.cw.net.
-fk.			172800	IN	NS	euro-ns3.cw.net.
-ns.horizon.net.fk.	172800	IN	A	195.248.193.250
+fk.			172800	IN	NS	ns1.horizon.net.fk.
+fk.			172800	IN	NS	ns2.horizon.net.fk.
+ns1.horizon.net.fk.	172800	IN	A	195.248.193.250
+ns2.horizon.net.fk.	172800	IN	A	195.248.193.251
 flickr.			172800	IN	NS	ns1.dns.nic.flickr.
 flickr.			172800	IN	NS	ns2.dns.nic.flickr.
 flickr.			172800	IN	NS	ns3.dns.nic.flickr.
@@ -9933,9 +9932,6 @@ c.ci-servers.net.	172800	IN	AAAA	2001:67c:1010:22:0:0:0:53
 lk.communitydns.net.	172800	IN	A	194.0.1.27
 ph.communitydns.net.	172800	IN	A	194.0.1.23
 ph.communitydns.net.	172800	IN	AAAA	2001:678:4:0:0:0:0:17
-euro-ns1.cw.net.	172800	IN	A	141.1.27.248
-euro-ns2.cw.net.	172800	IN	A	212.80.175.2
-euro-ns3.cw.net.	172800	IN	A	141.1.27.251
 l.de.net.		172800	IN	A	77.67.63.105
 l.de.net.		172800	IN	AAAA	2001:668:1f:11:0:0:0:105
 n.de.net.		172800	IN	A	194.146.107.6
