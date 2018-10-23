@@ -5756,10 +5756,22 @@ gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 GBIZ.			86400	IN	DS	17434 8 2 CEDDB0629DE967EECEAE6B9831DDCB0FD30ED800E46D6A69BF15759C2A239D90
 gd.			172800	IN	NS	a.gd.dyntld.net.
+gd.			172800	IN	NS	a.nic.gd.
 gd.			172800	IN	NS	b.gd.dyntld.net.
+gd.			172800	IN	NS	b.nic.gd.
+gd.			172800	IN	NS	c.nic.gd.
+gd.			172800	IN	NS	d.nic.gd.
 gd.			172800	IN	NS	gd-ns.anycast.pch.net.
 GD.			86400	IN	DS	46690 8 2 B7B59DD115BBF1D952C3A834B1C1561B8AA0EFE0585F0BB89DC69060F628FE4D
 GD.			86400	IN	DS	51039 7 2 BF36A1EC5D2998566123DE660BBD857D1D25231729873E5F5399A641C1CEC13F
+a.nic.gd.		172800	IN	A	194.169.218.88
+a.nic.gd.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:88
+b.nic.gd.		172800	IN	A	185.24.64.88
+b.nic.gd.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:88
+c.nic.gd.		172800	IN	A	212.18.248.88
+c.nic.gd.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:88
+d.nic.gd.		172800	IN	A	212.18.249.88
+d.nic.gd.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:88
 gdn.			172800	IN	NS	ns1.nic.gdn.
 gdn.			172800	IN	NS	ns3.nic.gdn.
 gdn.			172800	IN	NS	ns4.nic.gdn.
@@ -15385,8 +15397,20 @@ vet.			172800	IN	NS	demand.gamma.aridns.net.au.
 VET.			86400	IN	DS	12916 8 1 579C10DCB87FB502C1F921997B3AE2CD72572288
 VET.			86400	IN	DS	12916 8 2 6A90841FC66F691E19F2E876674F466A35278AB837DB23F5EFEE86F931B885BA
 vg.			172800	IN	NS	a.vg.dyntld.net.
+vg.			172800	IN	NS	a.nic.vg.
 vg.			172800	IN	NS	b.vg.dyntld.net.
+vg.			172800	IN	NS	b.nic.vg.
+vg.			172800	IN	NS	c.nic.vg.
+vg.			172800	IN	NS	d.nic.vg.
 vg.			172800	IN	NS	vg-ns.anycast.pch.net.
+a.nic.vg.		172800	IN	A	194.169.218.104
+a.nic.vg.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:104
+b.nic.vg.		172800	IN	A	185.24.64.104
+b.nic.vg.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:104
+c.nic.vg.		172800	IN	A	212.18.248.104
+c.nic.vg.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:104
+d.nic.vg.		172800	IN	A	212.18.249.104
+d.nic.vg.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:104
 vi.			172800	IN	NS	ns1.nic.vi.
 vi.			172800	IN	NS	ns3.nic.vi.
 vi.			172800	IN	NS	auth100.ns.uu.net.
