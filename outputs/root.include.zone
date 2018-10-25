@@ -9998,10 +9998,6 @@ c.samsung.dyntld.net.	172800	IN	A	162.88.42.2
 c.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3012:0:0:0:0:2
 d.samsung.dyntld.net.	172800	IN	A	162.88.43.2
 d.samsung.dyntld.net.	172800	IN	AAAA	2600:2000:3013:0:0:0:0:2
-a.vg.dyntld.net.	172800	IN	A	162.88.52.1
-a.vg.dyntld.net.	172800	IN	AAAA	2600:2000:3000:0:0:0:0:1
-b.vg.dyntld.net.	172800	IN	A	162.88.53.1
-b.vg.dyntld.net.	172800	IN	AAAA	2600:2000:3001:0:0:0:0:1
 a.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.40.1
 a.xn--cg4bki.dyntld.net.	172800	IN	AAAA	2600:2000:3010:0:0:0:0:1
 b.xn--cg4bki.dyntld.net.	172800	IN	A	162.88.41.1
@@ -10163,8 +10159,6 @@ sa-ns.anycast.pch.net.	172800	IN	A	204.61.216.41
 sa-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
 sg-ns.anycast.pch.net.	172800	IN	A	204.61.216.57
 sg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6057:ad:0:0:1
-vg-ns.anycast.pch.net.	172800	IN	A	204.61.216.84
-vg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6084:ad:0:0:1
 za-ns.anycast.pch.net.	172800	IN	A	204.61.216.55
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad:0:0:1
 anyns.pch.net.		172800	IN	A	204.61.216.4
@@ -15396,13 +15390,10 @@ vet.			172800	IN	NS	demand.delta.aridns.net.au.
 vet.			172800	IN	NS	demand.gamma.aridns.net.au.
 VET.			86400	IN	DS	12916 8 1 579C10DCB87FB502C1F921997B3AE2CD72572288
 VET.			86400	IN	DS	12916 8 2 6A90841FC66F691E19F2E876674F466A35278AB837DB23F5EFEE86F931B885BA
-vg.			172800	IN	NS	a.vg.dyntld.net.
 vg.			172800	IN	NS	a.nic.vg.
-vg.			172800	IN	NS	b.vg.dyntld.net.
 vg.			172800	IN	NS	b.nic.vg.
 vg.			172800	IN	NS	c.nic.vg.
 vg.			172800	IN	NS	d.nic.vg.
-vg.			172800	IN	NS	vg-ns.anycast.pch.net.
 a.nic.vg.		172800	IN	A	194.169.218.104
 a.nic.vg.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:104
 b.nic.vg.		172800	IN	A	185.24.64.104
