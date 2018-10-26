@@ -4267,16 +4267,19 @@ do.			172800	IN	NS	ns1.nic.do.
 do.			172800	IN	NS	ns2.nic.do.
 do.			172800	IN	NS	ns3.nic.mx.
 do.			172800	IN	NS	ns4.nic.do.
+do.			172800	IN	NS	ns5.nic.do.
 do.			172800	IN	NS	phloem.uoregon.edu.
 do.			172800	IN	NS	sns-pb.isc.org.
 ns.nic.do.		172800	IN	A	190.113.72.177
 ns.nic.do.		172800	IN	AAAA	2001:13e0:85d0:106:0:0:0:177
-ns1.nic.do.		172800	IN	A	200.16.91.226
-ns1.nic.do.		172800	IN	AAAA	2001:13e0:85d0:101:0:0:0:226
-ns2.nic.do.		172800	IN	A	200.16.90.162
-ns2.nic.do.		172800	IN	AAAA	2001:13e0:5d0:101:0:0:0:162
+ns1.nic.do.		172800	IN	A	190.113.72.178
+ns1.nic.do.		172800	IN	AAAA	2001:13e0:85d0:106:0:0:0:178
+ns2.nic.do.		172800	IN	A	190.113.65.12
+ns2.nic.do.		172800	IN	AAAA	2001:13e0:0:1:0:0:0:12
 ns4.nic.do.		172800	IN	A	204.61.216.124
 ns4.nic.do.		172800	IN	AAAA	2001:500:14:6124:ad:0:0:1
+ns5.nic.do.		172800	IN	A	190.113.65.13
+ns5.nic.do.		172800	IN	AAAA	2001:13e0:0:1:0:0:0:13
 docs.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 docs.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -5755,14 +5758,10 @@ gbiz.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 gbiz.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 GBIZ.			86400	IN	DS	17434 8 2 CEDDB0629DE967EECEAE6B9831DDCB0FD30ED800E46D6A69BF15759C2A239D90
-gd.			172800	IN	NS	a.gd.dyntld.net.
 gd.			172800	IN	NS	a.nic.gd.
-gd.			172800	IN	NS	b.gd.dyntld.net.
 gd.			172800	IN	NS	b.nic.gd.
 gd.			172800	IN	NS	c.nic.gd.
 gd.			172800	IN	NS	d.nic.gd.
-gd.			172800	IN	NS	gd-ns.anycast.pch.net.
-GD.			86400	IN	DS	46690 8 2 B7B59DD115BBF1D952C3A834B1C1561B8AA0EFE0585F0BB89DC69060F628FE4D
 GD.			86400	IN	DS	51039 7 2 BF36A1EC5D2998566123DE660BBD857D1D25231729873E5F5399A641C1CEC13F
 a.nic.gd.		172800	IN	A	194.169.218.88
 a.nic.gd.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:88
@@ -9978,10 +9977,6 @@ a.aq.dyntld.net.	172800	IN	A	162.88.52.6
 a.aq.dyntld.net.	172800	IN	AAAA	2600:2000:3000:0:0:0:0:6
 b.aq.dyntld.net.	172800	IN	A	162.88.53.6
 b.aq.dyntld.net.	172800	IN	AAAA	2600:2000:3001:0:0:0:0:6
-a.gd.dyntld.net.	172800	IN	A	162.88.52.2
-a.gd.dyntld.net.	172800	IN	AAAA	2600:2000:3000:0:0:0:0:2
-b.gd.dyntld.net.	172800	IN	A	162.88.53.2
-b.gd.dyntld.net.	172800	IN	AAAA	2600:2000:3001:0:0:0:0:2
 a.gl.dyntld.net.	172800	IN	A	162.88.52.8
 a.gl.dyntld.net.	172800	IN	AAAA	2600:2000:3000:0:0:0:0:8
 b.gl.dyntld.net.	172800	IN	A	162.88.53.8
@@ -10136,8 +10131,6 @@ cl-ns.anycast.pch.net.	172800	IN	A	204.61.216.30
 cl-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6030:ad:0:0:1
 cy-ns.anycast.pch.net.	172800	IN	A	204.61.216.44
 cy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6044:ad:0:0:1
-gd-ns.anycast.pch.net.	172800	IN	A	204.61.216.47
-gd-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6047:ad:0:0:1
 gy-ns.anycast.pch.net.	172800	IN	A	204.61.216.34
 gy-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6034:ad:0:0:1
 ht-ns.anycast.pch.net.	172800	IN	A	204.61.216.38
