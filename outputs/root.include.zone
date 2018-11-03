@@ -15048,7 +15048,6 @@ tw.			172800	IN	NS	d.dns.tw.
 tw.			172800	IN	NS	e.dns.tw.
 tw.			172800	IN	NS	f.dns.tw.
 tw.			172800	IN	NS	g.dns.tw.
-tw.			172800	IN	NS	h.dns.tw.
 tw.			172800	IN	NS	i.dns.tw.
 tw.			172800	IN	NS	ns.twnic.net.
 tw.			172800	IN	NS	anytld.apnic.net.
@@ -15066,8 +15065,6 @@ e.dns.tw.		172800	IN	AAAA	2001:b000:1e0:c000:0:0:0:11
 f.dns.tw.		172800	IN	A	163.28.1.10
 g.dns.tw.		172800	IN	A	220.229.225.195
 g.dns.tw.		172800	IN	AAAA	2001:cd8:400:0:0:0:0:195
-h.dns.tw.		172800	IN	A	204.61.216.119
-h.dns.tw.		172800	IN	AAAA	2001:500:14:6119:ad:0:0:1
 i.dns.tw.		172800	IN	A	194.0.11.105
 i.dns.tw.		172800	IN	AAAA	2001:678:e:105:0:0:0:53
 tz.			172800	IN	NS	d.ext.nic.cz.
@@ -17070,14 +17067,12 @@ xn--kprw13d.		172800	IN	NS	d.dns.tw.
 xn--kprw13d.		172800	IN	NS	e.dns.tw.
 xn--kprw13d.		172800	IN	NS	f.dns.tw.
 xn--kprw13d.		172800	IN	NS	g.dns.tw.
-xn--kprw13d.		172800	IN	NS	h.dns.tw.
 xn--kprw13d.		172800	IN	NS	anytld.apnic.net.
 XN--KPRW13D.		86400	IN	DS	47134 8 2 49EB20FEDD1C6D402967CA5F0C79AAE56E20F912483E9F7067AD7E8A2A791ABD
 xn--kpry57d.		172800	IN	NS	d.dns.tw.
 xn--kpry57d.		172800	IN	NS	e.dns.tw.
 xn--kpry57d.		172800	IN	NS	f.dns.tw.
 xn--kpry57d.		172800	IN	NS	g.dns.tw.
-xn--kpry57d.		172800	IN	NS	h.dns.tw.
 xn--kpry57d.		172800	IN	NS	anytld.apnic.net.
 XN--KPRY57D.		86400	IN	DS	48136 8 2 CB67B0A6DABD9DEC11940FD42789457E52256F13CD33B7EC08347514D3549263
 xn--kpu716f.		172800	IN	NS	ns1.dns.nic.xn--kpu716f.
