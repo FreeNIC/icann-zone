@@ -7692,8 +7692,8 @@ jp.			172800	IN	NS	e.dns.jp.
 jp.			172800	IN	NS	f.dns.jp.
 jp.			172800	IN	NS	g.dns.jp.
 jp.			172800	IN	NS	h.dns.jp.
-JP.			86400	IN	DS	31714 8 1 B6CB06C153CB0C73BCEBA9914BAF16F26A9B931E
-JP.			86400	IN	DS	31714 8 2 612693CC16178D788F6A2733E4F01647B027FAE678CB3BF92EC4143F67A559D8
+JP.			86400	IN	DS	54004 8 1 0EC348CC7E6D3213CC89E5867088043FC7D5C111
+JP.			86400	IN	DS	54004 8 2 5F4B24F667BC70880720D10DF317DC8FF80C63E586D504E6BBFE53F0B9ECC040
 a.dns.jp.		172800	IN	A	203.119.1.1
 a.dns.jp.		172800	IN	AAAA	2001:dc4:0:0:0:0:0:1
 b.dns.jp.		172800	IN	A	202.12.30.131
@@ -10154,6 +10154,8 @@ sg-ns.anycast.pch.net.	172800	IN	A	204.61.216.57
 sg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6057:ad:0:0:1
 za-ns.anycast.pch.net.	172800	IN	A	204.61.216.55
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad:0:0:1
+zw-ns.anycast.pch.net.	172800	IN	A	204.61.216.128
+zw-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6128:ad:0:0:1
 anyns.pch.net.		172800	IN	A	204.61.216.4
 anyns.pch.net.		172800	IN	AAAA	2001:500:14:6004:ad:0:0:1
 cat.pch.net.		172800	IN	A	204.61.216.20
@@ -15046,7 +15048,7 @@ tw.			172800	IN	NS	d.dns.tw.
 tw.			172800	IN	NS	e.dns.tw.
 tw.			172800	IN	NS	f.dns.tw.
 tw.			172800	IN	NS	g.dns.tw.
-tw.			172800	IN	NS	i.dns.tw.
+tw.			172800	IN	NS	h.dns.tw.
 tw.			172800	IN	NS	ns.twnic.net.
 tw.			172800	IN	NS	anytld.apnic.net.
 TW.			86400	IN	DS	40792 8 2 A05DB4B0DEB971031361BB621E8BB1B8D7346665A3D1B06EC1431ADB7D015EE9
@@ -15063,8 +15065,8 @@ e.dns.tw.		172800	IN	AAAA	2001:b000:1e0:c000:0:0:0:11
 f.dns.tw.		172800	IN	A	163.28.1.10
 g.dns.tw.		172800	IN	A	220.229.225.195
 g.dns.tw.		172800	IN	AAAA	2001:cd8:400:0:0:0:0:195
-i.dns.tw.		172800	IN	A	194.0.11.105
-i.dns.tw.		172800	IN	AAAA	2001:678:e:105:0:0:0:53
+h.dns.tw.		172800	IN	A	204.61.216.119
+h.dns.tw.		172800	IN	AAAA	2001:500:14:6119:ad:0:0:1
 tz.			172800	IN	NS	d.ext.nic.cz.
 tz.			172800	IN	NS	ns.anycast.co.tz.
 tz.			172800	IN	NS	ns2.tznic.or.tz.
@@ -17065,12 +17067,14 @@ xn--kprw13d.		172800	IN	NS	d.dns.tw.
 xn--kprw13d.		172800	IN	NS	e.dns.tw.
 xn--kprw13d.		172800	IN	NS	f.dns.tw.
 xn--kprw13d.		172800	IN	NS	g.dns.tw.
+xn--kprw13d.		172800	IN	NS	h.dns.tw.
 xn--kprw13d.		172800	IN	NS	anytld.apnic.net.
 XN--KPRW13D.		86400	IN	DS	47134 8 2 49EB20FEDD1C6D402967CA5F0C79AAE56E20F912483E9F7067AD7E8A2A791ABD
 xn--kpry57d.		172800	IN	NS	d.dns.tw.
 xn--kpry57d.		172800	IN	NS	e.dns.tw.
 xn--kpry57d.		172800	IN	NS	f.dns.tw.
 xn--kpry57d.		172800	IN	NS	g.dns.tw.
+xn--kpry57d.		172800	IN	NS	h.dns.tw.
 xn--kpry57d.		172800	IN	NS	anytld.apnic.net.
 XN--KPRY57D.		86400	IN	DS	48136 8 2 CB67B0A6DABD9DEC11940FD42789457E52256F13CD33B7EC08347514D3549263
 xn--kpu716f.		172800	IN	NS	ns1.dns.nic.xn--kpu716f.
@@ -17981,5 +17985,8 @@ zw.			172800	IN	NS	ns1.telone.co.zw.
 zw.			172800	IN	NS	ns1.liquidtelecom.net.
 zw.			172800	IN	NS	ns2.telone.co.zw.
 zw.			172800	IN	NS	ns2.liquidtelecom.net.
+zw.			172800	IN	NS	zw-ns.anycast.pch.net.
 ns1.telone.co.zw.	172800	IN	A	194.133.122.47
+ns1.telone.co.zw.	172800	IN	AAAA	2c0f:f758:0:13:0:0:0:47
 ns2.telone.co.zw.	172800	IN	A	194.133.122.42
+ns2.telone.co.zw.	172800	IN	AAAA	2c0f:f758:0:13:0:0:0:42
