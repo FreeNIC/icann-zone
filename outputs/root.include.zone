@@ -2322,7 +2322,6 @@ by.			172800	IN	NS	dns2.tld.tutby.com.
 by.			172800	IN	NS	dns3.tld.tutby.com.
 by.			172800	IN	NS	dns4.tld.tutby.com.
 by.			172800	IN	NS	dns5.tld.tutby.com.
-by.			172800	IN	NS	dns6.tld.tutby.com.
 by.			172800	IN	NS	dns7.tld.tutby.com.
 BY.			86400	IN	DS	43875 7 1 B5667014733F0FD07D096B2FA2AD175186ADF48C
 BY.			86400	IN	DS	43875 7 2 27A33067E54A8C4CEE091DB22156EF02A79A76CCC1E48D6D195DFEF6D520C48E
@@ -3396,8 +3395,6 @@ dns4.tld.tutby.com.	172800	IN	A	62.212.73.101
 dns4.tld.tutby.com.	172800	IN	AAAA	2001:1af8:4010:a049:1:0:0:0
 dns5.tld.tutby.com.	172800	IN	A	46.165.217.94
 dns5.tld.tutby.com.	172800	IN	AAAA	2a00:c98:2200:a012:1:0:0:0
-dns6.tld.tutby.com.	172800	IN	A	108.59.8.66
-dns6.tld.tutby.com.	172800	IN	AAAA	2604:9a00:2010:a013:2:0:0:0
 dns7.tld.tutby.com.	172800	IN	A	128.199.68.43
 dns7.tld.tutby.com.	172800	IN	AAAA	2400:6180:0:d0:0:0:3d:b001
 dns1.u-registry.com.	172800	IN	A	173.208.218.43
@@ -16534,7 +16531,6 @@ xn--90ais.		172800	IN	NS	dns2.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns3.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns4.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns5.tld.tutby.com.
-xn--90ais.		172800	IN	NS	dns6.tld.tutby.com.
 xn--90ais.		172800	IN	NS	dns7.tld.tutby.com.
 xn--9dbq2a.		172800	IN	NS	ac1.nstld.com.
 xn--9dbq2a.		172800	IN	NS	ac2.nstld.com.
