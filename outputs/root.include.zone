@@ -2156,7 +2156,7 @@ brother.		172800	IN	NS	a.gmoregistry.net.
 brother.		172800	IN	NS	b.gmoregistry.net.
 brother.		172800	IN	NS	k.gmoregistry.net.
 brother.		172800	IN	NS	l.gmoregistry.net.
-BROTHER.		86400	IN	DS	41036 8 2 80C1A9C02652C2993512ADEAC961ECC1F3909D523BB38D45C33F983671198EE9
+BROTHER.		86400	IN	DS	63860 8 2 F8806AD77A444F2F287BA6F7738A4D4F6C145E555AC87796F259945D81126003
 brussels.		172800	IN	NS	a.nic.brussels.
 brussels.		172800	IN	NS	b.nic.brussels.
 brussels.		172800	IN	NS	c.ns.dns.be.
@@ -3068,7 +3068,7 @@ citic.			172800	IN	NS	f.zdnscloud.com.
 citic.			172800	IN	NS	g.zdnscloud.com.
 citic.			172800	IN	NS	i.zdnscloud.com.
 citic.			172800	IN	NS	j.zdnscloud.com.
-CITIC.			86400	IN	DS	1664 8 2 3C6491C9A2618EB8C48224A605D7325A4DFFD5ED994BBA9FABC0F309941398DD
+CITIC.			86400	IN	DS	12331 8 2 CDBFC9F67E7F97E1759BF1BCAA26C853BC5DDE881551E1FA4A633E8BD6B8C9BD
 city.			172800	IN	NS	demand.beta.aridns.net.au.
 city.			172800	IN	NS	demand.alpha.aridns.net.au.
 city.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -5603,7 +5603,7 @@ fujitsu.		172800	IN	NS	a.gmoregistry.net.
 fujitsu.		172800	IN	NS	b.gmoregistry.net.
 fujitsu.		172800	IN	NS	k.gmoregistry.net.
 fujitsu.		172800	IN	NS	l.gmoregistry.net.
-FUJITSU.		86400	IN	DS	32201 8 2 773EF99296988E004E154762F4AC5EBA6A337980977955A32ABD8B28BF79A6A7
+FUJITSU.		86400	IN	DS	11147 8 2 EA87258C23F2D96A54991C5A963F12754276CE207F3A67B3142D68847D17A7C9
 fujixerox.		172800	IN	NS	ac1.nstld.com.
 fujixerox.		172800	IN	NS	ac2.nstld.com.
 fujixerox.		172800	IN	NS	ac3.nstld.com.
@@ -9283,7 +9283,7 @@ mitsubishi.		172800	IN	NS	a.gmoregistry.net.
 mitsubishi.		172800	IN	NS	b.gmoregistry.net.
 mitsubishi.		172800	IN	NS	k.gmoregistry.net.
 mitsubishi.		172800	IN	NS	l.gmoregistry.net.
-MITSUBISHI.		86400	IN	DS	5755 8 2 EED43BEE33F933D744BB6E4C726970DD84C27A94961AE41CE2BFA1AA9B1662C3
+MITSUBISHI.		86400	IN	DS	28484 8 2 BA7CFFD3B3369455466DC28582534A6C963A1750632321DA487554028BD81231
 mk.			172800	IN	NS	d.ext.nic.cz.
 mk.			172800	IN	NS	ns2.arnes.si.
 mk.			172800	IN	NS	tld1.marnet.mk.
@@ -9738,6 +9738,7 @@ m.mx-ns.mx.		172800	IN	AAAA	2001:13c7:7000:0:0:0:0:1
 o.mx-ns.mx.		172800	IN	A	200.23.1.1
 x.mx-ns.mx.		172800	IN	A	201.131.252.1
 ns3.nic.mx.		172800	IN	A	200.33.111.1
+my.			172800	IN	NS	a.nic.my.
 my.			172800	IN	NS	a.mynic.net.my.
 my.			172800	IN	NS	a1.mynic.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
@@ -9745,13 +9746,13 @@ my.			172800	IN	NS	ns30.cdns.net.
 my.			172800	IN	NS	ns-my.nic.fr.
 MY.			86400	IN	DS	174 8 1 E61EFF1CAF6F896D87538F1DC56DB81060A41D6A
 MY.			86400	IN	DS	174 8 2 FB9E2F10F50A09E3614A9E6A2C76C1AE7554711E5242B7F516A8078D86ED87B9
-MY.			86400	IN	DS	25992 8 1 4F3231898AA76640EB48D401AE427EE768E61D37
-MY.			86400	IN	DS	25992 8 2 D315922034C994C1D93592C409166220F5616D73B85E9480B079C336F8065AC2
 MY.			86400	IN	DS	63366 8 1 CA2A7A9CD3AC789D43027A5AB4E0B5CD8EABA319
 MY.			86400	IN	DS	63366 8 2 978E934FEB98472B650A98D3ADA4352058BAE529A2B709982C86C0447D3A0F28
 a1.mynic.my.		172800	IN	A	202.171.47.204
 a.mynic.net.my.		172800	IN	A	49.236.194.202
 a.mynic.net.my.		172800	IN	AAAA	2401:b000:602:1001:0:0:0:11
+a.nic.my.		172800	IN	A	103.44.108.53
+a.nic.my.		172800	IN	AAAA	2001:ddc:0:53:0:0:0:53
 mz.			172800	IN	NS	anyns.uem.mz.
 mz.			172800	IN	NS	dzowo.uem.mz.
 mz.			172800	IN	NS	ns-mz.afrinic.net.
@@ -9857,7 +9858,7 @@ nec.			172800	IN	NS	a.gmoregistry.net.
 nec.			172800	IN	NS	b.gmoregistry.net.
 nec.			172800	IN	NS	k.gmoregistry.net.
 nec.			172800	IN	NS	l.gmoregistry.net.
-NEC.			86400	IN	DS	39845 8 2 9C738981320CFBDCA781644DBA76DBAB3E8D19AAFFBE16A9216B8C52162221C2
+NEC.			86400	IN	DS	26531 8 2 581D71181D20383D696CFCB497777E453A6F6C9CB158D725071D0AD57636139E
 net.			172800	IN	NS	a.gtld-servers.net.
 net.			172800	IN	NS	b.gtld-servers.net.
 net.			172800	IN	NS	c.gtld-servers.net.
@@ -11576,7 +11577,7 @@ pioneer.		172800	IN	NS	a.gmoregistry.net.
 pioneer.		172800	IN	NS	b.gmoregistry.net.
 pioneer.		172800	IN	NS	k.gmoregistry.net.
 pioneer.		172800	IN	NS	l.gmoregistry.net.
-PIONEER.		86400	IN	DS	2261 8 2 30688E820B10506586AAF9E40E59518188A13C63CD756B9E23262B11FF3C2A82
+PIONEER.		86400	IN	DS	310 8 2 33BDB54AA23A338797B662C326BA4FFB1E7366231BEBF45CCD5B1DED30E3E2B2
 pizza.			172800	IN	NS	demand.beta.aridns.net.au.
 pizza.			172800	IN	NS	demand.alpha.aridns.net.au.
 pizza.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -13672,7 +13673,7 @@ sohu.			172800	IN	NS	f.zdnscloud.com.
 sohu.			172800	IN	NS	g.zdnscloud.com.
 sohu.			172800	IN	NS	i.zdnscloud.com.
 sohu.			172800	IN	NS	j.zdnscloud.com.
-SOHU.			86400	IN	DS	9482 8 2 2AF547BDA8375C536E3B9B27AD3F158CC46FD1081B2D8CA570BA05D2C56D182B
+SOHU.			86400	IN	DS	25066 8 2 CE87E0735A424D4601FDB8D7691FF1B916C54C6CE367A9A66CCE7F88EC8A9E97
 solar.			172800	IN	NS	demand.beta.aridns.net.au.
 solar.			172800	IN	NS	demand.alpha.aridns.net.au.
 solar.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -13711,7 +13712,7 @@ sony.			172800	IN	NS	a.gmoregistry.net.
 sony.			172800	IN	NS	b.gmoregistry.net.
 sony.			172800	IN	NS	k.gmoregistry.net.
 sony.			172800	IN	NS	l.gmoregistry.net.
-SONY.			86400	IN	DS	30884 8 2 DEB8A13CAE2C61B33A604441C8C58AB9139C8E83817C914E7F31221C06AAAE78
+SONY.			86400	IN	DS	23417 8 2 BCB15B51804B9B9B40A0E3F6031636CE1112590EB66478D1201E5F0411FE0766
 soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -14775,7 +14776,7 @@ toray.			172800	IN	NS	a.gmoregistry.net.
 toray.			172800	IN	NS	b.gmoregistry.net.
 toray.			172800	IN	NS	k.gmoregistry.net.
 toray.			172800	IN	NS	l.gmoregistry.net.
-TORAY.			86400	IN	DS	53159 8 2 B05138751309C3DAEABB0D494D650B5E2F940DC469E0B3AEEBED094C426ABF3B
+TORAY.			86400	IN	DS	56617 8 2 491DF8ED2E0A348CE934FFF6D42A8506E131BC6FEF8F88D336A6318B98B48228
 toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	k.gmoregistry.net.
@@ -14802,7 +14803,7 @@ toyota.			172800	IN	NS	a.gmoregistry.net.
 toyota.			172800	IN	NS	b.gmoregistry.net.
 toyota.			172800	IN	NS	k.gmoregistry.net.
 toyota.			172800	IN	NS	l.gmoregistry.net.
-TOYOTA.			86400	IN	DS	28984 8 2 58B328E736506E58298F3F91D27AA0053ABCC24980E4AFA4E9C561BFE44FBAEC
+TOYOTA.			86400	IN	DS	64432 8 2 A94642B87634CEA4BD28482EF6BBA326AD51BBF581E1C8A4EBB713AA31FF0225
 toys.			172800	IN	NS	demand.beta.aridns.net.au.
 toys.			172800	IN	NS	demand.alpha.aridns.net.au.
 toys.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -16784,7 +16785,7 @@ xn--fiq64b.		172800	IN	NS	f.zdnscloud.com.
 xn--fiq64b.		172800	IN	NS	g.zdnscloud.com.
 xn--fiq64b.		172800	IN	NS	i.zdnscloud.com.
 xn--fiq64b.		172800	IN	NS	j.zdnscloud.com.
-XN--FIQ64B.		86400	IN	DS	31459 8 2 80FFB8C895BEC0EF156950C5EEB73B968B9223D18DAE6D54092B97F4F1B21722
+XN--FIQ64B.		86400	IN	DS	38824 8 2 2DE6674A0EB17276F0E601CBD11A42A23FA04016329F0FA30A80DF7C6A5625F2
 xn--fiqs8s.		172800	IN	NS	h.dns.cn.
 xn--fiqs8s.		172800	IN	NS	i.dns.cn.
 xn--fiqs8s.		172800	IN	NS	j.dns.cn.
@@ -17297,6 +17298,7 @@ xn--mgbtx2b.		172800	IN	NS	ns1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
+xn--mgbx4cd0ab.		172800	IN	NS	a.nic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	a1.mynic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
