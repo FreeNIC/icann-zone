@@ -6439,7 +6439,6 @@ hk.			172800	IN	NS	d.hkirc.net.hk.
 hk.			172800	IN	NS	t.hkirc.net.hk.
 hk.			172800	IN	NS	u.hkirc.net.hk.
 hk.			172800	IN	NS	v.hkirc.net.hk.
-hk.			172800	IN	NS	w.hkirc.net.hk.
 hk.			172800	IN	NS	x.hkirc.net.hk.
 hk.			172800	IN	NS	y.hkirc.net.hk.
 hk.			172800	IN	NS	z.hkirc.net.hk.
@@ -6457,8 +6456,6 @@ u.hkirc.net.hk.		172800	IN	A	210.201.138.58
 u.hkirc.net.hk.		172800	IN	AAAA	2404:0:10a0:0:0:0:0:58
 v.hkirc.net.hk.		172800	IN	A	204.61.216.46
 v.hkirc.net.hk.		172800	IN	AAAA	2001:500:14:6046:ad:0:0:1
-w.hkirc.net.hk.		172800	IN	A	202.12.28.140
-w.hkirc.net.hk.		172800	IN	AAAA	2001:dc0:1:0:4777:0:0:140
 x.hkirc.net.hk.		172800	IN	A	202.45.188.39
 x.hkirc.net.hk.		172800	IN	AAAA	2405:3001:1:3a:0:0:0:27
 y.hkirc.net.hk.		172800	IN	A	137.189.6.21
@@ -12322,7 +12319,7 @@ ren.			172800	IN	NS	f.zdnscloud.com.
 ren.			172800	IN	NS	g.zdnscloud.com.
 ren.			172800	IN	NS	i.zdnscloud.com.
 ren.			172800	IN	NS	j.zdnscloud.com.
-REN.			86400	IN	DS	35221 8 2 EC88AD84CBF7FF1BDE27E5A9C7484B0874D08BE56731C3FE2ABFA2D3BE993C13
+REN.			86400	IN	DS	770 8 2 897EA15932FA4407809D32CA7C7DA4B0C0E455316A897970F152109F18CE6CD9
 rent.			172800	IN	NS	a.nic.rent.
 rent.			172800	IN	NS	b.nic.rent.
 rent.			172800	IN	NS	c.nic.rent.
@@ -14771,7 +14768,7 @@ top.			172800	IN	NS	f.zdnscloud.com.
 top.			172800	IN	NS	g.zdnscloud.com.
 top.			172800	IN	NS	i.zdnscloud.com.
 top.			172800	IN	NS	j.zdnscloud.com.
-TOP.			86400	IN	DS	18451 8 2 3F5E192F020D6F90C69EC3B46EBB725447ACD57A38CBEDA9B9B6B765883B90D5
+TOP.			86400	IN	DS	56384 8 2 BA378C5913404EC654DF544F519B0FB287E140D64DAC5D59E349962393C17945
 toray.			172800	IN	NS	a.gmoregistry.net.
 toray.			172800	IN	NS	b.gmoregistry.net.
 toray.			172800	IN	NS	k.gmoregistry.net.
@@ -17009,7 +17006,6 @@ xn--j6w193g.		172800	IN	NS	d.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	t.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	u.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	v.hkirc.net.hk.
-xn--j6w193g.		172800	IN	NS	w.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	x.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	y.hkirc.net.hk.
 xn--j6w193g.		172800	IN	NS	z.hkirc.net.hk.
@@ -17557,7 +17553,7 @@ xn--ses554g.		172800	IN	NS	f.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	g.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	i.zdnscloud.com.
 xn--ses554g.		172800	IN	NS	j.zdnscloud.com.
-XN--SES554G.		86400	IN	DS	22382 8 2 1A7EE4183127659E99BA328CA3ADBE0A8D733B012209F4882164A654D1E07123
+XN--SES554G.		86400	IN	DS	57266 8 2 A3C057A22744EB0FF0518D51E55B1271DAB9D39391B55EDC98443B22882B1C0C
 xn--t60b56a.		172800	IN	NS	ac1.nstld.com.
 xn--t60b56a.		172800	IN	NS	ac2.nstld.com.
 xn--t60b56a.		172800	IN	NS	ac3.nstld.com.
