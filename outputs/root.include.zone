@@ -16665,7 +16665,7 @@ xn--czr694b.		172800	IN	NS	f.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	g.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	i.zdnscloud.com.
 xn--czr694b.		172800	IN	NS	j.zdnscloud.com.
-XN--CZR694B.		86400	IN	DS	39 8 2 1EFCEC5F175ED019A8979F2E7DD92EDC3258E64941D9A54E25B4B82DF57AE2E4
+XN--CZR694B.		86400	IN	DS	56914 8 2 5465BAA574AA100721EDDED85284559D873F32FED96C02D0144B0281569FF37D
 xn--czrs0t.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--czrs0t.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--czrs0t.		172800	IN	NS	demand.delta.aridns.net.au.
