@@ -4700,7 +4700,6 @@ es.			172800	IN	NS	a.nic.es.
 es.			172800	IN	NS	f.nic.es.
 es.			172800	IN	NS	g.nic.es.
 es.			172800	IN	NS	ns1.cesca.es.
-es.			172800	IN	NS	ns3.nic.fr.
 es.			172800	IN	NS	ns-es.nic.fr.
 es.			172800	IN	NS	ns-ext.nic.cl.
 es.			172800	IN	NS	sns-pb.isc.org.
