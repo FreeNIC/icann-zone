@@ -4742,12 +4742,10 @@ b0.nic.esurance.	172800	IN	A	65.22.49.1
 b0.nic.esurance.	172800	IN	AAAA	2a01:8840:2f:0:0:0:0:1
 c0.nic.esurance.	172800	IN	A	65.22.50.1
 c0.nic.esurance.	172800	IN	AAAA	2a01:8840:30:0:0:0:0:1
-et.			172800	IN	NS	et.cctld.authdns.ripe.net.
-et.			172800	IN	NS	ns1.telecom.net.et.
-et.			172800	IN	NS	ns2.telecom.net.et.
-et.			172800	IN	NS	phloem.uoregon.edu.
-ns1.telecom.net.et.	172800	IN	A	213.55.64.36
-ns2.telecom.net.et.	172800	IN	A	213.55.64.38
+et.			172800	IN	NS	a.nic.et.
+et.			172800	IN	NS	b.nic.et.
+a.nic.et.		172800	IN	A	197.156.74.192
+b.nic.et.		172800	IN	A	197.156.74.193
 etisalat.		172800	IN	NS	a.nic.etisalat.
 etisalat.		172800	IN	NS	b.nic.etisalat.
 etisalat.		172800	IN	NS	c.nic.etisalat.
@@ -10186,8 +10184,6 @@ cw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.86
 cw.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:86
 er.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.72
 er.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:72
-et.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.73
-et.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:73
 gp.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.76
 gp.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:76
 gu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.78
