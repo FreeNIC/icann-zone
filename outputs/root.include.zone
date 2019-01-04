@@ -10154,8 +10154,6 @@ ps-ns.anycast.pch.net.	172800	IN	A	204.61.216.29
 ps-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6029:ad:0:0:1
 sa-ns.anycast.pch.net.	172800	IN	A	204.61.216.41
 sa-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
-sg-ns.anycast.pch.net.	172800	IN	A	204.61.216.57
-sg-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6057:ad:0:0:1
 za-ns.anycast.pch.net.	172800	IN	A	204.61.216.55
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad:0:0:1
 zw-ns.anycast.pch.net.	172800	IN	A	204.61.216.128
@@ -13274,8 +13272,8 @@ d.nic.sfr.		172800	IN	A	212.18.249.100
 d.nic.sfr.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:100
 sg.			172800	IN	NS	ns2.cuhk.edu.hk.
 sg.			172800	IN	NS	ns4.apnic.net.
+sg.			172800	IN	NS	pch.sgzones.sg.
 sg.			172800	IN	NS	dsany.sgnic.sg.
-sg.			172800	IN	NS	sg-ns.anycast.pch.net.
 sg.			172800	IN	NS	dsany2.sgnic.sg.
 sg.			172800	IN	NS	dsany3.sgnic.sg.
 SG.			86400	IN	DS	34234 8 2 FEACAA03AFE4D8842DA3AF03C94AEDF104D99ACB5729572B1F202AB1744681E1
@@ -13285,6 +13283,8 @@ dsany2.sgnic.sg.	172800	IN	A	185.159.197.170
 dsany2.sgnic.sg.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:170
 dsany3.sgnic.sg.	172800	IN	A	185.159.198.170
 dsany3.sgnic.sg.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:170
+pch.sgzones.sg.		172800	IN	A	204.61.216.57
+pch.sgzones.sg.		172800	IN	AAAA	2001:500:14:6057:ad:0:0:1
 sh.			172800	IN	NS	a0.nic.sh.
 sh.			172800	IN	NS	a2.nic.sh.
 sh.			172800	IN	NS	b0.nic.sh.
@@ -16647,8 +16647,8 @@ xn--cg4bki.		172800	IN	NS	ns4.xn--cg4bki.centralnic-dns.com.
 XN--CG4BKI.		86400	IN	DS	59631 7 2 7A16187809F4725A91F192336F6A9576F246DF35EDF500A1356B8C8DFF2D59F1
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns4.apnic.net.
+xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	pch.sgzones.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
-xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	sg-ns.anycast.pch.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany2.sgnic.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany3.sgnic.sg.
 XN--CLCHC0EA0B2G2A9GCD.	86400	IN	DS	11866 8 2 99E8287957F8A7960825D232AD961AACD6F7A66E546FD39231AFB713C11BBFB6
@@ -17660,8 +17660,8 @@ xn--y9a3aq.		172800	IN	NS	sns-pb.isc.org.
 XN--Y9A3AQ.		86400	IN	DS	58485 7 2 8DAF32E9B8F8934DC3C319E8DE81457DD0B9D3CFC102B6186A3B31730B6DDF0E
 xn--yfro4i67o.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--yfro4i67o.		172800	IN	NS	ns4.apnic.net.
+xn--yfro4i67o.		172800	IN	NS	pch.sgzones.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
-xn--yfro4i67o.		172800	IN	NS	sg-ns.anycast.pch.net.
 xn--yfro4i67o.		172800	IN	NS	dsany2.sgnic.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany3.sgnic.sg.
 XN--YFRO4I67O.		86400	IN	DS	1571 8 2 9CC25AFF594C63EBB4AE0FA6A24E6D4B4F2641BCFEE5AB91E2C3BB233CBCE22D
