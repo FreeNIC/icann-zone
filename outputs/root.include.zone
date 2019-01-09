@@ -9970,8 +9970,6 @@ coza1.dnsnode.net.	172800	IN	A	194.146.106.74
 coza1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:18:0:0:0:53
 pe1.dnsnode.net.	172800	IN	A	194.146.106.82
 pe1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:20:0:0:0:53
-sa1.dnsnode.net.	172800	IN	A	194.146.106.102
-sa1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:26:0:0:0:53
 fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
@@ -10151,8 +10149,6 @@ xn--node.ns.anycast.pch.net.	172800	IN	A	204.61.216.88
 xn--node.ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6088:ad:0:0:1
 ps-ns.anycast.pch.net.	172800	IN	A	204.61.216.29
 ps-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6029:ad:0:0:1
-sa-ns.anycast.pch.net.	172800	IN	A	204.61.216.41
-sa-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
 za-ns.anycast.pch.net.	172800	IN	A	204.61.216.55
 za-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6055:ad:0:0:1
 zw-ns.anycast.pch.net.	172800	IN	A	204.61.216.128
@@ -12669,20 +12665,24 @@ ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
 ryukyu.			172800	IN	NS	l.gmoregistry.net.
 RYUKYU.			86400	IN	DS	43744 8 2 5582B9E7D73AB685908D1BA1A8A6DA4193653718842E3DF886DC3D3AC9F7FB3B
+sa.			172800	IN	NS	n.nic.net.sa.
+sa.			172800	IN	NS	p.nic.net.sa.
 sa.			172800	IN	NS	s.nic.net.sa.
 sa.			172800	IN	NS	s2.nic.net.sa.
 sa.			172800	IN	NS	ns1.isu.net.sa.
 sa.			172800	IN	NS	ns1.nic.net.sa.
 sa.			172800	IN	NS	ns2.nic.net.sa.
-sa.			172800	IN	NS	sa1.dnsnode.net.
-sa.			172800	IN	NS	sa-ns.anycast.pch.net.
 SA.			86400	IN	DS	22825 8 2 79A442F599B302034C6B635B50EDB3C801BD72936F7642D936F6D9A47B7A29BC
 ns1.isu.net.sa.		172800	IN	A	212.26.18.3
 ns1.isu.net.sa.		172800	IN	AAAA	2001:1490:0:800:0:0:0:3
+n.nic.net.sa.		172800	IN	A	194.146.106.102
+n.nic.net.sa.		172800	IN	AAAA	2001:67c:1010:26:0:0:0:53
 ns1.nic.net.sa.		172800	IN	A	86.111.192.9
 ns1.nic.net.sa.		172800	IN	AAAA	2001:67c:130:410:0:0:0:9
 ns2.nic.net.sa.		172800	IN	A	86.111.196.9
 ns2.nic.net.sa.		172800	IN	AAAA	2001:67c:130:10:0:0:0:9
+p.nic.net.sa.		172800	IN	A	204.61.216.41
+p.nic.net.sa.		172800	IN	AAAA	2001:500:14:6041:ad:0:0:1
 s.nic.net.sa.		172800	IN	A	37.107.223.170
 s.nic.net.sa.		172800	IN	AAAA	2001:16a0:1:3002:0:0:0:2
 s2.nic.net.sa.		172800	IN	A	37.107.255.170
@@ -17245,13 +17245,13 @@ xn--mgbca7dzdo.		172800	IN	NS	gtld.delta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.gamma.aridns.net.au.
 XN--MGBCA7DZDO.		86400	IN	DS	1909 8 1 D5A6F96664AE0D000A01B196C4348E7E231D95F8
 XN--MGBCA7DZDO.		86400	IN	DS	1909 8 2 F62B4E977CBA32CEF37856A9F919CE405EB998F04D4ABB309F1F9B86C105CA72
+xn--mgberp4a5d4ar.	172800	IN	NS	n.nic.net.sa.
+xn--mgberp4a5d4ar.	172800	IN	NS	p.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
-xn--mgberp4a5d4ar.	172800	IN	NS	sa1.dnsnode.net.
-xn--mgberp4a5d4ar.	172800	IN	NS	sa-ns.anycast.pch.net.
 XN--MGBERP4A5D4AR.	86400	IN	DS	57601 8 2 843C82B8468CA13A4D14CEDEA890A589158B637A7AACCEBE4A656D8EE5C94C5B
 xn--mgbgu82a.		172800	IN	NS	a0.in.afilias-nst.in.
 xn--mgbgu82a.		172800	IN	NS	a1.in.afilias-nst.in.
