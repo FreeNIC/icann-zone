@@ -12674,8 +12674,6 @@ sa.			172800	IN	NS	s2.nic.net.sa.
 sa.			172800	IN	NS	ns1.nic.net.sa.
 sa.			172800	IN	NS	ns2.nic.net.sa.
 SA.			86400	IN	DS	22825 8 2 79A442F599B302034C6B635B50EDB3C801BD72936F7642D936F6D9A47B7A29BC
-ns1.isu.net.sa.		172800	IN	A	212.26.18.3
-ns1.isu.net.sa.		172800	IN	AAAA	2001:1490:0:800:0:0:0:3
 i.nic.net.sa.		172800	IN	A	212.26.18.3
 i.nic.net.sa.		172800	IN	AAAA	2001:1490:0:800:0:0:0:3
 n.nic.net.sa.		172800	IN	A	194.146.106.102
@@ -17248,11 +17246,11 @@ xn--mgbca7dzdo.		172800	IN	NS	gtld.delta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.gamma.aridns.net.au.
 XN--MGBCA7DZDO.		86400	IN	DS	1909 8 1 D5A6F96664AE0D000A01B196C4348E7E231D95F8
 XN--MGBCA7DZDO.		86400	IN	DS	1909 8 2 F62B4E977CBA32CEF37856A9F919CE405EB998F04D4ABB309F1F9B86C105CA72
+xn--mgberp4a5d4ar.	172800	IN	NS	i.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	n.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	p.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s2.nic.net.sa.
-xn--mgberp4a5d4ar.	172800	IN	NS	ns1.isu.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 XN--MGBERP4A5D4AR.	86400	IN	DS	57601 8 2 843C82B8468CA13A4D14CEDEA890A589158B637A7AACCEBE4A656D8EE5C94C5B
