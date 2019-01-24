@@ -11632,7 +11632,7 @@ playstation.		172800	IN	NS	a.gmoregistry.net.
 playstation.		172800	IN	NS	b.gmoregistry.net.
 playstation.		172800	IN	NS	k.gmoregistry.net.
 playstation.		172800	IN	NS	l.gmoregistry.net.
-PLAYSTATION.		86400	IN	DS	30947 8 2 DB8186C397CD0CCCBE93850E541F3BCB255CFA1C4683C7731BBA6EE7442E2DAF
+PLAYSTATION.		86400	IN	DS	32780 8 2 BF07DC2B242E3888CC520C8D1502188AC6613F4C61F4288CB13D36D0C2FA0B4E
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
