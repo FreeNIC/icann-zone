@@ -3835,6 +3835,8 @@ cz.			172800	IN	NS	d.ns.nic.cz.
 CZ.			86400	IN	DS	20237 13 2 CFF0F3ECDBC529C1F0031BA1840BFB835853B9209ED1E508FFF48451D7B778E2
 kenic.anycastdns.cz.	172800	IN	A	185.28.194.194
 kenic.anycastdns.cz.	172800	IN	A	185.38.108.108
+ssnic.anycastdns.cz.	172800	IN	A	185.28.194.194
+ssnic.anycastdns.cz.	172800	IN	A	185.38.108.108
 d.ext.nic.cz.		172800	IN	A	193.29.206.2
 d.ext.nic.cz.		172800	IN	AAAA	2001:678:1:0:0:0:0:2
 a.ns.nic.cz.		172800	IN	A	194.0.12.1
@@ -9497,20 +9499,22 @@ money.			172800	IN	NS	demand.delta.aridns.net.au.
 money.			172800	IN	NS	demand.gamma.aridns.net.au.
 MONEY.			86400	IN	DS	6652 8 1 D7E62ABED8C6EC60EE827E9EEFC683C7F92AE1F0
 MONEY.			86400	IN	DS	6652 8 2 93212B52E72F51A36D2B877967265870D5BFADA902594ED348BD548168132A8F
-monster.		172800	IN	NS	a0.nic.monster.
-monster.		172800	IN	NS	a2.nic.monster.
-monster.		172800	IN	NS	b0.nic.monster.
-monster.		172800	IN	NS	c0.nic.monster.
+monster.		172800	IN	NS	a.nic.monster.
+monster.		172800	IN	NS	b.nic.monster.
+monster.		172800	IN	NS	c.nic.monster.
+monster.		172800	IN	NS	d.nic.monster.
+MONSTER.		86400	IN	DS	56230 7 1 9DD1CFCF93B8D7F4CBCAFFB882C6DD820C345B3E
+MONSTER.		86400	IN	DS	56230 7 2 7DE5A740D6E45C95C348209C877CB97736350694E595608DA72A0645960937CE
 MONSTER.		86400	IN	DS	65523 7 1 A0927D13FF8D54A355B158D01AF184962B0D9684
 MONSTER.		86400	IN	DS	65523 7 2 5A5B5575F92A04519F4C492D13F0F5039DF17597DB256444CDA0BA6CA203A105
-a0.nic.monster.		172800	IN	A	65.22.100.25
-a0.nic.monster.		172800	IN	AAAA	2a01:8840:62:0:0:0:0:25
-a2.nic.monster.		172800	IN	A	65.22.103.25
-a2.nic.monster.		172800	IN	AAAA	2a01:8840:65:0:0:0:0:25
-b0.nic.monster.		172800	IN	A	65.22.101.25
-b0.nic.monster.		172800	IN	AAAA	2a01:8840:63:0:0:0:0:25
-c0.nic.monster.		172800	IN	A	65.22.102.25
-c0.nic.monster.		172800	IN	AAAA	2a01:8840:64:0:0:0:0:25
+a.nic.monster.		172800	IN	A	194.169.218.83
+a.nic.monster.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:83
+b.nic.monster.		172800	IN	A	185.24.64.83
+b.nic.monster.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:83
+c.nic.monster.		172800	IN	A	212.18.248.83
+c.nic.monster.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:83
+d.nic.monster.		172800	IN	A	212.18.249.83
+d.nic.monster.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:83
 mopar.			172800	IN	NS	a0.nic.mopar.
 mopar.			172800	IN	NS	a2.nic.mopar.
 mopar.			172800	IN	NS	b0.nic.mopar.
@@ -13787,6 +13791,10 @@ b0.nic.srt.		172800	IN	A	65.22.77.49
 b0.nic.srt.		172800	IN	AAAA	2a01:8840:4b:0:0:0:0:49
 c0.nic.srt.		172800	IN	A	65.22.78.49
 c0.nic.srt.		172800	IN	AAAA	2a01:8840:4c:0:0:0:0:49
+ss.			172800	IN	NS	b.ns.tznic.or.tz.
+ss.			172800	IN	NS	root.ssnic.gov.ss.
+ss.			172800	IN	NS	ssnic.anycastdns.cz.
+root.ssnic.gov.ss.	172800	IN	A	196.1.4.230
 st.			172800	IN	NS	ns1.bahnhof.net.
 st.			172800	IN	NS	dns-au.st.
 st.			172800	IN	NS	dns-st.bahnhof.net.
@@ -15067,6 +15075,8 @@ tz.			172800	IN	NS	sns-pb.isc.org.
 TZ.			86400	IN	DS	5298 10 2 4733FC12533637B5F4600487511F6C228BED53FE00C1A6D319904878FED76799
 ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad:0:0:1
+b.ns.tznic.or.tz.	172800	IN	A	196.216.162.70
+b.ns.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1:0:0:0:70
 ns2.tznic.or.tz.	172800	IN	A	196.216.162.67
 ns2.tznic.or.tz.	172800	IN	AAAA	2001:43f8:e0:1:0:0:0:67
 ua.			172800	IN	NS	cd1.ns.ua.
