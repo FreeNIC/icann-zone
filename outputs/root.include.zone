@@ -9739,7 +9739,6 @@ o.mx-ns.mx.		172800	IN	A	200.23.1.1
 x.mx-ns.mx.		172800	IN	A	201.131.252.1
 ns3.nic.mx.		172800	IN	A	200.33.111.1
 my.			172800	IN	NS	a.nic.my.
-my.			172800	IN	NS	a.mynic.net.my.
 my.			172800	IN	NS	a1.mynic.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns30.cdns.net.
@@ -9749,8 +9748,6 @@ MY.			86400	IN	DS	174 8 2 FB9E2F10F50A09E3614A9E6A2C76C1AE7554711E5242B7F516A807
 MY.			86400	IN	DS	63366 8 1 CA2A7A9CD3AC789D43027A5AB4E0B5CD8EABA319
 MY.			86400	IN	DS	63366 8 2 978E934FEB98472B650A98D3ADA4352058BAE529A2B709982C86C0447D3A0F28
 a1.mynic.my.		172800	IN	A	202.171.47.204
-a.mynic.net.my.		172800	IN	A	49.236.194.202
-a.mynic.net.my.		172800	IN	AAAA	2401:b000:602:1001:0:0:0:11
 a.nic.my.		172800	IN	A	103.44.108.53
 a.nic.my.		172800	IN	AAAA	2001:ddc:0:53:0:0:0:53
 mz.			172800	IN	NS	anyns.uem.mz.
@@ -17298,7 +17295,6 @@ xn--mgbtx2b.		172800	IN	NS	dyn1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
 xn--mgbx4cd0ab.		172800	IN	NS	a.nic.my.
-xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.net.my.
 xn--mgbx4cd0ab.		172800	IN	NS	a1.mynic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
