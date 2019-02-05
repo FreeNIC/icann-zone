@@ -932,15 +932,12 @@ au.			172800	IN	NS	u.au.
 au.			172800	IN	NS	v.au.
 AU.			86400	IN	DS	20647 8 1 A1C2F3602CD171CF3FBCDA25523C086867D29CC6
 AU.			86400	IN	DS	20647 8 2 EFC7975FCA1FED2B5DF3624A7EFAB5ED20AF42DC83F5D9EC1D3B4C990B8E2B54
-AU.			86400	IN	DS	35197 8 1 DF3D2F347C04EAE8FFAD6EEA8BD52FD134088969
-AU.			86400	IN	DS	35197 8 2 9EDA3EC27D09500AD52C510A86BCB1CD7C364444E3AB04B6EBB76378378A5C87
 a.au.			172800	IN	A	58.65.254.73
 a.au.			172800	IN	AAAA	2407:6e00:254:306:0:0:0:73
 b.au.			172800	IN	A	58.65.253.73
 b.au.			172800	IN	AAAA	2407:6e00:253:306:0:0:0:73
 c.au.			172800	IN	A	162.159.24.179
 c.au.			172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:18b3
-yarrina.connect.com.au.	172800	IN	A	192.189.54.17
 d.au.			172800	IN	A	162.159.25.38
 d.au.			172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:1926
 cctld.alpha.aridns.net.au.	172800	IN	A	37.209.192.6
@@ -10140,8 +10137,6 @@ ms-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6033:ad:0:0:1
 mv-ns.anycast.pch.net.	172800	IN	A	204.61.216.24
 na-ns.anycast.pch.net.	172800	IN	A	204.61.216.35
 na-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6035:ad:0:0:1
-np-ns.anycast.pch.net.	172800	IN	A	204.61.216.11
-np-ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6011:ad:0:0:1
 xn--node.ns.anycast.pch.net.	172800	IN	A	204.61.216.88
 xn--node.ns.anycast.pch.net.	172800	IN	AAAA	2001:500:14:6088:ad:0:0:1
 ps-ns.anycast.pch.net.	172800	IN	A	204.61.216.29
@@ -10631,14 +10626,15 @@ b0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a7:0:0:0:0:1
 c0.nic.nowtv.		172800	IN	A	65.22.174.1
 c0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a8:0:0:0:0:1
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
+np.			172800	IN	NS	pch.nnic.np.
 np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
-np.			172800	IN	NS	np-ns.anycast.pch.net.
 np.			172800	IN	NS	ns-ext.isc.org.
 np.			172800	IN	NS	shikhar.mos.com.np.
-np.			172800	IN	NS	yarrina.connect.com.au.
 shikhar.mos.com.np.	172800	IN	A	202.52.255.5
 np-ns.npix.net.np.	172800	IN	A	198.32.126.50
+pch.nnic.np.		172800	IN	A	204.61.216.11
+pch.nnic.np.		172800	IN	AAAA	2001:500:14:6011:ad:0:0:1
 nr.			172800	IN	NS	ns0.cenpac.net.nr.
 nr.			172800	IN	NS	ns1.cenpac.net.nr.
 nr.			172800	IN	NS	ns2.cenpac.net.nr.
@@ -13412,7 +13408,7 @@ si.			172800	IN	NS	g.dns.si.
 si.			172800	IN	NS	h.dns.si.
 si.			172800	IN	NS	i.dns.si.
 si.			172800	IN	NS	j.dns.si.
-SI.			86400	IN	DS	15209 8 2 4A69AD581EDC6776747464DA058E56C3B7547A542F7D4052027C3D702CD73A3D
+SI.			86400	IN	DS	2174 8 2 8134257F1CF791876D8060A372EF082E6C2E57D6A59093B81D3EFB42DCF81F7F
 ns2.arnes.si.		172800	IN	A	194.249.4.44
 ns2.arnes.si.		172800	IN	AAAA	2001:1470:8000:53:0:0:0:44
 b.dns.si.		172800	IN	A	194.249.4.44
