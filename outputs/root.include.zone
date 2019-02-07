@@ -17777,15 +17777,12 @@ ns6.dns.nic.yandex.	172800	IN	A	156.154.158.186
 ns6.dns.nic.yandex.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:ba
 ye.			172800	IN	NS	ns1.yemen.net.ye.
 ye.			172800	IN	NS	ns2.yemen.net.ye.
-ye.			172800	IN	NS	pch.nic.ye.
 ye.			172800	IN	NS	sah1.ye.
 ye.			172800	IN	NS	sah2.ye.
 ns1.yemen.net.ye.	172800	IN	A	65.162.184.33
 ns1.yemen.net.ye.	172800	IN	AAAA	2a02:2718:4:0:0:0:0:33
 ns2.yemen.net.ye.	172800	IN	A	65.162.184.34
 ns2.yemen.net.ye.	172800	IN	AAAA	2a02:2718:4:0:0:0:0:34
-pch.nic.ye.		172800	IN	A	204.61.216.127
-pch.nic.ye.		172800	IN	AAAA	2001:500:14:6127:ad:0:0:1
 sah1.ye.		172800	IN	A	195.94.0.34
 sah1.ye.		172800	IN	AAAA	2a02:e280:8:d000:0:0:0:34
 sah2.ye.		172800	IN	A	195.94.0.35
