@@ -4100,11 +4100,25 @@ dentist.		172800	IN	NS	demand.delta.aridns.net.au.
 dentist.		172800	IN	NS	demand.gamma.aridns.net.au.
 DENTIST.		86400	IN	DS	15049 8 1 C357187075C673148C141037EE0F93A1F748D55B
 DENTIST.		86400	IN	DS	15049 8 2 B5846BCC6692D6A9F197714D85B2DCADDFAFC10E3C133ABB98757185B3800ABD
+desi.			172800	IN	NS	a.nic.desi.
+desi.			172800	IN	NS	b.nic.desi.
+desi.			172800	IN	NS	c.nic.desi.
+desi.			172800	IN	NS	d.nic.desi.
 desi.			172800	IN	NS	ns1a.ksregistry.net.
 desi.			172800	IN	NS	ns1b.ksregistry.net.
 desi.			172800	IN	NS	ns2a.ksregistry.com.
 desi.			172800	IN	NS	ns2b.ksregistry.com.
+DESI.			86400	IN	DS	11020 8 2 5017E17AC3F43D2DCCA968723FDDB1B641765A38F53AFBA0469E33C9AC75C582
+DESI.			86400	IN	DS	32296 8 2 948F1B60D22606E7488F84C0AD2E0546376AEEDFD15B6DED198127ADD5D8928F
 DESI.			86400	IN	DS	39859 8 2 1382964834BE4F7BF4830A27955EC8F6A1557EC20479AE946F6910A131E54AB9
+a.nic.desi.		172800	IN	A	194.169.218.81
+a.nic.desi.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:81
+b.nic.desi.		172800	IN	A	185.24.64.81
+b.nic.desi.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:81
+c.nic.desi.		172800	IN	A	212.18.248.81
+c.nic.desi.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:81
+d.nic.desi.		172800	IN	A	212.18.249.81
+d.nic.desi.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:81
 design.			172800	IN	NS	a.nic.design.
 design.			172800	IN	NS	b.nic.design.
 design.			172800	IN	NS	c.nic.design.
@@ -12678,11 +12692,24 @@ s.nic.net.sa.		172800	IN	A	37.107.223.170
 s.nic.net.sa.		172800	IN	AAAA	2001:16a0:1:3002:0:0:0:2
 s2.nic.net.sa.		172800	IN	A	37.107.255.170
 s2.nic.net.sa.		172800	IN	AAAA	2001:16a0:2:3002:0:0:0:2
+saarland.		172800	IN	NS	a.nic.saarland.
+saarland.		172800	IN	NS	b.nic.saarland.
+saarland.		172800	IN	NS	c.nic.saarland.
+saarland.		172800	IN	NS	d.nic.saarland.
 saarland.		172800	IN	NS	ns1a.ksregistry.net.
 saarland.		172800	IN	NS	ns1b.ksregistry.net.
 saarland.		172800	IN	NS	ns2a.ksregistry.com.
 saarland.		172800	IN	NS	ns2b.ksregistry.com.
 SAARLAND.		86400	IN	DS	7844 8 2 DFE5F176F88838E618AA262E829EC782074A1440A0AC6D7FDAA2015D6DEDE1E7
+SAARLAND.		86400	IN	DS	46559 8 2 AD4F2AC407E370565DF690B65CC4DB568A2F4396403FAB61D2DCF21CF7D2D823
+a.nic.saarland.		172800	IN	A	194.169.218.97
+a.nic.saarland.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:97
+b.nic.saarland.		172800	IN	A	185.24.64.97
+b.nic.saarland.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:97
+c.nic.saarland.		172800	IN	A	212.18.248.97
+c.nic.saarland.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:97
+d.nic.saarland.		172800	IN	A	212.18.249.97
+d.nic.saarland.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:97
 safe.			172800	IN	NS	ns1.dns.nic.safe.
 safe.			172800	IN	NS	ns2.dns.nic.safe.
 safe.			172800	IN	NS	ns3.dns.nic.safe.
