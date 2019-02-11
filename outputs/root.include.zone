@@ -871,7 +871,6 @@ at.			172800	IN	NS	ns2.univie.ac.at.
 at.			172800	IN	NS	ns9.univie.ac.at.
 AT.			86400	IN	DS	19294 8 2 8F9D0ACD78FF2F88F5641C339F05862220AEF51A6DF480039C8D4DA4F1F8A0E0
 AT.			86400	IN	DS	26039 8 2 1DD90F83BAA0F07FE4DBC286D3DEE84A96BC7C14959908FA61B0D0CAC322BB79
-AT.			86400	IN	DS	56489 8 2 2E48D4AAE2F5D5022F156516846803A58F3B2F8A854AAD238EC766DE6AD98AF2
 dns-mk.univie.ac.at.	172800	IN	A	78.104.145.4
 dns-mk.univie.ac.at.	172800	IN	AAAA	2001:628:453:bb:0:0:0:4
 ns1.univie.ac.at.	172800	IN	A	78.104.144.2
@@ -3326,6 +3325,8 @@ ns.blacknightsolutions.com.	172800	IN	A	81.17.240.204
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc1:33:0:0:0:33
 ns2.blacknightsolutions.com.	172800	IN	A	78.153.202.4
 ns2.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc2:33:0:0:0:33
+a.mynic.centralnic-dns.com.	172800	IN	A	194.169.218.114
+a.mynic.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:114
 ns1.samsung.centralnic-dns.com.	172800	IN	A	194.169.218.112
 ns1.samsung.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:112
 ns2.samsung.centralnic-dns.com.	172800	IN	A	185.24.64.112
@@ -4104,10 +4105,6 @@ desi.			172800	IN	NS	a.nic.desi.
 desi.			172800	IN	NS	b.nic.desi.
 desi.			172800	IN	NS	c.nic.desi.
 desi.			172800	IN	NS	d.nic.desi.
-desi.			172800	IN	NS	ns1a.ksregistry.net.
-desi.			172800	IN	NS	ns1b.ksregistry.net.
-desi.			172800	IN	NS	ns2a.ksregistry.com.
-desi.			172800	IN	NS	ns2b.ksregistry.com.
 DESI.			86400	IN	DS	11020 8 2 5017E17AC3F43D2DCCA968723FDDB1B641765A38F53AFBA0469E33C9AC75C582
 DESI.			86400	IN	DS	32296 8 2 948F1B60D22606E7488F84C0AD2E0546376AEEDFD15B6DED198127ADD5D8928F
 DESI.			86400	IN	DS	39859 8 2 1382964834BE4F7BF4830A27955EC8F6A1557EC20479AE946F6910A131E54AB9
@@ -9750,6 +9747,7 @@ o.mx-ns.mx.		172800	IN	A	200.23.1.1
 x.mx-ns.mx.		172800	IN	A	201.131.252.1
 ns3.nic.mx.		172800	IN	A	200.33.111.1
 my.			172800	IN	NS	a.nic.my.
+my.			172800	IN	NS	a.mynic.centralnic-dns.com.
 my.			172800	IN	NS	a1.mynic.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns30.cdns.net.
@@ -12696,10 +12694,6 @@ saarland.		172800	IN	NS	a.nic.saarland.
 saarland.		172800	IN	NS	b.nic.saarland.
 saarland.		172800	IN	NS	c.nic.saarland.
 saarland.		172800	IN	NS	d.nic.saarland.
-saarland.		172800	IN	NS	ns1a.ksregistry.net.
-saarland.		172800	IN	NS	ns1b.ksregistry.net.
-saarland.		172800	IN	NS	ns2a.ksregistry.com.
-saarland.		172800	IN	NS	ns2b.ksregistry.com.
 SAARLAND.		86400	IN	DS	7844 8 2 DFE5F176F88838E618AA262E829EC782074A1440A0AC6D7FDAA2015D6DEDE1E7
 SAARLAND.		86400	IN	DS	46559 8 2 AD4F2AC407E370565DF690B65CC4DB568A2F4396403FAB61D2DCF21CF7D2D823
 a.nic.saarland.		172800	IN	A	194.169.218.97
@@ -17318,6 +17312,7 @@ xn--mgbtx2b.		172800	IN	NS	dyn1.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
 xn--mgbx4cd0ab.		172800	IN	NS	a.nic.my.
+xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	a1.mynic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
