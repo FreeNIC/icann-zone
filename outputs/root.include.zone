@@ -8053,10 +8053,10 @@ kw.			172800	IN	NS	pch.nic.kw.
 kw.			172800	IN	NS	sns-pb.isc.org.
 a.nic.kw.		172800	IN	A	51.141.6.252
 b.nic.kw.		172800	IN	A	23.97.177.111
-c.nic.kw.		172800	IN	A	162.88.160.51
-c.nic.kw.		172800	IN	AAAA	2600:2003:1100:1000:0:0:0:15
-d.nic.kw.		172800	IN	A	162.88.128.51
-d.nic.kw.		172800	IN	AAAA	2600:2001:1100:1000:0:0:0:15
+c.nic.kw.		172800	IN	A	162.88.46.1
+c.nic.kw.		172800	IN	AAAA	2600:2000:3020:0:0:0:0:1
+d.nic.kw.		172800	IN	A	162.88.47.1
+d.nic.kw.		172800	IN	AAAA	2600:2000:3021:0:0:0:0:1
 pch.nic.kw.		172800	IN	A	204.61.216.118
 pch.nic.kw.		172800	IN	AAAA	2001:500:14:6118:ad:0:0:1
 ky.			172800	IN	NS	ns1.uniregistry.net.
