@@ -200,20 +200,6 @@ b0.nic.aco.		172800	IN	A	65.22.145.17
 b0.nic.aco.		172800	IN	AAAA	2a01:8840:8f:0:0:0:0:17
 c0.nic.aco.		172800	IN	A	65.22.146.17
 c0.nic.aco.		172800	IN	AAAA	2a01:8840:90:0:0:0:0:17
-active.			172800	IN	NS	a0.nic.active.
-active.			172800	IN	NS	a2.nic.active.
-active.			172800	IN	NS	b0.nic.active.
-active.			172800	IN	NS	c0.nic.active.
-ACTIVE.			86400	IN	DS	63978 7 1 DA2BDC42AA603CE7F4252FC6EE358AB7C4C1AD83
-ACTIVE.			86400	IN	DS	63978 7 2 46EA898F17BCBE36FCC6170935DAF9085A199F730832CF694E38AE1628B29DE4
-a0.nic.active.		172800	IN	A	65.22.212.25
-a0.nic.active.		172800	IN	AAAA	2a01:8840:ce:0:0:0:0:25
-a2.nic.active.		172800	IN	A	65.22.215.25
-a2.nic.active.		172800	IN	AAAA	2a01:8840:d1:0:0:0:0:25
-b0.nic.active.		172800	IN	A	65.22.213.25
-b0.nic.active.		172800	IN	AAAA	2a01:8840:cf:0:0:0:0:25
-c0.nic.active.		172800	IN	A	65.22.214.25
-c0.nic.active.		172800	IN	AAAA	2a01:8840:d0:0:0:0:0:25
 actor.			172800	IN	NS	demand.beta.aridns.net.au.
 actor.			172800	IN	NS	demand.alpha.aridns.net.au.
 actor.			172800	IN	NS	demand.delta.aridns.net.au.
