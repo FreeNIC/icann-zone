@@ -7030,10 +7030,8 @@ immobilien.		172800	IN	NS	demand.delta.aridns.net.au.
 immobilien.		172800	IN	NS	demand.gamma.aridns.net.au.
 IMMOBILIEN.		86400	IN	DS	52102 8 1 915275DB74FDE4755EA3D8D313B38CE5A51D89D7
 IMMOBILIEN.		86400	IN	DS	52102 8 2 EE5AD70F70516919A49D48FDD7175311DEDA786EE6F3D5C201D837F2FABE9829
-in.			172800	IN	NS	a1.in.afilias-nst.in.
-in.			172800	IN	NS	b0.in.afilias-nst.org.
-in.			172800	IN	NS	b1.in.afilias-nst.in.
-in.			172800	IN	NS	c0.in.afilias-nst.info.
+in.			172800	IN	NS	ns1.neustar.in.
+in.			172800	IN	NS	ns2.neustar.in.
 in.			172800	IN	NS	ns3.neustar.in.
 in.			172800	IN	NS	ns4.neustar.in.
 in.			172800	IN	NS	ns5.neustar.in.
@@ -7042,14 +7040,10 @@ IN.			86400	IN	DS	35373 7 1 C8750CE0393237D97BE351C84326E45A20EFF25C
 IN.			86400	IN	DS	35373 7 2 A5F1FEB3C7C62843C287BF38E0CFA8D33A1DF8FE2B7FD871BFDCFF8EA0B354DA
 IN.			86400	IN	DS	49359 7 1 8B528916D0B1173E89FAB04F846C0499B1AED430
 IN.			86400	IN	DS	49359 7 2 B12D2E841595863D5EEC975F769FE643F846EAA6F3FFA65B5520615AC6050524
-a1.in.afilias-nst.in.	172800	IN	A	115.249.164.142
-a1.in.afilias-nst.in.	172800	IN	AAAA	2001:4528:fff:13:0:0:0:142
-b0.in.afilias-nst.in.	172800	IN	A	199.253.56.1
-b0.in.afilias-nst.in.	172800	IN	AAAA	2001:500:50:0:0:0:0:1
-b1.in.afilias-nst.in.	172800	IN	A	180.179.215.70
-b1.in.afilias-nst.in.	172800	IN	AAAA	2401:8800:411:8:0:0:0:70
-c0.in.afilias-nst.in.	172800	IN	A	199.253.57.1
-c0.in.afilias-nst.in.	172800	IN	AAAA	2001:500:51:0:0:0:0:1
+ns1.neustar.in.		172800	IN	A	37.209.192.12
+ns1.neustar.in.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:12
+ns2.neustar.in.		172800	IN	A	37.209.194.12
+ns2.neustar.in.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:12
 ns3.neustar.in.		172800	IN	A	37.209.196.12
 ns3.neustar.in.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:12
 ns4.neustar.in.		172800	IN	A	37.209.198.12
@@ -7111,8 +7105,6 @@ a2.cctld.afilias-nst.info.	172800	IN	A	199.249.116.1
 a2.cctld.afilias-nst.info.	172800	IN	AAAA	2001:500:44:0:0:0:0:1
 c0.cctld.afilias-nst.info.	172800	IN	A	199.254.61.1
 c0.cctld.afilias-nst.info.	172800	IN	AAAA	2001:500:27:0:0:0:0:1
-c0.in.afilias-nst.info.	172800	IN	A	199.253.57.1
-c0.in.afilias-nst.info.	172800	IN	AAAA	2001:500:51:0:0:0:0:1
 a0.info.afilias-nst.info.	172800	IN	A	199.254.31.1
 a0.info.afilias-nst.info.	172800	IN	AAAA	2001:500:19:0:0:0:0:1
 a2.info.afilias-nst.info.	172800	IN	A	199.249.113.1
@@ -11021,8 +11013,6 @@ b2.cctld.afilias-nst.org.	172800	IN	A	199.249.124.1
 b2.cctld.afilias-nst.org.	172800	IN	AAAA	2001:500:4c:0:0:0:0:1
 d0.cctld.afilias-nst.org.	172800	IN	A	199.254.62.1
 d0.cctld.afilias-nst.org.	172800	IN	AAAA	2001:500:28:0:0:0:0:1
-b0.in.afilias-nst.org.	172800	IN	A	199.253.56.1
-b0.in.afilias-nst.org.	172800	IN	AAAA	2001:500:50:0:0:0:0:1
 b0.info.afilias-nst.org.	172800	IN	A	199.254.48.1
 b0.info.afilias-nst.org.	172800	IN	AAAA	2001:500:1a:0:0:0:0:1
 b2.info.afilias-nst.org.	172800	IN	A	199.249.121.1
@@ -16308,10 +16298,8 @@ xn--1qqw23a.		172800	IN	NS	tc.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	td.ngtld.cn.
 xn--1qqw23a.		172800	IN	NS	te.ngtld.cn.
 XN--1QQW23A.		86400	IN	DS	2506 8 2 A379E36D05FEAFA4A5DAB25F518B9F62DF2FD2BA659BD8DA1A3EA48E677DA5F9
-xn--2scrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--2scrj9c.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--2scrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--2scrj9c.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--2scrj9c.		172800	IN	NS	ns1.neustar.in.
+xn--2scrj9c.		172800	IN	NS	ns2.neustar.in.
 xn--2scrj9c.		172800	IN	NS	ns3.neustar.in.
 xn--2scrj9c.		172800	IN	NS	ns4.neustar.in.
 xn--2scrj9c.		172800	IN	NS	ns5.neustar.in.
@@ -16350,10 +16338,8 @@ xn--3e0b707e.		172800	IN	NS	e.dns.kr.
 xn--3e0b707e.		172800	IN	NS	f.dns.kr.
 xn--3e0b707e.		172800	IN	NS	g.dns.kr.
 XN--3E0B707E.		86400	IN	DS	27573 7 2 A1C0A1B101F2B31DA2DD995BD0994A6C1E9E34E325FA007E2EA8721DFC4C6CB4
-xn--3hcrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--3hcrj9c.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--3hcrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--3hcrj9c.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--3hcrj9c.		172800	IN	NS	ns1.neustar.in.
+xn--3hcrj9c.		172800	IN	NS	ns2.neustar.in.
 xn--3hcrj9c.		172800	IN	NS	ns3.neustar.in.
 xn--3hcrj9c.		172800	IN	NS	ns4.neustar.in.
 xn--3hcrj9c.		172800	IN	NS	ns5.neustar.in.
@@ -16386,10 +16372,8 @@ xn--42c2d9a.		172800	IN	NS	ac2.nstld.com.
 xn--42c2d9a.		172800	IN	NS	ac3.nstld.com.
 xn--42c2d9a.		172800	IN	NS	ac4.nstld.com.
 XN--42C2D9A.		86400	IN	DS	51549 8 2 D9CB9D442C66759928FF2CEFBF93FDE4A4A45F0CA98E6C7D08DED196EFCB3312
-xn--45br5cyl.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--45br5cyl.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--45br5cyl.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--45br5cyl.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--45br5cyl.		172800	IN	NS	ns1.neustar.in.
+xn--45br5cyl.		172800	IN	NS	ns2.neustar.in.
 xn--45br5cyl.		172800	IN	NS	ns3.neustar.in.
 xn--45br5cyl.		172800	IN	NS	ns4.neustar.in.
 xn--45br5cyl.		172800	IN	NS	ns5.neustar.in.
@@ -16398,10 +16382,8 @@ XN--45BR5CYL.		86400	IN	DS	10176 7 1 C2740C2D352B7049726211D41175686D0A303B6D
 XN--45BR5CYL.		86400	IN	DS	10176 7 2 66A7D5DC0C44C9756A198A4FC6BAE692F633A8B02F22FCF6F3AD766680D4687D
 XN--45BR5CYL.		86400	IN	DS	28129 7 1 6C60571BB608F86A3550DC391DBA3EC6B21EA31A
 XN--45BR5CYL.		86400	IN	DS	28129 7 2 084107EEECB49EEE0CC1597FD5D1F5EB9953E20078B0753D8F9C8D4EB63D9A29
-xn--45brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--45brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--45brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--45brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--45brj9c.		172800	IN	NS	ns1.neustar.in.
+xn--45brj9c.		172800	IN	NS	ns2.neustar.in.
 xn--45brj9c.		172800	IN	NS	ns3.neustar.in.
 xn--45brj9c.		172800	IN	NS	ns4.neustar.in.
 xn--45brj9c.		172800	IN	NS	ns5.neustar.in.
@@ -16839,10 +16821,8 @@ xn--flw351e.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 xn--flw351e.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 xn--flw351e.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 XN--FLW351E.		86400	IN	DS	48919 8 2 AAACFE5EFE147EF640DBA9107A36F9E43BC2B3F736A538A680CD1C01AAFE41FB
-xn--fpcrj9c3d.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--fpcrj9c3d.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--fpcrj9c3d.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--fpcrj9c3d.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--fpcrj9c3d.		172800	IN	NS	ns1.neustar.in.
+xn--fpcrj9c3d.		172800	IN	NS	ns2.neustar.in.
 xn--fpcrj9c3d.		172800	IN	NS	ns3.neustar.in.
 xn--fpcrj9c3d.		172800	IN	NS	ns4.neustar.in.
 xn--fpcrj9c3d.		172800	IN	NS	ns5.neustar.in.
@@ -16917,10 +16897,8 @@ ns5.dns.nic.xn--gckr3f0f.	172800	IN	A	156.154.173.69
 ns5.dns.nic.xn--gckr3f0f.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:45
 ns6.dns.nic.xn--gckr3f0f.	172800	IN	A	156.154.174.69
 ns6.dns.nic.xn--gckr3f0f.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:45
-xn--gecrj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--gecrj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--gecrj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--gecrj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--gecrj9c.		172800	IN	NS	ns1.neustar.in.
+xn--gecrj9c.		172800	IN	NS	ns2.neustar.in.
 xn--gecrj9c.		172800	IN	NS	ns3.neustar.in.
 xn--gecrj9c.		172800	IN	NS	ns4.neustar.in.
 xn--gecrj9c.		172800	IN	NS	ns5.neustar.in.
@@ -16951,10 +16929,8 @@ ns5.dns.nic.xn--gk3at1e.	172800	IN	A	156.154.173.70
 ns5.dns.nic.xn--gk3at1e.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:46
 ns6.dns.nic.xn--gk3at1e.	172800	IN	A	156.154.174.70
 ns6.dns.nic.xn--gk3at1e.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:46
-xn--h2breg3eve.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--h2breg3eve.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--h2breg3eve.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--h2breg3eve.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--h2breg3eve.		172800	IN	NS	ns1.neustar.in.
+xn--h2breg3eve.		172800	IN	NS	ns2.neustar.in.
 xn--h2breg3eve.		172800	IN	NS	ns3.neustar.in.
 xn--h2breg3eve.		172800	IN	NS	ns4.neustar.in.
 xn--h2breg3eve.		172800	IN	NS	ns5.neustar.in.
@@ -16963,10 +16939,8 @@ XN--H2BREG3EVE.		86400	IN	DS	42906 7 1 35C55F81D7FA190968A2B3BB2068859FEC8C212E
 XN--H2BREG3EVE.		86400	IN	DS	42906 7 2 FA03008DFCBEF9D7D4A293EB5F187DCF9215BEAAD097FEB149D7EDB7B4BAC7A4
 XN--H2BREG3EVE.		86400	IN	DS	58876 7 1 7158C2EB4A2989C503704F3209F67BA82CA4DAE2
 XN--H2BREG3EVE.		86400	IN	DS	58876 7 2 DB336FB2F746206C70E1C2015A387B93800219386E90214EC03757071D0AF570
-xn--h2brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--h2brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--h2brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--h2brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--h2brj9c.		172800	IN	NS	ns1.neustar.in.
+xn--h2brj9c.		172800	IN	NS	ns2.neustar.in.
 xn--h2brj9c.		172800	IN	NS	ns3.neustar.in.
 xn--h2brj9c.		172800	IN	NS	ns4.neustar.in.
 xn--h2brj9c.		172800	IN	NS	ns5.neustar.in.
@@ -16975,10 +16949,8 @@ XN--H2BRJ9C.		86400	IN	DS	639 7 1 80B552A073C66049E3AA772EB78C5E282B5E930D
 XN--H2BRJ9C.		86400	IN	DS	639 7 2 25C78330BFF23DBCC54F320AC5A602B67B4EDBC8900B908275656390AF30DE65
 XN--H2BRJ9C.		86400	IN	DS	60658 7 1 F8A17C2FD37466D5C0C0903536296E47C0BA9148
 XN--H2BRJ9C.		86400	IN	DS	60658 7 2 3335554AD00624CDA4977BFB9C78467FBA921167FBBEEB9F2E2CDD43F2D67AD0
-xn--h2brj9c8c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--h2brj9c8c.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--h2brj9c8c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--h2brj9c8c.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--h2brj9c8c.		172800	IN	NS	ns1.neustar.in.
+xn--h2brj9c8c.		172800	IN	NS	ns2.neustar.in.
 xn--h2brj9c8c.		172800	IN	NS	ns3.neustar.in.
 xn--h2brj9c8c.		172800	IN	NS	ns4.neustar.in.
 xn--h2brj9c8c.		172800	IN	NS	ns5.neustar.in.
@@ -17254,10 +17226,8 @@ ns5.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.173.73
 ns5.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:49
 ns6.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.174.73
 ns6.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:49
-xn--mgbbh1a.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--mgbbh1a.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--mgbbh1a.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--mgbbh1a.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--mgbbh1a.		172800	IN	NS	ns1.neustar.in.
+xn--mgbbh1a.		172800	IN	NS	ns2.neustar.in.
 xn--mgbbh1a.		172800	IN	NS	ns3.neustar.in.
 xn--mgbbh1a.		172800	IN	NS	ns4.neustar.in.
 xn--mgbbh1a.		172800	IN	NS	ns5.neustar.in.
@@ -17266,10 +17236,8 @@ XN--MGBBH1A.		86400	IN	DS	28536 7 1 A7FFAEF3663203A31F772E2D013C8DBC445EF972
 XN--MGBBH1A.		86400	IN	DS	28536 7 2 903D5F3B60C55855E19A6912DB18D80265FFFDAFFA23F3ED5A6697902436F842
 XN--MGBBH1A.		86400	IN	DS	34288 7 1 76331774785F9B2437C03143F32FD4225BD0751E
 XN--MGBBH1A.		86400	IN	DS	34288 7 2 ED6E6E6566242A5DC846DD353FFFBB27F6DD3B162A1365669D60B68B9CC115AD
-xn--mgbbh1a71e.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--mgbbh1a71e.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--mgbbh1a71e.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--mgbbh1a71e.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--mgbbh1a71e.		172800	IN	NS	ns1.neustar.in.
+xn--mgbbh1a71e.		172800	IN	NS	ns2.neustar.in.
 xn--mgbbh1a71e.		172800	IN	NS	ns3.neustar.in.
 xn--mgbbh1a71e.		172800	IN	NS	ns4.neustar.in.
 xn--mgbbh1a71e.		172800	IN	NS	ns5.neustar.in.
@@ -17297,10 +17265,8 @@ xn--mgberp4a5d4ar.	172800	IN	NS	s2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
 XN--MGBERP4A5D4AR.	86400	IN	DS	57601 8 2 843C82B8468CA13A4D14CEDEA890A589158B637A7AACCEBE4A656D8EE5C94C5B
-xn--mgbgu82a.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--mgbgu82a.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--mgbgu82a.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--mgbgu82a.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--mgbgu82a.		172800	IN	NS	ns1.neustar.in.
+xn--mgbgu82a.		172800	IN	NS	ns2.neustar.in.
 xn--mgbgu82a.		172800	IN	NS	ns3.neustar.in.
 xn--mgbgu82a.		172800	IN	NS	ns4.neustar.in.
 xn--mgbgu82a.		172800	IN	NS	ns5.neustar.in.
@@ -17567,10 +17533,8 @@ ns5.dns.nic.xn--rovu88b.	172800	IN	A	156.154.173.76
 ns5.dns.nic.xn--rovu88b.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:4c
 ns6.dns.nic.xn--rovu88b.	172800	IN	A	156.154.174.76
 ns6.dns.nic.xn--rovu88b.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:4c
-xn--rvc1e0am3e.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--rvc1e0am3e.		172800	IN	NS	b0.in.afilias-nst.in.
-xn--rvc1e0am3e.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--rvc1e0am3e.		172800	IN	NS	c0.in.afilias-nst.in.
+xn--rvc1e0am3e.		172800	IN	NS	ns1.neustar.in.
+xn--rvc1e0am3e.		172800	IN	NS	ns2.neustar.in.
 xn--rvc1e0am3e.		172800	IN	NS	ns3.neustar.in.
 xn--rvc1e0am3e.		172800	IN	NS	ns4.neustar.in.
 xn--rvc1e0am3e.		172800	IN	NS	ns5.neustar.in.
@@ -17579,10 +17543,8 @@ XN--RVC1E0AM3E.		86400	IN	DS	32815 7 1 D32318B6557022BD20DF115748F4F723DB2A6256
 XN--RVC1E0AM3E.		86400	IN	DS	32815 7 2 7FE773EF71AE6CB09AAA70FCC3E2DCC0AF1BBA704C3FB85DDCA8EF5F336247AA
 XN--RVC1E0AM3E.		86400	IN	DS	51945 7 1 C8F56B0A9A4FF5B8599986DE6BBA8AA2E8F4B010
 XN--RVC1E0AM3E.		86400	IN	DS	51945 7 2 0F8228B25E25BD8FEFEBF7604318EDB1A10619CBC83ECDF30C6C803AE496B5F4
-xn--s9brj9c.		172800	IN	NS	a1.in.afilias-nst.in.
-xn--s9brj9c.		172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--s9brj9c.		172800	IN	NS	b1.in.afilias-nst.in.
-xn--s9brj9c.		172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--s9brj9c.		172800	IN	NS	ns1.neustar.in.
+xn--s9brj9c.		172800	IN	NS	ns2.neustar.in.
 xn--s9brj9c.		172800	IN	NS	ns3.neustar.in.
 xn--s9brj9c.		172800	IN	NS	ns4.neustar.in.
 xn--s9brj9c.		172800	IN	NS	ns5.neustar.in.
@@ -17689,10 +17651,8 @@ xn--xkc2al3hye2a.	172800	IN	NS	ns-c.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-d.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-l.nic.lk.
 xn--xkc2al3hye2a.	172800	IN	NS	ns-t.nic.lk.
-xn--xkc2dl3a5ee0h.	172800	IN	NS	a1.in.afilias-nst.in.
-xn--xkc2dl3a5ee0h.	172800	IN	NS	b0.cctld.afilias-nst.org.
-xn--xkc2dl3a5ee0h.	172800	IN	NS	b1.in.afilias-nst.in.
-xn--xkc2dl3a5ee0h.	172800	IN	NS	c0.cctld.afilias-nst.info.
+xn--xkc2dl3a5ee0h.	172800	IN	NS	ns1.neustar.in.
+xn--xkc2dl3a5ee0h.	172800	IN	NS	ns2.neustar.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	ns3.neustar.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	ns4.neustar.in.
 xn--xkc2dl3a5ee0h.	172800	IN	NS	ns5.neustar.in.
