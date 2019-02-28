@@ -8239,7 +8239,6 @@ lawyer.			172800	IN	NS	demand.delta.aridns.net.au.
 lawyer.			172800	IN	NS	demand.gamma.aridns.net.au.
 LAWYER.			86400	IN	DS	2650 8 1 C8F1DCDDC93185B1FF46D71243AF81E9EB212C32
 LAWYER.			86400	IN	DS	2650 8 2 E18DB0330040F2F8C0D9850EF8430800D46B90750E48ACAFE18C0EF08A098921
-lb.			172800	IN	NS	ns1.dns.aq.
 lb.			172800	IN	NS	rip.psg.com.
 lb.			172800	IN	NS	fork.sth.dnsnode.net.
 lb.			172800	IN	NS	zeina.aub.edu.lb.
@@ -9221,11 +9220,24 @@ eur1.nipr.mil.		172800	IN	A	199.252.154.234
 eur2.nipr.mil.		172800	IN	A	199.252.143.234
 pac1.nipr.mil.		172800	IN	A	199.252.180.234
 pac2.nipr.mil.		172800	IN	A	199.252.155.234
+mini.			172800	IN	NS	a.nic.mini.
+mini.			172800	IN	NS	b.nic.mini.
+mini.			172800	IN	NS	c.nic.mini.
+mini.			172800	IN	NS	d.nic.mini.
 mini.			172800	IN	NS	ns1a.ksregistry.net.
 mini.			172800	IN	NS	ns1b.ksregistry.net.
 mini.			172800	IN	NS	ns2a.ksregistry.com.
 mini.			172800	IN	NS	ns2b.ksregistry.com.
+MINI.			86400	IN	DS	82 8 2 6F84E8B483F6FEFC9832A282EA80D4F30497393B5353CC6854431FA7FCB240F6
 MINI.			86400	IN	DS	54260 8 2 0DA865B8E8A60553B90380AEC9DA84A2DE372A2A098EC5F2F6E3502414947F88
+a.nic.mini.		172800	IN	A	194.169.218.95
+a.nic.mini.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:95
+b.nic.mini.		172800	IN	A	185.24.64.95
+b.nic.mini.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:95
+c.nic.mini.		172800	IN	A	212.18.248.95
+c.nic.mini.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:95
+d.nic.mini.		172800	IN	A	212.18.249.95
+d.nic.mini.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:95
 mint.			172800	IN	NS	ns1.dns.nic.mint.
 mint.			172800	IN	NS	ns2.dns.nic.mint.
 mint.			172800	IN	NS	ns3.dns.nic.mint.
@@ -11655,11 +11667,24 @@ b0.nic.pnc.		172800	IN	A	65.22.65.25
 b0.nic.pnc.		172800	IN	AAAA	2a01:8840:3f:0:0:0:0:25
 c0.nic.pnc.		172800	IN	A	65.22.66.25
 c0.nic.pnc.		172800	IN	AAAA	2a01:8840:40:0:0:0:0:25
+pohl.			172800	IN	NS	a.nic.pohl.
+pohl.			172800	IN	NS	b.nic.pohl.
+pohl.			172800	IN	NS	c.nic.pohl.
+pohl.			172800	IN	NS	d.nic.pohl.
 pohl.			172800	IN	NS	ns1a.ksregistry.net.
 pohl.			172800	IN	NS	ns1b.ksregistry.net.
 pohl.			172800	IN	NS	ns2a.ksregistry.com.
 pohl.			172800	IN	NS	ns2b.ksregistry.com.
+POHL.			86400	IN	DS	41627 8 2 D31963884932152AC788383ABA38B83F187291AFB59092A43185734EC561F506
 POHL.			86400	IN	DS	52324 8 2 F733939F77FE6A3F4FC63546CF69C4A86CF432BD6F41147B287818BFC87661C5
+a.nic.pohl.		172800	IN	A	194.169.218.96
+a.nic.pohl.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:96
+b.nic.pohl.		172800	IN	A	185.24.64.96
+b.nic.pohl.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:96
+c.nic.pohl.		172800	IN	A	212.18.248.96
+c.nic.pohl.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:96
+d.nic.pohl.		172800	IN	A	212.18.249.96
+d.nic.pohl.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:96
 poker.			172800	IN	NS	a0.nic.poker.
 poker.			172800	IN	NS	a2.nic.poker.
 poker.			172800	IN	NS	b0.nic.poker.
@@ -14971,11 +14996,24 @@ ns5.dns.nic.tube.	172800	IN	A	156.154.173.80
 ns5.dns.nic.tube.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:50
 ns6.dns.nic.tube.	172800	IN	A	156.154.174.80
 ns6.dns.nic.tube.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:50
+tui.			172800	IN	NS	a.nic.tui.
+tui.			172800	IN	NS	b.nic.tui.
+tui.			172800	IN	NS	c.nic.tui.
+tui.			172800	IN	NS	d.nic.tui.
 tui.			172800	IN	NS	ns1a.ksregistry.net.
 tui.			172800	IN	NS	ns1b.ksregistry.net.
 tui.			172800	IN	NS	ns2a.ksregistry.com.
 tui.			172800	IN	NS	ns2b.ksregistry.com.
 TUI.			86400	IN	DS	23290 8 2 D53C138EAD14027D6192DFB0C2CD0B7CFF36986E47FE680D8B05F84AC78D633B
+TUI.			86400	IN	DS	35342 8 2 60BAC1E816660EA6CC89BBE453C4CAC50EE7FBC9BBAC3CA6F8EEBFB1A24AF721
+a.nic.tui.		172800	IN	A	194.169.218.103
+a.nic.tui.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:103
+b.nic.tui.		172800	IN	A	185.24.64.103
+b.nic.tui.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:103
+c.nic.tui.		172800	IN	A	212.18.248.103
+c.nic.tui.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:103
+d.nic.tui.		172800	IN	A	212.18.249.103
+d.nic.tui.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:103
 tunes.			172800	IN	NS	ns1.dns.nic.tunes.
 tunes.			172800	IN	NS	ns2.dns.nic.tunes.
 tunes.			172800	IN	NS	ns3.dns.nic.tunes.
@@ -17588,16 +17626,42 @@ xn--unup4y.		172800	IN	NS	demand.delta.aridns.net.au.
 xn--unup4y.		172800	IN	NS	demand.gamma.aridns.net.au.
 XN--UNUP4Y.		86400	IN	DS	2380 8 1 BDA710A49218FC2DBBC3F90EBD6E7C31C02C2678
 XN--UNUP4Y.		86400	IN	DS	2380 8 2 123204E47A8FB6BD88262840D9AAC9148A64D002808E710F453D536597CFCD66
+xn--vermgensberater-ctb.	172800	IN	NS	a.nic.xn--vermgensberater-ctb.
+xn--vermgensberater-ctb.	172800	IN	NS	b.nic.xn--vermgensberater-ctb.
+xn--vermgensberater-ctb.	172800	IN	NS	c.nic.xn--vermgensberater-ctb.
+xn--vermgensberater-ctb.	172800	IN	NS	d.nic.xn--vermgensberater-ctb.
 xn--vermgensberater-ctb.	172800	IN	NS	ns1a.ksregistry.net.
 xn--vermgensberater-ctb.	172800	IN	NS	ns1b.ksregistry.net.
 xn--vermgensberater-ctb.	172800	IN	NS	ns2a.ksregistry.com.
 xn--vermgensberater-ctb.	172800	IN	NS	ns2b.ksregistry.com.
 XN--VERMGENSBERATER-CTB.	86400	IN	DS	34601 8 2 7F669EA129F71B09EB87D520812D21758207EBDAAE560CBB5019FBBA4A20A016
+XN--VERMGENSBERATER-CTB.	86400	IN	DS	60320 8 2 BD736C840D3B1B3FDD1679D500C5F5BD82CF0323E9706932BC5B2D847D5644B5
+a.nic.xn--vermgensberater-ctb.	172800	IN	A	194.169.218.105
+a.nic.xn--vermgensberater-ctb.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:105
+b.nic.xn--vermgensberater-ctb.	172800	IN	A	185.24.64.105
+b.nic.xn--vermgensberater-ctb.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:105
+c.nic.xn--vermgensberater-ctb.	172800	IN	A	212.18.248.105
+c.nic.xn--vermgensberater-ctb.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:105
+d.nic.xn--vermgensberater-ctb.	172800	IN	A	212.18.249.105
+d.nic.xn--vermgensberater-ctb.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:105
+xn--vermgensberatung-pwb.	172800	IN	NS	a.nic.xn--vermgensberatung-pwb.
+xn--vermgensberatung-pwb.	172800	IN	NS	b.nic.xn--vermgensberatung-pwb.
+xn--vermgensberatung-pwb.	172800	IN	NS	c.nic.xn--vermgensberatung-pwb.
+xn--vermgensberatung-pwb.	172800	IN	NS	d.nic.xn--vermgensberatung-pwb.
 xn--vermgensberatung-pwb.	172800	IN	NS	ns1a.ksregistry.net.
 xn--vermgensberatung-pwb.	172800	IN	NS	ns1b.ksregistry.net.
 xn--vermgensberatung-pwb.	172800	IN	NS	ns2a.ksregistry.com.
 xn--vermgensberatung-pwb.	172800	IN	NS	ns2b.ksregistry.com.
 XN--VERMGENSBERATUNG-PWB.	86400	IN	DS	17870 8 2 4EEE971C6228837580AFA24873862426612E75B8C6F2B79BA370E5A6A0403B08
+XN--VERMGENSBERATUNG-PWB.	86400	IN	DS	30509 8 2 B1D9B6E7E50BD1AC597183B160050A398919DDE4A33FAC3714BCCAEDD4BFD2EF
+a.nic.xn--vermgensberatung-pwb.	172800	IN	A	194.169.218.106
+a.nic.xn--vermgensberatung-pwb.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:106
+b.nic.xn--vermgensberatung-pwb.	172800	IN	A	185.24.64.106
+b.nic.xn--vermgensberatung-pwb.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:106
+c.nic.xn--vermgensberatung-pwb.	172800	IN	A	212.18.248.106
+c.nic.xn--vermgensberatung-pwb.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:106
+d.nic.xn--vermgensberatung-pwb.	172800	IN	A	212.18.249.106
+d.nic.xn--vermgensberatung-pwb.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:106
 xn--vhquv.		172800	IN	NS	demand.beta.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.alpha.aridns.net.au.
 xn--vhquv.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -17958,11 +18022,24 @@ zone.			172800	IN	NS	demand.delta.aridns.net.au.
 zone.			172800	IN	NS	demand.gamma.aridns.net.au.
 ZONE.			86400	IN	DS	30532 8 1 FDA16403183C6DCB478752575FE6AA0C396C7957
 ZONE.			86400	IN	DS	30532 8 2 F94EB9B27B063D484F033899E0F234506001B6C9B447AE25CBD51BD7728C7D63
+zuerich.		172800	IN	NS	a.nic.zuerich.
+zuerich.		172800	IN	NS	b.nic.zuerich.
+zuerich.		172800	IN	NS	c.nic.zuerich.
+zuerich.		172800	IN	NS	d.nic.zuerich.
 zuerich.		172800	IN	NS	ns1a.ksregistry.net.
 zuerich.		172800	IN	NS	ns1b.ksregistry.net.
 zuerich.		172800	IN	NS	ns2a.ksregistry.com.
 zuerich.		172800	IN	NS	ns2b.ksregistry.com.
+ZUERICH.		86400	IN	DS	7399 8 2 69407FE45988E2C569855C70330A24520DB734481082C668317E8BBB764551D3
 ZUERICH.		86400	IN	DS	52375 8 2 E3EBD91BBF29BE88D075C43AC313A9DB174267E858061316EC4C942728A3829E
+a.nic.zuerich.		172800	IN	A	194.169.218.107
+a.nic.zuerich.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:107
+b.nic.zuerich.		172800	IN	A	185.24.64.107
+b.nic.zuerich.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:107
+c.nic.zuerich.		172800	IN	A	212.18.248.107
+c.nic.zuerich.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:107
+d.nic.zuerich.		172800	IN	A	212.18.249.107
+d.nic.zuerich.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:107
 zw.			172800	IN	NS	ns1.telone.co.zw.
 zw.			172800	IN	NS	ns1.liquidtelecom.net.
 zw.			172800	IN	NS	ns2.telone.co.zw.
