@@ -486,11 +486,24 @@ b0.nic.alipay.		172800	IN	A	65.22.129.25
 b0.nic.alipay.		172800	IN	AAAA	2a01:8840:7f:0:0:0:0:25
 c0.nic.alipay.		172800	IN	A	65.22.130.25
 c0.nic.alipay.		172800	IN	AAAA	2a01:8840:80:0:0:0:0:25
+allfinanz.		172800	IN	NS	a.nic.allfinanz.
+allfinanz.		172800	IN	NS	b.nic.allfinanz.
+allfinanz.		172800	IN	NS	c.nic.allfinanz.
+allfinanz.		172800	IN	NS	d.nic.allfinanz.
 allfinanz.		172800	IN	NS	ns1a.ksregistry.net.
 allfinanz.		172800	IN	NS	ns1b.ksregistry.net.
 allfinanz.		172800	IN	NS	ns2a.ksregistry.com.
 allfinanz.		172800	IN	NS	ns2b.ksregistry.com.
+ALLFINANZ.		86400	IN	DS	11155 8 2 2337B2A34993E96D38FC18DA0873463C467385BFE16E09E51245673F027F913A
 ALLFINANZ.		86400	IN	DS	39881 8 2 8619BC44828EE2CDFB00E0C8E67AC0F7522AAAAB12149EA53B6B52C421120A0C
+a.nic.allfinanz.	172800	IN	A	194.169.218.75
+a.nic.allfinanz.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:75
+b.nic.allfinanz.	172800	IN	A	185.24.64.75
+b.nic.allfinanz.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:75
+c.nic.allfinanz.	172800	IN	A	212.18.248.75
+c.nic.allfinanz.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:75
+d.nic.allfinanz.	172800	IN	A	212.18.249.75
+d.nic.allfinanz.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:75
 allstate.		172800	IN	NS	a0.nic.allstate.
 allstate.		172800	IN	NS	a2.nic.allstate.
 allstate.		172800	IN	NS	b0.nic.allstate.
@@ -1836,11 +1849,24 @@ bms.			172800	IN	NS	ac2.nstld.com.
 bms.			172800	IN	NS	ac3.nstld.com.
 bms.			172800	IN	NS	ac4.nstld.com.
 BMS.			86400	IN	DS	22689 8 2 0EE826FFE41EAD6FC120D8D76539643DA18A56D0B19BB23E8A92EF083FCB09FB
+bmw.			172800	IN	NS	a.nic.bmw.
+bmw.			172800	IN	NS	b.nic.bmw.
+bmw.			172800	IN	NS	c.nic.bmw.
+bmw.			172800	IN	NS	d.nic.bmw.
 bmw.			172800	IN	NS	ns1a.ksregistry.net.
 bmw.			172800	IN	NS	ns1b.ksregistry.net.
 bmw.			172800	IN	NS	ns2a.ksregistry.com.
 bmw.			172800	IN	NS	ns2b.ksregistry.com.
 BMW.			86400	IN	DS	41084 8 2 6C86D7E525248DF05C8DD7720648D4CB629DAAE2DCD163BFC74D28312FD5311A
+BMW.			86400	IN	DS	43579 8 2 B543B5ADBA44E6E32D11C93BB4E729D80FA1197F59B2AE505A1E292605234793
+a.nic.bmw.		172800	IN	A	194.169.218.76
+a.nic.bmw.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:76
+b.nic.bmw.		172800	IN	A	185.24.64.76
+b.nic.bmw.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:76
+c.nic.bmw.		172800	IN	A	212.18.248.76
+c.nic.bmw.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:76
+d.nic.bmw.		172800	IN	A	212.18.249.76
+d.nic.bmw.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:76
 bn.			172800	IN	NS	ns1.bnnic.bn.
 bn.			172800	IN	NS	ns2.bnnic.bn.
 bn.			172800	IN	NS	ns4.apnic.net.
@@ -2401,11 +2427,24 @@ ns5.dns.nic.calvinklein.	172800	IN	A	156.154.157.31
 ns5.dns.nic.calvinklein.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:1f
 ns6.dns.nic.calvinklein.	172800	IN	A	156.154.158.31
 ns6.dns.nic.calvinklein.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:1f
+cam.			172800	IN	NS	a.nic.cam.
+cam.			172800	IN	NS	b.nic.cam.
+cam.			172800	IN	NS	c.nic.cam.
+cam.			172800	IN	NS	d.nic.cam.
 cam.			172800	IN	NS	ns1a.ksregistry.net.
 cam.			172800	IN	NS	ns1b.ksregistry.net.
 cam.			172800	IN	NS	ns2a.ksregistry.com.
 cam.			172800	IN	NS	ns2b.ksregistry.com.
+CAM.			86400	IN	DS	5089 8 2 A17021ADA565F6B13749741DC51A25B0F524BAE6B753343155CFE8426CD29462
 CAM.			86400	IN	DS	27179 8 2 F8C48547453F63FCC5BF62884A1F885FE50D467079E7B17DA3C8D0A2DC92474D
+a.nic.cam.		172800	IN	A	194.169.218.77
+a.nic.cam.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:77
+b.nic.cam.		172800	IN	A	185.24.64.77
+b.nic.cam.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:77
+c.nic.cam.		172800	IN	A	212.18.248.77
+c.nic.cam.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:77
+d.nic.cam.		172800	IN	A	212.18.249.77
+d.nic.cam.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:77
 camera.			172800	IN	NS	demand.beta.aridns.net.au.
 camera.			172800	IN	NS	demand.alpha.aridns.net.au.
 camera.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -3565,6 +3604,8 @@ country.		172800	IN	NS	b.ns.nic.country.
 country.		172800	IN	NS	c.ns.nic.country.
 country.		172800	IN	NS	d.ns.nic.country.
 COUNTRY.		86400	IN	DS	2705 8 2 6EE6B796B61C72E15174930066AA40B92E0183A406561272E6B574770551652E
+COUNTRY.		86400	IN	DS	28444 8 2 4B4F87A36B53C3B32E01E850A40F3E2513427AFC8D685609CBE6E2F633FAC5D5
+COUNTRY.		86400	IN	DS	36424 8 2 11200C3276096AAF5C427492437D031F24D2B059A194AA99B938F69576EE7324
 a.ns.nic.country.	172800	IN	A	72.0.50.17
 a.ns.nic.country.	172800	IN	AAAA	2620:171:a02:ad:0:0:0:17
 b.ns.nic.country.	172800	IN	A	72.42.114.17
@@ -4460,11 +4501,24 @@ durban.			172800	IN	NS	ns2.dns.business.
 durban.			172800	IN	NS	coza1.dnsnode.net.
 DURBAN.			86400	IN	DS	24551 8 2 C2A671B49BD057C44A446900602C09B1026E1272A79700AFFABD59CEA595477E
 DURBAN.			86400	IN	DS	32017 8 2 9B4F5AF558D2272C53D92F248D75303E93D0EE28B15451856B478959DCCF900F
+dvag.			172800	IN	NS	a.nic.dvag.
+dvag.			172800	IN	NS	b.nic.dvag.
+dvag.			172800	IN	NS	c.nic.dvag.
+dvag.			172800	IN	NS	d.nic.dvag.
 dvag.			172800	IN	NS	ns1a.ksregistry.net.
 dvag.			172800	IN	NS	ns1b.ksregistry.net.
 dvag.			172800	IN	NS	ns2a.ksregistry.com.
 dvag.			172800	IN	NS	ns2b.ksregistry.com.
+DVAG.			86400	IN	DS	3200 8 2 4544410064854638C7273C4481902B0B3218F905E6DAE266A181DEC2AB700BD3
 DVAG.			86400	IN	DS	26666 8 2 C94C9E4F38CC0283D1F3854A27F49C001E6D43689F35C0C9438E7D8731301662
+a.nic.dvag.		172800	IN	A	194.169.218.84
+a.nic.dvag.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:84
+b.nic.dvag.		172800	IN	A	185.24.64.84
+b.nic.dvag.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:84
+c.nic.dvag.		172800	IN	A	212.18.248.84
+c.nic.dvag.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:84
+d.nic.dvag.		172800	IN	A	212.18.249.84
+d.nic.dvag.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:84
 dvr.			172800	IN	NS	a0.nic.dvr.
 dvr.			172800	IN	NS	a2.nic.dvr.
 dvr.			172800	IN	NS	b0.nic.dvr.
@@ -5501,11 +5555,24 @@ ns5.dns.nic.free.	172800	IN	A	156.154.157.237
 ns5.dns.nic.free.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:ed
 ns6.dns.nic.free.	172800	IN	A	156.154.158.237
 ns6.dns.nic.free.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:ed
+fresenius.		172800	IN	NS	a.nic.fresenius.
+fresenius.		172800	IN	NS	b.nic.fresenius.
+fresenius.		172800	IN	NS	c.nic.fresenius.
+fresenius.		172800	IN	NS	d.nic.fresenius.
 fresenius.		172800	IN	NS	ns1a.ksregistry.net.
 fresenius.		172800	IN	NS	ns1b.ksregistry.net.
 fresenius.		172800	IN	NS	ns2a.ksregistry.com.
 fresenius.		172800	IN	NS	ns2b.ksregistry.com.
+FRESENIUS.		86400	IN	DS	14099 8 2 3A1C09D9328367D2077AA1418DACAB1E9799C6E419409C35416ED57AD0D61DD2
 FRESENIUS.		86400	IN	DS	43201 8 2 B8B450BA7043973A3F43E9E8A70FAC6A6B979838254E439553F17F403D24425E
+a.nic.fresenius.	172800	IN	A	194.169.218.86
+a.nic.fresenius.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:86
+b.nic.fresenius.	172800	IN	A	185.24.64.86
+b.nic.fresenius.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:86
+c.nic.fresenius.	172800	IN	A	212.18.248.86
+c.nic.fresenius.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:86
+d.nic.fresenius.	172800	IN	A	212.18.249.86
+d.nic.fresenius.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:86
 frl.			172800	IN	NS	a.nic.frl.
 frl.			172800	IN	NS	b.nic.frl.
 frl.			172800	IN	NS	c.nic.frl.
@@ -5944,7 +6011,6 @@ gmx.			172800	IN	NS	anycast10.irondns.net.
 gmx.			172800	IN	NS	anycast23.irondns.net.
 gmx.			172800	IN	NS	anycast24.irondns.net.
 GMX.			86400	IN	DS	49537 10 2 EE15CF33C2E02F308291960DF44A5A87E16C0535E34178528780A9A4F28A736F
-gn.			172800	IN	NS	ns1.dns.aq.
 gn.			172800	IN	NS	rip.psg.com.
 gn.			172800	IN	NS	fork.sth.dnsnode.net.
 gn.			172800	IN	NS	ns-gn.afrinic.net.
@@ -15113,7 +15179,6 @@ tz.			172800	IN	NS	rip.psg.com.
 tz.			172800	IN	NS	fork.sth.dnsnode.net.
 tz.			172800	IN	NS	ns-tz.afrinic.net.
 tz.			172800	IN	NS	sns-pb.isc.org.
-TZ.			86400	IN	DS	5298 10 2 4733FC12533637B5F4600487511F6C228BED53FE00C1A6D319904878FED76799
 TZ.			86400	IN	DS	35251 10 2 C248AF42D75CA88355736FE3E5209E844EFDD6909A1B282FBFA0F7048C37A913
 ns.anycast.co.tz.	172800	IN	A	204.61.216.15
 ns.anycast.co.tz.	172800	IN	AAAA	2001:500:14:6015:ad:0:0:1
