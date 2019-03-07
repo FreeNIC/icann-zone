@@ -490,10 +490,6 @@ allfinanz.		172800	IN	NS	a.nic.allfinanz.
 allfinanz.		172800	IN	NS	b.nic.allfinanz.
 allfinanz.		172800	IN	NS	c.nic.allfinanz.
 allfinanz.		172800	IN	NS	d.nic.allfinanz.
-allfinanz.		172800	IN	NS	ns1a.ksregistry.net.
-allfinanz.		172800	IN	NS	ns1b.ksregistry.net.
-allfinanz.		172800	IN	NS	ns2a.ksregistry.com.
-allfinanz.		172800	IN	NS	ns2b.ksregistry.com.
 ALLFINANZ.		86400	IN	DS	11155 8 2 2337B2A34993E96D38FC18DA0873463C467385BFE16E09E51245673F027F913A
 ALLFINANZ.		86400	IN	DS	39881 8 2 8619BC44828EE2CDFB00E0C8E67AC0F7522AAAAB12149EA53B6B52C421120A0C
 a.nic.allfinanz.	172800	IN	A	194.169.218.75
@@ -1853,10 +1849,6 @@ bmw.			172800	IN	NS	a.nic.bmw.
 bmw.			172800	IN	NS	b.nic.bmw.
 bmw.			172800	IN	NS	c.nic.bmw.
 bmw.			172800	IN	NS	d.nic.bmw.
-bmw.			172800	IN	NS	ns1a.ksregistry.net.
-bmw.			172800	IN	NS	ns1b.ksregistry.net.
-bmw.			172800	IN	NS	ns2a.ksregistry.com.
-bmw.			172800	IN	NS	ns2b.ksregistry.com.
 BMW.			86400	IN	DS	41084 8 2 6C86D7E525248DF05C8DD7720648D4CB629DAAE2DCD163BFC74D28312FD5311A
 BMW.			86400	IN	DS	43579 8 2 B543B5ADBA44E6E32D11C93BB4E729D80FA1197F59B2AE505A1E292605234793
 a.nic.bmw.		172800	IN	A	194.169.218.76
@@ -2431,10 +2423,6 @@ cam.			172800	IN	NS	a.nic.cam.
 cam.			172800	IN	NS	b.nic.cam.
 cam.			172800	IN	NS	c.nic.cam.
 cam.			172800	IN	NS	d.nic.cam.
-cam.			172800	IN	NS	ns1a.ksregistry.net.
-cam.			172800	IN	NS	ns1b.ksregistry.net.
-cam.			172800	IN	NS	ns2a.ksregistry.com.
-cam.			172800	IN	NS	ns2b.ksregistry.com.
 CAM.			86400	IN	DS	5089 8 2 A17021ADA565F6B13749741DC51A25B0F524BAE6B753343155CFE8426CD29462
 CAM.			86400	IN	DS	27179 8 2 F8C48547453F63FCC5BF62884A1F885FE50D467079E7B17DA3C8D0A2DC92474D
 a.nic.cam.		172800	IN	A	194.169.218.77
