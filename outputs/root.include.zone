@@ -3375,10 +3375,6 @@ dns3.dotukr.com.	172800	IN	A	37.187.75.31
 dns3.dotukr.com.	172800	IN	AAAA	2001:41d0:a:2b1f:0:0:0:1
 hoppy.iom.com.		172800	IN	A	217.23.163.140
 pebbles.iom.com.	172800	IN	A	83.218.14.53
-ns2a.ksregistry.com.	172800	IN	A	203.119.88.76
-ns2a.ksregistry.com.	172800	IN	AAAA	2001:dd8:7:6076:dc:0:0:1
-ns2b.ksregistry.com.	172800	IN	A	72.0.48.76
-ns2b.ksregistry.com.	172800	IN	AAAA	2620:171:a00:ad:0:0:0:76
 ns-mg.malagasy.com.	172800	IN	A	87.98.132.231
 ns1.neoip.com.		172800	IN	A	62.90.247.118
 ns2.neoip.com.		172800	IN	A	208.109.17.150
@@ -4493,10 +4489,6 @@ dvag.			172800	IN	NS	a.nic.dvag.
 dvag.			172800	IN	NS	b.nic.dvag.
 dvag.			172800	IN	NS	c.nic.dvag.
 dvag.			172800	IN	NS	d.nic.dvag.
-dvag.			172800	IN	NS	ns1a.ksregistry.net.
-dvag.			172800	IN	NS	ns1b.ksregistry.net.
-dvag.			172800	IN	NS	ns2a.ksregistry.com.
-dvag.			172800	IN	NS	ns2b.ksregistry.com.
 DVAG.			86400	IN	DS	3200 8 2 4544410064854638C7273C4481902B0B3218F905E6DAE266A181DEC2AB700BD3
 DVAG.			86400	IN	DS	26666 8 2 C94C9E4F38CC0283D1F3854A27F49C001E6D43689F35C0C9438E7D8731301662
 a.nic.dvag.		172800	IN	A	194.169.218.84
@@ -5547,10 +5539,6 @@ fresenius.		172800	IN	NS	a.nic.fresenius.
 fresenius.		172800	IN	NS	b.nic.fresenius.
 fresenius.		172800	IN	NS	c.nic.fresenius.
 fresenius.		172800	IN	NS	d.nic.fresenius.
-fresenius.		172800	IN	NS	ns1a.ksregistry.net.
-fresenius.		172800	IN	NS	ns1b.ksregistry.net.
-fresenius.		172800	IN	NS	ns2a.ksregistry.com.
-fresenius.		172800	IN	NS	ns2b.ksregistry.com.
 FRESENIUS.		86400	IN	DS	14099 8 2 3A1C09D9328367D2077AA1418DACAB1E9799C6E419409C35416ED57AD0D61DD2
 FRESENIUS.		86400	IN	DS	43201 8 2 B8B450BA7043973A3F43E9E8A70FAC6A6B979838254E439553F17F403D24425E
 a.nic.fresenius.	172800	IN	A	194.169.218.86
@@ -9280,10 +9268,6 @@ mini.			172800	IN	NS	a.nic.mini.
 mini.			172800	IN	NS	b.nic.mini.
 mini.			172800	IN	NS	c.nic.mini.
 mini.			172800	IN	NS	d.nic.mini.
-mini.			172800	IN	NS	ns1a.ksregistry.net.
-mini.			172800	IN	NS	ns1b.ksregistry.net.
-mini.			172800	IN	NS	ns2a.ksregistry.com.
-mini.			172800	IN	NS	ns2b.ksregistry.com.
 MINI.			86400	IN	DS	82 8 2 6F84E8B483F6FEFC9832A282EA80D4F30497393B5353CC6854431FA7FCB240F6
 MINI.			86400	IN	DS	54260 8 2 0DA865B8E8A60553B90380AEC9DA84A2DE372A2A098EC5F2F6E3502414947F88
 a.nic.mini.		172800	IN	A	194.169.218.95
@@ -10158,10 +10142,6 @@ ns0.ja.net.		172800	IN	AAAA	2001:630:0:8:0:0:0:14
 ns0.ja.net.		172800	IN	AAAA	2001:630:0:9:0:0:0:14
 ns4.ja.net.		172800	IN	A	193.62.157.66
 ns4.ja.net.		172800	IN	AAAA	2001:630:0:47:0:0:0:42
-ns1a.ksregistry.net.	172800	IN	A	203.119.88.75
-ns1a.ksregistry.net.	172800	IN	AAAA	2001:dd8:7:6075:dc:0:0:1
-ns1b.ksregistry.net.	172800	IN	A	72.0.48.75
-ns1b.ksregistry.net.	172800	IN	AAAA	2620:171:a00:ad:0:0:0:75
 ns1.liquidtelecom.net.	172800	IN	A	5.11.11.1
 ns1.liquidtelecom.net.	172800	IN	AAAA	2c0f:fe40:0:0:5:11:11:1
 ns2.liquidtelecom.net.	172800	IN	A	5.11.11.10
@@ -11726,10 +11706,6 @@ pohl.			172800	IN	NS	a.nic.pohl.
 pohl.			172800	IN	NS	b.nic.pohl.
 pohl.			172800	IN	NS	c.nic.pohl.
 pohl.			172800	IN	NS	d.nic.pohl.
-pohl.			172800	IN	NS	ns1a.ksregistry.net.
-pohl.			172800	IN	NS	ns1b.ksregistry.net.
-pohl.			172800	IN	NS	ns2a.ksregistry.com.
-pohl.			172800	IN	NS	ns2b.ksregistry.com.
 POHL.			86400	IN	DS	41627 8 2 D31963884932152AC788383ABA38B83F187291AFB59092A43185734EC561F506
 POHL.			86400	IN	DS	52324 8 2 F733939F77FE6A3F4FC63546CF69C4A86CF432BD6F41147B287818BFC87661C5
 a.nic.pohl.		172800	IN	A	194.169.218.96
@@ -15055,10 +15031,6 @@ tui.			172800	IN	NS	a.nic.tui.
 tui.			172800	IN	NS	b.nic.tui.
 tui.			172800	IN	NS	c.nic.tui.
 tui.			172800	IN	NS	d.nic.tui.
-tui.			172800	IN	NS	ns1a.ksregistry.net.
-tui.			172800	IN	NS	ns1b.ksregistry.net.
-tui.			172800	IN	NS	ns2a.ksregistry.com.
-tui.			172800	IN	NS	ns2b.ksregistry.com.
 TUI.			86400	IN	DS	23290 8 2 D53C138EAD14027D6192DFB0C2CD0B7CFF36986E47FE680D8B05F84AC78D633B
 TUI.			86400	IN	DS	35342 8 2 60BAC1E816660EA6CC89BBE453C4CAC50EE7FBC9BBAC3CA6F8EEBFB1A24AF721
 a.nic.tui.		172800	IN	A	194.169.218.103
@@ -17684,10 +17656,6 @@ xn--vermgensberater-ctb.	172800	IN	NS	a.nic.xn--vermgensberater-ctb.
 xn--vermgensberater-ctb.	172800	IN	NS	b.nic.xn--vermgensberater-ctb.
 xn--vermgensberater-ctb.	172800	IN	NS	c.nic.xn--vermgensberater-ctb.
 xn--vermgensberater-ctb.	172800	IN	NS	d.nic.xn--vermgensberater-ctb.
-xn--vermgensberater-ctb.	172800	IN	NS	ns1a.ksregistry.net.
-xn--vermgensberater-ctb.	172800	IN	NS	ns1b.ksregistry.net.
-xn--vermgensberater-ctb.	172800	IN	NS	ns2a.ksregistry.com.
-xn--vermgensberater-ctb.	172800	IN	NS	ns2b.ksregistry.com.
 XN--VERMGENSBERATER-CTB.	86400	IN	DS	34601 8 2 7F669EA129F71B09EB87D520812D21758207EBDAAE560CBB5019FBBA4A20A016
 XN--VERMGENSBERATER-CTB.	86400	IN	DS	60320 8 2 BD736C840D3B1B3FDD1679D500C5F5BD82CF0323E9706932BC5B2D847D5644B5
 a.nic.xn--vermgensberater-ctb.	172800	IN	A	194.169.218.105
@@ -17702,10 +17670,6 @@ xn--vermgensberatung-pwb.	172800	IN	NS	a.nic.xn--vermgensberatung-pwb.
 xn--vermgensberatung-pwb.	172800	IN	NS	b.nic.xn--vermgensberatung-pwb.
 xn--vermgensberatung-pwb.	172800	IN	NS	c.nic.xn--vermgensberatung-pwb.
 xn--vermgensberatung-pwb.	172800	IN	NS	d.nic.xn--vermgensberatung-pwb.
-xn--vermgensberatung-pwb.	172800	IN	NS	ns1a.ksregistry.net.
-xn--vermgensberatung-pwb.	172800	IN	NS	ns1b.ksregistry.net.
-xn--vermgensberatung-pwb.	172800	IN	NS	ns2a.ksregistry.com.
-xn--vermgensberatung-pwb.	172800	IN	NS	ns2b.ksregistry.com.
 XN--VERMGENSBERATUNG-PWB.	86400	IN	DS	17870 8 2 4EEE971C6228837580AFA24873862426612E75B8C6F2B79BA370E5A6A0403B08
 XN--VERMGENSBERATUNG-PWB.	86400	IN	DS	30509 8 2 B1D9B6E7E50BD1AC597183B160050A398919DDE4A33FAC3714BCCAEDD4BFD2EF
 a.nic.xn--vermgensberatung-pwb.	172800	IN	A	194.169.218.106
@@ -18080,10 +18044,6 @@ zuerich.		172800	IN	NS	a.nic.zuerich.
 zuerich.		172800	IN	NS	b.nic.zuerich.
 zuerich.		172800	IN	NS	c.nic.zuerich.
 zuerich.		172800	IN	NS	d.nic.zuerich.
-zuerich.		172800	IN	NS	ns1a.ksregistry.net.
-zuerich.		172800	IN	NS	ns1b.ksregistry.net.
-zuerich.		172800	IN	NS	ns2a.ksregistry.com.
-zuerich.		172800	IN	NS	ns2b.ksregistry.com.
 ZUERICH.		86400	IN	DS	7399 8 2 69407FE45988E2C569855C70330A24520DB734481082C668317E8BBB764551D3
 ZUERICH.		86400	IN	DS	52375 8 2 E3EBD91BBF29BE88D075C43AC313A9DB174267E858061316EC4C942728A3829E
 a.nic.zuerich.		172800	IN	A	194.169.218.107
