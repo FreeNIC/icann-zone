@@ -363,12 +363,7 @@ agency.			172800	IN	NS	demand.gamma.aridns.net.au.
 AGENCY.			86400	IN	DS	31000 8 1 8FDA07B7D0DF2528D142BCF025AAA36AF9F041EA
 AGENCY.			86400	IN	DS	31000 8 2 2D61262527F17002427C4379F185BC776278E9A79963D93F9C3170852643CFF1
 ai.			172800	IN	NS	ns.cocca.fr.
-ai.			172800	IN	NS	ns1.pair.com.
-ai.			172800	IN	NS	ns2.offshore.ai.
 ai.			172800	IN	NS	pch.whois.ai.
-ai.			172800	IN	NS	whois.ai.
-ns2.offshore.ai.	172800	IN	A	108.166.113.245
-whois.ai.		172800	IN	A	209.59.119.1
 pch.whois.ai.		172800	IN	A	204.61.216.123
 pch.whois.ai.		172800	IN	AAAA	2001:500:14:6123:ad:0:0:1
 aig.			172800	IN	NS	ns1.dns.nic.aig.
@@ -3386,7 +3381,6 @@ ac3.nstld.com.		172800	IN	A	192.42.175.30
 ac3.nstld.com.		172800	IN	AAAA	2001:500:122:0:0:0:0:30
 ac4.nstld.com.		172800	IN	A	192.42.176.30
 ac4.nstld.com.		172800	IN	AAAA	2001:500:123:0:0:0:0:30
-ns1.pair.com.		172800	IN	A	209.68.1.11
 rip.psg.com.		172800	IN	A	147.28.0.39
 rip.psg.com.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
 ns1.ryce-rsp.com.	172800	IN	A	91.195.198.153
