@@ -2169,12 +2169,11 @@ b.nic.brussels.		172800	IN	A	194.0.37.1
 b.nic.brussels.		172800	IN	AAAA	2001:678:64:0:0:0:0:1
 x.nic.brussels.		172800	IN	A	194.0.1.10
 x.nic.brussels.		172800	IN	AAAA	2001:678:4:0:0:0:0:a
-bs.			172800	IN	NS	dns.nic.bs.
 bs.			172800	IN	NS	ns36.cdns.net.
 bs.			172800	IN	NS	anyns.dns.bs.
 bs.			172800	IN	NS	anyns.pch.net.
 anyns.dns.bs.		172800	IN	A	204.61.216.68
-dns.nic.bs.		172800	IN	A	65.75.73.213
+anyns.dns.bs.		172800	IN	AAAA	2001:500:14:6068:ad:0:0:1
 bt.			172800	IN	NS	ns.itu.ch.
 bt.			172800	IN	NS	ns1.druknet.bt.
 bt.			172800	IN	NS	ns2.druknet.bt.
