@@ -717,10 +717,8 @@ c0.nic.apple.		172800	IN	A	65.22.62.1
 c0.nic.apple.		172800	IN	AAAA	2a01:8840:3c:0:0:0:0:1
 aq.			172800	IN	NS	a.aq.dyntld.net.
 aq.			172800	IN	NS	b.aq.dyntld.net.
-aq.			172800	IN	NS	ns1.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
-ns1.dns.aq.		172800	IN	A	203.119.56.132
 aquarelle.		172800	IN	NS	d.nic.fr.
 aquarelle.		172800	IN	NS	f.ext.nic.fr.
 aquarelle.		172800	IN	NS	g.ext.nic.fr.
@@ -3339,6 +3337,8 @@ ns2.blacknightsolutions.com.	172800	IN	A	78.153.202.4
 ns2.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc2:33:0:0:0:33
 a.mynic.centralnic-dns.com.	172800	IN	A	194.169.218.114
 a.mynic.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:114
+b.mynic.centralnic-dns.com.	172800	IN	A	185.24.64.114
+b.mynic.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:114
 ns1.samsung.centralnic-dns.com.	172800	IN	A	194.169.218.112
 ns1.samsung.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:112
 ns2.samsung.centralnic-dns.com.	172800	IN	A	185.24.64.112
@@ -9771,6 +9771,7 @@ x.mx-ns.mx.		172800	IN	A	201.131.252.1
 ns3.nic.mx.		172800	IN	A	200.33.111.1
 my.			172800	IN	NS	a.nic.my.
 my.			172800	IN	NS	a.mynic.centralnic-dns.com.
+my.			172800	IN	NS	b.mynic.centralnic-dns.com.
 my.			172800	IN	NS	a1.mynic.my.
 my.			172800	IN	NS	ns2.cuhk.edu.hk.
 my.			172800	IN	NS	ns30.cdns.net.
@@ -17359,6 +17360,7 @@ xn--mgbtx2b.		172800	IN	NS	dyn2.cmc.iq.
 xn--mgbtx2b.		172800	IN	NS	nsp-anycast.cmc.iq.
 xn--mgbx4cd0ab.		172800	IN	NS	a.nic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	a.mynic.centralnic-dns.com.
+xn--mgbx4cd0ab.		172800	IN	NS	b.mynic.centralnic-dns.com.
 xn--mgbx4cd0ab.		172800	IN	NS	a1.mynic.my.
 xn--mgbx4cd0ab.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--mgbx4cd0ab.		172800	IN	NS	ns30.cdns.net.
