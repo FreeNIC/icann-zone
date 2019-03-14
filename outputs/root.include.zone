@@ -8017,7 +8017,7 @@ d.dns.kr.		172800	IN	A	203.83.159.1
 d.dns.kr.		172800	IN	AAAA	2001:dcc:4:0:0:0:0:1
 e.dns.kr.		172800	IN	A	202.30.124.100
 e.dns.kr.		172800	IN	AAAA	2001:dcc:5:0:0:0:0:100
-f.dns.kr.		172800	IN	A	218.38.181.90
+f.dns.kr.		172800	IN	A	210.101.62.1
 g.dns.kr.		172800	IN	A	202.31.190.1
 g.dns.kr.		172800	IN	AAAA	2001:dc5:a:0:0:0:0:1
 krd.			172800	IN	NS	a.nic.krd.
@@ -9086,7 +9086,6 @@ b0.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e7:0:0:0:0:25
 c0.nic.mckinsey.	172800	IN	A	65.22.238.25
 c0.nic.mckinsey.	172800	IN	AAAA	2a01:8840:e8:0:0:0:0:25
 md.			172800	IN	NS	nsb.dns.md.
-md.			172800	IN	NS	nsf.dns.md.
 md.			172800	IN	NS	nsca.dns.md.
 md.			172800	IN	NS	nsfr.dns.md.
 md.			172800	IN	NS	dns-md.rotld.ro.
@@ -9096,7 +9095,6 @@ md.			86400	IN	DS	45147 13 2 D6E49DAFC6BAC4CF25198093FC45B39C7B97D64F560FE0ACD23
 ns-int.dns.md.		172800	IN	A	217.26.144.5
 nsb.dns.md.		172800	IN	A	217.26.144.15
 nsca.dns.md.		172800	IN	A	144.217.93.2
-nsf.dns.md.		172800	IN	A	86.106.212.21
 nsfr.dns.md.		172800	IN	A	92.222.76.179
 me.			172800	IN	NS	a0.nic.me.
 me.			172800	IN	NS	a2.nic.me.
