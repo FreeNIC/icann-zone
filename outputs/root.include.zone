@@ -2119,6 +2119,7 @@ bridgestone.		172800	IN	NS	b.gmoregistry.net.
 bridgestone.		172800	IN	NS	k.gmoregistry.net.
 bridgestone.		172800	IN	NS	l.gmoregistry.net.
 bridgestone.		86400	IN	DS	2456 8 2 5D155187401107875E2F6093A83AA143DCC64B9C6B016DD1826B7797C42D3FCF
+bridgestone.		86400	IN	DS	8575 8 2 AA4B874CF014A4DF2E7DC9E5A6B8B3EFA5DC966A834F4802BEB19B5CD7442403
 broadway.		172800	IN	NS	dns1.nic.broadway.
 broadway.		172800	IN	NS	dns2.nic.broadway.
 broadway.		172800	IN	NS	dns3.nic.broadway.
@@ -2150,6 +2151,7 @@ brother.		172800	IN	NS	a.gmoregistry.net.
 brother.		172800	IN	NS	b.gmoregistry.net.
 brother.		172800	IN	NS	k.gmoregistry.net.
 brother.		172800	IN	NS	l.gmoregistry.net.
+brother.		86400	IN	DS	6875 8 2 8955E563809E8DFE8F6B18FB0B23AD043DC6957E2AAC1A5F2C8B4CA3244270EB
 brother.		86400	IN	DS	63860 8 2 F8806AD77A444F2F287BA6F7738A4D4F6C145E555AC87796F259945D81126003
 brussels.		172800	IN	NS	a.nic.brussels.
 brussels.		172800	IN	NS	b.nic.brussels.
@@ -2455,6 +2457,7 @@ canon.			172800	IN	NS	a.gmoregistry.net.
 canon.			172800	IN	NS	b.gmoregistry.net.
 canon.			172800	IN	NS	k.gmoregistry.net.
 canon.			172800	IN	NS	l.gmoregistry.net.
+canon.			86400	IN	DS	5225 8 2 9A1FC16A90ACF3C7D3233480F45F595DEBDEF3F71AE637BF3F8093670DDA7D8A
 canon.			86400	IN	DS	65201 8 2 600EBE753DA33C38AD812C071895AE5619BC56D729BF80FA7122E375A2337372
 capetown.		172800	IN	NS	ns.coza.net.za.
 capetown.		172800	IN	NS	ns2.dns.business.
@@ -3926,6 +3929,7 @@ datsun.			172800	IN	NS	a.gmoregistry.net.
 datsun.			172800	IN	NS	b.gmoregistry.net.
 datsun.			172800	IN	NS	k.gmoregistry.net.
 datsun.			172800	IN	NS	l.gmoregistry.net.
+datsun.			86400	IN	DS	11344 8 2 FB16FD51D18855F4127721BAB619CA805D69817A84CE73B90BE152205CA31A40
 datsun.			86400	IN	DS	29492 8 2 2EBF863738EF45F2A8307262351B961180E1FD53DBC917357EF4C0C9FC40C6A3
 day.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 day.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -4684,6 +4688,7 @@ epson.			172800	IN	NS	b.gmoregistry.net.
 epson.			172800	IN	NS	k.gmoregistry.net.
 epson.			172800	IN	NS	l.gmoregistry.net.
 epson.			86400	IN	DS	39736 8 2 E3F47A7DB58A6C33F7EE93198B00F5F34279DEE21BE60747863F79B7E34C616F
+epson.			86400	IN	DS	61387 8 2 9183DE01E842231D1F1F951DE9B25C160DFDDBAB7411AADFC6FA69764B7D44E2
 equipment.		172800	IN	NS	demand.beta.aridns.net.au.
 equipment.		172800	IN	NS	demand.alpha.aridns.net.au.
 equipment.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -5200,6 +5205,7 @@ firestone.		172800	IN	NS	b.gmoregistry.net.
 firestone.		172800	IN	NS	k.gmoregistry.net.
 firestone.		172800	IN	NS	l.gmoregistry.net.
 firestone.		86400	IN	DS	542 8 2 E185D089AB8B3D90485EE6212215C9C769883C4286AEF4F8E0D387447DEBF9F9
+firestone.		86400	IN	DS	9944 8 2 4FFB2B67BAD9D7C6D0DEF9EC1DC4AC201EF4137364729662E19F329C10801634
 firmdale.		172800	IN	NS	ns1.nic.firmdale.
 firmdale.		172800	IN	NS	ns2.nic.firmdale.
 firmdale.		86400	IN	DS	46150 8 1 242C19944D9422F066F20D3686225C2370D150D0
@@ -5859,6 +5865,7 @@ ggee.			172800	IN	NS	a.gmoregistry.net.
 ggee.			172800	IN	NS	b.gmoregistry.net.
 ggee.			172800	IN	NS	k.gmoregistry.net.
 ggee.			172800	IN	NS	l.gmoregistry.net.
+ggee.			86400	IN	DS	602 8 2 0D54D07BEBF1A6AFE76ECF6D55C48698D8F233B719009329E4465B75078479D5
 ggee.			86400	IN	DS	17114 8 2 7DEC1DEC83BD00F9A21E6986268DD6E116926832A3B9A9B214CDCF291DC34291
 gh.			172800	IN	NS	ns.dns.br.
 gh.			172800	IN	NS	ns1.nic.gh.
@@ -5976,6 +5983,7 @@ gmo.			172800	IN	NS	b.gmoregistry.net.
 gmo.			172800	IN	NS	k.gmoregistry.net.
 gmo.			172800	IN	NS	l.gmoregistry.net.
 gmo.			86400	IN	DS	29311 8 2 4BC7A9B24999EB615554594CBB235FA79DD29E410F73882C8146A6F0CF21297B
+gmo.			86400	IN	DS	44245 8 2 A4CD5D4FC4B18DC7162E94A9F9AC801AD4E67A5DB3048691BEE28E4F2CC7666B
 gmx.			172800	IN	NS	anycast9.irondns.net.
 gmx.			172800	IN	NS	anycast10.irondns.net.
 gmx.			172800	IN	NS	anycast23.irondns.net.
@@ -6009,6 +6017,7 @@ goldpoint.		172800	IN	NS	a.gmoregistry.net.
 goldpoint.		172800	IN	NS	b.gmoregistry.net.
 goldpoint.		172800	IN	NS	k.gmoregistry.net.
 goldpoint.		172800	IN	NS	l.gmoregistry.net.
+goldpoint.		86400	IN	DS	44254 8 2 B83DB888A853C9309A732E6AE3FDBB3FFAEE325641B4F2F33EF6A4C468AC206C
 goldpoint.		86400	IN	DS	53452 8 2 B13D38A7BE454B91651D93EB673575F0D03C46B5832ABDD9E405E1011AA92B5F
 golf.			172800	IN	NS	demand.beta.aridns.net.au.
 golf.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -6020,6 +6029,7 @@ goo.			172800	IN	NS	a.gmoregistry.net.
 goo.			172800	IN	NS	b.gmoregistry.net.
 goo.			172800	IN	NS	k.gmoregistry.net.
 goo.			172800	IN	NS	l.gmoregistry.net.
+goo.			86400	IN	DS	6266 8 2 CDB2048D86D951BFC2320C25EC2211B19E22B00F8A1FBC6A6A7CBC9D5D9A9924
 goo.			86400	IN	DS	57262 8 2 60CDCB8A65ACD6120541B8A67D57121D7205FDE5369CD14348FFDCC5AC68220E
 goodyear.		172800	IN	NS	a0.nic.goodyear.
 goodyear.		172800	IN	NS	a2.nic.goodyear.
@@ -6449,6 +6459,7 @@ hitachi.		172800	IN	NS	b.gmoregistry.net.
 hitachi.		172800	IN	NS	k.gmoregistry.net.
 hitachi.		172800	IN	NS	l.gmoregistry.net.
 hitachi.		86400	IN	DS	11594 8 2 241A4CB95B3F88FCBF7022B5F187B30774308A0C03B2BBB2685655ACCEBBC540
+hitachi.		86400	IN	DS	14525 8 2 03EA91AC19AEB9FFA37874A5F0F27F2A04C6EEAE162FD7D9C87F083447D31E5F
 hiv.			172800	IN	NS	ns1.uniregistry.net.
 hiv.			172800	IN	NS	ns2.uniregistry.info.
 hiv.			172800	IN	NS	ns3.uniregistry.net.
@@ -6609,6 +6620,7 @@ honda.			172800	IN	NS	b.gmoregistry.net.
 honda.			172800	IN	NS	k.gmoregistry.net.
 honda.			172800	IN	NS	l.gmoregistry.net.
 honda.			86400	IN	DS	1720 8 2 E99DE850D466563AA916D949B16139535E72BB1725B31F5D53205A9E3B7B4F01
+honda.			86400	IN	DS	25744 8 2 4214B1E2FFB881035440B32CB3C90675E1051A23AB5424FC07111EB917643338
 honeywell.		172800	IN	NS	ns1.dns.nic.honeywell.
 honeywell.		172800	IN	NS	ns2.dns.nic.honeywell.
 honeywell.		172800	IN	NS	ns3.dns.nic.honeywell.
@@ -7106,6 +7118,7 @@ infiniti.		172800	IN	NS	a.gmoregistry.net.
 infiniti.		172800	IN	NS	b.gmoregistry.net.
 infiniti.		172800	IN	NS	k.gmoregistry.net.
 infiniti.		172800	IN	NS	l.gmoregistry.net.
+infiniti.		86400	IN	DS	54241 8 2 4BA4A2E65269A0D1E93C17C160C744302700307D21C67889B9ABAC72644C5227
 infiniti.		86400	IN	DS	57317 8 2 7832852A38AFB59DDAC09A71FFEDEE5738EE1EB6DDB4595A2AF815E9D99D59E2
 info.			172800	IN	NS	a0.info.afilias-nst.info.
 info.			172800	IN	NS	a2.info.afilias-nst.info.
@@ -7510,6 +7523,7 @@ jcb.			172800	IN	NS	a.gmoregistry.net.
 jcb.			172800	IN	NS	b.gmoregistry.net.
 jcb.			172800	IN	NS	k.gmoregistry.net.
 jcb.			172800	IN	NS	l.gmoregistry.net.
+jcb.			86400	IN	DS	8039 8 2 A21F8529CE9B38A28A4B03251CA112BF0528655D5CD28901B8585389DE8261FD
 jcb.			86400	IN	DS	23987 8 2 1BEB3FD1CCA3552AE0B1DB9C15866BC2CC28157FE94FCEDFDB31BDB8F59F3AE1
 jcp.			172800	IN	NS	a0.nic.jcp.
 jcp.			172800	IN	NS	a2.nic.jcp.
@@ -7790,6 +7804,7 @@ kddi.			172800	IN	NS	a.gmoregistry.net.
 kddi.			172800	IN	NS	b.gmoregistry.net.
 kddi.			172800	IN	NS	k.gmoregistry.net.
 kddi.			172800	IN	NS	l.gmoregistry.net.
+kddi.			86400	IN	DS	2134 8 2 871A87191B82D082DF95647615DB803C3CF6E7B80578B018118C2DD27D7FA00B
 kddi.			86400	IN	DS	9641 8 2 69DAD0FDF6E58514A6CD4912E9D3D9146F7924BA5E32176D3E8229307FE93AE1
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
 ke.			172800	IN	NS	ns2.dns.business.
@@ -8086,6 +8101,7 @@ kyoto.			172800	IN	NS	b.gmoregistry.net.
 kyoto.			172800	IN	NS	k.gmoregistry.net.
 kyoto.			172800	IN	NS	l.gmoregistry.net.
 kyoto.			86400	IN	DS	34091 8 2 1D7D2B2DF1E5C68997E78F8CB6460066EF625553DEB151DA1C639E8368C2E528
+kyoto.			86400	IN	DS	36767 8 2 E5237B981FA00A1F097E791E68F746F2596B7B111F07A2F824C265F98AE5D861
 kz.			172800	IN	NS	ns.nic.kz.
 kz.			172800	IN	NS	ns1.nic.kz.
 ns.nic.kz.		172800	IN	A	194.0.21.5
@@ -8334,6 +8350,7 @@ lexus.			172800	IN	NS	b.gmoregistry.net.
 lexus.			172800	IN	NS	k.gmoregistry.net.
 lexus.			172800	IN	NS	l.gmoregistry.net.
 lexus.			86400	IN	DS	12977 8 2 24F748BB3D6D7F2A30517A9BF6FE74991B2EF35A375C11F27071E73873B9314F
+lexus.			86400	IN	DS	59681 8 2 5E836746A8E2E867C1EB27292293F5AF3E849C0B5F2462C86FFA9EE85668348D
 lgbt.			172800	IN	NS	a0.nic.lgbt.
 lgbt.			172800	IN	NS	a2.nic.lgbt.
 lgbt.			172800	IN	NS	b0.nic.lgbt.
@@ -8547,6 +8564,7 @@ lixil.			172800	IN	NS	a.gmoregistry.net.
 lixil.			172800	IN	NS	b.gmoregistry.net.
 lixil.			172800	IN	NS	k.gmoregistry.net.
 lixil.			172800	IN	NS	l.gmoregistry.net.
+lixil.			86400	IN	DS	52865 8 2 325D70CDE69242071C68DA325AC825F77E8BCFFDD82DAA56EA017A80598C94AF
 lixil.			86400	IN	DS	61715 8 2 58B2ED7E35FB325167016268846AB5890EDF6AAA53D1D1A7A63B873F4ADCA32A
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
@@ -8710,6 +8728,7 @@ lotte.			172800	IN	NS	a.gmoregistry.net.
 lotte.			172800	IN	NS	b.gmoregistry.net.
 lotte.			172800	IN	NS	k.gmoregistry.net.
 lotte.			172800	IN	NS	l.gmoregistry.net.
+lotte.			86400	IN	DS	34387 8 2 5D13945C642B308E7D91B7653614033529D3C6B95C38C0EDB47913EFC809D769
 lotte.			86400	IN	DS	53770 8 2 A56FAE35834D63E9D7C459365AE198AB32702D31E719548C83F840CE3CF3500C
 lotto.			172800	IN	NS	a0.nic.lotto.
 lotto.			172800	IN	NS	a2.nic.lotto.
@@ -9816,6 +9835,7 @@ nagoya.			172800	IN	NS	b.gmoregistry.net.
 nagoya.			172800	IN	NS	k.gmoregistry.net.
 nagoya.			172800	IN	NS	l.gmoregistry.net.
 nagoya.			86400	IN	DS	40282 8 2 5F7F0B46328922A9B26ACB4A8C54F89F570D00A9E841B666798B311693E2CE4A
+nagoya.			86400	IN	DS	44545 8 2 C856432F455A59B06C6964821F01A64FC0957DCB854EB10435E79CAEB6C2486D
 name.			172800	IN	NS	ac1.nstld.com.
 name.			172800	IN	NS	ac2.nstld.com.
 name.			172800	IN	NS	ac3.nstld.com.
@@ -9888,6 +9908,7 @@ nec.			172800	IN	NS	a.gmoregistry.net.
 nec.			172800	IN	NS	b.gmoregistry.net.
 nec.			172800	IN	NS	k.gmoregistry.net.
 nec.			172800	IN	NS	l.gmoregistry.net.
+nec.			86400	IN	DS	3352 8 2 077C18D635DA43D7201764E89118F552F72428B12763F1BC258A5619B71458E7
 nec.			86400	IN	DS	26531 8 2 581D71181D20383D696CFCB497777E453A6F6C9CB158D725071D0AD57636139E
 net.			172800	IN	NS	a.gtld-servers.net.
 net.			172800	IN	NS	b.gtld-servers.net.
@@ -10478,6 +10499,7 @@ nhk.			172800	IN	NS	a.gmoregistry.net.
 nhk.			172800	IN	NS	b.gmoregistry.net.
 nhk.			172800	IN	NS	k.gmoregistry.net.
 nhk.			172800	IN	NS	l.gmoregistry.net.
+nhk.			86400	IN	DS	26765 8 2 6E9C65A3131229436D4C649A5B32377024F1A8D74AE38DFBADDE3A007D00C6AE
 nhk.			86400	IN	DS	49991 8 2 AE38958A211580EC1F9A134819AEEB38F8D86A007CF2A34EE30511EAA0F3668D
 ni.			172800	IN	NS	ns.cr.
 ni.			172800	IN	NS	ns.ni.
@@ -10496,6 +10518,7 @@ nico.			172800	IN	NS	b.gmoregistry.net.
 nico.			172800	IN	NS	k.gmoregistry.net.
 nico.			172800	IN	NS	l.gmoregistry.net.
 nico.			86400	IN	DS	44321 8 2 C994B57DBE327170BD144E310D3ABB9F8A43C65D54D6AFFFCA2D8C293D40A6DA
+nico.			86400	IN	DS	48460 8 2 3F35A47BF0B6846B18A619300C133843DE302C9606273A21A965F49DA2F23E0A
 nike.			172800	IN	NS	ns1.dns.nic.nike.
 nike.			172800	IN	NS	ns2.dns.nic.nike.
 nike.			172800	IN	NS	ns3.dns.nic.nike.
@@ -10534,6 +10557,7 @@ nissan.			172800	IN	NS	b.gmoregistry.net.
 nissan.			172800	IN	NS	k.gmoregistry.net.
 nissan.			172800	IN	NS	l.gmoregistry.net.
 nissan.			86400	IN	DS	30989 8 2 9E6D50B3C76A032C63585583DAA232F62F3697CB579C2ADFA0017C071E034A26
+nissan.			86400	IN	DS	37324 8 2 2F8EDB59D650BF63C13E67695E5254D4CEEEB25FFAF456727E367DA003182256
 nissay.			172800	IN	NS	ac1.nstld.com.
 nissay.			172800	IN	NS	ac2.nstld.com.
 nissay.			172800	IN	NS	ac3.nstld.com.
@@ -11170,6 +11194,7 @@ otsuka.			172800	IN	NS	a.gmoregistry.net.
 otsuka.			172800	IN	NS	b.gmoregistry.net.
 otsuka.			172800	IN	NS	k.gmoregistry.net.
 otsuka.			172800	IN	NS	l.gmoregistry.net.
+otsuka.			86400	IN	DS	1147 8 2 99FA7BA5260C1C400FC5D65616FD3D796A6AB5AEA557314CAB10392DE8FC90B3
 otsuka.			86400	IN	DS	40279 8 2 5D0441D65CCCA92AEB0DB9A775058C6AFBAC71DECB8530F01334FCFCC9BA214A
 ott.			172800	IN	NS	a0.nic.ott.
 ott.			172800	IN	NS	a2.nic.ott.
@@ -11594,6 +11619,7 @@ pioneer.		172800	IN	NS	b.gmoregistry.net.
 pioneer.		172800	IN	NS	k.gmoregistry.net.
 pioneer.		172800	IN	NS	l.gmoregistry.net.
 pioneer.		86400	IN	DS	310 8 2 33BDB54AA23A338797B662C326BA4FFB1E7366231BEBF45CCD5B1DED30E3E2B2
+pioneer.		86400	IN	DS	7342 8 2 3EC0F6A04F0365AB5311410A9074BE1C8025DF8120817B92D96BF8FAE973E27D
 pizza.			172800	IN	NS	demand.beta.aridns.net.au.
 pizza.			172800	IN	NS	demand.alpha.aridns.net.au.
 pizza.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -12471,6 +12497,7 @@ ricoh.			172800	IN	NS	a.gmoregistry.net.
 ricoh.			172800	IN	NS	b.gmoregistry.net.
 ricoh.			172800	IN	NS	k.gmoregistry.net.
 ricoh.			172800	IN	NS	l.gmoregistry.net.
+ricoh.			86400	IN	DS	7006 8 2 60FF4CE45E722BC253D21348E4B285A44C77C60F75BFE704B033685BDDD4F63D
 ricoh.			86400	IN	DS	9199 8 2 954DE73CE0F8BDEF2086A7225047D637639112570D551884FA841A78744B7EB0
 rightathome.		172800	IN	NS	ac1.nstld.com.
 rightathome.		172800	IN	NS	ac2.nstld.com.
@@ -12699,6 +12726,7 @@ ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
 ryukyu.			172800	IN	NS	l.gmoregistry.net.
 ryukyu.			86400	IN	DS	43744 8 2 5582B9E7D73AB685908D1BA1A8A6DA4193653718842E3DF886DC3D3AC9F7FB3B
+ryukyu.			86400	IN	DS	52505 8 2 A19F9645F1832C3A1550F695DBA8F68E26DAA32BE47967F71B29A4A865D834B8
 sa.			172800	IN	NS	i.nic.net.sa.
 sa.			172800	IN	NS	n.nic.net.sa.
 sa.			172800	IN	NS	p.nic.net.sa.
@@ -13705,6 +13733,7 @@ softbank.		172800	IN	NS	b.gmoregistry.net.
 softbank.		172800	IN	NS	k.gmoregistry.net.
 softbank.		172800	IN	NS	l.gmoregistry.net.
 softbank.		86400	IN	DS	30557 8 2 533C77EDFB9E60E2544A4E9BA53C783021C118AB8E7CF7767073350F54D2270E
+softbank.		86400	IN	DS	34384 8 2 7A7CDE44C2C68CE4D0440E7F9F01A1A0358EDE57A9E007AE01FF94CB0506513A
 software.		172800	IN	NS	demand.beta.aridns.net.au.
 software.		172800	IN	NS	demand.alpha.aridns.net.au.
 software.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -13759,6 +13788,7 @@ sony.			172800	IN	NS	b.gmoregistry.net.
 sony.			172800	IN	NS	k.gmoregistry.net.
 sony.			172800	IN	NS	l.gmoregistry.net.
 sony.			86400	IN	DS	23417 8 2 BCB15B51804B9B9B40A0E3F6031636CE1112590EB66478D1201E5F0411FE0766
+sony.			86400	IN	DS	31580 8 2 F783850C3C82680A57C926B79098EE5DE999772DCF6745A56FCAB20CE9330DE5
 soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -14141,6 +14171,7 @@ suzuki.			172800	IN	NS	b.gmoregistry.net.
 suzuki.			172800	IN	NS	k.gmoregistry.net.
 suzuki.			172800	IN	NS	l.gmoregistry.net.
 suzuki.			86400	IN	DS	11542 8 2 0A9F95C53DFF5E7F70351BCF0EAFDAAFE33AB48DC2754FFFDC0BAC3BB6EAAE10
+suzuki.			86400	IN	DS	33941 8 2 DC04EAAE9D4E306EEC2A2D1EBD1F146B8E555FF28E0924EE22E36555AC44C386
 sv.			172800	IN	NS	ns.uu.net.
 sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sv.cctld.authdns.ripe.net.
@@ -14828,6 +14859,7 @@ toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	k.gmoregistry.net.
 toshiba.		172800	IN	NS	l.gmoregistry.net.
+toshiba.		86400	IN	DS	38891 8 2 3EF24A44F5FFDA39FE23E4E4E4D2449E55A0B3001EC68A075A38313B6A4FF0D5
 toshiba.		86400	IN	DS	42680 8 2 792E64E62C3281AF57D545D10C9A003F6B4507CDC2F369F302D67618B2B6F081
 total.			172800	IN	NS	d.nic.fr.
 total.			172800	IN	NS	f.ext.nic.fr.
@@ -14850,6 +14882,7 @@ toyota.			172800	IN	NS	a.gmoregistry.net.
 toyota.			172800	IN	NS	b.gmoregistry.net.
 toyota.			172800	IN	NS	k.gmoregistry.net.
 toyota.			172800	IN	NS	l.gmoregistry.net.
+toyota.			86400	IN	DS	1172 8 2 D29F5D4BA40BDFED42ADBD4A710003739220B1D361D1A29E8E31F03BB067D738
 toyota.			86400	IN	DS	64432 8 2 A94642B87634CEA4BD28482EF6BBA326AD51BBF581E1C8A4EBB713AA31FF0225
 toys.			172800	IN	NS	demand.beta.aridns.net.au.
 toys.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -17877,6 +17910,7 @@ yodobashi.		172800	IN	NS	a.gmoregistry.net.
 yodobashi.		172800	IN	NS	b.gmoregistry.net.
 yodobashi.		172800	IN	NS	k.gmoregistry.net.
 yodobashi.		172800	IN	NS	l.gmoregistry.net.
+yodobashi.		86400	IN	DS	40387 8 2 F2A6E4458136145067FCA10141180BAC9FD4CA768908707D98E5E2412039A1E3
 yodobashi.		86400	IN	DS	60050 8 2 6B099519EC0C1A4E9901A905340F4F7244F8DF826F93F7D13447F8EDF915EB9C
 yoga.			172800	IN	NS	dns1.nic.yoga.
 yoga.			172800	IN	NS	dns2.nic.yoga.
@@ -17904,6 +17938,7 @@ yokohama.		172800	IN	NS	a.gmoregistry.net.
 yokohama.		172800	IN	NS	b.gmoregistry.net.
 yokohama.		172800	IN	NS	k.gmoregistry.net.
 yokohama.		172800	IN	NS	l.gmoregistry.net.
+yokohama.		86400	IN	DS	40754 8 2 E03E2AF9C07C1ACDE150DC51E5A2D8803F70626FB5B6DEECDABC5F8FDD0BDBAA
 yokohama.		86400	IN	DS	42466 8 2 8BF64D685239BB601DC857CDDE6CCA7252DCE90DC814D600C899AD00A4124784
 you.			172800	IN	NS	ns1.dns.nic.you.
 you.			172800	IN	NS	ns2.dns.nic.you.
