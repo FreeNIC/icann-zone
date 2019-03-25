@@ -4290,6 +4290,7 @@ dnp.			172800	IN	NS	a.gmoregistry.net.
 dnp.			172800	IN	NS	b.gmoregistry.net.
 dnp.			172800	IN	NS	k.gmoregistry.net.
 dnp.			172800	IN	NS	l.gmoregistry.net.
+dnp.			86400	IN	DS	45296 8 2 51C787A8914386558C84D6CC426E45E73445A0D91094D2A8FB8F4D0ECDB60293
 dnp.			86400	IN	DS	47647 8 2 3F4136193B345AD2D7EAD5C1CF41BD89EAC803AF03B0D3141FB8E3556BEEDD15
 do.			172800	IN	NS	a.lactld.org.
 do.			172800	IN	NS	ns.nic.do.
@@ -5640,6 +5641,7 @@ fujitsu.		172800	IN	NS	b.gmoregistry.net.
 fujitsu.		172800	IN	NS	k.gmoregistry.net.
 fujitsu.		172800	IN	NS	l.gmoregistry.net.
 fujitsu.		86400	IN	DS	11147 8 2 EA87258C23F2D96A54991C5A963F12754276CE207F3A67B3142D68847D17A7C9
+fujitsu.		86400	IN	DS	38612 8 2 B04465DAFDF63B8C89EF0BAEFD4C6E602C6AC778794F8F196941169BA669DB4B
 fujixerox.		172800	IN	NS	ac1.nstld.com.
 fujixerox.		172800	IN	NS	ac2.nstld.com.
 fujixerox.		172800	IN	NS	ac3.nstld.com.
@@ -6465,6 +6467,7 @@ hisamitsu.		172800	IN	NS	b.gmoregistry.net.
 hisamitsu.		172800	IN	NS	k.gmoregistry.net.
 hisamitsu.		172800	IN	NS	l.gmoregistry.net.
 hisamitsu.		86400	IN	DS	21442 8 2 E2E117F8433F1B561A20BDBB88FAF157194E9897B71DF74C40AFACDDC1DA2EF5
+hisamitsu.		86400	IN	DS	30364 8 2 02836F0E9FDB7E3CA5983577CCFED953698BD173D92A2E65650F73F14C39AC8D
 hitachi.		172800	IN	NS	a.gmoregistry.net.
 hitachi.		172800	IN	NS	b.gmoregistry.net.
 hitachi.		172800	IN	NS	k.gmoregistry.net.
@@ -6885,6 +6888,7 @@ hyundai.		172800	IN	NS	b.gmoregistry.net.
 hyundai.		172800	IN	NS	k.gmoregistry.net.
 hyundai.		172800	IN	NS	l.gmoregistry.net.
 hyundai.		86400	IN	DS	17755 8 2 8BAA367547EFE4641E025F151F6722B0A83CA1584C16FB69A23DCFC45ABE4AEC
+hyundai.		86400	IN	DS	48091 8 2 D4178E0BD6EF00A383544DA7D1856CB37034C64A64CF70D1E08D67BB9EE2E3B2
 ibm.			172800	IN	NS	a.nic.ibm.
 ibm.			172800	IN	NS	b.nic.ibm.
 ibm.			172800	IN	NS	c.nic.ibm.
@@ -7880,6 +7884,7 @@ kia.			172800	IN	NS	a.gmoregistry.net.
 kia.			172800	IN	NS	b.gmoregistry.net.
 kia.			172800	IN	NS	k.gmoregistry.net.
 kia.			172800	IN	NS	l.gmoregistry.net.
+kia.			86400	IN	DS	2195 8 2 F0E9A6AAF2B84CDD23A98EC5926F0D9F921351207278B1D02EF8067895466377
 kia.			86400	IN	DS	33385 8 2 B6401E5E77BA1D6739C76DA4BD0E8CE09E9187B11A287140B56AD42CFD5167CF
 kim.			172800	IN	NS	a0.nic.kim.
 kim.			172800	IN	NS	a2.nic.kim.
@@ -7972,6 +7977,7 @@ komatsu.		172800	IN	NS	a.gmoregistry.net.
 komatsu.		172800	IN	NS	b.gmoregistry.net.
 komatsu.		172800	IN	NS	k.gmoregistry.net.
 komatsu.		172800	IN	NS	l.gmoregistry.net.
+komatsu.		86400	IN	DS	11065 8 2 2BAD7D0A51246FEF1F7924DA2D095396B030D518F3E6FB791299B4618EF8B2FC
 komatsu.		86400	IN	DS	25835 8 2 6620A6FC5B2ABC517492E2DA5EA491D9B28D710C34D998E1D02D1B7B552BBAC9
 kosher.			172800	IN	NS	a0.nic.kosher.
 kosher.			172800	IN	NS	a2.nic.kosher.
@@ -8037,12 +8043,13 @@ kr.			172800	IN	NS	f.dns.kr.
 kr.			172800	IN	NS	g.dns.kr.
 kr.			86400	IN	DS	17625 7 2 FB939059F4B67BBA1E8AC37E35811E506488B2D8CFF807AF873B2116B5676B5C
 b.dns.kr.		172800	IN	A	61.74.75.1
-c.dns.kr.		172800	IN	A	203.248.246.220
+c.dns.kr.		172800	IN	A	210.101.61.1
 d.dns.kr.		172800	IN	A	203.83.159.1
 d.dns.kr.		172800	IN	AAAA	2001:dcc:4:0:0:0:0:1
 e.dns.kr.		172800	IN	A	202.30.124.100
 e.dns.kr.		172800	IN	AAAA	2001:dcc:5:0:0:0:0:100
 f.dns.kr.		172800	IN	A	210.101.62.1
+f.dns.kr.		172800	IN	AAAA	2001:dcc:6:0:0:0:0:1
 g.dns.kr.		172800	IN	A	202.31.190.1
 g.dns.kr.		172800	IN	AAAA	2001:dc5:a:0:0:0:0:1
 krd.			172800	IN	NS	a.nic.krd.
@@ -9340,6 +9347,7 @@ mitsubishi.		172800	IN	NS	b.gmoregistry.net.
 mitsubishi.		172800	IN	NS	k.gmoregistry.net.
 mitsubishi.		172800	IN	NS	l.gmoregistry.net.
 mitsubishi.		86400	IN	DS	28484 8 2 BA7CFFD3B3369455466DC28582534A6C963A1750632321DA487554028BD81231
+mitsubishi.		86400	IN	DS	45959 8 2 1E5BC196FD959FBEFB2CBD681475BE0FF1DE7FBD074B2CE338894EC2B011C0DC
 mk.			172800	IN	NS	d.ext.nic.cz.
 mk.			172800	IN	NS	ns2.arnes.si.
 mk.			172800	IN	NS	tld1.marnet.mk.
@@ -10867,6 +10875,7 @@ okinawa.		172800	IN	NS	b.gmoregistry.net.
 okinawa.		172800	IN	NS	k.gmoregistry.net.
 okinawa.		172800	IN	NS	l.gmoregistry.net.
 okinawa.		86400	IN	DS	6205 8 2 C39FDA6B372A191434E512A1E062B769AB0FB40AD7E4F76480056FD3750CFC92
+okinawa.		86400	IN	DS	33736 8 2 ED3CF17EF5286EE0AF90213FD802871A672213FECE32038557DD2A0375A2E6C2
 olayan.			172800	IN	NS	a.nic.olayan.
 olayan.			172800	IN	NS	b.nic.olayan.
 olayan.			172800	IN	NS	c.nic.olayan.
@@ -11247,6 +11256,7 @@ panasonic.		172800	IN	NS	b.gmoregistry.net.
 panasonic.		172800	IN	NS	k.gmoregistry.net.
 panasonic.		172800	IN	NS	l.gmoregistry.net.
 panasonic.		86400	IN	DS	35714 8 2 50665C85642AB83F2E6E454034A9E151CAF3AB3D1470FA6B44121AA5A58247DB
+panasonic.		86400	IN	DS	45016 8 2 A4B88BFB2B883FDF8CA5630562061FD5D7979F203962D1F4C5A0C9D79C4D3AFF
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
 paris.			172800	IN	NS	g.ext.nic.fr.
@@ -11695,6 +11705,7 @@ playstation.		172800	IN	NS	b.gmoregistry.net.
 playstation.		172800	IN	NS	k.gmoregistry.net.
 playstation.		172800	IN	NS	l.gmoregistry.net.
 playstation.		86400	IN	DS	32780 8 2 BF07DC2B242E3888CC520C8D1502188AC6613F4C61F4288CB13D36D0C2FA0B4E
+playstation.		86400	IN	DS	32839 8 2 A730646C6D6A5E9AD966881EEA96E688600D163A409AE2BFE3A33BDBC780211A
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
 plumbing.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -13451,6 +13462,7 @@ shop.			172800	IN	NS	b.gmoregistry.net.
 shop.			172800	IN	NS	k.gmoregistry.net.
 shop.			172800	IN	NS	l.gmoregistry.net.
 shop.			86400	IN	DS	39506 8 2 AF340595FD0AD0BDAB71A7A8A6B6686CAC037D8454E07767EC72F7FAC1FC6D9F
+shop.			86400	IN	DS	50701 8 2 30F44F9E79F1119AEBED349D3EC34F7AEDD83A58F1E706D8303C3BBFE83BC7EC
 shopping.		172800	IN	NS	demand.beta.aridns.net.au.
 shopping.		172800	IN	NS	demand.alpha.aridns.net.au.
 shopping.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -14846,6 +14858,7 @@ tokyo.			172800	IN	NS	b.gmoregistry.net.
 tokyo.			172800	IN	NS	k.gmoregistry.net.
 tokyo.			172800	IN	NS	l.gmoregistry.net.
 tokyo.			86400	IN	DS	24061 8 2 C301D350B1B82710795F436F257DD10B840D3A2FF480A4CB431CEA38A09C8C19
+tokyo.			86400	IN	DS	34775 8 2 009538D854DC2B09A147C657B496A8CD5151BC2FBADD83CF0C322F625FA5A7CE
 tools.			172800	IN	NS	demand.beta.aridns.net.au.
 tools.			172800	IN	NS	demand.alpha.aridns.net.au.
 tools.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -14865,6 +14878,7 @@ toray.			172800	IN	NS	a.gmoregistry.net.
 toray.			172800	IN	NS	b.gmoregistry.net.
 toray.			172800	IN	NS	k.gmoregistry.net.
 toray.			172800	IN	NS	l.gmoregistry.net.
+toray.			86400	IN	DS	53057 8 2 940A6F87F2D2482FC5541E20E646F38BB0535E7700D3317690BB42030C822D2C
 toray.			86400	IN	DS	56617 8 2 491DF8ED2E0A348CE934FFF6D42A8506E131BC6FEF8F88D336A6318B98B48228
 toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
