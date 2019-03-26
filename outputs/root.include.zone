@@ -2345,6 +2345,10 @@ j.ca-servers.ca.	172800	IN	A	198.182.167.1
 j.ca-servers.ca.	172800	IN	AAAA	2001:500:83:0:0:0:0:1
 x.ca-servers.ca.	172800	IN	A	199.253.250.68
 x.ca-servers.ca.	172800	IN	AAAA	2620:10a:80ba:0:0:0:0:68
+cl1-tld.d-zone.ca.	172800	IN	A	185.159.197.56
+cl1-tld.d-zone.ca.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:56
+cl2-tld.d-zone.ca.	172800	IN	A	185.159.198.56
+cl2-tld.d-zone.ca.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:56
 charles.cdec.polymtl.ca.	172800	IN	A	132.207.144.2
 cab.			172800	IN	NS	demand.beta.aridns.net.au.
 cab.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -3095,7 +3099,8 @@ cl.			172800	IN	NS	b.nic.cl.
 cl.			172800	IN	NS	c.nic.cl.
 cl.			172800	IN	NS	cl1.dnsnode.net.
 cl.			172800	IN	NS	cl-ns.anycast.pch.net.
-cl.			172800	IN	NS	sns-pb.isc.org.
+cl.			172800	IN	NS	cl1-tld.d-zone.ca.
+cl.			172800	IN	NS	cl2-tld.d-zone.ca.
 cl.			86400	IN	DS	21199 8 2 7D756DFFAB6D3CD9C786FF5C659954C22944FAEF9433EEE26F1D84EB5370B394
 a.nic.cl.		172800	IN	A	190.124.27.10
 a.nic.cl.		172800	IN	AAAA	2001:1398:121:0:190:124:27:10
@@ -8081,6 +8086,7 @@ kw.			172800	IN	NS	d.nic.kw.
 kw.			172800	IN	NS	ns4.apnic.net.
 kw.			172800	IN	NS	pch.nic.kw.
 kw.			172800	IN	NS	sns-pb.isc.org.
+kw.			86400	IN	DS	53599 8 2 C5646A4E1BEE8C2699D3CC3C4F597F8767B85A134FE5EE5DFE8B3D25B1534D3A
 a.nic.kw.		172800	IN	A	51.141.6.252
 b.nic.kw.		172800	IN	A	23.97.177.111
 c.nic.kw.		172800	IN	A	162.88.46.1
