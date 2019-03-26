@@ -1175,11 +1175,6 @@ baby.			172800	IN	NS	a.nic.baby.
 baby.			172800	IN	NS	b.nic.baby.
 baby.			172800	IN	NS	c.nic.baby.
 baby.			172800	IN	NS	d.nic.baby.
-baby.			172800	IN	NS	ns1.dns.nic.baby.
-baby.			172800	IN	NS	ns2.dns.nic.baby.
-baby.			172800	IN	NS	ns3.dns.nic.baby.
-baby.			172800	IN	NS	ns4.dns.nic.baby.
-baby.			172800	IN	NS	ns5.dns.nic.baby.
 baby.			86400	IN	DS	11182 8 1 2F9E0E7E8927DC3BE61AC15EB79DD5CAEAF1B303
 baby.			86400	IN	DS	11182 8 2 6B39CCC9BA6C73C818D68522547E5D56DB46E13607DC0E83047D6E111067DCB2
 baby.			86400	IN	DS	19240 8 1 564D6CE70BECA43623EEAD8AB072D9DF70031171
@@ -1194,16 +1189,6 @@ c.nic.baby.		172800	IN	A	212.18.248.101
 c.nic.baby.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:101
 d.nic.baby.		172800	IN	A	212.18.249.101
 d.nic.baby.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:101
-ns1.dns.nic.baby.	172800	IN	A	156.154.144.199
-ns1.dns.nic.baby.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:c7
-ns2.dns.nic.baby.	172800	IN	A	156.154.145.199
-ns2.dns.nic.baby.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:c7
-ns3.dns.nic.baby.	172800	IN	A	156.154.159.199
-ns3.dns.nic.baby.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:c7
-ns4.dns.nic.baby.	172800	IN	A	156.154.156.199
-ns4.dns.nic.baby.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:c7
-ns5.dns.nic.baby.	172800	IN	A	156.154.157.199
-ns5.dns.nic.baby.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:c7
 baidu.			172800	IN	NS	a.zdnscloud.com.
 baidu.			172800	IN	NS	b.zdnscloud.com.
 baidu.			172800	IN	NS	c.zdnscloud.com.
@@ -13409,6 +13394,7 @@ sharp.			172800	IN	NS	a.gmoregistry.net.
 sharp.			172800	IN	NS	b.gmoregistry.net.
 sharp.			172800	IN	NS	k.gmoregistry.net.
 sharp.			172800	IN	NS	l.gmoregistry.net.
+sharp.			86400	IN	DS	3872 8 2 9FBCF0AFCB45E677CB42680FF35DEFD79F8ACCACAAA47DF92CFD08E73A8AFCB6
 sharp.			86400	IN	DS	17582 8 2 491341D337C8E7A25DF4099967AFB28961768FEA8C8744AFF95D7EE4CD0A36E9
 shaw.			172800	IN	NS	a0.nic.shaw.
 shaw.			172800	IN	NS	a2.nic.shaw.
