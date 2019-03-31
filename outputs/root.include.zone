@@ -985,29 +985,32 @@ b0.nic.audi.		172800	IN	A	65.22.209.17
 b0.nic.audi.		172800	IN	AAAA	2a01:8840:cb:0:0:0:0:17
 c0.nic.audi.		172800	IN	A	65.22.210.17
 c0.nic.audi.		172800	IN	AAAA	2a01:8840:cc:0:0:0:0:17
-audible.		172800	IN	NS	ns1.dns.nic.audible.
-audible.		172800	IN	NS	ns2.dns.nic.audible.
-audible.		172800	IN	NS	ns3.dns.nic.audible.
 audible.		172800	IN	NS	ns4.dns.nic.audible.
 audible.		172800	IN	NS	ns5.dns.nic.audible.
 audible.		172800	IN	NS	ns6.dns.nic.audible.
+audible.		172800	IN	NS	dns1.nic.audible.
+audible.		172800	IN	NS	dns2.nic.audible.
+audible.		172800	IN	NS	dns3.nic.audible.
+audible.		172800	IN	NS	dns4.nic.audible.
 audible.		86400	IN	DS	14606 8 2 616BFE32B134D3ADA721660AEB86F2065FF600A1511530F3180F4F2E89588913
 audible.		86400	IN	DS	24172 8 1 C9D5F3C66A298835A5E099FD03544C9BDCE1917A
 audible.		86400	IN	DS	24172 8 2 4A3D9FC57AE74F784179541E7BA89670E2398C6684FA510BAB1EB35035BCE208
 audible.		86400	IN	DS	48172 8 1 0683AF44470D668F0FB522B524AF18AB7F9268DB
 audible.		86400	IN	DS	48172 8 2 DA9546B9F958878427E72DA357A438301F38F756D616C975D66A5BE30BC3F455
-ns1.dns.nic.audible.	172800	IN	A	156.154.144.17
-ns1.dns.nic.audible.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:11
-ns2.dns.nic.audible.	172800	IN	A	156.154.145.17
-ns2.dns.nic.audible.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:11
-ns3.dns.nic.audible.	172800	IN	A	156.154.159.17
-ns3.dns.nic.audible.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:11
 ns4.dns.nic.audible.	172800	IN	A	156.154.156.17
 ns4.dns.nic.audible.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:11
 ns5.dns.nic.audible.	172800	IN	A	156.154.157.17
 ns5.dns.nic.audible.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:11
 ns6.dns.nic.audible.	172800	IN	A	156.154.158.17
 ns6.dns.nic.audible.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:11
+dns1.nic.audible.	172800	IN	A	213.248.218.56
+dns1.nic.audible.	172800	IN	AAAA	2a01:618:402:0:0:0:0:56
+dns2.nic.audible.	172800	IN	A	103.49.82.56
+dns2.nic.audible.	172800	IN	AAAA	2401:fd80:402:0:0:0:0:56
+dns3.nic.audible.	172800	IN	A	213.248.222.56
+dns3.nic.audible.	172800	IN	AAAA	2a01:618:406:0:0:0:0:56
+dns4.nic.audible.	172800	IN	A	43.230.50.56
+dns4.nic.audible.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:56
 audio.			172800	IN	NS	ns1.uniregistry.net.
 audio.			172800	IN	NS	ns2.uniregistry.info.
 audio.			172800	IN	NS	ns3.uniregistry.net.
@@ -1032,29 +1035,32 @@ c.nic.auspost.		172800	IN	A	37.209.196.9
 c.nic.auspost.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.auspost.		172800	IN	A	37.209.198.9
 d.nic.auspost.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
-author.			172800	IN	NS	ns1.dns.nic.author.
-author.			172800	IN	NS	ns2.dns.nic.author.
-author.			172800	IN	NS	ns3.dns.nic.author.
 author.			172800	IN	NS	ns4.dns.nic.author.
 author.			172800	IN	NS	ns5.dns.nic.author.
 author.			172800	IN	NS	ns6.dns.nic.author.
+author.			172800	IN	NS	dns1.nic.author.
+author.			172800	IN	NS	dns2.nic.author.
+author.			172800	IN	NS	dns3.nic.author.
+author.			172800	IN	NS	dns4.nic.author.
 author.			86400	IN	DS	4690 8 2 FC1AAA00C7D9798C3BBEED82B37AAFBA04AE15E97016E9A8B646AC5C37572DA3
 author.			86400	IN	DS	10189 8 1 F1C3A6FB397ED5F0A4AC5DC260B43A0DBA1E9AD7
 author.			86400	IN	DS	10189 8 2 5787DA6B204A6EF58CA639267E7E8D1E747DCD9698851627A043BA2039F09EDD
 author.			86400	IN	DS	58594 8 1 A523D36D139B6545D9245E3E01D55E8372372032
 author.			86400	IN	DS	58594 8 2 EF32CC8CAC72DEA994777EEC5E4BAD84DE9FEA2D2924F67418819E9970E9552C
-ns1.dns.nic.author.	172800	IN	A	156.154.144.18
-ns1.dns.nic.author.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:12
-ns2.dns.nic.author.	172800	IN	A	156.154.145.18
-ns2.dns.nic.author.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:12
-ns3.dns.nic.author.	172800	IN	A	156.154.159.18
-ns3.dns.nic.author.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:12
 ns4.dns.nic.author.	172800	IN	A	156.154.156.18
 ns4.dns.nic.author.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:12
 ns5.dns.nic.author.	172800	IN	A	156.154.157.18
 ns5.dns.nic.author.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:12
 ns6.dns.nic.author.	172800	IN	A	156.154.158.18
 ns6.dns.nic.author.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:12
+dns1.nic.author.	172800	IN	A	213.248.218.60
+dns1.nic.author.	172800	IN	AAAA	2a01:618:402:0:0:0:0:60
+dns2.nic.author.	172800	IN	A	103.49.82.60
+dns2.nic.author.	172800	IN	AAAA	2401:fd80:402:0:0:0:0:60
+dns3.nic.author.	172800	IN	A	213.248.222.60
+dns3.nic.author.	172800	IN	AAAA	2a01:618:406:0:0:0:0:60
+dns4.nic.author.	172800	IN	A	43.230.50.60
+dns4.nic.author.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:60
 auto.			172800	IN	NS	ns1.uniregistry.net.
 auto.			172800	IN	NS	ns2.uniregistry.info.
 auto.			172800	IN	NS	ns3.uniregistry.net.
@@ -13901,29 +13907,32 @@ sport.			172800	IN	NS	anycast10.irondns.net.
 sport.			172800	IN	NS	anycast23.irondns.net.
 sport.			172800	IN	NS	anycast24.irondns.net.
 sport.			86400	IN	DS	32491 10 2 3B39ADB8057A67441E2B11FDD23417E52F7F5B17E134F12027B3C382535972DA
-spot.			172800	IN	NS	ns1.dns.nic.spot.
-spot.			172800	IN	NS	ns2.dns.nic.spot.
-spot.			172800	IN	NS	ns3.dns.nic.spot.
 spot.			172800	IN	NS	ns4.dns.nic.spot.
 spot.			172800	IN	NS	ns5.dns.nic.spot.
 spot.			172800	IN	NS	ns6.dns.nic.spot.
+spot.			172800	IN	NS	dns1.nic.spot.
+spot.			172800	IN	NS	dns2.nic.spot.
+spot.			172800	IN	NS	dns3.nic.spot.
+spot.			172800	IN	NS	dns4.nic.spot.
 spot.			86400	IN	DS	22936 8 1 4C037284FE4DF3FDD3E0E62393496A4F62C4703B
 spot.			86400	IN	DS	22936 8 2 5CC0F2E0A806452BEEA59840F170DF8DA3B3A47D5BF7B3B89C7657E378395AE9
 spot.			86400	IN	DS	37831 8 1 81BF65CECCFDD031E5B0909A98AEB6C728932D6F
 spot.			86400	IN	DS	37831 8 2 7863965C6C6C939D8FEF695C05232EEEA75B82DB0D00A1C1755552D4A7606884
 spot.			86400	IN	DS	59827 8 2 116C15183E96A172850B479253520C519CFC0D28BE0F3154DF01298E1BFC1CC2
-ns1.dns.nic.spot.	172800	IN	A	156.154.169.48
-ns1.dns.nic.spot.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:30
-ns2.dns.nic.spot.	172800	IN	A	156.154.170.48
-ns2.dns.nic.spot.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:30
-ns3.dns.nic.spot.	172800	IN	A	156.154.171.48
-ns3.dns.nic.spot.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:30
 ns4.dns.nic.spot.	172800	IN	A	156.154.172.48
 ns4.dns.nic.spot.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:30
 ns5.dns.nic.spot.	172800	IN	A	156.154.173.48
 ns5.dns.nic.spot.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:30
 ns6.dns.nic.spot.	172800	IN	A	156.154.174.48
 ns6.dns.nic.spot.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:30
+dns1.nic.spot.		172800	IN	A	213.248.218.82
+dns1.nic.spot.		172800	IN	AAAA	2a01:618:402:0:0:0:0:82
+dns2.nic.spot.		172800	IN	A	103.49.82.82
+dns2.nic.spot.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:82
+dns3.nic.spot.		172800	IN	A	213.248.222.82
+dns3.nic.spot.		172800	IN	AAAA	2a01:618:406:0:0:0:0:82
+dns4.nic.spot.		172800	IN	A	43.230.50.82
+dns4.nic.spot.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:82
 spreadbetting.		172800	IN	NS	ac1.nstld.com.
 spreadbetting.		172800	IN	NS	ac2.nstld.com.
 spreadbetting.		172800	IN	NS	ac3.nstld.com.
@@ -14386,29 +14395,32 @@ ns5.dns.nic.taipei.	172800	IN	A	156.154.157.156
 ns5.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:9c
 ns6.dns.nic.taipei.	172800	IN	A	156.154.158.156
 ns6.dns.nic.taipei.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:9c
-talk.			172800	IN	NS	ns1.dns.nic.talk.
-talk.			172800	IN	NS	ns2.dns.nic.talk.
-talk.			172800	IN	NS	ns3.dns.nic.talk.
 talk.			172800	IN	NS	ns4.dns.nic.talk.
 talk.			172800	IN	NS	ns5.dns.nic.talk.
 talk.			172800	IN	NS	ns6.dns.nic.talk.
+talk.			172800	IN	NS	dns1.nic.talk.
+talk.			172800	IN	NS	dns2.nic.talk.
+talk.			172800	IN	NS	dns3.nic.talk.
+talk.			172800	IN	NS	dns4.nic.talk.
 talk.			86400	IN	DS	34492 8 1 6A11FC6633798507FF203F936971489561B17981
 talk.			86400	IN	DS	34492 8 2 65B0C52A569C218BF49E75BD292F7CCF46A7CC47B9D8E9E6A736CC5A4A2FF001
 talk.			86400	IN	DS	38215 8 1 11C94EFF332BF672C9C908EAD31D6EA5549AD875
 talk.			86400	IN	DS	38215 8 2 2DB39FDB4335C039E40D3B6D94A6D761DB7E7CC7D81D07FECE06C1D4F5821B46
 talk.			86400	IN	DS	63701 8 2 6EAFD932EDDD45279072054C3CDFCF9CF04EE9CC5847DE8F7AE6442A3ECAC117
-ns1.dns.nic.talk.	172800	IN	A	156.154.169.51
-ns1.dns.nic.talk.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:33
-ns2.dns.nic.talk.	172800	IN	A	156.154.170.51
-ns2.dns.nic.talk.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:33
-ns3.dns.nic.talk.	172800	IN	A	156.154.171.51
-ns3.dns.nic.talk.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:33
 ns4.dns.nic.talk.	172800	IN	A	156.154.172.51
 ns4.dns.nic.talk.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:33
 ns5.dns.nic.talk.	172800	IN	A	156.154.173.51
 ns5.dns.nic.talk.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:33
 ns6.dns.nic.talk.	172800	IN	A	156.154.174.51
 ns6.dns.nic.talk.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:33
+dns1.nic.talk.		172800	IN	A	213.248.218.83
+dns1.nic.talk.		172800	IN	AAAA	2a01:618:402:0:0:0:0:83
+dns2.nic.talk.		172800	IN	A	103.49.82.83
+dns2.nic.talk.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:83
+dns3.nic.talk.		172800	IN	A	213.248.222.83
+dns3.nic.talk.		172800	IN	AAAA	2a01:618:406:0:0:0:0:83
+dns4.nic.talk.		172800	IN	A	43.230.50.83
+dns4.nic.talk.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:83
 taobao.			172800	IN	NS	ns1.dns.nic.taobao.
 taobao.			172800	IN	NS	ns2.dns.nic.taobao.
 taobao.			172800	IN	NS	ns3.dns.nic.taobao.
@@ -15158,52 +15170,58 @@ c.nic.tui.		172800	IN	A	212.18.248.103
 c.nic.tui.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:103
 d.nic.tui.		172800	IN	A	212.18.249.103
 d.nic.tui.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:103
-tunes.			172800	IN	NS	ns1.dns.nic.tunes.
-tunes.			172800	IN	NS	ns2.dns.nic.tunes.
-tunes.			172800	IN	NS	ns3.dns.nic.tunes.
 tunes.			172800	IN	NS	ns4.dns.nic.tunes.
 tunes.			172800	IN	NS	ns5.dns.nic.tunes.
 tunes.			172800	IN	NS	ns6.dns.nic.tunes.
+tunes.			172800	IN	NS	dns1.nic.tunes.
+tunes.			172800	IN	NS	dns2.nic.tunes.
+tunes.			172800	IN	NS	dns3.nic.tunes.
+tunes.			172800	IN	NS	dns4.nic.tunes.
 tunes.			86400	IN	DS	1952 8 1 DA268028DFB65C47BF42700B41E23AA4A4E6046F
 tunes.			86400	IN	DS	1952 8 2 D8926A9E743C9A2F574FFABD3BB33D623E698CA9BC34BEA68DBB6C7C90ED2BC0
 tunes.			86400	IN	DS	52234 8 2 0D317EA34EDC8D43E8868616F66BC5BD9B5E5389DBBFDD1529F7C609AE095B9D
 tunes.			86400	IN	DS	55972 8 1 17482E40A535255A6687521DA0322DD63E1AE902
 tunes.			86400	IN	DS	55972 8 2 5F22A27B9DC653BAF3D5CDD8F914E0DEBADB0571AD2ED42A7810E69573853896
-ns1.dns.nic.tunes.	172800	IN	A	156.154.144.168
-ns1.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:a8
-ns2.dns.nic.tunes.	172800	IN	A	156.154.145.168
-ns2.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:a8
-ns3.dns.nic.tunes.	172800	IN	A	156.154.159.168
-ns3.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:a8
 ns4.dns.nic.tunes.	172800	IN	A	156.154.156.168
 ns4.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:a8
 ns5.dns.nic.tunes.	172800	IN	A	156.154.157.168
 ns5.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:a8
 ns6.dns.nic.tunes.	172800	IN	A	156.154.158.168
 ns6.dns.nic.tunes.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:a8
-tushu.			172800	IN	NS	ns1.dns.nic.tushu.
-tushu.			172800	IN	NS	ns2.dns.nic.tushu.
-tushu.			172800	IN	NS	ns3.dns.nic.tushu.
+dns1.nic.tunes.		172800	IN	A	213.248.218.84
+dns1.nic.tunes.		172800	IN	AAAA	2a01:618:402:0:0:0:0:84
+dns2.nic.tunes.		172800	IN	A	103.49.82.84
+dns2.nic.tunes.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:84
+dns3.nic.tunes.		172800	IN	A	213.248.222.84
+dns3.nic.tunes.		172800	IN	AAAA	2a01:618:406:0:0:0:0:84
+dns4.nic.tunes.		172800	IN	A	43.230.50.84
+dns4.nic.tunes.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:84
 tushu.			172800	IN	NS	ns4.dns.nic.tushu.
 tushu.			172800	IN	NS	ns5.dns.nic.tushu.
 tushu.			172800	IN	NS	ns6.dns.nic.tushu.
+tushu.			172800	IN	NS	dns1.nic.tushu.
+tushu.			172800	IN	NS	dns2.nic.tushu.
+tushu.			172800	IN	NS	dns3.nic.tushu.
+tushu.			172800	IN	NS	dns4.nic.tushu.
 tushu.			86400	IN	DS	14602 8 1 15EDB4216F568D31411894131FB4E91D58FCA2CE
 tushu.			86400	IN	DS	14602 8 2 AD7E7C7D6A6343C753587ABDDD9CF590CA189A60E88E4938450AB6D23500B146
 tushu.			86400	IN	DS	33889 8 1 DF20BC609F45DF7259FBC37AD742FCF051ED4B65
 tushu.			86400	IN	DS	33889 8 2 9C275146402A3528C12BE14F5519230CB84649DF1AB4077895358282A43A410D
 tushu.			86400	IN	DS	38627 8 2 81D6D592C13F144D74BBDE9D4A93531338245E9AC1781EEC826D4B610947D1A2
-ns1.dns.nic.tushu.	172800	IN	A	156.154.144.169
-ns1.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:a9
-ns2.dns.nic.tushu.	172800	IN	A	156.154.145.169
-ns2.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:a9
-ns3.dns.nic.tushu.	172800	IN	A	156.154.159.169
-ns3.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:a9
 ns4.dns.nic.tushu.	172800	IN	A	156.154.156.169
 ns4.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:a9
 ns5.dns.nic.tushu.	172800	IN	A	156.154.157.169
 ns5.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:a9
 ns6.dns.nic.tushu.	172800	IN	A	156.154.158.169
 ns6.dns.nic.tushu.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:a9
+dns1.nic.tushu.		172800	IN	A	213.248.218.85
+dns1.nic.tushu.		172800	IN	AAAA	2a01:618:402:0:0:0:0:85
+dns2.nic.tushu.		172800	IN	A	103.49.82.85
+dns2.nic.tushu.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:85
+dns3.nic.tushu.		172800	IN	A	213.248.222.85
+dns3.nic.tushu.		172800	IN	AAAA	2a01:618:406:0:0:0:0:85
+dns4.nic.tushu.		172800	IN	A	43.230.50.85
+dns4.nic.tushu.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:85
 tv.			172800	IN	NS	ac1.nstld.com.
 tv.			172800	IN	NS	ac2.nstld.com.
 tv.			172800	IN	NS	ac3.nstld.com.
@@ -15943,29 +15961,32 @@ wang.			172800	IN	NS	g.zdnscloud.com.
 wang.			172800	IN	NS	i.zdnscloud.com.
 wang.			172800	IN	NS	j.zdnscloud.com.
 wang.			86400	IN	DS	20969 8 2 E686EB5367B243E5DFD5C5FAADB23B0A52172B9CF5C72B28836BE2AF9402DADD
-wanggou.		172800	IN	NS	ns1.dns.nic.wanggou.
-wanggou.		172800	IN	NS	ns2.dns.nic.wanggou.
-wanggou.		172800	IN	NS	ns3.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns4.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns5.dns.nic.wanggou.
 wanggou.		172800	IN	NS	ns6.dns.nic.wanggou.
+wanggou.		172800	IN	NS	dns1.nic.wanggou.
+wanggou.		172800	IN	NS	dns2.nic.wanggou.
+wanggou.		172800	IN	NS	dns3.nic.wanggou.
+wanggou.		172800	IN	NS	dns4.nic.wanggou.
 wanggou.		86400	IN	DS	3407 8 2 AC4CB98B121B9214B4432A123BCE7930F5152BF7A496EEBD7602731AB44615E3
 wanggou.		86400	IN	DS	12085 8 1 D8E7604182CF05875A71BF104D58D1FF9D872D8F
 wanggou.		86400	IN	DS	12085 8 2 CE6F4B253AE612D9606A504AB0DD3D58B3967FF5C11008E27CC75B8E66187FEB
 wanggou.		86400	IN	DS	63689 8 1 75754E9E01A3BBFCFD77C82173F08BA7D71DF0F5
 wanggou.		86400	IN	DS	63689 8 2 C62FA5DD0560B314B918B9826EB7D298C0399784AE2550F7BEDB182C075B014D
-ns1.dns.nic.wanggou.	172800	IN	A	156.154.144.177
-ns1.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:b1
-ns2.dns.nic.wanggou.	172800	IN	A	156.154.145.177
-ns2.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:b1
-ns3.dns.nic.wanggou.	172800	IN	A	156.154.159.177
-ns3.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:b1
 ns4.dns.nic.wanggou.	172800	IN	A	156.154.156.177
 ns4.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:b1
 ns5.dns.nic.wanggou.	172800	IN	A	156.154.157.177
 ns5.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b1
 ns6.dns.nic.wanggou.	172800	IN	A	156.154.158.177
 ns6.dns.nic.wanggou.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b1
+dns1.nic.wanggou.	172800	IN	A	213.248.218.86
+dns1.nic.wanggou.	172800	IN	AAAA	2a01:618:402:0:0:0:0:86
+dns2.nic.wanggou.	172800	IN	A	103.49.82.86
+dns2.nic.wanggou.	172800	IN	AAAA	2401:fd80:402:0:0:0:0:86
+dns3.nic.wanggou.	172800	IN	A	213.248.222.86
+dns3.nic.wanggou.	172800	IN	AAAA	2a01:618:406:0:0:0:0:86
+dns4.nic.wanggou.	172800	IN	A	43.230.50.86
+dns4.nic.wanggou.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:86
 warman.			172800	IN	NS	ac1.nstld.com.
 warman.			172800	IN	NS	ac2.nstld.com.
 warman.			172800	IN	NS	ac3.nstld.com.
@@ -16336,29 +16357,32 @@ world.			172800	IN	NS	demand.delta.aridns.net.au.
 world.			172800	IN	NS	demand.gamma.aridns.net.au.
 world.			86400	IN	DS	36130 8 1 AC4D3B452BB0CC35DC86BC6687EE4ACDBCE92FF3
 world.			86400	IN	DS	36130 8 2 0EB8BA4D1B703F4D3A03BC7144C02B7CEBC3287313D7D27C292BF6E0A435A0AB
-wow.			172800	IN	NS	ns1.dns.nic.wow.
-wow.			172800	IN	NS	ns2.dns.nic.wow.
-wow.			172800	IN	NS	ns3.dns.nic.wow.
 wow.			172800	IN	NS	ns4.dns.nic.wow.
 wow.			172800	IN	NS	ns5.dns.nic.wow.
 wow.			172800	IN	NS	ns6.dns.nic.wow.
+wow.			172800	IN	NS	dns1.nic.wow.
+wow.			172800	IN	NS	dns2.nic.wow.
+wow.			172800	IN	NS	dns3.nic.wow.
+wow.			172800	IN	NS	dns4.nic.wow.
 wow.			86400	IN	DS	1687 8 1 615CB5530589562A8990852F753A547C0048AEB5
 wow.			86400	IN	DS	1687 8 2 B3C1574C5F2567D5CBAB1DDD9A1904CE75B80174F193764280F8F46E3B77270E
 wow.			86400	IN	DS	34295 8 1 C4942E21D59628DA17370556E9A5E283BC81EBD5
 wow.			86400	IN	DS	34295 8 2 8E3D71B8C039ED9225D53693CCBEBFD5447669BD3B8996559781CD1829A318C0
 wow.			86400	IN	DS	39542 8 2 168D62F4C47A24CD93F7AB8F58E366B5C225099B479D85366D61A43EEDA9D468
-ns1.dns.nic.wow.	172800	IN	A	156.154.169.63
-ns1.dns.nic.wow.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:3f
-ns2.dns.nic.wow.	172800	IN	A	156.154.170.63
-ns2.dns.nic.wow.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:3f
-ns3.dns.nic.wow.	172800	IN	A	156.154.171.63
-ns3.dns.nic.wow.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:3f
 ns4.dns.nic.wow.	172800	IN	A	156.154.172.63
 ns4.dns.nic.wow.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:3f
 ns5.dns.nic.wow.	172800	IN	A	156.154.173.63
 ns5.dns.nic.wow.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:3f
 ns6.dns.nic.wow.	172800	IN	A	156.154.174.63
 ns6.dns.nic.wow.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:3f
+dns1.nic.wow.		172800	IN	A	213.248.218.87
+dns1.nic.wow.		172800	IN	AAAA	2a01:618:402:0:0:0:0:87
+dns2.nic.wow.		172800	IN	A	103.49.82.87
+dns2.nic.wow.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:87
+dns3.nic.wow.		172800	IN	A	213.248.222.87
+dns3.nic.wow.		172800	IN	AAAA	2a01:618:406:0:0:0:0:87
+dns4.nic.wow.		172800	IN	A	43.230.50.87
+dns4.nic.wow.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:87
 ws.			172800	IN	NS	ns2.dns.ws.
 ws.			172800	IN	NS	ns3.dns.ws.
 ws.			172800	IN	NS	ns4.dns.ws.
@@ -17937,29 +17961,32 @@ ns5.dns.nic.yahoo.	172800	IN	A	156.154.157.184
 ns5.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b8
 ns6.dns.nic.yahoo.	172800	IN	A	156.154.158.184
 ns6.dns.nic.yahoo.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b8
-yamaxun.		172800	IN	NS	ns1.dns.nic.yamaxun.
-yamaxun.		172800	IN	NS	ns2.dns.nic.yamaxun.
-yamaxun.		172800	IN	NS	ns3.dns.nic.yamaxun.
 yamaxun.		172800	IN	NS	ns4.dns.nic.yamaxun.
 yamaxun.		172800	IN	NS	ns5.dns.nic.yamaxun.
 yamaxun.		172800	IN	NS	ns6.dns.nic.yamaxun.
+yamaxun.		172800	IN	NS	dns1.nic.yamaxun.
+yamaxun.		172800	IN	NS	dns2.nic.yamaxun.
+yamaxun.		172800	IN	NS	dns3.nic.yamaxun.
+yamaxun.		172800	IN	NS	dns4.nic.yamaxun.
 yamaxun.		86400	IN	DS	24775 8 2 FD24CFE326A910CBB3F11CDDC381ABC7E296BD29E75DAC6DE13B4B5DBB130EA7
 yamaxun.		86400	IN	DS	40780 8 1 CAB17A91DA8F1F6635F0043FBCBEFF7BD68417A7
 yamaxun.		86400	IN	DS	40780 8 2 AB9C6B8F9F530B88A0A148734E2CA04F1301FE9AAF1F8FE557C47D929335FBBC
 yamaxun.		86400	IN	DS	54934 8 1 7C505D7B0E0B52BBEA563EAA45964769550BB2F3
 yamaxun.		86400	IN	DS	54934 8 2 6567DD1B20E5ABD23316A1C63D3D2E2A80A5952C91CA5AB99D556D40C45A1C32
-ns1.dns.nic.yamaxun.	172800	IN	A	156.154.144.185
-ns1.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:b9
-ns2.dns.nic.yamaxun.	172800	IN	A	156.154.145.185
-ns2.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:b9
-ns3.dns.nic.yamaxun.	172800	IN	A	156.154.159.185
-ns3.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:b9
 ns4.dns.nic.yamaxun.	172800	IN	A	156.154.156.185
 ns4.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:b9
 ns5.dns.nic.yamaxun.	172800	IN	A	156.154.157.185
 ns5.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:b9
 ns6.dns.nic.yamaxun.	172800	IN	A	156.154.158.185
 ns6.dns.nic.yamaxun.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:b9
+dns1.nic.yamaxun.	172800	IN	A	213.248.218.88
+dns1.nic.yamaxun.	172800	IN	AAAA	2a01:618:402:0:0:0:0:88
+dns2.nic.yamaxun.	172800	IN	A	103.49.82.88
+dns2.nic.yamaxun.	172800	IN	AAAA	2401:fd80:402:0:0:0:0:88
+dns3.nic.yamaxun.	172800	IN	A	213.248.222.88
+dns3.nic.yamaxun.	172800	IN	AAAA	2a01:618:406:0:0:0:0:88
+dns4.nic.yamaxun.	172800	IN	A	43.230.50.88
+dns4.nic.yamaxun.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:88
 yandex.			172800	IN	NS	ns1.dns.nic.yandex.
 yandex.			172800	IN	NS	ns2.dns.nic.yandex.
 yandex.			172800	IN	NS	ns3.dns.nic.yandex.
@@ -18028,29 +18055,32 @@ yokohama.		172800	IN	NS	k.gmoregistry.net.
 yokohama.		172800	IN	NS	l.gmoregistry.net.
 yokohama.		86400	IN	DS	40754 8 2 E03E2AF9C07C1ACDE150DC51E5A2D8803F70626FB5B6DEECDABC5F8FDD0BDBAA
 yokohama.		86400	IN	DS	42466 8 2 8BF64D685239BB601DC857CDDE6CCA7252DCE90DC814D600C899AD00A4124784
-you.			172800	IN	NS	ns1.dns.nic.you.
-you.			172800	IN	NS	ns2.dns.nic.you.
-you.			172800	IN	NS	ns3.dns.nic.you.
 you.			172800	IN	NS	ns4.dns.nic.you.
 you.			172800	IN	NS	ns5.dns.nic.you.
 you.			172800	IN	NS	ns6.dns.nic.you.
+you.			172800	IN	NS	dns1.nic.you.
+you.			172800	IN	NS	dns2.nic.you.
+you.			172800	IN	NS	dns3.nic.you.
+you.			172800	IN	NS	dns4.nic.you.
 you.			86400	IN	DS	5876 8 1 DB5A5A2E6394CBBC5772E79E64498FB3F091D4EB
 you.			86400	IN	DS	5876 8 2 95573A187A578257DDF0BF0A871C74E883F2367CCF7F5A5D3DDF02057286AC80
 you.			86400	IN	DS	41656 8 2 4D7022047E13AE416D1E12AC44C5EB5AB58C4BF1E4E86DD47C9DD62106A0E348
 you.			86400	IN	DS	51799 8 1 49E09AB4F270C154E56FD55A209FFBC1CE41FA1A
 you.			86400	IN	DS	51799 8 2 1DDBC3DAEB80E5040B46D0D0F1B747C463046EE2A24E1A8759A2F241AAE364E2
-ns1.dns.nic.you.	172800	IN	A	156.154.169.77
-ns1.dns.nic.you.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:4d
-ns2.dns.nic.you.	172800	IN	A	156.154.170.77
-ns2.dns.nic.you.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:4d
-ns3.dns.nic.you.	172800	IN	A	156.154.171.77
-ns3.dns.nic.you.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:4d
 ns4.dns.nic.you.	172800	IN	A	156.154.172.77
 ns4.dns.nic.you.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:4d
 ns5.dns.nic.you.	172800	IN	A	156.154.173.77
 ns5.dns.nic.you.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:4d
 ns6.dns.nic.you.	172800	IN	A	156.154.174.77
 ns6.dns.nic.you.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:4d
+dns1.nic.you.		172800	IN	A	213.248.218.89
+dns1.nic.you.		172800	IN	AAAA	2a01:618:402:0:0:0:0:89
+dns2.nic.you.		172800	IN	A	103.49.82.89
+dns2.nic.you.		172800	IN	AAAA	2401:fd80:402:0:0:0:0:89
+dns3.nic.you.		172800	IN	A	213.248.222.89
+dns3.nic.you.		172800	IN	AAAA	2a01:618:406:0:0:0:0:89
+dns4.nic.you.		172800	IN	A	43.230.50.89
+dns4.nic.you.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:89
 youtube.		172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 youtube.		172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 youtube.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
