@@ -10744,8 +10744,8 @@ b0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a7:0:0:0:0:1
 c0.nic.nowtv.		172800	IN	A	65.22.174.1
 c0.nic.nowtv.		172800	IN	AAAA	2a01:8840:a8:0:0:0:0:1
 np.			172800	IN	NS	np.cctld.authdns.ripe.net.
+np.			172800	IN	NS	ns4.apnic.net.
 np.			172800	IN	NS	pch.nnic.np.
-np.			172800	IN	NS	sec3.apnic.net.
 np.			172800	IN	NS	np-ns.npix.net.np.
 np.			172800	IN	NS	ns-ext.isc.org.
 np.			172800	IN	NS	shikhar.mos.com.np.
