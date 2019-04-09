@@ -4359,20 +4359,6 @@ dog.			172800	IN	NS	demand.delta.aridns.net.au.
 dog.			172800	IN	NS	demand.gamma.aridns.net.au.
 dog.			86400	IN	DS	16021 8 1 5B6C6F006F0ABA03A7C5CE45F80D49AB6AFEF6F9
 dog.			86400	IN	DS	16021 8 2 C40041F3242BF546A700505B6D2FDC7F1116394FBD3D903879463B726E3E9010
-doha.			172800	IN	NS	a.nic.doha.
-doha.			172800	IN	NS	b.nic.doha.
-doha.			172800	IN	NS	c.nic.doha.
-doha.			172800	IN	NS	d.nic.doha.
-doha.			86400	IN	DS	41806 8 1 B86CE682956C35AB7E43C77E5B0A51B0ACD4469E
-doha.			86400	IN	DS	41806 8 2 D4ED6D7473D03E5ECBA4C35F448AC487CBBBC3F465C6C58D863C1186E4E629FB
-a.nic.doha.		172800	IN	A	37.209.192.9
-a.nic.doha.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.doha.		172800	IN	A	37.209.194.9
-b.nic.doha.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.doha.		172800	IN	A	37.209.196.9
-c.nic.doha.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-d.nic.doha.		172800	IN	A	37.209.198.9
-d.nic.doha.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 domains.		172800	IN	NS	demand.beta.aridns.net.au.
 domains.		172800	IN	NS	demand.alpha.aridns.net.au.
 domains.		172800	IN	NS	demand.delta.aridns.net.au.
