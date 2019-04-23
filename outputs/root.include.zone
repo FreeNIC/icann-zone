@@ -1111,24 +1111,19 @@ ns3.dns.aw.		172800	IN	A	194.0.25.25
 ns3.dns.aw.		172800	IN	AAAA	2001:678:20:0:0:0:0:25
 aw01.setarnet.aw.	172800	IN	A	201.229.0.26
 aw02.setarnet.aw.	172800	IN	A	201.229.0.27
-aws.			172800	IN	NS	ns4.dns.nic.aws.
-aws.			172800	IN	NS	ns5.dns.nic.aws.
-aws.			172800	IN	NS	ns6.dns.nic.aws.
 aws.			172800	IN	NS	dns1.nic.aws.
 aws.			172800	IN	NS	dns2.nic.aws.
 aws.			172800	IN	NS	dns3.nic.aws.
 aws.			172800	IN	NS	dns4.nic.aws.
+aws.			172800	IN	NS	dnsa.nic.aws.
+aws.			172800	IN	NS	dnsb.nic.aws.
+aws.			172800	IN	NS	dnsc.nic.aws.
+aws.			172800	IN	NS	dnsd.nic.aws.
 aws.			86400	IN	DS	6280 8 1 753781D5419C3458168D0799642FBB0F84DACD4C
 aws.			86400	IN	DS	6280 8 2 7F4F4BDF40E8C2D65F6F6483D8A0CA440B15C46599EB8B23E5B43E5B5EE1A26D
 aws.			86400	IN	DS	9925 8 1 C4CD08D51F350114BB0603D9140A8726D7162D01
 aws.			86400	IN	DS	9925 8 2 48B1404DD8351B7EE2FA2BE77C23D7706A0715729C07E56A900C02F22EB6A16A
 aws.			86400	IN	DS	54182 8 2 76F2C3FBB9F23FF5F59A4CD63B8D5D5174B3F2E0F034B7323C1543312F37301D
-ns4.dns.nic.aws.	172800	IN	A	156.154.156.19
-ns4.dns.nic.aws.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:13
-ns5.dns.nic.aws.	172800	IN	A	156.154.157.19
-ns5.dns.nic.aws.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:13
-ns6.dns.nic.aws.	172800	IN	A	156.154.158.19
-ns6.dns.nic.aws.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:13
 dns1.nic.aws.		172800	IN	A	213.248.218.53
 dns1.nic.aws.		172800	IN	AAAA	2a01:618:402:0:0:0:0:53
 dns2.nic.aws.		172800	IN	A	103.49.82.53
@@ -1137,6 +1132,11 @@ dns3.nic.aws.		172800	IN	A	213.248.222.53
 dns3.nic.aws.		172800	IN	AAAA	2a01:618:406:0:0:0:0:53
 dns4.nic.aws.		172800	IN	A	43.230.50.53
 dns4.nic.aws.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:53
+dnsa.nic.aws.		172800	IN	A	156.154.100.3
+dnsa.nic.aws.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.aws.		172800	IN	A	156.154.101.3
+dnsc.nic.aws.		172800	IN	A	156.154.102.3
+dnsd.nic.aws.		172800	IN	A	156.154.103.3
 ax.			172800	IN	NS	ns1.aland.net.
 ax.			172800	IN	NS	ns2.aland.net.
 ax.			172800	IN	NS	ns3.alcom.fi.
@@ -2038,24 +2038,19 @@ dnsa.nic.boston.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.boston.	172800	IN	A	156.154.101.3
 dnsc.nic.boston.	172800	IN	A	156.154.102.3
 dnsd.nic.boston.	172800	IN	A	156.154.103.3
-bot.			172800	IN	NS	ns4.dns.nic.bot.
-bot.			172800	IN	NS	ns5.dns.nic.bot.
-bot.			172800	IN	NS	ns6.dns.nic.bot.
 bot.			172800	IN	NS	dns1.nic.bot.
 bot.			172800	IN	NS	dns2.nic.bot.
 bot.			172800	IN	NS	dns3.nic.bot.
 bot.			172800	IN	NS	dns4.nic.bot.
+bot.			172800	IN	NS	dnsa.nic.bot.
+bot.			172800	IN	NS	dnsb.nic.bot.
+bot.			172800	IN	NS	dnsc.nic.bot.
+bot.			172800	IN	NS	dnsd.nic.bot.
 bot.			86400	IN	DS	971 8 1 F815A808DBF3F257E4FB96BBB7C1255E7D239FBC
 bot.			86400	IN	DS	971 8 2 53BD24D905F8FCB86168E14FF8337E04A4A921CA92A14A8513ED4DD4FB2B79D2
 bot.			86400	IN	DS	7717 8 1 BDCDED29E98DD2AE4FC920352995CD80CA27E52C
 bot.			86400	IN	DS	7717 8 2 72199DDE83C6EFEBA8CBA6705268F2ABBF5EAA9A0BBE0FE32716770ABAE5D8C1
 bot.			86400	IN	DS	58741 8 2 ECA26804355A4735CAA906601C7D388AF755AB40F599D02F29D16F347705EE42
-ns4.dns.nic.bot.	172800	IN	A	156.154.156.28
-ns4.dns.nic.bot.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:1c
-ns5.dns.nic.bot.	172800	IN	A	156.154.157.28
-ns5.dns.nic.bot.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:1c
-ns6.dns.nic.bot.	172800	IN	A	156.154.158.28
-ns6.dns.nic.bot.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:1c
 dns1.nic.bot.		172800	IN	A	213.248.218.55
 dns1.nic.bot.		172800	IN	AAAA	2a01:618:402:0:0:0:0:55
 dns2.nic.bot.		172800	IN	A	103.49.82.55
@@ -2064,6 +2059,11 @@ dns3.nic.bot.		172800	IN	A	213.248.222.55
 dns3.nic.bot.		172800	IN	AAAA	2a01:618:406:0:0:0:0:55
 dns4.nic.bot.		172800	IN	A	43.230.50.55
 dns4.nic.bot.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:55
+dnsa.nic.bot.		172800	IN	A	156.154.100.3
+dnsa.nic.bot.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.bot.		172800	IN	A	156.154.101.3
+dnsc.nic.bot.		172800	IN	A	156.154.102.3
+dnsd.nic.bot.		172800	IN	A	156.154.103.3
 boutique.		172800	IN	NS	demand.beta.aridns.net.au.
 boutique.		172800	IN	NS	demand.alpha.aridns.net.au.
 boutique.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -7082,24 +7082,19 @@ b0.nic.imamat.		172800	IN	A	65.22.45.9
 b0.nic.imamat.		172800	IN	AAAA	2a01:8840:2b:0:0:0:0:9
 c0.nic.imamat.		172800	IN	A	65.22.46.9
 c0.nic.imamat.		172800	IN	AAAA	2a01:8840:2c:0:0:0:0:9
-imdb.			172800	IN	NS	ns4.dns.nic.imdb.
-imdb.			172800	IN	NS	ns5.dns.nic.imdb.
-imdb.			172800	IN	NS	ns6.dns.nic.imdb.
 imdb.			172800	IN	NS	dns1.nic.imdb.
 imdb.			172800	IN	NS	dns2.nic.imdb.
 imdb.			172800	IN	NS	dns3.nic.imdb.
 imdb.			172800	IN	NS	dns4.nic.imdb.
+imdb.			172800	IN	NS	dnsa.nic.imdb.
+imdb.			172800	IN	NS	dnsb.nic.imdb.
+imdb.			172800	IN	NS	dnsc.nic.imdb.
+imdb.			172800	IN	NS	dnsd.nic.imdb.
 imdb.			86400	IN	DS	20815 8 2 E3CC51FE5A9A31AE6FAC92900038DCA9B523511B22158A08D8093220AF88E4D7
 imdb.			86400	IN	DS	28895 8 1 B4166D1AD73FBFC89E373882E9F73EED32526755
 imdb.			86400	IN	DS	28895 8 2 0922568ADCF149A901229EDA786BBC46795980193145E495542972B3303B3A98
 imdb.			86400	IN	DS	30802 8 1 7ABC41A018604F84C0FD448A1B03C5E88CD8962D
 imdb.			86400	IN	DS	30802 8 2 243AA4A6DB0E88FC311654607BF210282ED1E7946365C4020F34E576551F4D81
-ns4.dns.nic.imdb.	172800	IN	A	156.154.156.80
-ns4.dns.nic.imdb.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:50
-ns5.dns.nic.imdb.	172800	IN	A	156.154.157.80
-ns5.dns.nic.imdb.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:50
-ns6.dns.nic.imdb.	172800	IN	A	156.154.158.80
-ns6.dns.nic.imdb.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:50
 dns1.nic.imdb.		172800	IN	A	213.248.218.50
 dns1.nic.imdb.		172800	IN	AAAA	2a01:618:402:0:0:0:0:50
 dns2.nic.imdb.		172800	IN	A	103.49.82.50
@@ -7108,6 +7103,11 @@ dns3.nic.imdb.		172800	IN	A	213.248.222.50
 dns3.nic.imdb.		172800	IN	AAAA	2a01:618:406:0:0:0:0:50
 dns4.nic.imdb.		172800	IN	A	43.230.50.50
 dns4.nic.imdb.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:50
+dnsa.nic.imdb.		172800	IN	A	156.154.100.3
+dnsa.nic.imdb.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.imdb.		172800	IN	A	156.154.101.3
+dnsc.nic.imdb.		172800	IN	A	156.154.102.3
+dnsd.nic.imdb.		172800	IN	A	156.154.103.3
 immo.			172800	IN	NS	demand.beta.aridns.net.au.
 immo.			172800	IN	NS	demand.alpha.aridns.net.au.
 immo.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -11926,24 +11926,19 @@ c.nic.press.		172800	IN	A	185.38.99.3
 c.nic.press.		172800	IN	AAAA	2a02:e180:3:0:0:0:0:3
 d.nic.press.		172800	IN	A	108.59.161.3
 d.nic.press.		172800	IN	AAAA	2a02:e180:4:0:0:0:0:3
-prime.			172800	IN	NS	ns4.dns.nic.prime.
-prime.			172800	IN	NS	ns5.dns.nic.prime.
-prime.			172800	IN	NS	ns6.dns.nic.prime.
 prime.			172800	IN	NS	dns1.nic.prime.
 prime.			172800	IN	NS	dns2.nic.prime.
 prime.			172800	IN	NS	dns3.nic.prime.
 prime.			172800	IN	NS	dns4.nic.prime.
+prime.			172800	IN	NS	dnsa.nic.prime.
+prime.			172800	IN	NS	dnsb.nic.prime.
+prime.			172800	IN	NS	dnsc.nic.prime.
+prime.			172800	IN	NS	dnsd.nic.prime.
 prime.			86400	IN	DS	32674 8 1 F0F800EE34D9D979A5FF612AEDF86536BE4454C6
 prime.			86400	IN	DS	32674 8 2 E07B4B0525BFD16D13E1AB77572BAC3DD8712EEE024AA044D53DD9FD0BBBDC8C
 prime.			86400	IN	DS	44731 8 1 6B6B924A8BDBF163A2BFD22B4378A3CE94446C14
 prime.			86400	IN	DS	44731 8 2 F2BEC2F2D7DB5D6496150B62B5A4F0AA995BF4291E81B553163633D65E9B8160
 prime.			86400	IN	DS	48080 8 2 B29003C3E5F60CE38190106F221D85B335972C9DEC6EA671C1536F63E081D214
-ns4.dns.nic.prime.	172800	IN	A	156.154.156.140
-ns4.dns.nic.prime.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:8c
-ns5.dns.nic.prime.	172800	IN	A	156.154.157.140
-ns5.dns.nic.prime.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:8c
-ns6.dns.nic.prime.	172800	IN	A	156.154.158.140
-ns6.dns.nic.prime.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:8c
 dns1.nic.prime.		172800	IN	A	213.248.218.51
 dns1.nic.prime.		172800	IN	AAAA	2a01:618:402:0:0:0:0:51
 dns2.nic.prime.		172800	IN	A	103.49.82.51
@@ -11952,6 +11947,11 @@ dns3.nic.prime.		172800	IN	A	213.248.222.51
 dns3.nic.prime.		172800	IN	AAAA	2a01:618:406:0:0:0:0:51
 dns4.nic.prime.		172800	IN	A	43.230.50.51
 dns4.nic.prime.		172800	IN	AAAA	2401:fd80:406:0:0:0:0:51
+dnsa.nic.prime.		172800	IN	A	156.154.100.3
+dnsa.nic.prime.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.prime.		172800	IN	A	156.154.101.3
+dnsc.nic.prime.		172800	IN	A	156.154.102.3
+dnsd.nic.prime.		172800	IN	A	156.154.103.3
 pro.			172800	IN	NS	a0.pro.afilias-nst.info.
 pro.			172800	IN	NS	a2.pro.afilias-nst.info.
 pro.			172800	IN	NS	b0.pro.afilias-nst.org.
@@ -18115,24 +18115,19 @@ za.			86400	IN	DS	54052 8 2 A6142D7DD65AFDECFFD646020E0F97C67535BE1E4122673CF176
 nsza.is.co.za.		172800	IN	A	196.4.160.27
 ns.coza.net.za.		172800	IN	A	206.223.136.200
 ns.coza.net.za.		172800	IN	AAAA	2001:43f8:30:0:0:0:0:200
-zappos.			172800	IN	NS	ns4.dns.nic.zappos.
-zappos.			172800	IN	NS	ns5.dns.nic.zappos.
-zappos.			172800	IN	NS	ns6.dns.nic.zappos.
 zappos.			172800	IN	NS	dns1.nic.zappos.
 zappos.			172800	IN	NS	dns2.nic.zappos.
 zappos.			172800	IN	NS	dns3.nic.zappos.
 zappos.			172800	IN	NS	dns4.nic.zappos.
+zappos.			172800	IN	NS	dnsa.nic.zappos.
+zappos.			172800	IN	NS	dnsb.nic.zappos.
+zappos.			172800	IN	NS	dnsc.nic.zappos.
+zappos.			172800	IN	NS	dnsd.nic.zappos.
 zappos.			86400	IN	DS	13144 8 1 E7BAE50BE363D99F4A75B6C77CBF2F6DA5E67810
 zappos.			86400	IN	DS	13144 8 2 9848D2ED4CA1C2D399D07E4305B83CB3CFF7FBE397314F6732648708AB06589D
 zappos.			86400	IN	DS	23116 8 1 F8E7E1FDFDAF515FFE04BF6B101F7A88740DEA27
 zappos.			86400	IN	DS	23116 8 2 649BE84611E0A28EEB643A6A76536B41BB839AF06033772C2011CCBCF567A291
 zappos.			86400	IN	DS	36265 8 2 A8426C392C1C10535D73C70C91860AB821CE7CCFBEC9567ED6C015C0C3541CA7
-ns4.dns.nic.zappos.	172800	IN	A	156.154.156.187
-ns4.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:bb
-ns5.dns.nic.zappos.	172800	IN	A	156.154.157.187
-ns5.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:bb
-ns6.dns.nic.zappos.	172800	IN	A	156.154.158.187
-ns6.dns.nic.zappos.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:bb
 dns1.nic.zappos.	172800	IN	A	213.248.218.52
 dns1.nic.zappos.	172800	IN	AAAA	2a01:618:402:0:0:0:0:52
 dns2.nic.zappos.	172800	IN	A	103.49.82.52
@@ -18141,6 +18136,11 @@ dns3.nic.zappos.	172800	IN	A	213.248.222.52
 dns3.nic.zappos.	172800	IN	AAAA	2a01:618:406:0:0:0:0:52
 dns4.nic.zappos.	172800	IN	A	43.230.50.52
 dns4.nic.zappos.	172800	IN	AAAA	2401:fd80:406:0:0:0:0:52
+dnsa.nic.zappos.	172800	IN	A	156.154.100.3
+dnsa.nic.zappos.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
+dnsb.nic.zappos.	172800	IN	A	156.154.101.3
+dnsc.nic.zappos.	172800	IN	A	156.154.102.3
+dnsd.nic.zappos.	172800	IN	A	156.154.103.3
 zara.			172800	IN	NS	a0.nic.zara.
 zara.			172800	IN	NS	a2.nic.zara.
 zara.			172800	IN	NS	b0.nic.zara.
