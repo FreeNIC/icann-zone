@@ -13433,7 +13433,6 @@ c.nic.sfr.		172800	IN	A	212.18.248.100
 c.nic.sfr.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:100
 d.nic.sfr.		172800	IN	A	212.18.249.100
 d.nic.sfr.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:100
-sg.			172800	IN	NS	ns2.cuhk.edu.hk.
 sg.			172800	IN	NS	ns4.apnic.net.
 sg.			172800	IN	NS	pch.sgzones.sg.
 sg.			172800	IN	NS	dsany.sgnic.sg.
@@ -16867,7 +16866,6 @@ xn--cg4bki.		172800	IN	NS	ns2.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns3.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		172800	IN	NS	ns4.xn--cg4bki.centralnic-dns.com.
 xn--cg4bki.		86400	IN	DS	59631 7 2 7A16187809F4725A91F192336F6A9576F246DF35EDF500A1356B8C8DFF2D59F1
-xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns2.cuhk.edu.hk.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	ns4.apnic.net.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	pch.sgzones.sg.
 xn--clchc0ea0b2g2a9gcd.	172800	IN	NS	dsany.sgnic.sg.
@@ -17892,7 +17890,6 @@ xn--y9a3aq.		172800	IN	NS	ns-pch.amnic.net.
 xn--y9a3aq.		172800	IN	NS	ns-pri.nic.am.
 xn--y9a3aq.		172800	IN	NS	sns-pb.isc.org.
 xn--y9a3aq.		86400	IN	DS	58485 7 2 8DAF32E9B8F8934DC3C319E8DE81457DD0B9D3CFC102B6186A3B31730B6DDF0E
-xn--yfro4i67o.		172800	IN	NS	ns2.cuhk.edu.hk.
 xn--yfro4i67o.		172800	IN	NS	ns4.apnic.net.
 xn--yfro4i67o.		172800	IN	NS	pch.sgzones.sg.
 xn--yfro4i67o.		172800	IN	NS	dsany.sgnic.sg.
