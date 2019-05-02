@@ -1383,8 +1383,20 @@ dnsa.nic.bayern.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.bayern.	172800	IN	A	156.154.101.3
 dnsc.nic.bayern.	172800	IN	A	156.154.102.3
 dnsd.nic.bayern.	172800	IN	A	156.154.103.3
-bb.			172800	IN	NS	ns1.barbadosdomain.net.
-bb.			172800	IN	NS	ns2.barbadosdomain.net.
+bb.			172800	IN	NS	ns1.nic.bb.
+bb.			172800	IN	NS	ns2.nic.bb.
+bb.			172800	IN	NS	ns3.nic.bb.
+bb.			172800	IN	NS	ns4.nic.bb.
+bb.			172800	IN	NS	ns5.nic.bb.
+ns1.nic.bb.		172800	IN	A	64.68.192.10
+ns1.nic.bb.		172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:1835
+ns2.nic.bb.		172800	IN	A	198.41.222.254
+ns2.nic.bb.		172800	IN	AAAA	2400:cb00:2049:1:0:0:c629:defe
+ns3.nic.bb.		172800	IN	A	64.68.196.10
+ns3.nic.bb.		172800	IN	AAAA	2620:49:3:0:0:0:0:10
+ns4.nic.bb.		172800	IN	A	64.68.197.10
+ns4.nic.bb.		172800	IN	AAAA	2620:49:4:0:0:0:0:10
+ns5.nic.bb.		172800	IN	A	200.50.92.195
 bbc.			172800	IN	NS	dns1.nic.bbc.
 bbc.			172800	IN	NS	dns2.nic.bbc.
 bbc.			172800	IN	NS	dns3.nic.bbc.
@@ -3414,8 +3426,8 @@ ac4.nstld.com.		172800	IN	A	192.42.176.30
 ac4.nstld.com.		172800	IN	AAAA	2001:500:123:0:0:0:0:30
 rip.psg.com.		172800	IN	A	147.28.0.39
 rip.psg.com.		172800	IN	AAAA	2001:418:1:0:0:0:0:39
-ns1.ryce-rsp.com.	172800	IN	A	91.195.198.153
-ns1.ryce-rsp.com.	172800	IN	AAAA	2a01:190:15ec:a000:0:0:0:153
+ns1.ryce-rsp.com.	172800	IN	A	193.56.204.153
+ns1.ryce-rsp.com.	172800	IN	AAAA	2a0c:8f40:0:701:0:0:0:153
 ns-root-1.scpt-network.com.	172800	IN	A	41.79.235.66
 ns-root-2.scpt-network.com.	172800	IN	A	41.79.235.67
 ns-root-5.scpt-network.com.	172800	IN	A	92.222.179.91
@@ -10046,8 +10058,6 @@ ns-tz.afrinic.net.	172800	IN	A	196.216.168.20
 ns-tz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:20
 ns-ug.afrinic.net.	172800	IN	A	196.216.168.42
 ns-ug.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:42
-ns-zm.afrinic.net.	172800	IN	A	196.216.168.44
-ns-zm.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:44
 ns1.aland.net.		172800	IN	A	194.112.0.1
 ns2.aland.net.		172800	IN	A	194.112.0.5
 ns-cdn.amnic.net.	172800	IN	A	194.0.1.26
@@ -10062,8 +10072,6 @@ sec3.apnic.net.		172800	IN	A	202.12.28.140
 sec3.apnic.net.		172800	IN	AAAA	2001:dc0:1:0:4777:0:0:140
 dns-st.bahnhof.net.	172800	IN	A	79.136.119.20
 ns1.bahnhof.net.	172800	IN	A	195.178.160.2
-ns1.barbadosdomain.net.	172800	IN	A	200.50.92.195
-ns2.barbadosdomain.net.	172800	IN	A	64.119.204.139
 ns17.cdns.net.		172800	IN	A	194.0.1.17
 ns17.cdns.net.		172800	IN	AAAA	2001:678:4:0:0:0:0:11
 ns34.cdns.net.		172800	IN	A	194.0.1.34
@@ -16202,7 +16210,6 @@ wien.			172800	IN	NS	ns1.ryce-rsp.com.
 wien.			172800	IN	NS	nsa.netnod.se.
 wien.			172800	IN	NS	nsp.netnod.se.
 wien.			172800	IN	NS	nsu.netnod.se.
-wien.			86400	IN	DS	33794 8 2 963D03048903CAB954ADA8076E743751A97A246C4C7BE0B5FE76E9EF12A248A4
 wien.			86400	IN	DS	47234 8 2 4DA111DC2AF69CEE1A99CD1A343CFD135FAE937940954CA1E94A848A57CBA1BB
 wiki.			172800	IN	NS	a.nic.wiki.
 wiki.			172800	IN	NS	b.nic.wiki.
@@ -18188,14 +18195,12 @@ zip.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 zip.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 zip.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 zip.			86400	IN	DS	37525 8 2 32EB9249D844B8593CF81FA5E2CEC76CFCC536C249E116EA9B49269AC8F239CE
-zm.			172800	IN	NS	ns1.zamnet.zm.
-zm.			172800	IN	NS	ns2.zamnet.zm.
 zm.			172800	IN	NS	pch.nic.zm.
-zm.			172800	IN	NS	ns-zm.afrinic.net.
+zm.			172800	IN	NS	cocca.nic.zm.
+cocca.nic.zm.		172800	IN	A	185.17.236.93
+cocca.nic.zm.		172800	IN	AAAA	2a03:dd40:3:0:0:0:0:93
 pch.nic.zm.		172800	IN	A	204.61.216.73
 pch.nic.zm.		172800	IN	AAAA	2001:500:14:6073:ad:0:0:1
-ns1.zamnet.zm.		172800	IN	A	196.46.192.26
-ns2.zamnet.zm.		172800	IN	A	196.46.192.21
 zone.			172800	IN	NS	demand.beta.aridns.net.au.
 zone.			172800	IN	NS	demand.alpha.aridns.net.au.
 zone.			172800	IN	NS	demand.delta.aridns.net.au.
