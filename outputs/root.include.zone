@@ -18198,8 +18198,11 @@ zip.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 zip.			86400	IN	DS	37525 8 2 32EB9249D844B8593CF81FA5E2CEC76CFCC536C249E116EA9B49269AC8F239CE
 zm.			172800	IN	NS	pch.nic.zm.
 zm.			172800	IN	NS	cocca.nic.zm.
+zm.			172800	IN	NS	gransy.nic.zm.
 cocca.nic.zm.		172800	IN	A	185.17.236.93
 cocca.nic.zm.		172800	IN	AAAA	2a03:dd40:3:0:0:0:0:93
+gransy.nic.zm.		172800	IN	A	185.28.194.194
+gransy.nic.zm.		172800	IN	A	185.38.108.108
 pch.nic.zm.		172800	IN	A	204.61.216.73
 pch.nic.zm.		172800	IN	AAAA	2001:500:14:6073:ad:0:0:1
 zone.			172800	IN	NS	demand.beta.aridns.net.au.
