@@ -3548,10 +3548,6 @@ consulting.		172800	IN	NS	demand.delta.aridns.net.au.
 consulting.		172800	IN	NS	demand.gamma.aridns.net.au.
 consulting.		86400	IN	DS	550 8 1 BD47EAF7358047C6E513370D8601AFFDC68CF243
 consulting.		86400	IN	DS	550 8 2 55A62FCE8F66B2298E24F1CB75F5E96ED9420A3C895A910CCA847DB488D179E7
-contact.		172800	IN	NS	a.nic.contact.
-contact.		172800	IN	NS	b.nic.contact.
-contact.		172800	IN	NS	c.nic.contact.
-contact.		172800	IN	NS	d.nic.contact.
 contact.		172800	IN	NS	demand.beta.aridns.net.au.
 contact.		172800	IN	NS	demand.alpha.aridns.net.au.
 contact.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -3560,14 +3556,6 @@ contact.		86400	IN	DS	24101 8 1 6D28A3DC27A8C4DA290AA8850821DC49503EAAF4
 contact.		86400	IN	DS	24101 8 2 2B3995587FD92B555DD6561832FC6ED0F7A21814518376EE9694C1D939914904
 contact.		86400	IN	DS	41122 8 1 C3BA74005A9BDD92D4383EA07B03CBDBE90C2C5E
 contact.		86400	IN	DS	41122 8 2 13787D348D86E290EBC2DE320989105C66ACE24B8833A61A1F4C0E242AA3E9BB
-a.nic.contact.		172800	IN	A	194.169.218.40
-a.nic.contact.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:40
-b.nic.contact.		172800	IN	A	185.24.64.40
-b.nic.contact.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:40
-c.nic.contact.		172800	IN	A	212.18.248.40
-c.nic.contact.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:40
-d.nic.contact.		172800	IN	A	212.18.249.40
-d.nic.contact.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:40
 contractors.		172800	IN	NS	demand.beta.aridns.net.au.
 contractors.		172800	IN	NS	demand.alpha.aridns.net.au.
 contractors.		172800	IN	NS	demand.delta.aridns.net.au.
