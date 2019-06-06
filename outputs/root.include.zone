@@ -6618,28 +6618,6 @@ honda.			172800	IN	NS	k.gmoregistry.net.
 honda.			172800	IN	NS	l.gmoregistry.net.
 honda.			86400	IN	DS	1720 8 2 E99DE850D466563AA916D949B16139535E72BB1725B31F5D53205A9E3B7B4F01
 honda.			86400	IN	DS	25744 8 2 4214B1E2FFB881035440B32CB3C90675E1051A23AB5424FC07111EB917643338
-honeywell.		172800	IN	NS	ns1.dns.nic.honeywell.
-honeywell.		172800	IN	NS	ns2.dns.nic.honeywell.
-honeywell.		172800	IN	NS	ns3.dns.nic.honeywell.
-honeywell.		172800	IN	NS	ns4.dns.nic.honeywell.
-honeywell.		172800	IN	NS	ns5.dns.nic.honeywell.
-honeywell.		172800	IN	NS	ns6.dns.nic.honeywell.
-honeywell.		86400	IN	DS	16690 8 1 B02607BDE446BF7282AEC6BCE20D1326499DBC53
-honeywell.		86400	IN	DS	16690 8 2 44CB10B32B14B6A70113296904C9BE86E0029E2DD235343D2CECD77539C3AB1B
-honeywell.		86400	IN	DS	17686 8 1 2939E47CDC7D37C065DAA9BBF3BC3E6DF3D6E4AF
-honeywell.		86400	IN	DS	17686 8 2 A2F4DFF4394DACD2D8E673E77F7FC6384EDCCE8E1AF8864CEF61D3B14E7091F9
-ns1.dns.nic.honeywell.	172800	IN	A	156.154.144.75
-ns1.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:4b
-ns2.dns.nic.honeywell.	172800	IN	A	156.154.145.75
-ns2.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:4b
-ns3.dns.nic.honeywell.	172800	IN	A	156.154.159.75
-ns3.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:4b
-ns4.dns.nic.honeywell.	172800	IN	A	156.154.156.75
-ns4.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:4b
-ns5.dns.nic.honeywell.	172800	IN	A	156.154.157.75
-ns5.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:4b
-ns6.dns.nic.honeywell.	172800	IN	A	156.154.158.75
-ns6.dns.nic.honeywell.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:4b
 horse.			172800	IN	NS	dns1.nic.horse.
 horse.			172800	IN	NS	dns2.nic.horse.
 horse.			172800	IN	NS	dns3.nic.horse.
