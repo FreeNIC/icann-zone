@@ -2963,14 +2963,12 @@ church.			86400	IN	DS	50242 8 2 F4169F7D9437EA63CB5441B5160DDBA9338DEB70111BB17C
 ci.			172800	IN	NS	ci.hosting.nic.fr.
 ci.			172800	IN	NS	ns.nic.ci.
 ci.			172800	IN	NS	any.nic.ci.
-ci.			172800	IN	NS	ns1.nic.ci.
 ci.			172800	IN	NS	ns-ci.afrinic.net.
 ci.			172800	IN	NS	phloem.uoregon.edu.
 ci.			172800	IN	NS	censvrns0001.ird.fr.
 any.nic.ci.		172800	IN	A	204.61.216.120
 any.nic.ci.		172800	IN	AAAA	2001:500:14:6120:ad:0:0:1
 ns.nic.ci.		172800	IN	A	213.136.100.81
-ns1.nic.ci.		172800	IN	A	213.136.100.83
 cipriani.		172800	IN	NS	a0.nic.cipriani.
 cipriani.		172800	IN	NS	a2.nic.cipriani.
 cipriani.		172800	IN	NS	b0.nic.cipriani.
@@ -3652,7 +3650,6 @@ cr.			172800	IN	NS	ca1.nic.cr.
 cr.			172800	IN	NS	ca2.nic.cr.
 cr.			172800	IN	NS	ns3.nic.mx.
 cr.			172800	IN	NS	ns-ext.nic.cl.
-cr.			86400	IN	DS	39844 8 2 53273C8AC1D0ACF9030D907C3A731BE98241E5EF6DBB51F5CE91CDB09534AB1C
 cr.			86400	IN	DS	41186 8 2 5B49B4D158051E05927C5096668A0193D669A797E1D3EEF6CC50C521B949CA96
 ca1.nic.cr.		172800	IN	A	185.159.197.100
 ca1.nic.cr.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:100
