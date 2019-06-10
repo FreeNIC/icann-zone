@@ -15222,28 +15222,17 @@ nsa.nic.uk.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 nsb.nic.uk.		172800	IN	A	156.154.101.3
 nsc.nic.uk.		172800	IN	A	156.154.102.3
 nsd.nic.uk.		172800	IN	A	156.154.103.3
-unicom.			172800	IN	NS	ns1.dns.nic.unicom.
-unicom.			172800	IN	NS	ns2.dns.nic.unicom.
-unicom.			172800	IN	NS	ns3.dns.nic.unicom.
-unicom.			172800	IN	NS	ns4.dns.nic.unicom.
-unicom.			172800	IN	NS	ns5.dns.nic.unicom.
-unicom.			172800	IN	NS	ns6.dns.nic.unicom.
+unicom.			172800	IN	NS	a.zdnscloud.com.
+unicom.			172800	IN	NS	b.zdnscloud.com.
+unicom.			172800	IN	NS	c.zdnscloud.com.
+unicom.			172800	IN	NS	d.zdnscloud.com.
+unicom.			172800	IN	NS	f.zdnscloud.com.
+unicom.			172800	IN	NS	g.zdnscloud.com.
+unicom.			172800	IN	NS	i.zdnscloud.com.
+unicom.			172800	IN	NS	j.zdnscloud.com.
 unicom.			86400	IN	DS	38650 8 1 33F4C0AD0A04074C7385780867295136D8B991BC
 unicom.			86400	IN	DS	38650 8 2 9F9266439F2FDDA622E5344F0214411C9ED231AA77A77BCD4503F6FA7BB3B7B8
-unicom.			86400	IN	DS	42091 8 1 28AB777BC4F56EF20C08607560D979CD9BE39E9A
-unicom.			86400	IN	DS	42091 8 2 3385E7C819B3C0922B6E1EFAE8AF9116287D1053EDE2A4A8B3E075708FC823D6
-ns1.dns.nic.unicom.	172800	IN	A	156.154.144.171
-ns1.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:ab
-ns2.dns.nic.unicom.	172800	IN	A	156.154.145.171
-ns2.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:ab
-ns3.dns.nic.unicom.	172800	IN	A	156.154.159.171
-ns3.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:ab
-ns4.dns.nic.unicom.	172800	IN	A	156.154.156.171
-ns4.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:ab
-ns5.dns.nic.unicom.	172800	IN	A	156.154.157.171
-ns5.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:ab
-ns6.dns.nic.unicom.	172800	IN	A	156.154.158.171
-ns6.dns.nic.unicom.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:ab
+unicom.			86400	IN	DS	51527 8 2 79FE987F5EDEF21F8AFC9A56DFE663D4B6AE8E2B046F82EA092571B6B2871D96
 university.		172800	IN	NS	demand.beta.aridns.net.au.
 university.		172800	IN	NS	demand.alpha.aridns.net.au.
 university.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -16546,28 +16535,17 @@ xn--80aswg.		172800	IN	NS	anycast10.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast23.irondns.net.
 xn--80aswg.		172800	IN	NS	anycast24.irondns.net.
 xn--80aswg.		86400	IN	DS	61281 10 2 FD5803E5D6CA1B8B5B3345B8E6AEA0E640988D973AE153713A7BC890A84E3400
-xn--8y0a063a.		172800	IN	NS	ns1.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		172800	IN	NS	ns2.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		172800	IN	NS	ns3.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		172800	IN	NS	ns4.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		172800	IN	NS	ns5.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		172800	IN	NS	ns6.dns.nic.xn--8y0a063a.
-xn--8y0a063a.		86400	IN	DS	37805 8 1 723FC62539C8A4D0DAEE325095A42BFCB5D42C1C
-xn--8y0a063a.		86400	IN	DS	37805 8 2 946531D624EEC481125BECEB8C81DB794B9A5914604F798600C7699F07560192
+xn--8y0a063a.		172800	IN	NS	a.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	b.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	c.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	d.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	f.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	g.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	i.zdnscloud.com.
+xn--8y0a063a.		172800	IN	NS	j.zdnscloud.com.
+xn--8y0a063a.		86400	IN	DS	44995 8 2 75EC90F39171D405CB5D609AB0C62F21B2C53DA70D28D642D226121A4DC9A917
 xn--8y0a063a.		86400	IN	DS	59182 8 1 66C2DDEBD5EB7DE11E62E2C9C116EAD3911E6719
 xn--8y0a063a.		86400	IN	DS	59182 8 2 DA933FFAD17478E38721DC9A1296E0FAC1592767A558D1D36C0EDF25DB5D391B
-ns1.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.144.172
-ns1.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:ac
-ns2.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.145.172
-ns2.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:ac
-ns3.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.159.172
-ns3.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:ac
-ns4.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.156.172
-ns4.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:ac
-ns5.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.157.172
-ns5.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:ac
-ns6.dns.nic.xn--8y0a063a.	172800	IN	A	156.154.158.172
-ns6.dns.nic.xn--8y0a063a.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:ac
 xn--90a3ac.		172800	IN	NS	a.nic.rs.
 xn--90a3ac.		172800	IN	NS	f.nic.rs.
 xn--90a3ac.		172800	IN	NS	g.nic.rs.
