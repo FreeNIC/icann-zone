@@ -11753,6 +11753,7 @@ post.			172800	IN	NS	c0.post.afilias-nst.info.
 post.			172800	IN	NS	d0.post.afilias-nst.org.
 post.			86400	IN	DS	32869 7 1 6BDF7F6E05265E97B88E44C56D86E686FDB75AC7
 post.			86400	IN	DS	32869 7 2 0333CB4618C912888F923F60E876BA9B160602CCED7B3B8BF35C522289C84DE7
+pr.			172800	IN	NS	a.lactld.org.
 pr.			172800	IN	NS	a0.pr.afilias-nst.info.
 pr.			172800	IN	NS	a2.pr.afilias-nst.info.
 pr.			172800	IN	NS	b0.pr.afilias-nst.org.
@@ -11761,7 +11762,6 @@ pr.			172800	IN	NS	c0.pr.afilias-nst.info.
 pr.			172800	IN	NS	d0.pr.afilias-nst.org.
 pr.			172800	IN	NS	pr-dns.denic.de.
 pr.			86400	IN	DS	21436 5 1 749B940F0D9471FF349536D22AAF36D26BBCA219
-pr.			86400	IN	DS	53986 5 1 C2B7576022FE56A3340409053A7AA5D6EED8EB09
 pramerica.		172800	IN	NS	ns1.dns.nic.pramerica.
 pramerica.		172800	IN	NS	ns2.dns.nic.pramerica.
 pramerica.		172800	IN	NS	ns3.dns.nic.pramerica.
