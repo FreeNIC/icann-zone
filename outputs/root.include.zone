@@ -9056,6 +9056,7 @@ mba.			86400	IN	DS	54742 8 2 17E935C850101991C6B0B7E49DE5549BB8A5E358608790F8492
 mc.			172800	IN	NS	mc.cctld.authdns.ripe.net.
 mc.			172800	IN	NS	ns1.nic.mc.
 mc.			172800	IN	NS	ns2.nic.mc.
+mc.			86400	IN	DS	25110 8 2 F6580C6584B9572237AA03F9031FB4EF1982CBB752C86060E9CB25B15050FE76
 ns1.nic.mc.		172800	IN	A	88.209.82.210
 ns2.nic.mc.		172800	IN	A	149.5.230.10
 mckinsey.		172800	IN	NS	a0.nic.mckinsey.
@@ -9817,22 +9818,16 @@ nationwide.		172800	IN	NS	ac2.nstld.com.
 nationwide.		172800	IN	NS	ac3.nstld.com.
 nationwide.		172800	IN	NS	ac4.nstld.com.
 nationwide.		86400	IN	DS	14679 8 2 F902104C50671D9212AD9C66AF7F7719E3EB99DF4D41BEFC234E99812F5AA2B8
-natura.			172800	IN	NS	a0.nic.natura.
-natura.			172800	IN	NS	a2.nic.natura.
-natura.			172800	IN	NS	b0.nic.natura.
-natura.			172800	IN	NS	c0.nic.natura.
+natura.			172800	IN	NS	a.dns.br.
+natura.			172800	IN	NS	b.dns.br.
+natura.			172800	IN	NS	c.dns.br.
+natura.			172800	IN	NS	d.dns.br.
+natura.			172800	IN	NS	e.dns.br.
+natura.			172800	IN	NS	f.dns.br.
 natura.			86400	IN	DS	47374 7 1 CBF625DD9BC6C9F24BC9BA737A1AA08972345D2E
 natura.			86400	IN	DS	47374 7 2 C078E140ADA11BFE3AAA1BFD60D0CEDA8DE4C3A2C6D7C1D4A6CE866998FEE115
 natura.			86400	IN	DS	60906 7 1 15E830664422393174F72EFDA96C948A1C8DC75D
 natura.			86400	IN	DS	60906 7 2 C0AFFE9C5BB961362C3D0DFCD919A8E3CE32FBA12365F858010B212FFB2509A1
-a0.nic.natura.		172800	IN	A	65.22.240.33
-a0.nic.natura.		172800	IN	AAAA	2a01:8840:ea:0:0:0:0:33
-a2.nic.natura.		172800	IN	A	65.22.243.33
-a2.nic.natura.		172800	IN	AAAA	2a01:8840:ed:0:0:0:0:33
-b0.nic.natura.		172800	IN	A	65.22.241.33
-b0.nic.natura.		172800	IN	AAAA	2a01:8840:eb:0:0:0:0:33
-c0.nic.natura.		172800	IN	A	65.22.242.33
-c0.nic.natura.		172800	IN	AAAA	2a01:8840:ec:0:0:0:0:33
 navy.			172800	IN	NS	demand.beta.aridns.net.au.
 navy.			172800	IN	NS	demand.alpha.aridns.net.au.
 navy.			172800	IN	NS	demand.delta.aridns.net.au.
