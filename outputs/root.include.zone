@@ -1745,13 +1745,14 @@ f.gtld.biz.		172800	IN	A	209.173.58.66
 f.gtld.biz.		172800	IN	AAAA	2001:500:3682:0:0:0:0:12
 k.gtld.biz.		172800	IN	A	156.154.128.65
 k.gtld.biz.		172800	IN	AAAA	2001:503:e239:0:0:0:3:2
-bj.			172800	IN	NS	bj.cctld.authdns.ripe.net.
-bj.			172800	IN	NS	bow.rain.fr.
-bj.			172800	IN	NS	ns1.intnet.bj.
-bj.			172800	IN	NS	ns-bj.afrinic.net.
-bj.			172800	IN	NS	nakayo.leland.bj.
-ns1.intnet.bj.		172800	IN	A	81.91.225.18
-nakayo.leland.bj.	172800	IN	A	81.91.225.1
+bj.			172800	IN	NS	ns.cocca.fr.
+bj.			172800	IN	NS	ns1.nic.bj.
+bj.			172800	IN	NS	ns2.nic.bj.
+bj.			172800	IN	NS	pch.nic.bj.
+ns1.nic.bj.		172800	IN	A	154.65.31.84
+ns2.nic.bj.		172800	IN	A	41.85.191.2
+pch.nic.bj.		172800	IN	A	204.61.216.125
+pch.nic.bj.		172800	IN	AAAA	2001:500:14:6125:ad:0:0:1
 black.			172800	IN	NS	a0.nic.black.
 black.			172800	IN	NS	a2.nic.black.
 black.			172800	IN	NS	b0.nic.black.
@@ -9904,8 +9905,6 @@ ns-bf.afrinic.net.	172800	IN	A	196.216.168.34
 ns-bf.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:34
 ns-bi.afrinic.net.	172800	IN	A	196.216.168.23
 ns-bi.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:23
-ns-bj.afrinic.net.	172800	IN	A	196.216.168.33
-ns-bj.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:33
 ns-bw.afrinic.net.	172800	IN	A	196.216.168.72
 ns-bw.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:72
 ns-ci.afrinic.net.	172800	IN	A	196.216.168.30
@@ -10172,8 +10171,6 @@ ar.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.59
 ar.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:59
 bi.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:62
-bj.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.63
-bj.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:63
 cm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.68
 cm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:68
 cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
@@ -17275,7 +17272,7 @@ xn--mgberp4a5d4ar.	172800	IN	NS	s.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	s2.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns1.nic.net.sa.
 xn--mgberp4a5d4ar.	172800	IN	NS	ns2.nic.net.sa.
-xn--mgberp4a5d4ar.	86400	IN	DS	57601 8 2 843C82B8468CA13A4D14CEDEA890A589158B637A7AACCEBE4A656D8EE5C94C5B
+xn--mgberp4a5d4ar.	86400	IN	DS	53896 8 2 D66348676F6598DCB6CEB730C4C20FCE468D2F6F23096C2A0484B6CBE896DB07
 xn--mgbgu82a.		172800	IN	NS	ns1.neustar.in.
 xn--mgbgu82a.		172800	IN	NS	ns2.neustar.in.
 xn--mgbgu82a.		172800	IN	NS	ns3.neustar.in.
