@@ -1629,6 +1629,10 @@ ns4.register.bg.	172800	IN	A	194.0.32.1
 ns4.register.bg.	172800	IN	AAAA	2001:678:3c:0:0:0:0:1
 ns5.register.bg.	172800	IN	A	185.143.80.1
 ns5.register.bg.	172800	IN	AAAA	2a02:6a80:0:0:193:68:21:71
+bh.			172800	IN	NS	a.bh.centralnic-dns.com.
+bh.			172800	IN	NS	b.bh.centralnic-dns.com.
+bh.			172800	IN	NS	c.bh.centralnic-dns.com.
+bh.			172800	IN	NS	d.bh.centralnic-dns.com.
 bh.			172800	IN	NS	ns.batelco.com.bh.
 bh.			172800	IN	NS	ns2.batelco.com.bh.
 bh.			172800	IN	NS	ns3.batelco.com.bh.
@@ -3343,6 +3347,14 @@ ns.blacknightsolutions.com.	172800	IN	A	81.17.240.204
 ns.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc1:33:0:0:0:33
 ns2.blacknightsolutions.com.	172800	IN	A	78.153.202.4
 ns2.blacknightsolutions.com.	172800	IN	AAAA	2a01:a8:dc2:33:0:0:0:33
+a.bh.centralnic-dns.com.	172800	IN	A	194.169.218.115
+a.bh.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:115
+b.bh.centralnic-dns.com.	172800	IN	A	185.24.64.115
+b.bh.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:115
+c.bh.centralnic-dns.com.	172800	IN	A	212.18.248.115
+c.bh.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:115
+d.bh.centralnic-dns.com.	172800	IN	A	212.18.249.115
+d.bh.centralnic-dns.com.	172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:115
 a.mynic.centralnic-dns.com.	172800	IN	A	194.169.218.114
 a.mynic.centralnic-dns.com.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:114
 b.mynic.centralnic-dns.com.	172800	IN	A	185.24.64.114
