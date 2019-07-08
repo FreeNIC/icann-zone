@@ -1627,14 +1627,6 @@ bh.			172800	IN	NS	a.bh.centralnic-dns.com.
 bh.			172800	IN	NS	b.bh.centralnic-dns.com.
 bh.			172800	IN	NS	c.bh.centralnic-dns.com.
 bh.			172800	IN	NS	d.bh.centralnic-dns.com.
-bh.			172800	IN	NS	ns.batelco.com.bh.
-bh.			172800	IN	NS	ns2.batelco.com.bh.
-bh.			172800	IN	NS	ns3.batelco.com.bh.
-bh.			172800	IN	NS	ns4.batelco.com.bh.
-ns.batelco.com.bh.	172800	IN	A	193.188.97.197
-ns2.batelco.com.bh.	172800	IN	A	193.188.97.212
-ns3.batelco.com.bh.	172800	IN	A	193.188.97.193
-ns4.batelco.com.bh.	172800	IN	A	193.188.97.209
 bharti.			172800	IN	NS	ac1.nstld.com.
 bharti.			172800	IN	NS	ac2.nstld.com.
 bharti.			172800	IN	NS	ac3.nstld.com.
@@ -4779,13 +4771,10 @@ d.nic.etisalat.		172800	IN	A	212.18.249.48
 d.nic.etisalat.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:48
 eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
-eu.			172800	IN	NS	z.dns.eu.
-eu.			172800	IN	NS	cz.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
 eu.			172800	IN	NS	si.dns.eu.
 eu.			172800	IN	NS	uk.dns.eu.
 eu.			86400	IN	DS	59479 8 2 5DBAA81BC0BEFE921886D8DA28498D9FD441B457FB0E3642A0B2F9811C8E15E0
-cz.dns.eu.		172800	IN	A	93.190.128.138
 nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	A	193.2.221.60
 si.dns.eu.		172800	IN	AAAA	2001:1470:8000:100:0:0:0:1
@@ -4794,8 +4783,6 @@ x.dns.eu.		172800	IN	A	185.151.141.1
 x.dns.eu.		172800	IN	AAAA	2a02:568:fe00:0:0:0:0:6575
 y.dns.eu.		172800	IN	A	194.146.106.90
 y.dns.eu.		172800	IN	AAAA	2001:67c:1010:23:0:0:0:53
-z.dns.eu.		172800	IN	A	162.88.56.1
-z.dns.eu.		172800	IN	AAAA	2600:2000:3004:0:0:0:0:1
 eurovision.		172800	IN	NS	anycast9.irondns.net.
 eurovision.		172800	IN	NS	anycast10.irondns.net.
 eurovision.		172800	IN	NS	anycast23.irondns.net.
@@ -16704,8 +16691,6 @@ xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
 xn--e1a4c.		172800	IN	NS	x.dns.eu.
 xn--e1a4c.		172800	IN	NS	y.dns.eu.
-xn--e1a4c.		172800	IN	NS	z.dns.eu.
-xn--e1a4c.		172800	IN	NS	cz.dns.eu.
 xn--e1a4c.		172800	IN	NS	nl.dns.eu.
 xn--e1a4c.		172800	IN	NS	si.dns.eu.
 xn--e1a4c.		172800	IN	NS	uk.dns.eu.
