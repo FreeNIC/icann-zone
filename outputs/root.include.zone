@@ -8502,7 +8502,6 @@ lixil.			172800	IN	NS	b.gmoregistry.net.
 lixil.			172800	IN	NS	k.gmoregistry.net.
 lixil.			172800	IN	NS	l.gmoregistry.net.
 lixil.			86400	IN	DS	52865 8 2 325D70CDE69242071C68DA325AC825F77E8BCFFDD82DAA56EA017A80598C94AF
-lixil.			86400	IN	DS	61715 8 2 58B2ED7E35FB325167016268846AB5890EDF6AAA53D1D1A7A63B873F4ADCA32A
 lk.			172800	IN	NS	c.nic.lk.
 lk.			172800	IN	NS	d.nic.lk.
 lk.			172800	IN	NS	l.nic.lk.
@@ -9265,7 +9264,6 @@ mitsubishi.		172800	IN	NS	a.gmoregistry.net.
 mitsubishi.		172800	IN	NS	b.gmoregistry.net.
 mitsubishi.		172800	IN	NS	k.gmoregistry.net.
 mitsubishi.		172800	IN	NS	l.gmoregistry.net.
-mitsubishi.		86400	IN	DS	28484 8 2 BA7CFFD3B3369455466DC28582534A6C963A1750632321DA487554028BD81231
 mitsubishi.		86400	IN	DS	45959 8 2 1E5BC196FD959FBEFB2CBD681475BE0FF1DE7FBD074B2CE338894EC2B011C0DC
 mk.			172800	IN	NS	d.ext.nic.cz.
 mk.			172800	IN	NS	ns2.arnes.si.
@@ -11150,7 +11148,6 @@ panasonic.		172800	IN	NS	a.gmoregistry.net.
 panasonic.		172800	IN	NS	b.gmoregistry.net.
 panasonic.		172800	IN	NS	k.gmoregistry.net.
 panasonic.		172800	IN	NS	l.gmoregistry.net.
-panasonic.		86400	IN	DS	35714 8 2 50665C85642AB83F2E6E454034A9E151CAF3AB3D1470FA6B44121AA5A58247DB
 panasonic.		86400	IN	DS	45016 8 2 A4B88BFB2B883FDF8CA5630562061FD5D7979F203962D1F4C5A0C9D79C4D3AFF
 paris.			172800	IN	NS	d.nic.fr.
 paris.			172800	IN	NS	f.ext.nic.fr.
@@ -11532,7 +11529,6 @@ pioneer.		172800	IN	NS	a.gmoregistry.net.
 pioneer.		172800	IN	NS	b.gmoregistry.net.
 pioneer.		172800	IN	NS	k.gmoregistry.net.
 pioneer.		172800	IN	NS	l.gmoregistry.net.
-pioneer.		86400	IN	DS	310 8 2 33BDB54AA23A338797B662C326BA4FFB1E7366231BEBF45CCD5B1DED30E3E2B2
 pioneer.		86400	IN	DS	7342 8 2 3EC0F6A04F0365AB5311410A9074BE1C8025DF8120817B92D96BF8FAE973E27D
 pizza.			172800	IN	NS	demand.beta.aridns.net.au.
 pizza.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -11597,7 +11593,6 @@ playstation.		172800	IN	NS	a.gmoregistry.net.
 playstation.		172800	IN	NS	b.gmoregistry.net.
 playstation.		172800	IN	NS	k.gmoregistry.net.
 playstation.		172800	IN	NS	l.gmoregistry.net.
-playstation.		86400	IN	DS	32780 8 2 BF07DC2B242E3888CC520C8D1502188AC6613F4C61F4288CB13D36D0C2FA0B4E
 playstation.		86400	IN	DS	32839 8 2 A730646C6D6A5E9AD966881EEA96E688600D163A409AE2BFE3A33BDBC780211A
 plumbing.		172800	IN	NS	demand.beta.aridns.net.au.
 plumbing.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -12411,7 +12406,6 @@ ricoh.			172800	IN	NS	b.gmoregistry.net.
 ricoh.			172800	IN	NS	k.gmoregistry.net.
 ricoh.			172800	IN	NS	l.gmoregistry.net.
 ricoh.			86400	IN	DS	7006 8 2 60FF4CE45E722BC253D21348E4B285A44C77C60F75BFE704B033685BDDD4F63D
-ricoh.			86400	IN	DS	9199 8 2 954DE73CE0F8BDEF2086A7225047D637639112570D551884FA841A78744B7EB0
 rightathome.		172800	IN	NS	ac1.nstld.com.
 rightathome.		172800	IN	NS	ac2.nstld.com.
 rightathome.		172800	IN	NS	ac3.nstld.com.
@@ -12637,7 +12631,6 @@ ryukyu.			172800	IN	NS	a.gmoregistry.net.
 ryukyu.			172800	IN	NS	b.gmoregistry.net.
 ryukyu.			172800	IN	NS	k.gmoregistry.net.
 ryukyu.			172800	IN	NS	l.gmoregistry.net.
-ryukyu.			86400	IN	DS	43744 8 2 5582B9E7D73AB685908D1BA1A8A6DA4193653718842E3DF886DC3D3AC9F7FB3B
 ryukyu.			86400	IN	DS	52505 8 2 A19F9645F1832C3A1550F695DBA8F68E26DAA32BE47967F71B29A4A865D834B8
 sa.			172800	IN	NS	i.nic.net.sa.
 sa.			172800	IN	NS	n.nic.net.sa.
@@ -13290,7 +13283,6 @@ sharp.			172800	IN	NS	b.gmoregistry.net.
 sharp.			172800	IN	NS	k.gmoregistry.net.
 sharp.			172800	IN	NS	l.gmoregistry.net.
 sharp.			86400	IN	DS	3872 8 2 9FBCF0AFCB45E677CB42680FF35DEFD79F8ACCACAAA47DF92CFD08E73A8AFCB6
-sharp.			86400	IN	DS	17582 8 2 491341D337C8E7A25DF4099967AFB28961768FEA8C8744AFF95D7EE4CD0A36E9
 shaw.			172800	IN	NS	a0.nic.shaw.
 shaw.			172800	IN	NS	a2.nic.shaw.
 shaw.			172800	IN	NS	b0.nic.shaw.
@@ -13342,7 +13334,6 @@ shop.			172800	IN	NS	a.gmoregistry.net.
 shop.			172800	IN	NS	b.gmoregistry.net.
 shop.			172800	IN	NS	k.gmoregistry.net.
 shop.			172800	IN	NS	l.gmoregistry.net.
-shop.			86400	IN	DS	39506 8 2 AF340595FD0AD0BDAB71A7A8A6B6686CAC037D8454E07767EC72F7FAC1FC6D9F
 shop.			86400	IN	DS	50701 8 2 30F44F9E79F1119AEBED349D3EC34F7AEDD83A58F1E706D8303C3BBFE83BC7EC
 shopping.		172800	IN	NS	demand.beta.aridns.net.au.
 shopping.		172800	IN	NS	demand.alpha.aridns.net.au.
