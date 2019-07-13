@@ -13626,7 +13626,6 @@ softbank.		172800	IN	NS	a.gmoregistry.net.
 softbank.		172800	IN	NS	b.gmoregistry.net.
 softbank.		172800	IN	NS	k.gmoregistry.net.
 softbank.		172800	IN	NS	l.gmoregistry.net.
-softbank.		86400	IN	DS	30557 8 2 533C77EDFB9E60E2544A4E9BA53C783021C118AB8E7CF7767073350F54D2270E
 softbank.		86400	IN	DS	34384 8 2 7A7CDE44C2C68CE4D0440E7F9F01A1A0358EDE57A9E007AE01FF94CB0506513A
 software.		172800	IN	NS	demand.beta.aridns.net.au.
 software.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -13681,7 +13680,6 @@ sony.			172800	IN	NS	a.gmoregistry.net.
 sony.			172800	IN	NS	b.gmoregistry.net.
 sony.			172800	IN	NS	k.gmoregistry.net.
 sony.			172800	IN	NS	l.gmoregistry.net.
-sony.			86400	IN	DS	23417 8 2 BCB15B51804B9B9B40A0E3F6031636CE1112590EB66478D1201E5F0411FE0766
 sony.			86400	IN	DS	31580 8 2 F783850C3C82680A57C926B79098EE5DE999772DCF6745A56FCAB20CE9330DE5
 soy.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 soy.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
@@ -14063,7 +14061,6 @@ suzuki.			172800	IN	NS	a.gmoregistry.net.
 suzuki.			172800	IN	NS	b.gmoregistry.net.
 suzuki.			172800	IN	NS	k.gmoregistry.net.
 suzuki.			172800	IN	NS	l.gmoregistry.net.
-suzuki.			86400	IN	DS	11542 8 2 0A9F95C53DFF5E7F70351BCF0EAFDAAFE33AB48DC2754FFFDC0BAC3BB6EAAE10
 suzuki.			86400	IN	DS	33941 8 2 DC04EAAE9D4E306EEC2A2D1EBD1F146B8E555FF28E0924EE22E36555AC44C386
 sv.			172800	IN	NS	ns.uu.net.
 sv.			172800	IN	NS	ns.dns.br.
@@ -14726,7 +14723,6 @@ tokyo.			172800	IN	NS	a.gmoregistry.net.
 tokyo.			172800	IN	NS	b.gmoregistry.net.
 tokyo.			172800	IN	NS	k.gmoregistry.net.
 tokyo.			172800	IN	NS	l.gmoregistry.net.
-tokyo.			86400	IN	DS	24061 8 2 C301D350B1B82710795F436F257DD10B840D3A2FF480A4CB431CEA38A09C8C19
 tokyo.			86400	IN	DS	34775 8 2 009538D854DC2B09A147C657B496A8CD5151BC2FBADD83CF0C322F625FA5A7CE
 tools.			172800	IN	NS	demand.beta.aridns.net.au.
 tools.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -14748,13 +14744,11 @@ toray.			172800	IN	NS	b.gmoregistry.net.
 toray.			172800	IN	NS	k.gmoregistry.net.
 toray.			172800	IN	NS	l.gmoregistry.net.
 toray.			86400	IN	DS	53057 8 2 940A6F87F2D2482FC5541E20E646F38BB0535E7700D3317690BB42030C822D2C
-toray.			86400	IN	DS	56617 8 2 491DF8ED2E0A348CE934FFF6D42A8506E131BC6FEF8F88D336A6318B98B48228
 toshiba.		172800	IN	NS	a.gmoregistry.net.
 toshiba.		172800	IN	NS	b.gmoregistry.net.
 toshiba.		172800	IN	NS	k.gmoregistry.net.
 toshiba.		172800	IN	NS	l.gmoregistry.net.
 toshiba.		86400	IN	DS	38891 8 2 3EF24A44F5FFDA39FE23E4E4E4D2449E55A0B3001EC68A075A38313B6A4FF0D5
-toshiba.		86400	IN	DS	42680 8 2 792E64E62C3281AF57D545D10C9A003F6B4507CDC2F369F302D67618B2B6F081
 total.			172800	IN	NS	d.nic.fr.
 total.			172800	IN	NS	f.ext.nic.fr.
 total.			172800	IN	NS	g.ext.nic.fr.
@@ -14777,7 +14771,6 @@ toyota.			172800	IN	NS	b.gmoregistry.net.
 toyota.			172800	IN	NS	k.gmoregistry.net.
 toyota.			172800	IN	NS	l.gmoregistry.net.
 toyota.			86400	IN	DS	1172 8 2 D29F5D4BA40BDFED42ADBD4A710003739220B1D361D1A29E8E31F03BB067D738
-toyota.			86400	IN	DS	64432 8 2 A94642B87634CEA4BD28482EF6BBA326AD51BBF581E1C8A4EBB713AA31FF0225
 toys.			172800	IN	NS	demand.beta.aridns.net.au.
 toys.			172800	IN	NS	demand.alpha.aridns.net.au.
 toys.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -17766,7 +17759,6 @@ yodobashi.		172800	IN	NS	b.gmoregistry.net.
 yodobashi.		172800	IN	NS	k.gmoregistry.net.
 yodobashi.		172800	IN	NS	l.gmoregistry.net.
 yodobashi.		86400	IN	DS	40387 8 2 F2A6E4458136145067FCA10141180BAC9FD4CA768908707D98E5E2412039A1E3
-yodobashi.		86400	IN	DS	60050 8 2 6B099519EC0C1A4E9901A905340F4F7244F8DF826F93F7D13447F8EDF915EB9C
 yoga.			172800	IN	NS	dns1.nic.yoga.
 yoga.			172800	IN	NS	dns2.nic.yoga.
 yoga.			172800	IN	NS	dns3.nic.yoga.
@@ -17794,7 +17786,6 @@ yokohama.		172800	IN	NS	b.gmoregistry.net.
 yokohama.		172800	IN	NS	k.gmoregistry.net.
 yokohama.		172800	IN	NS	l.gmoregistry.net.
 yokohama.		86400	IN	DS	40754 8 2 E03E2AF9C07C1ACDE150DC51E5A2D8803F70626FB5B6DEECDABC5F8FDD0BDBAA
-yokohama.		86400	IN	DS	42466 8 2 8BF64D685239BB601DC857CDDE6CCA7252DCE90DC814D600C899AD00A4124784
 you.			172800	IN	NS	dns1.nic.you.
 you.			172800	IN	NS	dns2.nic.you.
 you.			172800	IN	NS	dns3.nic.you.
