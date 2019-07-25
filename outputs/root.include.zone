@@ -712,8 +712,11 @@ c0.nic.apple.		172800	IN	A	65.22.62.1
 c0.nic.apple.		172800	IN	AAAA	2a01:8840:3c:0:0:0:0:1
 aq.			172800	IN	NS	a.aq.dyntld.net.
 aq.			172800	IN	NS	b.aq.dyntld.net.
+aq.			172800	IN	NS	ns1.anycast.dns.aq.
 aq.			172800	IN	NS	fork.sth.dnsnode.net.
 aq.			172800	IN	NS	ns99.dns.net.nz.
+ns1.anycast.dns.aq.	172800	IN	A	204.61.216.132
+ns1.anycast.dns.aq.	172800	IN	AAAA	2001:500:14:6132:ad:0:0:1
 aquarelle.		172800	IN	NS	d.nic.fr.
 aquarelle.		172800	IN	NS	f.ext.nic.fr.
 aquarelle.		172800	IN	NS	g.ext.nic.fr.
@@ -9885,6 +9888,8 @@ ns-ls.afrinic.net.	172800	IN	A	196.216.168.70
 ns-ls.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:70
 ns-ly.afrinic.net.	172800	IN	A	196.216.168.24
 ns-ly.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:24
+ns-mr.afrinic.net.	172800	IN	A	196.216.168.53
+ns-mr.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:53
 ns-mz.afrinic.net.	172800	IN	A	196.216.168.40
 ns-mz.afrinic.net.	172800	IN	AAAA	2001:43f8:120:0:0:0:0:40
 ns-ne.afrinic.net.	172800	IN	A	196.216.168.45
@@ -17138,6 +17143,7 @@ xn--mgbab2bd.		86400	IN	DS	47778 10 2 0EC09A1126F31B2C64C4CF2302EC87B2F123754853
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns1.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns2.nic.mr.
 xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.nic.fr.
+xn--mgbah1a3hjkrd.	172800	IN	NS	ns-mr.afrinic.net.
 xn--mgbai9azgqp6j.	172800	IN	NS	ns.ntc.net.pk.
 xn--mgbai9azgqp6j.	172800	IN	NS	ns1.ntc.net.pk.
 xn--mgbai9azgqp6j.	172800	IN	NS	ns2.ntc.net.pk.
