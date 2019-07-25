@@ -16477,6 +16477,7 @@ xn--90a3ac.		172800	IN	NS	g.nic.rs.
 xn--90a3ac.		172800	IN	NS	h.nic.rs.
 xn--90a3ac.		172800	IN	NS	k.nic.rs.
 xn--90a3ac.		172800	IN	NS	l.nic.rs.
+xn--90a3ac.		86400	IN	DS	13630 8 2 56B1762F46F44A27B87451DF98418C54BA128D2C5ACF37F6C753F6C70431598C
 xn--90ae.		172800	IN	NS	a.nic.bg.
 xn--90ae.		172800	IN	NS	b.nic.bg.
 xn--90ae.		172800	IN	NS	c.nic.bg.
