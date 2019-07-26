@@ -3192,7 +3192,6 @@ clubmed.		172800	IN	NS	ac2.nstld.com.
 clubmed.		172800	IN	NS	ac3.nstld.com.
 clubmed.		172800	IN	NS	ac4.nstld.com.
 clubmed.		86400	IN	DS	2823 8 2 49AFA8257AEF277EADCE81A3B3712BE90AEC8A22363B302884ACF373EADADF0C
-cm.			172800	IN	NS	cm.cctld.authdns.ripe.net.
 cm.			172800	IN	NS	ns.itu.ch.
 cm.			172800	IN	NS	kim.camnet.cm.
 cm.			172800	IN	NS	lom.camnet.cm.
@@ -10136,8 +10135,6 @@ ar.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.59
 ar.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:59
 bi.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.62
 bi.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:62
-cm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.68
-cm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:68
 cu.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.70
 cu.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:70
 cw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.86
