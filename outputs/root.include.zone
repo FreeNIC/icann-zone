@@ -1858,20 +1858,6 @@ bn.			172800	IN	NS	ns4.apnic.net.
 bn.			172800	IN	NS	bn-ns.anycast.pch.net.
 ns1.bnnic.bn.		172800	IN	A	194.0.1.33
 ns2.bnnic.bn.		172800	IN	A	202.93.214.163
-bnl.			172800	IN	NS	a0.nic.bnl.
-bnl.			172800	IN	NS	a2.nic.bnl.
-bnl.			172800	IN	NS	b0.nic.bnl.
-bnl.			172800	IN	NS	c0.nic.bnl.
-bnl.			86400	IN	DS	49953 7 1 1A4FAA58FB885D0290D573ADDEABCAC75A547255
-bnl.			86400	IN	DS	49953 7 2 C183F9CD6ECD80BF9CB0AFF9D8F3C21DC7D14D866967C51924D0F6749A52B5BB
-a0.nic.bnl.		172800	IN	A	65.22.64.1
-a0.nic.bnl.		172800	IN	AAAA	2a01:8840:3e:0:0:0:0:1
-a2.nic.bnl.		172800	IN	A	65.22.67.1
-a2.nic.bnl.		172800	IN	AAAA	2a01:8840:41:0:0:0:0:1
-b0.nic.bnl.		172800	IN	A	65.22.65.1
-b0.nic.bnl.		172800	IN	AAAA	2a01:8840:3f:0:0:0:0:1
-c0.nic.bnl.		172800	IN	A	65.22.66.1
-c0.nic.bnl.		172800	IN	AAAA	2a01:8840:40:0:0:0:0:1
 bnpparibas.		172800	IN	NS	a0.nic.bnpparibas.
 bnpparibas.		172800	IN	NS	a2.nic.bnpparibas.
 bnpparibas.		172800	IN	NS	b0.nic.bnpparibas.
