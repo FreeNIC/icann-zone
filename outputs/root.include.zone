@@ -2064,14 +2064,16 @@ br.			172800	IN	NS	d.dns.br.
 br.			172800	IN	NS	e.dns.br.
 br.			172800	IN	NS	f.dns.br.
 br.			86400	IN	DS	2471 13 2 5E4F35998B8F909557FA119C4CBFDCA2D660A26F069EF006B403758A07D1A2E4
-a.dns.br.		172800	IN	A	200.160.0.10
-a.dns.br.		172800	IN	AAAA	2001:12ff:0:0:0:0:0:10
+a.dns.br.		172800	IN	A	200.219.148.10
+a.dns.br.		172800	IN	AAAA	2001:12f8:6:0:0:0:0:10
 b.dns.br.		172800	IN	A	200.189.41.10
+b.dns.br.		172800	IN	AAAA	2001:12f8:8:0:0:0:0:10
 c.dns.br.		172800	IN	A	200.192.233.10
+c.dns.br.		172800	IN	AAAA	2001:12f8:a:0:0:0:0:10
 d.dns.br.		172800	IN	A	200.219.154.10
 d.dns.br.		172800	IN	AAAA	2001:12f8:4:0:0:0:0:10
 e.dns.br.		172800	IN	A	200.229.248.10
-e.dns.br.		172800	IN	AAAA	2001:12f8:1:0:0:0:0:10
+e.dns.br.		172800	IN	AAAA	2001:12f8:2:0:0:0:0:10
 f.dns.br.		172800	IN	A	200.219.159.10
 f.dns.br.		172800	IN	AAAA	2001:12f8:c:0:0:0:0:10
 ns.dns.br.		172800	IN	A	200.160.0.5
@@ -9595,6 +9597,7 @@ mr.			172800	IN	NS	ns1.nic.mr.
 mr.			172800	IN	NS	ns2.nic.mr.
 mr.			172800	IN	NS	ns-mr.nic.fr.
 mr.			172800	IN	NS	ns-mr.nic.tn.
+mr.			172800	IN	NS	ns-mr.afrinic.net.
 mr.			172800	IN	NS	censvrns0001.ird.fr.
 ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns2.nic.mr.		172800	IN	A	82.151.64.2
