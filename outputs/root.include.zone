@@ -5930,7 +5930,7 @@ globo.			172800	IN	NS	c.dns.br.
 globo.			172800	IN	NS	d.dns.br.
 globo.			172800	IN	NS	e.dns.br.
 globo.			172800	IN	NS	f.dns.br.
-globo.			86400	IN	DS	60907 8 1 B0947756D09A9CB5383CD570E187C413E780B072
+globo.			86400	IN	DS	60907 8 2 9488F00F28179960D88EF0D9BDA26BDA785D8D47BACECDD10BABD8AF1F1DE96F
 gm.			172800	IN	NS	ns1.nic.gm.
 gm.			172800	IN	NS	ns2.nic.gm.
 gm.			172800	IN	NS	ns-gm.afrinic.net.
@@ -13814,20 +13814,6 @@ b0.nic.star.		172800	IN	A	65.22.57.9
 b0.nic.star.		172800	IN	AAAA	2a01:8840:37:0:0:0:0:9
 c0.nic.star.		172800	IN	A	65.22.58.9
 c0.nic.star.		172800	IN	AAAA	2a01:8840:38:0:0:0:0:9
-starhub.		172800	IN	NS	a.nic.starhub.
-starhub.		172800	IN	NS	b.nic.starhub.
-starhub.		172800	IN	NS	c.nic.starhub.
-starhub.		172800	IN	NS	d.nic.starhub.
-starhub.		86400	IN	DS	30391 8 1 32D6C82FC8DB1F8D963293E15EFDA7F82F0DC01B
-starhub.		86400	IN	DS	30391 8 2 6FDBF5F5B5DF83DF8DE2CF60148A6E825005925C4E4DA6CA75620C5340A42B26
-a.nic.starhub.		172800	IN	A	37.209.192.9
-a.nic.starhub.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.starhub.		172800	IN	A	37.209.194.9
-b.nic.starhub.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.starhub.		172800	IN	A	37.209.196.9
-c.nic.starhub.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-d.nic.starhub.		172800	IN	A	37.209.198.9
-d.nic.starhub.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 statebank.		172800	IN	NS	a0.nic.statebank.
 statebank.		172800	IN	NS	a2.nic.statebank.
 statebank.		172800	IN	NS	b0.nic.statebank.
@@ -15183,7 +15169,7 @@ uol.			172800	IN	NS	c.dns.br.
 uol.			172800	IN	NS	d.dns.br.
 uol.			172800	IN	NS	e.dns.br.
 uol.			172800	IN	NS	f.dns.br.
-uol.			86400	IN	DS	60907 8 1 0358D8578B9157E2B49AEDF2F17439BDAC3759C5
+uol.			86400	IN	DS	60907 8 2 3E642751A8C7698E0B08CFD2963E9A7225A571B130A73D8596641008E2314861
 ups.			172800	IN	NS	a0.nic.ups.
 ups.			172800	IN	NS	a2.nic.ups.
 ups.			172800	IN	NS	b0.nic.ups.
