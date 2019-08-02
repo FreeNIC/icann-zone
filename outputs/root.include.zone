@@ -9778,7 +9778,6 @@ natura.			172800	IN	NS	c.dns.br.
 natura.			172800	IN	NS	d.dns.br.
 natura.			172800	IN	NS	e.dns.br.
 natura.			172800	IN	NS	f.dns.br.
-natura.			86400	IN	DS	60906 7 1 15E830664422393174F72EFDA96C948A1C8DC75D
 natura.			86400	IN	DS	60906 7 2 C0AFFE9C5BB961362C3D0DFCD919A8E3CE32FBA12365F858010B212FFB2509A1
 navy.			172800	IN	NS	demand.beta.aridns.net.au.
 navy.			172800	IN	NS	demand.alpha.aridns.net.au.
@@ -12422,7 +12421,7 @@ rio.			172800	IN	NS	c.dns.br.
 rio.			172800	IN	NS	d.dns.br.
 rio.			172800	IN	NS	e.dns.br.
 rio.			172800	IN	NS	f.dns.br.
-rio.			86400	IN	DS	60907 8 1 EDC582ABA2CC384A7F3D6A49DD573A879AD53207
+rio.			86400	IN	DS	60907 8 2 6AE88F8F31320A1ACBEC8C82A5D3B5A22AB7F4283DB00F67A697884055D3BC05
 rip.			172800	IN	NS	demand.beta.aridns.net.au.
 rip.			172800	IN	NS	demand.alpha.aridns.net.au.
 rip.			172800	IN	NS	demand.delta.aridns.net.au.
