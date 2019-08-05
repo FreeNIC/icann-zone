@@ -7313,20 +7313,6 @@ sab.isnic.is.		172800	IN	A	194.146.106.58
 sab.isnic.is.		172800	IN	AAAA	2001:67c:1010:14:0:0:0:53
 durinn.rhnet.is.	172800	IN	A	130.208.16.20
 durinn.rhnet.is.	172800	IN	AAAA	2a00:c88:10:16:0:0:0:20
-iselect.		172800	IN	NS	a.nic.iselect.
-iselect.		172800	IN	NS	b.nic.iselect.
-iselect.		172800	IN	NS	c.nic.iselect.
-iselect.		172800	IN	NS	d.nic.iselect.
-iselect.		86400	IN	DS	41437 8 1 79C4D6C7DB3353D943C07A806D42B6F7099ABCAC
-iselect.		86400	IN	DS	41437 8 2 BBC1ADDA5BCE587ABC57F32E5A52FF5AD95CC6A8950BBAC4FFC0D375B6D4A45C
-a.nic.iselect.		172800	IN	A	37.209.192.9
-a.nic.iselect.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
-b.nic.iselect.		172800	IN	A	37.209.194.9
-b.nic.iselect.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
-c.nic.iselect.		172800	IN	A	37.209.196.9
-c.nic.iselect.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-d.nic.iselect.		172800	IN	A	37.209.198.9
-d.nic.iselect.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 ismaili.		172800	IN	NS	a0.nic.ismaili.
 ismaili.		172800	IN	NS	a2.nic.ismaili.
 ismaili.		172800	IN	NS	b0.nic.ismaili.
