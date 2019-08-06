@@ -1161,7 +1161,7 @@ azure.			86400	IN	DS	25698 8 2 2C2D532D450F86FBC9238816088ED98AE6C8A5F665706DD63
 ba.			172800	IN	NS	ns.ba.
 ba.			172800	IN	NS	una.utic.net.ba.
 ba.			172800	IN	NS	sava.utic.net.ba.
-ba.			172800	IN	NS	auth03.ns.uu.net.
+ba.			172800	IN	NS	sns-pb.isc.org.
 sava.utic.net.ba.	172800	IN	A	195.130.35.3
 una.utic.net.ba.	172800	IN	A	204.61.216.117
 una.utic.net.ba.	172800	IN	AAAA	2001:500:14:6117:ad:0:0:1
@@ -10220,7 +10220,6 @@ ns3.uniregistry.net.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:3
 ns.uu.net.		172800	IN	A	137.39.1.3
 auth00.ns.uu.net.	172800	IN	A	198.6.1.65
 auth02.ns.uu.net.	172800	IN	A	198.6.1.82
-auth03.ns.uu.net.	172800	IN	A	198.6.1.83
 auth100.ns.uu.net.	172800	IN	A	198.6.1.202
 auth110.ns.uu.net.	172800	IN	A	198.6.1.114
 auth61.ns.uu.net.	172800	IN	A	198.6.1.182
