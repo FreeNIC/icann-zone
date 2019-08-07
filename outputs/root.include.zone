@@ -1784,28 +1784,32 @@ b0.nic.blockbuster.	172800	IN	A	65.22.93.25
 b0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5b:0:0:0:0:25
 c0.nic.blockbuster.	172800	IN	A	65.22.94.25
 c0.nic.blockbuster.	172800	IN	AAAA	2a01:8840:5c:0:0:0:0:25
-blog.			172800	IN	NS	dns1.nic.blog.
+blog.			172800	IN	NS	a.nic.blog.
+blog.			172800	IN	NS	b.nic.blog.
+blog.			172800	IN	NS	c.nic.blog.
+blog.			172800	IN	NS	d.nic.blog.
 blog.			172800	IN	NS	dns2.nic.blog.
-blog.			172800	IN	NS	dns3.nic.blog.
 blog.			172800	IN	NS	dns4.nic.blog.
 blog.			172800	IN	NS	dnsa.nic.blog.
 blog.			172800	IN	NS	dnsb.nic.blog.
-blog.			172800	IN	NS	dnsc.nic.blog.
-blog.			172800	IN	NS	dnsd.nic.blog.
+blog.			86400	IN	DS	16976 8 1 F4535C694F892FFEB740C35CC9665B52E360DF7D
+blog.			86400	IN	DS	16976 8 2 9862DE44E1E7E44215165000C4B87BD3F46D439C686166DA0CA79E06896958B7
 blog.			86400	IN	DS	43975 8 2 94023BE3A769704F45ECB9FEA13BBBAB6ADCDB4D8BB39E621E3CBF223FB5CA53
-dns1.nic.blog.		172800	IN	A	213.248.219.9
-dns1.nic.blog.		172800	IN	AAAA	2a01:618:403:0:0:0:0:9
+a.nic.blog.		172800	IN	A	194.169.218.94
+a.nic.blog.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:94
+b.nic.blog.		172800	IN	A	185.24.64.94
+b.nic.blog.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:94
+c.nic.blog.		172800	IN	A	212.18.248.94
+c.nic.blog.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:94
+d.nic.blog.		172800	IN	A	212.18.249.94
+d.nic.blog.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:94
 dns2.nic.blog.		172800	IN	A	103.49.83.9
 dns2.nic.blog.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:9
-dns3.nic.blog.		172800	IN	A	213.248.223.9
-dns3.nic.blog.		172800	IN	AAAA	2a01:618:407:0:0:0:0:9
 dns4.nic.blog.		172800	IN	A	43.230.51.9
 dns4.nic.blog.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:9
 dnsa.nic.blog.		172800	IN	A	156.154.100.3
 dnsa.nic.blog.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.blog.		172800	IN	A	156.154.101.3
-dnsc.nic.blog.		172800	IN	A	156.154.102.3
-dnsd.nic.blog.		172800	IN	A	156.154.103.3
 bloomberg.		172800	IN	NS	ac1.nstld.com.
 bloomberg.		172800	IN	NS	ac2.nstld.com.
 bloomberg.		172800	IN	NS	ac3.nstld.com.
@@ -11533,7 +11537,7 @@ pl.			172800	IN	NS	f-dns.pl.
 pl.			172800	IN	NS	g-dns.pl.
 pl.			172800	IN	NS	h-dns.pl.
 pl.			172800	IN	NS	i-dns.pl.
-pl.			86400	IN	DS	25412 8 2 40FA53CB1DAFF433B7A8D45A05A624ECFF4A3BD1C8F1469B008A2E0B9F721A49
+pl.			86400	IN	DS	39175 8 2 079335677A06A1F43549B81C440A1EA8CCA7538CA0CFF7B3F2C43EAEDBC50FCB
 a-dns.pl.		172800	IN	A	194.181.87.156
 a-dns.pl.		172800	IN	AAAA	2001:a10:121:1:0:0:0:156
 b-dns.pl.		172800	IN	A	192.195.72.53
