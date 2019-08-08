@@ -725,7 +725,9 @@ aquarelle.		86400	IN	DS	27239 8 2 44B66BCE18F1DF2D3A47F8F1F52421E8EE69601C27F047
 ar.			172800	IN	NS	a.dns.ar.
 ar.			172800	IN	NS	b.dns.ar.
 ar.			172800	IN	NS	c.dns.ar.
+ar.			172800	IN	NS	d.dns.ar.
 ar.			172800	IN	NS	e.dns.ar.
+ar.			172800	IN	NS	f.dns.ar.
 ar.			172800	IN	NS	ar.cctld.authdns.ripe.net.
 ar.			172800	IN	NS	ns2.switch.ch.
 ar.			86400	IN	DS	19606 8 2 4415CF1A2CF10DE94B92BC020F21D1BF4163B2E90F2A6F6A5D2A1740339D566C
@@ -735,8 +737,12 @@ b.dns.ar.		172800	IN	A	200.108.147.50
 b.dns.ar.		172800	IN	AAAA	2801:140:11:0:0:0:0:50
 c.dns.ar.		172800	IN	A	200.108.148.50
 c.dns.ar.		172800	IN	AAAA	2801:140:10:0:0:0:0:10
+d.dns.ar.		172800	IN	A	192.140.126.50
+d.dns.ar.		172800	IN	AAAA	2801:140:dddd:0:0:0:0:50
 e.dns.ar.		172800	IN	A	170.238.66.50
 e.dns.ar.		172800	IN	AAAA	2801:140:eeee:0:0:0:0:50
+f.dns.ar.		172800	IN	A	130.59.31.20
+f.dns.ar.		172800	IN	AAAA	2001:620:0:ff:0:0:0:20
 arab.			172800	IN	NS	gtld.beta.aridns.net.au.
 arab.			172800	IN	NS	gtld.alpha.aridns.net.au.
 arab.			172800	IN	NS	gtld.delta.aridns.net.au.
