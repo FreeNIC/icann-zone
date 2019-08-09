@@ -3788,8 +3788,6 @@ cx.			172800	IN	NS	ns.anycast.nic.cx.
 cx.			86400	IN	DS	6500 8 2 4854A102492CE0C50C714F366EBBD520CBA38BBEFC91CF295EEE8E6EF7D48CA5
 ns.anycast.nic.cx.	172800	IN	A	204.61.216.16
 ns.anycast.nic.cx.	172800	IN	AAAA	2001:500:14:6016:ad:0:0:1
-cy.			172800	IN	NS	ns1.ucy.ac.cy.
-cy.			172800	IN	NS	ns2.ucy.ac.cy.
 cy.			172800	IN	NS	ns4.apnic.net.
 cy.			172800	IN	NS	ns02.savvis.net.
 cy.			172800	IN	NS	cy-ns.anycast.pch.net.
@@ -3797,11 +3795,9 @@ cy.			172800	IN	NS	cynic.dns.cy.
 cy.			172800	IN	NS	estia.ics.forth.gr.
 cy.			172800	IN	NS	cynic4.dns.cy.
 cy.			172800	IN	NS	cynic6.dns.cy.
-ns1.ucy.ac.cy.		172800	IN	A	194.42.1.50
-ns2.ucy.ac.cy.		172800	IN	A	194.42.1.55
 cynic.dns.cy.		172800	IN	A	194.42.29.1
 cynic4.dns.cy.		172800	IN	A	194.42.29.16
-cynic6.dns.cy.		172800	IN	A	194.42.20.31
+cynic6.dns.cy.		172800	IN	A	194.42.29.5
 cymru.			172800	IN	NS	dns1.nic.cymru.
 cymru.			172800	IN	NS	dns2.nic.cymru.
 cymru.			172800	IN	NS	dns3.nic.cymru.
@@ -5753,6 +5749,20 @@ dnsa.nic.garden.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.garden.	172800	IN	A	156.154.101.3
 dnsc.nic.garden.	172800	IN	A	156.154.102.3
 dnsd.nic.garden.	172800	IN	A	156.154.103.3
+gay.			172800	IN	NS	a.nic.gay.
+gay.			172800	IN	NS	b.nic.gay.
+gay.			172800	IN	NS	c.nic.gay.
+gay.			172800	IN	NS	d.nic.gay.
+gay.			86400	IN	DS	25142 8 1 AAFB0C1750566BBADAC4F588C9E1A6A642DDA429
+gay.			86400	IN	DS	25142 8 2 91AB29861D9A4C854ADF3DE6315526E3345CB4C42CF870358AA498207FC45D6F
+a.nic.gay.		172800	IN	A	194.169.218.57
+a.nic.gay.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:57
+b.nic.gay.		172800	IN	A	185.24.64.57
+b.nic.gay.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:57
+c.nic.gay.		172800	IN	A	212.18.248.57
+c.nic.gay.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:57
+d.nic.gay.		172800	IN	A	212.18.249.57
+d.nic.gay.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:57
 gb.			172800	IN	NS	ns.uu.net.
 gb.			172800	IN	NS	ns0.ja.net.
 gb.			172800	IN	NS	ns4.ja.net.
