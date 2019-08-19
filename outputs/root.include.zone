@@ -1793,10 +1793,6 @@ blog.			172800	IN	NS	a.nic.blog.
 blog.			172800	IN	NS	b.nic.blog.
 blog.			172800	IN	NS	c.nic.blog.
 blog.			172800	IN	NS	d.nic.blog.
-blog.			172800	IN	NS	dns2.nic.blog.
-blog.			172800	IN	NS	dns4.nic.blog.
-blog.			172800	IN	NS	dnsa.nic.blog.
-blog.			172800	IN	NS	dnsb.nic.blog.
 blog.			86400	IN	DS	16976 8 1 F4535C694F892FFEB740C35CC9665B52E360DF7D
 blog.			86400	IN	DS	16976 8 2 9862DE44E1E7E44215165000C4B87BD3F46D439C686166DA0CA79E06896958B7
 blog.			86400	IN	DS	43975 8 2 94023BE3A769704F45ECB9FEA13BBBAB6ADCDB4D8BB39E621E3CBF223FB5CA53
@@ -1808,13 +1804,6 @@ c.nic.blog.		172800	IN	A	212.18.248.94
 c.nic.blog.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:94
 d.nic.blog.		172800	IN	A	212.18.249.94
 d.nic.blog.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:94
-dns2.nic.blog.		172800	IN	A	103.49.83.9
-dns2.nic.blog.		172800	IN	AAAA	2401:fd80:403:0:0:0:0:9
-dns4.nic.blog.		172800	IN	A	43.230.51.9
-dns4.nic.blog.		172800	IN	AAAA	2401:fd80:407:0:0:0:0:9
-dnsa.nic.blog.		172800	IN	A	156.154.100.3
-dnsa.nic.blog.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
-dnsb.nic.blog.		172800	IN	A	156.154.101.3
 bloomberg.		172800	IN	NS	ac1.nstld.com.
 bloomberg.		172800	IN	NS	ac2.nstld.com.
 bloomberg.		172800	IN	NS	ac3.nstld.com.
