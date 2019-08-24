@@ -14231,7 +14231,7 @@ tatar.			172800	IN	NS	b.dns.ripn.net.
 tatar.			172800	IN	NS	d.dns.ripn.net.
 tatar.			172800	IN	NS	e.dns.ripn.net.
 tatar.			172800	IN	NS	f.dns.ripn.net.
-tatar.			86400	IN	DS	63647 8 2 9BCA5D7E90E0E215DC3B208CFABAC0A72F56A008F5A38B11CBA8E92F85E3718E
+tatar.			86400	IN	DS	40150 8 2 8C6B672B07E3AAD1652CB3F03120C2EE13D7D228424A71723B594C8FB8C931FC
 tattoo.			172800	IN	NS	ns1.uniregistry.net.
 tattoo.			172800	IN	NS	ns2.uniregistry.info.
 tattoo.			172800	IN	NS	ns3.uniregistry.net.
