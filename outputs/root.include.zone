@@ -4745,6 +4745,7 @@ c.nic.etisalat.		172800	IN	A	212.18.248.48
 c.nic.etisalat.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:48
 d.nic.etisalat.		172800	IN	A	212.18.249.48
 d.nic.etisalat.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:48
+eu.			172800	IN	NS	w.dns.eu.
 eu.			172800	IN	NS	x.dns.eu.
 eu.			172800	IN	NS	y.dns.eu.
 eu.			172800	IN	NS	nl.dns.eu.
@@ -4755,6 +4756,8 @@ nl.dns.eu.		172800	IN	A	91.200.16.100
 si.dns.eu.		172800	IN	A	193.2.221.60
 si.dns.eu.		172800	IN	AAAA	2001:1470:8000:100:0:0:0:1
 uk.dns.eu.		172800	IN	A	195.66.241.178
+w.dns.eu.		172800	IN	A	194.0.25.28
+w.dns.eu.		172800	IN	AAAA	2001:678:20:0:0:0:0:28
 x.dns.eu.		172800	IN	A	185.151.141.1
 x.dns.eu.		172800	IN	AAAA	2a02:568:fe00:0:0:0:0:6575
 y.dns.eu.		172800	IN	A	194.146.106.90
@@ -16610,6 +16613,7 @@ xn--d1alf.		172800	IN	NS	d.ext.nic.cz.
 xn--d1alf.		172800	IN	NS	ns2.arnes.si.
 xn--d1alf.		172800	IN	NS	tld1.marnet.mk.
 xn--d1alf.		172800	IN	NS	dns-mk.univie.ac.at.
+xn--e1a4c.		172800	IN	NS	w.dns.eu.
 xn--e1a4c.		172800	IN	NS	x.dns.eu.
 xn--e1a4c.		172800	IN	NS	y.dns.eu.
 xn--e1a4c.		172800	IN	NS	nl.dns.eu.
