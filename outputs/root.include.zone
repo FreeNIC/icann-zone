@@ -9995,6 +9995,7 @@ c.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:a:0:0:0:0:4
 d.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.171.36
 d.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:b:0:0:0:0:4
 tld.gdns.net.		172800	IN	A	68.178.129.149
+tld.gdns.net.		172800	IN	A	185.17.236.230
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	A	37.209.192.4
 a.gmoregistry.net.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:4
@@ -14031,6 +14032,7 @@ suzuki.			172800	IN	NS	b.gmoregistry.net.
 suzuki.			172800	IN	NS	k.gmoregistry.net.
 suzuki.			172800	IN	NS	l.gmoregistry.net.
 suzuki.			86400	IN	DS	33941 8 2 DC04EAAE9D4E306EEC2A2D1EBD1F146B8E555FF28E0924EE22E36555AC44C386
+sv.			172800	IN	NS	a.lactld.org.
 sv.			172800	IN	NS	ns.uu.net.
 sv.			172800	IN	NS	ns.dns.br.
 sv.			172800	IN	NS	sv.cctld.authdns.ripe.net.
