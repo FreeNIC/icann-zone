@@ -14614,7 +14614,6 @@ ns6.dns.nic.tkmaxx.	172800	IN	A	156.154.158.163
 ns6.dns.nic.tkmaxx.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:a3
 tl.			172800	IN	NS	ns.cocca.fr.
 tl.			172800	IN	NS	ns.anycast.nic.tl.
-tl.			172800	IN	NS	ns.coccaregistry.org.
 tl.			86400	IN	DS	25307 8 2 BC0412D59817424A34040676F1AE1205B1F33FC9510E7E30114711851FFCEDE4
 ns.anycast.nic.tl.	172800	IN	A	204.61.216.19
 ns.anycast.nic.tl.	172800	IN	AAAA	2001:500:14:6019:ad:0:0:1
