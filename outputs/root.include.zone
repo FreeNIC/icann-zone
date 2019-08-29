@@ -15337,6 +15337,7 @@ vi.			172800	IN	NS	auth110.ns.uu.net.
 ns1.nic.vi.		172800	IN	A	192.5.4.1
 ns1.nic.vi.		172800	IN	AAAA	2001:500:2e:0:0:0:0:1
 ns3.nic.vi.		172800	IN	A	68.178.129.149
+ns3.nic.vi.		172800	IN	A	185.17.236.230
 viajes.			172800	IN	NS	demand.beta.aridns.net.au.
 viajes.			172800	IN	NS	demand.alpha.aridns.net.au.
 viajes.			172800	IN	NS	demand.delta.aridns.net.au.
