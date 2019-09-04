@@ -301,7 +301,6 @@ ns6.dns.nic.aetna.	172800	IN	A	156.154.158.5
 ns6.dns.nic.aetna.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:5
 af.			172800	IN	NS	ns.cocca.fr.
 af.			172800	IN	NS	ns.anycast.nic.af.
-af.			172800	IN	NS	ns.coccaregistry.org.
 af.			86400	IN	DS	3691 8 2 56C77864A2CD726F252634C8804A2AF33EA2CE70C49091E08C223BD2BB33CF5C
 ns.anycast.nic.af.	172800	IN	A	204.61.216.13
 ns.anycast.nic.af.	172800	IN	AAAA	2001:500:14:6013:ad:0:0:1
@@ -9972,7 +9971,6 @@ c.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.170.36
 c.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:a:0:0:0:0:4
 d.xn--node.globalanycastcloud.freenom.net.	172800	IN	A	185.21.171.36
 d.xn--node.globalanycastcloud.freenom.net.	172800	IN	AAAA	2a04:1b00:b:0:0:0:0:4
-tld.gdns.net.		172800	IN	A	68.178.129.149
 tld.gdns.net.		172800	IN	A	185.17.236.230
 ns2.gip.net.		172800	IN	A	204.59.1.222
 a.gmoregistry.net.	172800	IN	A	37.209.192.4
@@ -15312,7 +15310,6 @@ vi.			172800	IN	NS	auth100.ns.uu.net.
 vi.			172800	IN	NS	auth110.ns.uu.net.
 ns1.nic.vi.		172800	IN	A	192.5.4.1
 ns1.nic.vi.		172800	IN	AAAA	2001:500:2e:0:0:0:0:1
-ns3.nic.vi.		172800	IN	A	68.178.129.149
 ns3.nic.vi.		172800	IN	A	185.17.236.230
 viajes.			172800	IN	NS	demand.beta.aridns.net.au.
 viajes.			172800	IN	NS	demand.alpha.aridns.net.au.
