@@ -9343,28 +9343,6 @@ b0.nic.mobile.		172800	IN	A	65.22.97.9
 b0.nic.mobile.		172800	IN	AAAA	2a01:8840:5f:0:0:0:0:9
 c0.nic.mobile.		172800	IN	A	65.22.98.9
 c0.nic.mobile.		172800	IN	AAAA	2a01:8840:60:0:0:0:0:9
-mobily.			172800	IN	NS	ns1.dns.nic.mobily.
-mobily.			172800	IN	NS	ns2.dns.nic.mobily.
-mobily.			172800	IN	NS	ns3.dns.nic.mobily.
-mobily.			172800	IN	NS	ns4.dns.nic.mobily.
-mobily.			172800	IN	NS	ns5.dns.nic.mobily.
-mobily.			172800	IN	NS	ns6.dns.nic.mobily.
-mobily.			86400	IN	DS	19594 8 1 4720CA58264C31A870B9E97BCEE078DDD3045DB7
-mobily.			86400	IN	DS	19594 8 2 9FDB0E80C95F6A74A84FAD3F1192A2FE124BBB96F8723EC1E731460A8EDE35BB
-mobily.			86400	IN	DS	36424 8 1 726F1E02780107531C5BD91B6DC9DFB143B6E06E
-mobily.			86400	IN	DS	36424 8 2 7BB53E71377B7C1E0304172766FE536154465F33B691E563F0FB326D301F70AF
-ns1.dns.nic.mobily.	172800	IN	A	156.154.169.17
-ns1.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:11
-ns2.dns.nic.mobily.	172800	IN	A	156.154.170.17
-ns2.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:11
-ns3.dns.nic.mobily.	172800	IN	A	156.154.171.17
-ns3.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:11
-ns4.dns.nic.mobily.	172800	IN	A	156.154.172.17
-ns4.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:11
-ns5.dns.nic.mobily.	172800	IN	A	156.154.173.17
-ns5.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:11
-ns6.dns.nic.mobily.	172800	IN	A	156.154.174.17
-ns6.dns.nic.mobily.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:11
 moda.			172800	IN	NS	demand.beta.aridns.net.au.
 moda.			172800	IN	NS	demand.alpha.aridns.net.au.
 moda.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -17093,28 +17071,6 @@ xn--mgbayh7gpa.		172800	IN	NS	rip.psg.com.
 xn--mgbayh7gpa.		172800	IN	NS	amra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	petra.nic.gov.jo.
 xn--mgbayh7gpa.		172800	IN	NS	jordan1st.nic.gov.jo.
-xn--mgbb9fbpob.		172800	IN	NS	ns1.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		172800	IN	NS	ns2.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		172800	IN	NS	ns3.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		172800	IN	NS	ns4.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		172800	IN	NS	ns5.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		172800	IN	NS	ns6.dns.nic.xn--mgbb9fbpob.
-xn--mgbb9fbpob.		86400	IN	DS	22469 8 1 28E7F3E8FAB73FD95E5ADC30465AB256D0819A63
-xn--mgbb9fbpob.		86400	IN	DS	22469 8 2 9B7C33E9B065AE570D9214002BEC7D522D2F30478164120617E75A357819E44D
-xn--mgbb9fbpob.		86400	IN	DS	28852 8 1 A560A8E6D62734EF4C25400C80AC6A4B02201E25
-xn--mgbb9fbpob.		86400	IN	DS	28852 8 2 BAA8CC4375EF97F9063B82E28D2B54E6060A0FD998674216ECECEB6DB463F834
-ns1.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.169.73
-ns1.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1071:0:0:0:1:49
-ns2.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.170.73
-ns2.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1072:0:0:0:1:49
-ns3.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.171.73
-ns3.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1073:0:0:0:1:49
-ns4.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.172.73
-ns4.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1074:0:0:0:1:49
-ns5.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.173.73
-ns5.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1075:0:0:0:1:49
-ns6.dns.nic.xn--mgbb9fbpob.	172800	IN	A	156.154.174.73
-ns6.dns.nic.xn--mgbb9fbpob.	172800	IN	AAAA	2610:a1:1076:0:0:0:1:49
 xn--mgbbh1a.		172800	IN	NS	ns1.neustar.in.
 xn--mgbbh1a.		172800	IN	NS	ns2.neustar.in.
 xn--mgbbh1a.		172800	IN	NS	ns3.neustar.in.
