@@ -328,8 +328,8 @@ c.nic.afl.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.afl.		172800	IN	A	37.209.198.9
 d.nic.afl.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
 africa.			172800	IN	NS	ns.coza.net.za.
-africa.			172800	IN	NS	ns2.dns.business.
 africa.			172800	IN	NS	coza1.dnsnode.net.
+africa.			172800	IN	NS	ns2us.dns.business.
 africa.			86400	IN	DS	44605 8 2 872009B128134F098AEB415390E1CCCE0DF64338F7D3345DF140C59FB15C7D82
 ag.			172800	IN	NS	a0.cctld.afilias-nst.info.
 ag.			172800	IN	NS	a2.cctld.afilias-nst.info.
@@ -1922,17 +1922,25 @@ bom.			86400	IN	DS	60907 8 2 5FCFDBFDD5FAE890E49A50DF93CF82A53909DBD60837029B672
 bond.			172800	IN	NS	a.nic.bond.
 bond.			172800	IN	NS	b.nic.bond.
 bond.			172800	IN	NS	c.nic.bond.
-bond.			172800	IN	NS	d.nic.bond.
+bond.			172800	IN	NS	a-cnic.nic.bond.
+bond.			172800	IN	NS	b-cnic.nic.bond.
+bond.			172800	IN	NS	c-cnic.nic.bond.
 bond.			86400	IN	DS	3382 8 1 8B5E8796FACE73374EF18FDC7026D07E33837D14
 bond.			86400	IN	DS	3382 8 2 01EAECD8CEC3A76F05C299AA2FAE504063BC2A8CC9CE36672FD4EDA9D5BB9A91
+bond.			86400	IN	DS	35002 8 1 1E60372475211F06D4C90B265E05F6E7ABA094EE
+bond.			86400	IN	DS	35002 8 2 FA12AA0EBA1F60642345CEEFBDD7A36EC310EB1602547BEAAD5A1793ECCA9DD5
 a.nic.bond.		172800	IN	A	37.209.192.9
 a.nic.bond.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:9
+a-cnic.nic.bond.	172800	IN	A	194.169.218.85
+a-cnic.nic.bond.	172800	IN	AAAA	2001:67c:13cc:0:0:0:1:85
 b.nic.bond.		172800	IN	A	37.209.194.9
 b.nic.bond.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:9
+b-cnic.nic.bond.	172800	IN	A	185.24.64.85
+b-cnic.nic.bond.	172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:85
 c.nic.bond.		172800	IN	A	37.209.196.9
 c.nic.bond.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
-d.nic.bond.		172800	IN	A	37.209.198.9
-d.nic.bond.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
+c-cnic.nic.bond.	172800	IN	A	212.18.248.85
+c-cnic.nic.bond.	172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:85
 boo.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 boo.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -2235,6 +2243,8 @@ business.		86400	IN	DS	13489 8 1 C6CD864D5F6A2AE52FBC9279A150858E5C6237C2
 business.		86400	IN	DS	13489 8 2 92172960C17BAF5F9AD9E003B9D03F3B98E848F784A645FAF17FC942CF3AA145
 ns2.dns.business.	172800	IN	A	66.135.46.112
 ns2.dns.business.	172800	IN	AAAA	2001:1978:2400:6:0:0:0:112
+ns2us.dns.business.	172800	IN	A	147.135.106.236
+ns2us.dns.business.	172800	IN	AAAA	2604:2dc0:200:2eb:0:0:0:2
 buy.			172800	IN	NS	dns1.nic.buy.
 buy.			172800	IN	NS	dns2.nic.buy.
 buy.			172800	IN	NS	dns3.nic.buy.
@@ -2445,8 +2455,8 @@ canon.			172800	IN	NS	k.gmoregistry.net.
 canon.			172800	IN	NS	l.gmoregistry.net.
 canon.			86400	IN	DS	5225 8 2 9A1FC16A90ACF3C7D3233480F45F595DEBDEF3F71AE637BF3F8093670DDA7D8A
 capetown.		172800	IN	NS	ns.coza.net.za.
-capetown.		172800	IN	NS	ns2.dns.business.
 capetown.		172800	IN	NS	coza1.dnsnode.net.
+capetown.		172800	IN	NS	ns2us.dns.business.
 capetown.		86400	IN	DS	58120 8 2 0D66710DD001E9120A86952CEBB8C21AEDD72D5E2CA46F0A40266529E7133107
 capital.		172800	IN	NS	demand.beta.aridns.net.au.
 capital.		172800	IN	NS	demand.alpha.aridns.net.au.
@@ -4438,8 +4448,8 @@ ns5.dns.nic.dupont.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:34
 ns6.dns.nic.dupont.	172800	IN	A	156.154.158.52
 ns6.dns.nic.dupont.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:34
 durban.			172800	IN	NS	ns.coza.net.za.
-durban.			172800	IN	NS	ns2.dns.business.
 durban.			172800	IN	NS	coza1.dnsnode.net.
+durban.			172800	IN	NS	ns2us.dns.business.
 durban.			86400	IN	DS	48265 8 2 57603308E8A6D14065F069A08C050CDE3AD0C769DD2BECE4DA5FCC9456BAFB32
 dvag.			172800	IN	NS	a.nic.dvag.
 dvag.			172800	IN	NS	b.nic.dvag.
@@ -7582,8 +7592,8 @@ jobs.			172800	IN	NS	ac3.nstld.com.
 jobs.			172800	IN	NS	ac4.nstld.com.
 jobs.			86400	IN	DS	35409 8 2 6078CFA7FDF3F01B5C940CB29064603E0825D74FF6D0FDEE7C72023B03AF7AC9
 joburg.			172800	IN	NS	ns.coza.net.za.
-joburg.			172800	IN	NS	ns2.dns.business.
 joburg.			172800	IN	NS	coza1.dnsnode.net.
+joburg.			172800	IN	NS	ns2us.dns.business.
 joburg.			86400	IN	DS	65032 8 2 4ABF29A076FC19AC89283BED93457B56D2B0C8AD90DC24D70F70988A7D8BB574
 jot.			172800	IN	NS	dns1.nic.jot.
 jot.			172800	IN	NS	dns2.nic.jot.
@@ -9287,8 +9297,6 @@ mm.			172800	IN	NS	mm.cctld.authdns.ripe.net.
 mm.			172800	IN	NS	ns0.nic.net.mm.
 mm.			172800	IN	NS	ns1.nic.net.mm.
 mm.			172800	IN	NS	ns2.nic.net.mm.
-mm.			86400	IN	DS	10294 8 1 31C1F0CFF7A6FE366A55E731855C78CF672E88CF
-mm.			86400	IN	DS	14581 8 1 8B0ED592A997E801DAFADA2CD4CC31999BDA8782
 ns0.nic.net.mm.		172800	IN	A	203.81.64.20
 ns1.nic.net.mm.		172800	IN	A	203.81.81.85
 ns2.nic.net.mm.		172800	IN	A	203.81.92.10
@@ -9562,7 +9570,6 @@ mr.			172800	IN	NS	censvrns0001.ird.fr.
 ns1.nic.mr.		172800	IN	A	41.188.65.193
 ns2.nic.mr.		172800	IN	A	82.151.64.2
 ms.			172800	IN	NS	ns.cocca.fr.
-ms.			172800	IN	NS	ns.coccaregistry.org.
 ms.			172800	IN	NS	ms-ns.anycast.pch.net.
 msd.			172800	IN	NS	ac1.nstld.com.
 msd.			172800	IN	NS	ac2.nstld.com.
@@ -17578,6 +17585,8 @@ xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
 xxx.			86400	IN	DS	28246 7 1 31172701F24F34FB4AEDCCD311CA0707A32CEF28
 xxx.			86400	IN	DS	28246 7 2 79470475AAE20BF9CEAB59E7CB3EE166CEFC35A1B38702C6DF08D7518CD8562A
+xxx.			86400	IN	DS	38310 7 1 5F0706CED612A3B0CD8A98FB88B90F5311435FA0
+xxx.			86400	IN	DS	38310 7 2 BA73B98A2C0CE7E8CA325628DAF3EB0BA194F101DADFF2883DFC0833F29ED7F2
 xxx.			86400	IN	DS	50386 7 1 C7DBECBC434D3A3455E9E6F0B971B1AC6A2BAB10
 xxx.			86400	IN	DS	50386 7 2 10A34E6D723755E2D605BE1490316D214D41909E9414BF069DD0C6AFE03C2E73
 xyz.			172800	IN	NS	x.nic.xyz.
