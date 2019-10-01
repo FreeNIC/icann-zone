@@ -7137,6 +7137,8 @@ tld5.ultradns.info.	172800	IN	A	192.100.59.11
 ns2.uniregistry.info.	172800	IN	A	64.96.245.53
 ns4.uniregistry.info.	172800	IN	A	185.159.198.3
 ns4.uniregistry.info.	172800	IN	AAAA	2620:10a:80ab:0:0:0:0:3
+ns6.uniregistry.info.	172800	IN	A	206.51.254.2
+ns6.uniregistry.info.	172800	IN	AAAA	2620:171:804:ad2:0:0:0:2
 ing.			172800	IN	NS	ns-tld1.charlestonroadregistry.com.
 ing.			172800	IN	NS	ns-tld2.charlestonroadregistry.com.
 ing.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
@@ -10191,6 +10193,8 @@ ns1.uniregistry.net.	172800	IN	A	64.96.1.1
 ns1.uniregistry.net.	172800	IN	AAAA	2620:57:4000:1:0:0:0:1
 ns3.uniregistry.net.	172800	IN	A	185.159.197.3
 ns3.uniregistry.net.	172800	IN	AAAA	2620:10a:80aa:0:0:0:0:3
+ns5.uniregistry.net.	172800	IN	A	204.61.217.2
+ns5.uniregistry.net.	172800	IN	AAAA	2001:500:14:7002:ad:0:0:1
 ns.uu.net.		172800	IN	A	137.39.1.3
 auth00.ns.uu.net.	172800	IN	A	198.6.1.65
 auth02.ns.uu.net.	172800	IN	A	198.6.1.82
@@ -17574,12 +17578,14 @@ xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
 xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
+xxx.			172800	IN	NS	ns1.uniregistry.net.
+xxx.			172800	IN	NS	ns2.uniregistry.info.
+xxx.			172800	IN	NS	ns5.uniregistry.net.
+xxx.			172800	IN	NS	ns6.uniregistry.info.
 xxx.			86400	IN	DS	28246 7 1 31172701F24F34FB4AEDCCD311CA0707A32CEF28
 xxx.			86400	IN	DS	28246 7 2 79470475AAE20BF9CEAB59E7CB3EE166CEFC35A1B38702C6DF08D7518CD8562A
 xxx.			86400	IN	DS	38310 7 1 5F0706CED612A3B0CD8A98FB88B90F5311435FA0
 xxx.			86400	IN	DS	38310 7 2 BA73B98A2C0CE7E8CA325628DAF3EB0BA194F101DADFF2883DFC0833F29ED7F2
-xxx.			86400	IN	DS	50386 7 1 C7DBECBC434D3A3455E9E6F0B971B1AC6A2BAB10
-xxx.			86400	IN	DS	50386 7 2 10A34E6D723755E2D605BE1490316D214D41909E9414BF069DD0C6AFE03C2E73
 xyz.			172800	IN	NS	x.nic.xyz.
 xyz.			172800	IN	NS	y.nic.xyz.
 xyz.			172800	IN	NS	z.nic.xyz.
