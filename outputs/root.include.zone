@@ -236,31 +236,14 @@ ads.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 ads.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 ads.			86400	IN	DS	45211 8 2 DDC1297DFF56CC8B2DE6AE9D81734BC6E4440A99FFA17C40E565433F629C3000
-adult.			172800	IN	NS	a0.nic.adult.
-adult.			172800	IN	NS	a2.nic.adult.
-adult.			172800	IN	NS	b0.nic.adult.
-adult.			172800	IN	NS	b2.nic.adult.
-adult.			172800	IN	NS	c0.nic.adult.
-adult.			172800	IN	NS	d0.nic.adult.
 adult.			172800	IN	NS	ns1.uniregistry.net.
 adult.			172800	IN	NS	ns2.uniregistry.info.
 adult.			172800	IN	NS	ns5.uniregistry.net.
+adult.			172800	IN	NS	ns6.uniregistry.info.
 adult.			86400	IN	DS	6880 7 1 08C7AEFF495AE3E5BAA4E941FC11A1A9B8C03C3D
 adult.			86400	IN	DS	6880 7 2 199EE7B7A3B702C969F220DC2622F26426A35BE66BB9A13B4FC65C477EBFC22D
 adult.			86400	IN	DS	12384 7 1 221E46550901838781E9E611B472C90568A920EF
 adult.			86400	IN	DS	12384 7 2 6864A9D04CDFBD70E07A3144E73D08CBE1C4485C549D8F966EBBAF7CFBC40F89
-a0.nic.adult.		172800	IN	A	199.115.152.1
-a0.nic.adult.		172800	IN	AAAA	2001:500:a0:0:0:0:0:1
-a2.nic.adult.		172800	IN	A	199.115.156.1
-a2.nic.adult.		172800	IN	AAAA	2001:500:a4:0:0:0:0:1
-b0.nic.adult.		172800	IN	A	199.115.153.1
-b0.nic.adult.		172800	IN	AAAA	2001:500:a1:0:0:0:0:1
-b2.nic.adult.		172800	IN	A	199.115.157.1
-b2.nic.adult.		172800	IN	AAAA	2001:500:a5:0:0:0:0:1
-c0.nic.adult.		172800	IN	A	199.115.154.1
-c0.nic.adult.		172800	IN	AAAA	2001:500:a2:0:0:0:0:1
-d0.nic.adult.		172800	IN	A	199.115.155.1
-d0.nic.adult.		172800	IN	AAAA	2001:500:a3:0:0:0:0:1
 ae.			172800	IN	NS	ns1.aedns.ae.
 ae.			172800	IN	NS	ns2.aedns.ae.
 ae.			172800	IN	NS	ns4.apnic.net.
@@ -7133,12 +7116,6 @@ a2.pro.afilias-nst.info.	172800	IN	A	199.182.32.1
 a2.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:e0:0:0:0:0:1
 c0.pro.afilias-nst.info.	172800	IN	A	199.182.16.1
 c0.pro.afilias-nst.info.	172800	IN	AAAA	2001:500:d0:0:0:0:0:1
-a0.xxx.afilias-nst.info.	172800	IN	A	199.115.152.1
-a0.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a0:0:0:0:0:1
-a2.xxx.afilias-nst.info.	172800	IN	A	199.115.156.1
-a2.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a4:0:0:0:0:1
-c0.xxx.afilias-nst.info.	172800	IN	A	199.115.154.1
-c0.xxx.afilias-nst.info.	172800	IN	AAAA	2001:500:a2:0:0:0:0:1
 tld5.ultradns.info.	172800	IN	A	192.100.59.11
 ns2.uniregistry.info.	172800	IN	A	64.96.245.53
 ns4.uniregistry.info.	172800	IN	A	185.159.198.3
@@ -10984,12 +10961,6 @@ b2.pro.afilias-nst.org.	172800	IN	A	199.182.40.1
 b2.pro.afilias-nst.org.	172800	IN	AAAA	2001:500:e1:0:0:0:0:1
 d0.pro.afilias-nst.org.	172800	IN	A	199.182.17.1
 d0.pro.afilias-nst.org.	172800	IN	AAAA	2001:500:d1:0:0:0:0:1
-b0.xxx.afilias-nst.org.	172800	IN	A	199.115.153.1
-b0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a1:0:0:0:0:1
-b2.xxx.afilias-nst.org.	172800	IN	A	199.115.157.1
-b2.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a5:0:0:0:0:1
-d0.xxx.afilias-nst.org.	172800	IN	A	199.115.155.1
-d0.xxx.afilias-nst.org.	172800	IN	AAAA	2001:500:a3:0:0:0:0:1
 c.ci-servers.org.	172800	IN	A	194.146.106.86
 c.ci-servers.org.	172800	IN	AAAA	2001:67c:1010:22:0:0:0:53
 ns.coccaregistry.org.	172800	IN	A	185.17.236.111
@@ -11626,31 +11597,14 @@ ns1.nic.politie.	172800	IN	A	194.0.28.5
 ns1.nic.politie.	172800	IN	AAAA	2001:678:2c:0:194:0:28:5
 ns3.nic.politie.	172800	IN	A	194.0.25.27
 ns3.nic.politie.	172800	IN	AAAA	2001:678:20:0:0:0:0:27
-porn.			172800	IN	NS	a0.nic.porn.
-porn.			172800	IN	NS	a2.nic.porn.
-porn.			172800	IN	NS	b0.nic.porn.
-porn.			172800	IN	NS	b2.nic.porn.
-porn.			172800	IN	NS	c0.nic.porn.
-porn.			172800	IN	NS	d0.nic.porn.
 porn.			172800	IN	NS	ns1.uniregistry.net.
 porn.			172800	IN	NS	ns2.uniregistry.info.
 porn.			172800	IN	NS	ns5.uniregistry.net.
+porn.			172800	IN	NS	ns6.uniregistry.info.
 porn.			86400	IN	DS	26964 7 1 4DF87BF971AEE6ECE3BDB18B479CD8C706D0940A
 porn.			86400	IN	DS	26964 7 2 65D5B46A3C6FB2714E0777892902A0B9F92D75A5F5A52DB2CA0DE0960D06D06D
 porn.			86400	IN	DS	40125 7 1 17A4C622EA3F7CE1B491EFAB5C0245439F558C87
 porn.			86400	IN	DS	40125 7 2 06B17A8FDD0D63DBE40C6907F6F5A4CE0955B47773BEA7220CD858C058F48C51
-a0.nic.porn.		172800	IN	A	199.115.152.1
-a0.nic.porn.		172800	IN	AAAA	2001:500:a0:0:0:0:0:1
-a2.nic.porn.		172800	IN	A	199.115.156.1
-a2.nic.porn.		172800	IN	AAAA	2001:500:a4:0:0:0:0:1
-b0.nic.porn.		172800	IN	A	199.115.153.1
-b0.nic.porn.		172800	IN	AAAA	2001:500:a1:0:0:0:0:1
-b2.nic.porn.		172800	IN	A	199.115.157.1
-b2.nic.porn.		172800	IN	AAAA	2001:500:a5:0:0:0:0:1
-c0.nic.porn.		172800	IN	A	199.115.154.1
-c0.nic.porn.		172800	IN	AAAA	2001:500:a2:0:0:0:0:1
-d0.nic.porn.		172800	IN	A	199.115.155.1
-d0.nic.porn.		172800	IN	AAAA	2001:500:a3:0:0:0:0:1
 post.			172800	IN	NS	a0.post.afilias-nst.info.
 post.			172800	IN	NS	a2.post.afilias-nst.info.
 post.			172800	IN	NS	b0.post.afilias-nst.org.
@@ -13162,31 +13116,14 @@ b0.nic.sew.		172800	IN	A	65.22.189.25
 b0.nic.sew.		172800	IN	AAAA	2a01:8840:b7:0:0:0:0:25
 c0.nic.sew.		172800	IN	A	65.22.190.25
 c0.nic.sew.		172800	IN	AAAA	2a01:8840:b8:0:0:0:0:25
-sex.			172800	IN	NS	a0.nic.sex.
-sex.			172800	IN	NS	a2.nic.sex.
-sex.			172800	IN	NS	b0.nic.sex.
-sex.			172800	IN	NS	b2.nic.sex.
-sex.			172800	IN	NS	c0.nic.sex.
-sex.			172800	IN	NS	d0.nic.sex.
 sex.			172800	IN	NS	ns1.uniregistry.net.
 sex.			172800	IN	NS	ns2.uniregistry.info.
 sex.			172800	IN	NS	ns5.uniregistry.net.
+sex.			172800	IN	NS	ns6.uniregistry.info.
 sex.			86400	IN	DS	17466 7 1 D21E931F5FFD26DC73AEA12F5B2811B058EE53BF
 sex.			86400	IN	DS	17466 7 2 4DA5CB3C50F083650A323F6ABBB8AA9A0673451D9DAA4826253F5592084AF478
 sex.			86400	IN	DS	63876 7 1 AC14EA15B91BC5F5CE2A7E5875A118DC870A0C49
 sex.			86400	IN	DS	63876 7 2 93DD77EF2A29E805E1392773FBD7C26ED5090BED34A4A051289F4535F3B065B0
-a0.nic.sex.		172800	IN	A	199.115.152.1
-a0.nic.sex.		172800	IN	AAAA	2001:500:a0:0:0:0:0:1
-a2.nic.sex.		172800	IN	A	199.115.156.1
-a2.nic.sex.		172800	IN	AAAA	2001:500:a4:0:0:0:0:1
-b0.nic.sex.		172800	IN	A	199.115.153.1
-b0.nic.sex.		172800	IN	AAAA	2001:500:a1:0:0:0:0:1
-b2.nic.sex.		172800	IN	A	199.115.157.1
-b2.nic.sex.		172800	IN	AAAA	2001:500:a5:0:0:0:0:1
-c0.nic.sex.		172800	IN	A	199.115.154.1
-c0.nic.sex.		172800	IN	AAAA	2001:500:a2:0:0:0:0:1
-d0.nic.sex.		172800	IN	A	199.115.155.1
-d0.nic.sex.		172800	IN	AAAA	2001:500:a3:0:0:0:0:1
 sexy.			172800	IN	NS	ns1.uniregistry.net.
 sexy.			172800	IN	NS	ns2.uniregistry.info.
 sexy.			172800	IN	NS	ns3.uniregistry.net.
@@ -17584,12 +17521,6 @@ xn--zfr164b.		172800	IN	NS	ns3.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns4.conac.cn.
 xn--zfr164b.		172800	IN	NS	ns5.conac.cn.
 xn--zfr164b.		86400	IN	DS	51421 8 2 9D673623E84D7E10B2AA5B376A3F617665F8B38EF442E8A7E86F0F18161C7801
-xxx.			172800	IN	NS	a0.xxx.afilias-nst.info.
-xxx.			172800	IN	NS	a2.xxx.afilias-nst.info.
-xxx.			172800	IN	NS	b0.xxx.afilias-nst.org.
-xxx.			172800	IN	NS	b2.xxx.afilias-nst.org.
-xxx.			172800	IN	NS	c0.xxx.afilias-nst.info.
-xxx.			172800	IN	NS	d0.xxx.afilias-nst.org.
 xxx.			172800	IN	NS	ns1.uniregistry.net.
 xxx.			172800	IN	NS	ns2.uniregistry.info.
 xxx.			172800	IN	NS	ns5.uniregistry.net.
