@@ -9269,13 +9269,14 @@ a.ns.nic.mls.		172800	IN	A	185.159.197.8
 a.ns.nic.mls.		172800	IN	AAAA	2620:10a:80aa:0:0:0:0:8
 b.ns.nic.mls.		172800	IN	A	185.159.198.8
 b.ns.nic.mls.		172800	IN	AAAA	2620:10a:80ab:0:0:0:0:8
-mm.			172800	IN	NS	mm.cctld.authdns.ripe.net.
-mm.			172800	IN	NS	ns0.nic.net.mm.
-mm.			172800	IN	NS	ns1.nic.net.mm.
-mm.			172800	IN	NS	ns2.nic.net.mm.
-ns0.nic.net.mm.		172800	IN	A	203.81.64.20
-ns1.nic.net.mm.		172800	IN	A	203.81.81.85
-ns2.nic.net.mm.		172800	IN	A	203.81.92.10
+mm.			172800	IN	NS	a.nic.net.mm.
+mm.			172800	IN	NS	b.nic.net.mm.
+mm.			172800	IN	NS	c.nic.net.mm.
+mm.			172800	IN	NS	d.nic.net.mm.
+a.nic.net.mm.		172800	IN	A	37.209.192.4
+b.nic.net.mm.		172800	IN	A	37.209.194.4
+c.nic.net.mm.		172800	IN	A	37.209.196.4
+d.nic.net.mm.		172800	IN	A	37.209.198.4
 mma.			172800	IN	NS	d.nic.fr.
 mma.			172800	IN	NS	f.ext.nic.fr.
 mma.			172800	IN	NS	g.ext.nic.fr.
@@ -9667,8 +9668,6 @@ my.			86400	IN	DS	174 8 1 E61EFF1CAF6F896D87538F1DC56DB81060A41D6A
 my.			86400	IN	DS	174 8 2 FB9E2F10F50A09E3614A9E6A2C76C1AE7554711E5242B7F516A8078D86ED87B9
 my.			86400	IN	DS	35481 8 1 89DE7930E30966E4FDDBE1C11026677BFD4B5ED6
 my.			86400	IN	DS	35481 8 2 AE555A40F6BDB488EB025822A71C91C94E1F339FDD71E0386561C3C4B7D2B198
-my.			86400	IN	DS	63366 8 1 CA2A7A9CD3AC789D43027A5AB4E0B5CD8EABA319
-my.			86400	IN	DS	63366 8 2 978E934FEB98472B650A98D3ADA4352058BAE529A2B709982C86C0447D3A0F28
 a1.mynic.my.		172800	IN	A	202.171.47.204
 a.nic.my.		172800	IN	A	103.44.108.53
 a.nic.my.		172800	IN	AAAA	2001:ddc:0:53:0:0:0:53
@@ -10086,8 +10085,6 @@ kg.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.84
 kg.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:84
 mc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.92
 mc.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:92
-mm.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.96
-mm.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:96
 mw.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.99
 mw.cctld.authdns.ripe.net.	172800	IN	AAAA	2001:67c:e0:0:0:0:0:99
 nc.cctld.authdns.ripe.net.	172800	IN	A	193.0.9.100
