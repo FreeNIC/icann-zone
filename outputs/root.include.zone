@@ -254,8 +254,6 @@ ns1.aedns.ae.		172800	IN	A	79.98.120.73
 ns2.aedns.ae.		172800	IN	A	79.98.121.73
 nsext-pch.aedns.ae.	172800	IN	A	199.4.137.1
 nsext-pch.aedns.ae.	172800	IN	AAAA	2001:500:7d:0:0:0:0:1
-ns1.uaenic.ae.		172800	IN	A	213.42.0.226
-ns2.uaenic.ae.		172800	IN	A	195.229.0.186
 aeg.			172800	IN	NS	ac1.nstld.com.
 aeg.			172800	IN	NS	ac2.nstld.com.
 aeg.			172800	IN	NS	ac3.nstld.com.
@@ -3953,6 +3951,7 @@ de.			172800	IN	NS	n.de.net.
 de.			172800	IN	NS	s.de.net.
 de.			172800	IN	NS	z.nic.de.
 de.			86400	IN	DS	39227 8 2 AAB73083B9EF70E4A5E94769A418AC12E887FC3C0875EF206C3451DC40B6C4FA
+de.			86400	IN	DS	45580 8 2 918C32E2F12211766BE6226674F447458F2259B9A0D87B44D29D55AFECA6B2E1
 dns-ro.denic.de.	172800	IN	A	81.91.161.99
 pr-dns.denic.de.	172800	IN	A	194.0.11.111
 pr-dns.denic.de.	172800	IN	AAAA	2001:678:e:111:0:0:0:53
@@ -12929,8 +12928,7 @@ scot.			172800	IN	NS	anycast23.irondns.net.
 scot.			172800	IN	NS	anycast24.irondns.net.
 scot.			86400	IN	DS	28873 10 2 A99FB1213FC07299A57251F57238BC0F796D7AA311624CF49DDCACAC08C1DC3D
 sd.			172800	IN	NS	sd.cctld.authdns.ripe.net.
-sd.			172800	IN	NS	ns1.uaenic.ae.
-sd.			172800	IN	NS	ns2.uaenic.ae.
+sd.			172800	IN	NS	pch.sis.sd.
 sd.			172800	IN	NS	ans1.sis.sd.
 sd.			172800	IN	NS	ans1.canar.sd.
 sd.			172800	IN	NS	ans2.canar.sd.
