@@ -5868,10 +5868,9 @@ c.nic.giving.		172800	IN	A	37.209.196.9
 c.nic.giving.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:9
 d.nic.giving.		172800	IN	A	37.209.198.9
 d.nic.giving.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:9
-gl.			172800	IN	NS	a.gl.dyntld.net.
 gl.			172800	IN	NS	a.nuuk.nic.gl.
-gl.			172800	IN	NS	b.gl.dyntld.net.
 gl.			172800	IN	NS	d.nic.gl.
+gl.			172800	IN	NS	ns.cocca.fr.
 gl.			86400	IN	DS	11560 8 2 3D44DF84C78A82E0E9824440F3E82B402551341DBFF3BCE72CD786435D15F1AA
 d.nic.gl.		172800	IN	A	204.61.216.49
 d.nic.gl.		172800	IN	AAAA	2001:500:14:6049:ad:0:0:1
@@ -9873,10 +9872,6 @@ fork.sth.dnsnode.net.	172800	IN	A	77.72.229.254
 fork.sth.dnsnode.net.	172800	IN	AAAA	2a01:3f0:0:306:0:0:0:53
 za1.dnsnode.net.	172800	IN	A	194.146.106.78
 za1.dnsnode.net.	172800	IN	AAAA	2001:67c:1010:19:0:0:0:53
-a.gl.dyntld.net.	172800	IN	A	162.88.52.8
-a.gl.dyntld.net.	172800	IN	AAAA	2600:2000:3000:0:0:0:0:8
-b.gl.dyntld.net.	172800	IN	A	162.88.53.8
-b.gl.dyntld.net.	172800	IN	AAAA	2600:2000:3001:0:0:0:0:8
 a.na.dyntld.net.	172800	IN	A	108.59.162.1
 a.na.dyntld.net.	172800	IN	AAAA	2a02:e180:5:0:0:0:0:1
 b.na.dyntld.net.	172800	IN	A	108.59.163.1
