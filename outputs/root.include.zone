@@ -8820,11 +8820,11 @@ ly.			172800	IN	NS	ns-ly.afrinic.net.
 ly.			172800	IN	NS	phloem.uoregon.edu.
 pch.ltt.ly.		172800	IN	A	204.61.216.67
 pch.ltt.ly.		172800	IN	AAAA	2001:500:14:6067:ad:0:0:1
+ma.			172800	IN	NS	d.tld.ma.
 ma.			172800	IN	NS	dns.inria.fr.
 ma.			172800	IN	NS	ns1.registre.ma.
 ma.			172800	IN	NS	ns2.registre.ma.
 ma.			172800	IN	NS	ns3.registre.ma.
-ma.			172800	IN	NS	ns4.registre.ma.
 ma.			172800	IN	NS	ns-ma.nic.fr.
 ma.			172800	IN	NS	sns-pb.isc.org.
 ma.			86400	IN	DS	33982 8 2 3B9F33C27C469841B58463BCBCCDF2A4F129B03723BFA760CC9AC6B08DA47C12
@@ -8837,9 +8837,9 @@ ns2.registre.ma.	172800	IN	AAAA	2001:4288:1800:186:0:0:0:4
 ns3.registre.ma.	172800	IN	A	81.192.171.115
 ns3.registre.ma.	172800	IN	A	81.192.171.139
 ns3.registre.ma.	172800	IN	AAAA	2001:4288:1800:386:0:0:0:3
-ns4.registre.ma.	172800	IN	A	81.192.171.116
-ns4.registre.ma.	172800	IN	A	81.192.171.140
-ns4.registre.ma.	172800	IN	AAAA	2001:4288:1800:386:0:0:0:4
+d.tld.ma.		172800	IN	A	81.192.171.116
+d.tld.ma.		172800	IN	A	81.192.171.140
+d.tld.ma.		172800	IN	AAAA	2001:4288:1800:386:0:0:0:4
 macys.			172800	IN	NS	ac1.nstld.com.
 macys.			172800	IN	NS	ac2.nstld.com.
 macys.			172800	IN	NS	ac3.nstld.com.
@@ -17029,10 +17029,10 @@ xn--mgbbh1a71e.		172800	IN	NS	ns5.registry.in.
 xn--mgbbh1a71e.		172800	IN	NS	ns6.registry.in.
 xn--mgbbh1a71e.		86400	IN	DS	31854 7 1 04B0B55F64923648D0220C7160834ABA81C6C6BA
 xn--mgbbh1a71e.		86400	IN	DS	31854 7 2 75EE90DF490F129CAA3DE27CBDA64683CE471A7A653E5C71DCA71973CAA2B461
+xn--mgbc0a9azcg.	172800	IN	NS	d.tld.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	ns1.registre.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	ns2.registre.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	ns3.registre.ma.
-xn--mgbc0a9azcg.	172800	IN	NS	ns4.registre.ma.
 xn--mgbc0a9azcg.	172800	IN	NS	ns-ma.nic.fr.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.beta.aridns.net.au.
 xn--mgbca7dzdo.		172800	IN	NS	gtld.alpha.aridns.net.au.
