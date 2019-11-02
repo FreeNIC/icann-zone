@@ -6997,28 +6997,14 @@ immobilien.		172800	IN	NS	demand.delta.aridns.net.au.
 immobilien.		172800	IN	NS	demand.gamma.aridns.net.au.
 immobilien.		86400	IN	DS	52102 8 1 915275DB74FDE4755EA3D8D313B38CE5A51D89D7
 immobilien.		86400	IN	DS	52102 8 2 EE5AD70F70516919A49D48FDD7175311DEDA786EE6F3D5C201D837F2FABE9829
-in.			172800	IN	NS	ns1.neustar.in.
-in.			172800	IN	NS	ns2.neustar.in.
-in.			172800	IN	NS	ns3.neustar.in.
-in.			172800	IN	NS	ns4.neustar.in.
-in.			172800	IN	NS	ns5.neustar.in.
-in.			172800	IN	NS	ns6.neustar.in.
+in.			172800	IN	NS	ns1.registry.in.
+in.			172800	IN	NS	ns2.registry.in.
+in.			172800	IN	NS	ns3.registry.in.
+in.			172800	IN	NS	ns4.registry.in.
+in.			172800	IN	NS	ns5.registry.in.
+in.			172800	IN	NS	ns6.registry.in.
 in.			86400	IN	DS	35373 7 1 C8750CE0393237D97BE351C84326E45A20EFF25C
 in.			86400	IN	DS	35373 7 2 A5F1FEB3C7C62843C287BF38E0CFA8D33A1DF8FE2B7FD871BFDCFF8EA0B354DA
-in.			86400	IN	DS	49359 7 1 8B528916D0B1173E89FAB04F846C0499B1AED430
-in.			86400	IN	DS	49359 7 2 B12D2E841595863D5EEC975F769FE643F846EAA6F3FFA65B5520615AC6050524
-ns1.neustar.in.		172800	IN	A	37.209.192.12
-ns1.neustar.in.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:12
-ns2.neustar.in.		172800	IN	A	37.209.194.12
-ns2.neustar.in.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:12
-ns3.neustar.in.		172800	IN	A	37.209.196.12
-ns3.neustar.in.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:12
-ns4.neustar.in.		172800	IN	A	37.209.198.12
-ns4.neustar.in.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:12
-ns5.neustar.in.		172800	IN	A	156.154.100.20
-ns5.neustar.in.		172800	IN	AAAA	2001:502:2eda:0:0:0:0:20
-ns6.neustar.in.		172800	IN	A	156.154.101.20
-ns6.neustar.in.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:20
 ns1.registry.in.	172800	IN	A	37.209.192.12
 ns1.registry.in.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:12
 ns2.registry.in.	172800	IN	A	37.209.194.12
