@@ -4753,28 +4753,6 @@ events.			172800	IN	NS	demand.delta.aridns.net.au.
 events.			172800	IN	NS	demand.gamma.aridns.net.au.
 events.			86400	IN	DS	12436 8 1 25AA6434C2749207EA3D307AA87EA90345CE1540
 events.			86400	IN	DS	12436 8 2 5CE51062F315FFB34A3237942C3A5F35B4CA34A4034676C2FD02B850EDB93A16
-everbank.		172800	IN	NS	ns1.dns.nic.everbank.
-everbank.		172800	IN	NS	ns2.dns.nic.everbank.
-everbank.		172800	IN	NS	ns3.dns.nic.everbank.
-everbank.		172800	IN	NS	ns4.dns.nic.everbank.
-everbank.		172800	IN	NS	ns5.dns.nic.everbank.
-everbank.		172800	IN	NS	ns6.dns.nic.everbank.
-everbank.		86400	IN	DS	29680 8 1 04FEF147A9AFA66E3988081C500692A4CECB49D3
-everbank.		86400	IN	DS	29680 8 2 1C7D49C71266A603F6C377A569BEA5C7D56EF83166500395BA9EA97DE824648B
-everbank.		86400	IN	DS	54326 8 1 8020F3C503B80BEF9A62AE5A3BE96F215C3DCF7C
-everbank.		86400	IN	DS	54326 8 2 1AC937252BC9B03A7AE7FFE0510014B79A8409721131E66C4CB0D115210D419D
-ns1.dns.nic.everbank.	172800	IN	A	156.154.144.53
-ns1.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1071:0:0:0:0:35
-ns2.dns.nic.everbank.	172800	IN	A	156.154.145.53
-ns2.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1072:0:0:0:0:35
-ns3.dns.nic.everbank.	172800	IN	A	156.154.159.53
-ns3.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1073:0:0:0:0:35
-ns4.dns.nic.everbank.	172800	IN	A	156.154.156.53
-ns4.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1074:0:0:0:0:35
-ns5.dns.nic.everbank.	172800	IN	A	156.154.157.53
-ns5.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:35
-ns6.dns.nic.everbank.	172800	IN	A	156.154.158.53
-ns6.dns.nic.everbank.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:35
 exchange.		172800	IN	NS	demand.beta.aridns.net.au.
 exchange.		172800	IN	NS	demand.alpha.aridns.net.au.
 exchange.		172800	IN	NS	demand.delta.aridns.net.au.
@@ -14938,7 +14916,6 @@ ua.			172800	IN	NS	in1.ns.ua.
 ua.			172800	IN	NS	pch.ns.ua.
 ua.			172800	IN	NS	sns-pb.isc.org.
 ua.			86400	IN	DS	48349 13 2 D8456DF0EAB0DB7D2422B4110722F5772D7B2F1FD41D487E956A54F1039D53C8
-ua.			86400	IN	DS	56514 10 2 BDD7A310534F76B2B6B25C94F816F9B9F260A2E35F526A9287E3307FB2CD16D8
 az.hostmaster.ua.	172800	IN	A	195.47.253.13
 az.hostmaster.ua.	172800	IN	AAAA	2001:67c:258:0:0:0:0:13
 ge.hostmaster.ua.	172800	IN	A	195.47.253.18
