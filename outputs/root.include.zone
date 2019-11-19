@@ -896,12 +896,12 @@ attorney.		86400	IN	DS	43315 8 2 520A1183EDEDBAEDD363D86BB225CDF2737BE2C0F7B281C
 au.			172800	IN	NS	a.au.
 au.			172800	IN	NS	c.au.
 au.			172800	IN	NS	d.au.
+au.			172800	IN	NS	m.au.
+au.			172800	IN	NS	n.au.
 au.			172800	IN	NS	q.au.
 au.			172800	IN	NS	r.au.
 au.			172800	IN	NS	s.au.
 au.			172800	IN	NS	t.au.
-au.			172800	IN	NS	u.au.
-au.			172800	IN	NS	v.au.
 au.			86400	IN	DS	20647 8 1 A1C2F3602CD171CF3FBCDA25523C086867D29CC6
 au.			86400	IN	DS	20647 8 2 EFC7975FCA1FED2B5DF3624A7EFAB5ED20AF42DC83F5D9EC1D3B4C990B8E2B54
 a.au.			172800	IN	A	58.65.254.73
@@ -910,6 +910,10 @@ c.au.			172800	IN	A	162.159.24.179
 c.au.			172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:18b3
 d.au.			172800	IN	A	162.159.25.38
 d.au.			172800	IN	AAAA	2400:cb00:2049:1:0:0:a29f:1926
+m.au.			172800	IN	A	156.154.100.24
+m.au.			172800	IN	AAAA	2001:502:2eda:0:0:0:0:24
+n.au.			172800	IN	A	156.154.101.24
+n.au.			172800	IN	AAAA	2001:502:ad09:0:0:0:0:24
 cctld.alpha.aridns.net.au.	172800	IN	A	37.209.192.6
 cctld.alpha.aridns.net.au.	172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
 demand.alpha.aridns.net.au.	172800	IN	A	37.209.192.7
@@ -945,9 +949,6 @@ s.au.			172800	IN	A	65.22.198.1
 s.au.			172800	IN	AAAA	2a01:8840:c0:0:0:0:0:1
 t.au.			172800	IN	A	65.22.199.1
 t.au.			172800	IN	AAAA	2a01:8840:c1:0:0:0:0:1
-u.au.			172800	IN	A	211.29.133.32
-v.au.			172800	IN	A	202.12.31.53
-v.au.			172800	IN	AAAA	2001:dd8:12:0:0:0:0:53
 auction.		172800	IN	NS	demand.beta.aridns.net.au.
 auction.		172800	IN	NS	demand.alpha.aridns.net.au.
 auction.		172800	IN	NS	demand.delta.aridns.net.au.
