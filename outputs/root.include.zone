@@ -2877,20 +2877,6 @@ chrome.			172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 chrome.			172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 chrome.			172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 chrome.			86400	IN	DS	56911 8 2 C036AD5481A57EACDECF5780DE4AEC4A1C433732D50DA29A66A1643656D065BA
-chrysler.		172800	IN	NS	a0.nic.chrysler.
-chrysler.		172800	IN	NS	a2.nic.chrysler.
-chrysler.		172800	IN	NS	b0.nic.chrysler.
-chrysler.		172800	IN	NS	c0.nic.chrysler.
-chrysler.		86400	IN	DS	3583 7 1 16C7FB956DA03A467DED783DE53F12E01629F2AC
-chrysler.		86400	IN	DS	3583 7 2 463CF8BD9E88F5EB11BBAAD17737F42ADB14885AFD0710DBD4EBFA87C0B8B09B
-a0.nic.chrysler.	172800	IN	A	65.22.76.1
-a0.nic.chrysler.	172800	IN	AAAA	2a01:8840:4a:0:0:0:0:1
-a2.nic.chrysler.	172800	IN	A	65.22.79.1
-a2.nic.chrysler.	172800	IN	AAAA	2a01:8840:4d:0:0:0:0:1
-b0.nic.chrysler.	172800	IN	A	65.22.77.1
-b0.nic.chrysler.	172800	IN	AAAA	2a01:8840:4b:0:0:0:0:1
-c0.nic.chrysler.	172800	IN	A	65.22.78.1
-c0.nic.chrysler.	172800	IN	AAAA	2a01:8840:4c:0:0:0:0:1
 church.			172800	IN	NS	demand.beta.aridns.net.au.
 church.			172800	IN	NS	demand.alpha.aridns.net.au.
 church.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -4270,20 +4256,6 @@ doctor.			172800	IN	NS	demand.alpha.aridns.net.au.
 doctor.			172800	IN	NS	demand.delta.aridns.net.au.
 doctor.			172800	IN	NS	demand.gamma.aridns.net.au.
 doctor.			86400	IN	DS	3712 8 2 495EED3D2BA4B8EA1D9F0DBBC3899D0922AEB9C18335FF13198EA31036A8DD0C
-dodge.			172800	IN	NS	a0.nic.dodge.
-dodge.			172800	IN	NS	a2.nic.dodge.
-dodge.			172800	IN	NS	b0.nic.dodge.
-dodge.			172800	IN	NS	c0.nic.dodge.
-dodge.			86400	IN	DS	46764 7 1 16530CAF967322E3223F02DF93D35C9CFA142FAA
-dodge.			86400	IN	DS	46764 7 2 4785AC0BAC1B92440CFFF5E31CB099FA72BBD1B3CA499CE92E5F51A527EDCA40
-a0.nic.dodge.		172800	IN	A	65.22.76.9
-a0.nic.dodge.		172800	IN	AAAA	2a01:8840:4a:0:0:0:0:9
-a2.nic.dodge.		172800	IN	A	65.22.79.9
-a2.nic.dodge.		172800	IN	AAAA	2a01:8840:4d:0:0:0:0:9
-b0.nic.dodge.		172800	IN	A	65.22.77.9
-b0.nic.dodge.		172800	IN	AAAA	2a01:8840:4b:0:0:0:0:9
-c0.nic.dodge.		172800	IN	A	65.22.78.9
-c0.nic.dodge.		172800	IN	AAAA	2a01:8840:4c:0:0:0:0:9
 dog.			172800	IN	NS	demand.beta.aridns.net.au.
 dog.			172800	IN	NS	demand.alpha.aridns.net.au.
 dog.			172800	IN	NS	demand.delta.aridns.net.au.
@@ -9384,20 +9356,6 @@ c.nic.monster.		172800	IN	A	212.18.248.83
 c.nic.monster.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:83
 d.nic.monster.		172800	IN	A	212.18.249.83
 d.nic.monster.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:83
-mopar.			172800	IN	NS	a0.nic.mopar.
-mopar.			172800	IN	NS	a2.nic.mopar.
-mopar.			172800	IN	NS	b0.nic.mopar.
-mopar.			172800	IN	NS	c0.nic.mopar.
-mopar.			86400	IN	DS	57114 7 1 2E878D693305FD8BF1C2CF8FDB507DF3F60B4842
-mopar.			86400	IN	DS	57114 7 2 D2C438ACA58FFECDD8FC5C443B01E5D09B1A8E1DE45941E24543E865B133E6D1
-a0.nic.mopar.		172800	IN	A	65.22.76.33
-a0.nic.mopar.		172800	IN	AAAA	2a01:8840:4a:0:0:0:0:33
-a2.nic.mopar.		172800	IN	A	65.22.79.33
-a2.nic.mopar.		172800	IN	AAAA	2a01:8840:4d:0:0:0:0:33
-b0.nic.mopar.		172800	IN	A	65.22.77.33
-b0.nic.mopar.		172800	IN	AAAA	2a01:8840:4b:0:0:0:0:33
-c0.nic.mopar.		172800	IN	A	65.22.78.33
-c0.nic.mopar.		172800	IN	AAAA	2a01:8840:4c:0:0:0:0:33
 mormon.			172800	IN	NS	a0.nic.mormon.
 mormon.			172800	IN	NS	a2.nic.mormon.
 mormon.			172800	IN	NS	b0.nic.mormon.
@@ -13567,20 +13525,6 @@ b0.nic.srl.		172800	IN	A	65.22.81.33
 b0.nic.srl.		172800	IN	AAAA	2a01:8840:4f:0:0:0:0:33
 c0.nic.srl.		172800	IN	A	65.22.82.33
 c0.nic.srl.		172800	IN	AAAA	2a01:8840:50:0:0:0:0:33
-srt.			172800	IN	NS	a0.nic.srt.
-srt.			172800	IN	NS	a2.nic.srt.
-srt.			172800	IN	NS	b0.nic.srt.
-srt.			172800	IN	NS	c0.nic.srt.
-srt.			86400	IN	DS	22834 7 1 7117BF16588E110A169F80C7D22B9389069F3766
-srt.			86400	IN	DS	22834 7 2 594F7D959E39F0BA5039C1BAC80D9BA16DBAF7334ACD1A64C449B56883983DE5
-a0.nic.srt.		172800	IN	A	65.22.76.49
-a0.nic.srt.		172800	IN	AAAA	2a01:8840:4a:0:0:0:0:49
-a2.nic.srt.		172800	IN	A	65.22.79.49
-a2.nic.srt.		172800	IN	AAAA	2a01:8840:4d:0:0:0:0:49
-b0.nic.srt.		172800	IN	A	65.22.77.49
-b0.nic.srt.		172800	IN	AAAA	2a01:8840:4b:0:0:0:0:49
-c0.nic.srt.		172800	IN	A	65.22.78.49
-c0.nic.srt.		172800	IN	AAAA	2a01:8840:4c:0:0:0:0:49
 ss.			172800	IN	NS	b.ns.tznic.or.tz.
 ss.			172800	IN	NS	root.ssnic.gov.ss.
 ss.			172800	IN	NS	ssnic.anycastdns.cz.
@@ -14898,20 +14842,6 @@ ubs.			172800	IN	NS	ac2.nstld.com.
 ubs.			172800	IN	NS	ac3.nstld.com.
 ubs.			172800	IN	NS	ac4.nstld.com.
 ubs.			86400	IN	DS	12438 8 2 171F8167E302DF1987AA8760841D65918ACC427819CAC5B70EF74BE730F456AD
-uconnect.		172800	IN	NS	a0.nic.uconnect.
-uconnect.		172800	IN	NS	a2.nic.uconnect.
-uconnect.		172800	IN	NS	b0.nic.uconnect.
-uconnect.		172800	IN	NS	c0.nic.uconnect.
-uconnect.		86400	IN	DS	38163 7 1 F846ED9EB5504FD44BEE11E0056DFDF54E6FE5C5
-uconnect.		86400	IN	DS	38163 7 2 ED68D7C520FD5DEC33ACCDE6A47EB9573AE4DBE6976BB24DB33BFA6BD2510803
-a0.nic.uconnect.	172800	IN	A	65.22.76.17
-a0.nic.uconnect.	172800	IN	AAAA	2a01:8840:4a:0:0:0:0:17
-a2.nic.uconnect.	172800	IN	A	65.22.79.17
-a2.nic.uconnect.	172800	IN	AAAA	2a01:8840:4d:0:0:0:0:17
-b0.nic.uconnect.	172800	IN	A	65.22.77.17
-b0.nic.uconnect.	172800	IN	AAAA	2a01:8840:4b:0:0:0:0:17
-c0.nic.uconnect.	172800	IN	A	65.22.78.17
-c0.nic.uconnect.	172800	IN	AAAA	2a01:8840:4c:0:0:0:0:17
 ug.			172800	IN	NS	ns.icann.org.
 ug.			172800	IN	NS	ug.cctld.authdns.ripe.net.
 ug.			172800	IN	NS	root.eahd.or.ug.
