@@ -7947,11 +7947,6 @@ lacaixa.		172800	IN	NS	anycast10.irondns.net.
 lacaixa.		172800	IN	NS	anycast23.irondns.net.
 lacaixa.		172800	IN	NS	anycast24.irondns.net.
 lacaixa.		86400	IN	DS	36309 10 2 1472BAB3DDF6CA893B478BB871E9C9A21C0E01D468C9A9117771E29BCC93D1B9
-ladbrokes.		172800	IN	NS	ac1.nstld.com.
-ladbrokes.		172800	IN	NS	ac2.nstld.com.
-ladbrokes.		172800	IN	NS	ac3.nstld.com.
-ladbrokes.		172800	IN	NS	ac4.nstld.com.
-ladbrokes.		86400	IN	DS	37299 8 2 93937454D7F30AB3063CAFAE520EB0EEBB28E33133FBB236E15C8DA5D4EAEC5B
 lamborghini.		172800	IN	NS	a0.nic.lamborghini.
 lamborghini.		172800	IN	NS	a2.nic.lamborghini.
 lamborghini.		172800	IN	NS	b0.nic.lamborghini.
@@ -15482,11 +15477,6 @@ dnsa.nic.wanggou.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:3
 dnsb.nic.wanggou.	172800	IN	A	156.154.101.3
 dnsc.nic.wanggou.	172800	IN	A	156.154.102.3
 dnsd.nic.wanggou.	172800	IN	A	156.154.103.3
-warman.			172800	IN	NS	ac1.nstld.com.
-warman.			172800	IN	NS	ac2.nstld.com.
-warman.			172800	IN	NS	ac3.nstld.com.
-warman.			172800	IN	NS	ac4.nstld.com.
-warman.			86400	IN	DS	47088 8 2 EABB251950FDAA13842AD37900D874D66CBB607B59C24C70415BE9EA5135498F
 watch.			172800	IN	NS	demand.beta.aridns.net.au.
 watch.			172800	IN	NS	demand.alpha.aridns.net.au.
 watch.			172800	IN	NS	demand.delta.aridns.net.au.
