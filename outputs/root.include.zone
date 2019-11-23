@@ -1232,8 +1232,9 @@ band.			86400	IN	DS	37969 8 2 FA53D6DC0BD9BBB6D21F7999A0498925D04E150EF9841B58DF
 bank.			172800	IN	NS	a.nic.bank.
 bank.			172800	IN	NS	b.nic.bank.
 bank.			172800	IN	NS	c.nic.bank.
-bank.			172800	IN	NS	ac3.nstld.com.
-bank.			172800	IN	NS	ac4.nstld.com.
+bank.			172800	IN	NS	d.nic.bank.
+bank.			172800	IN	NS	e.nic.bank.
+bank.			172800	IN	NS	f.nic.bank.
 bank.			86400	IN	DS	24451 8 1 ECAC668F44CEF85523CA91BF9CD89F4B48D7E786
 bank.			86400	IN	DS	24451 8 2 C3DC580DD252CBB5D452BD595666AE843BEDA342FFCD30C920E01D62AEE2796B
 bank.			86400	IN	DS	46041 8 2 B38A19166E8A6FDB02B4757B6455734191FD2928B48B1AA5312456DF05D9DB19
@@ -1243,6 +1244,12 @@ b.nic.bank.		172800	IN	A	156.154.101.27
 b.nic.bank.		172800	IN	AAAA	2001:502:ad09:0:0:0:0:27
 c.nic.bank.		172800	IN	A	156.154.102.27
 c.nic.bank.		172800	IN	AAAA	2610:a1:1009:0:0:0:0:27
+d.nic.bank.		172800	IN	A	156.154.103.27
+d.nic.bank.		172800	IN	AAAA	2610:a1:1010:0:0:0:0:27
+e.nic.bank.		172800	IN	A	156.154.104.27
+e.nic.bank.		172800	IN	AAAA	2610:a1:1011:0:0:0:0:27
+f.nic.bank.		172800	IN	A	156.154.105.27
+f.nic.bank.		172800	IN	AAAA	2610:a1:1012:0:0:0:0:27
 bar.			172800	IN	NS	a.nic.bar.
 bar.			172800	IN	NS	b.nic.bar.
 bar.			172800	IN	NS	c.nic.bar.
@@ -7081,8 +7088,9 @@ institute.		86400	IN	DS	26284 8 2 6A25BB9B54C84106905F79D88313D98BFC51D4416D7039
 insurance.		172800	IN	NS	a.nic.insurance.
 insurance.		172800	IN	NS	b.nic.insurance.
 insurance.		172800	IN	NS	c.nic.insurance.
-insurance.		172800	IN	NS	ac3.nstld.com.
-insurance.		172800	IN	NS	ac4.nstld.com.
+insurance.		172800	IN	NS	d.nic.insurance.
+insurance.		172800	IN	NS	e.nic.insurance.
+insurance.		172800	IN	NS	f.nic.insurance.
 insurance.		86400	IN	DS	26106 8 2 6FA68E9C22C5591EBB6BAF0213849102AF30B71B65B51ED890639F8299AAD1D8
 insurance.		86400	IN	DS	48811 8 1 B575048BA3D8644F995DBE7AF524C6EAF5E0E40F
 insurance.		86400	IN	DS	48811 8 2 C6677658BFC5B11FEC39E0D7F7266091FC7979EAAE5AA6C51673B1A53BCED3FA
@@ -7092,6 +7100,12 @@ b.nic.insurance.	172800	IN	A	156.154.101.22
 b.nic.insurance.	172800	IN	AAAA	2001:502:ad09:0:0:0:0:22
 c.nic.insurance.	172800	IN	A	156.154.102.22
 c.nic.insurance.	172800	IN	AAAA	2610:a1:1009:0:0:0:0:22
+d.nic.insurance.	172800	IN	A	156.154.103.22
+d.nic.insurance.	172800	IN	AAAA	2610:a1:1010:0:0:0:0:22
+e.nic.insurance.	172800	IN	A	156.154.104.22
+e.nic.insurance.	172800	IN	AAAA	2610:a1:1011:0:0:0:0:22
+f.nic.insurance.	172800	IN	A	156.154.105.22
+f.nic.insurance.	172800	IN	AAAA	2610:a1:1012:0:0:0:0:22
 insure.			172800	IN	NS	demand.beta.aridns.net.au.
 insure.			172800	IN	NS	demand.alpha.aridns.net.au.
 insure.			172800	IN	NS	demand.delta.aridns.net.au.
