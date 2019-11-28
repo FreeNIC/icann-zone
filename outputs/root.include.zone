@@ -4250,7 +4250,6 @@ do.			172800	IN	NS	ns3.nic.mx.
 do.			172800	IN	NS	ns4.nic.do.
 do.			172800	IN	NS	ns5.nic.do.
 do.			172800	IN	NS	phloem.uoregon.edu.
-do.			172800	IN	NS	sns-pb.isc.org.
 ns.nic.do.		172800	IN	A	190.113.72.177
 ns.nic.do.		172800	IN	AAAA	2001:13e0:85d0:106:0:0:0:177
 ns1.nic.do.		172800	IN	A	190.113.72.178
@@ -8026,11 +8025,6 @@ b0.nic.lancia.		172800	IN	A	65.22.125.9
 b0.nic.lancia.		172800	IN	AAAA	2a01:8840:7b:0:0:0:0:9
 c0.nic.lancia.		172800	IN	A	65.22.126.9
 c0.nic.lancia.		172800	IN	AAAA	2a01:8840:7c:0:0:0:0:9
-lancome.		172800	IN	NS	ac1.nstld.com.
-lancome.		172800	IN	NS	ac2.nstld.com.
-lancome.		172800	IN	NS	ac3.nstld.com.
-lancome.		172800	IN	NS	ac4.nstld.com.
-lancome.		86400	IN	DS	33216 8 2 F9025313795ABF357B985AF24915FE6D457BAA8E8C5F6CB4B44009861FAB8475
 land.			172800	IN	NS	demand.beta.aridns.net.au.
 land.			172800	IN	NS	demand.alpha.aridns.net.au.
 land.			172800	IN	NS	demand.delta.aridns.net.au.
