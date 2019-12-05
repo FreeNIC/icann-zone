@@ -8449,6 +8449,12 @@ b0.nic.llc.		172800	IN	A	65.22.37.9
 b0.nic.llc.		172800	IN	AAAA	2a01:8840:27:0:0:0:0:9
 c0.nic.llc.		172800	IN	A	65.22.38.9
 c0.nic.llc.		172800	IN	AAAA	2a01:8840:28:0:0:0:0:9
+llp.			172800	IN	NS	ns1.uniregistry.net.
+llp.			172800	IN	NS	ns2.uniregistry.info.
+llp.			172800	IN	NS	ns3.uniregistry.net.
+llp.			172800	IN	NS	ns4.uniregistry.info.
+llp.			86400	IN	DS	27216 7 1 5DE35ECE1AE46BBA06281C8DA6FFDA34B167AC2E
+llp.			86400	IN	DS	27216 7 2 B95649568BD88F57C7500A9E21D1D181065170CADBB881E299FD82E3A9909C23
 loan.			172800	IN	NS	ns1.dns.nic.loan.
 loan.			172800	IN	NS	ns2.dns.nic.loan.
 loan.			172800	IN	NS	ns3.dns.nic.loan.
