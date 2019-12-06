@@ -5170,8 +5170,10 @@ manu.usp.ac.fj.		172800	IN	A	144.120.8.10
 teri.usp.ac.fj.		172800	IN	A	144.120.8.1
 fk.			172800	IN	NS	ns1.horizon.net.fk.
 fk.			172800	IN	NS	ns2.horizon.net.fk.
+fk.			172800	IN	NS	ns3.horizon.net.fk.
 ns1.horizon.net.fk.	172800	IN	A	195.248.193.250
 ns2.horizon.net.fk.	172800	IN	A	195.248.193.251
+ns3.horizon.net.fk.	172800	IN	A	93.187.151.193
 flickr.			172800	IN	NS	ns1.dns.nic.flickr.
 flickr.			172800	IN	NS	ns2.dns.nic.flickr.
 flickr.			172800	IN	NS	ns3.dns.nic.flickr.
@@ -8078,8 +8080,11 @@ b0.nic.lasalle.		172800	IN	AAAA	2a01:8840:93:0:0:0:0:1
 c0.nic.lasalle.		172800	IN	A	65.22.150.1
 c0.nic.lasalle.		172800	IN	AAAA	2a01:8840:94:0:0:0:0:1
 lat.			172800	IN	NS	c.mx-ns.mx.
+lat.			172800	IN	NS	e.mx-ns.mx.
+lat.			172800	IN	NS	i.mx-ns.mx.
 lat.			172800	IN	NS	m.mx-ns.mx.
 lat.			172800	IN	NS	o.mx-ns.mx.
+lat.			172800	IN	NS	x.mx-ns.mx.
 lat.			86400	IN	DS	51802 8 2 3A561EC32168F35264981F2952AEF94E97654919AA5904CE1058C1D000F07492
 latino.			172800	IN	NS	a0.nic.latino.
 latino.			172800	IN	NS	a2.nic.latino.
