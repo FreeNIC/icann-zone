@@ -6112,8 +6112,8 @@ gt.			172800	IN	NS	a.lactld.org.
 gt.			172800	IN	NS	ns.dns.br.
 gt.			172800	IN	NS	ns3.nic.mx.
 gt.			172800	IN	NS	pch.gt.
-gt.			172800	IN	NS	ns-ext.nic.cl.
 gt.			172800	IN	NS	sns-pb.isc.org.
+gt.			172800	IN	NS	ssdns-tld.nic.cl.
 pch.gt.			172800	IN	A	204.61.216.95
 pch.gt.			172800	IN	AAAA	2001:500:14:6095:ad:0:0:1
 gu.			172800	IN	NS	gu.cctld.authdns.ripe.net.
@@ -6417,7 +6417,7 @@ hm.			172800	IN	NS	ns3.registry.hm.
 ns1.registry.hm.	172800	IN	A	208.70.79.25
 ns2.registry.hm.	172800	IN	A	208.70.79.24
 ns3.registry.hm.	172800	IN	A	128.199.180.188
-hn.			172800	IN	NS	sns-pb.isc.org.
+hn.			172800	IN	NS	a.lactld.org.
 hn.			172800	IN	NS	pch-anycast.rds.org.hn.
 hn.			172800	IN	NS	nicmx-anycast.rds.org.hn.
 hn.			86400	IN	DS	20599 8 2 B7CA2A70DEA7188CB7319A8049164EF9D0E3496D8FE4E3C135CBA8452544BA72
@@ -9548,6 +9548,7 @@ udns2.tld.mu.		172800	IN	AAAA	2001:67c:e0:0:0:0:0:98
 museum.			172800	IN	NS	d.nic.fr.
 museum.			172800	IN	NS	f.ext.nic.fr.
 museum.			172800	IN	NS	g.ext.nic.fr.
+museum.			86400	IN	DS	22289 8 2 229739DF4F32A081B4E0E4C8D3EFF6B263A61CF0CF812EA5C67B7640F1BB21A0
 museum.			86400	IN	DS	34597 8 2 573E91CDC458F93DF85253B0B94F9C2FA39BBEC1D0FF82A2063FE043DFA3A1A8
 museum.			86400	IN	DS	53111 8 2 07270B11106E18C99EA85FC48A92C6D9DC519AC9F818D419B359B4A6DA7D1AEE
 mutual.			172800	IN	NS	ns1.dns.nic.mutual.
@@ -15418,19 +15419,18 @@ voyage.			172800	IN	NS	demand.delta.aridns.net.au.
 voyage.			172800	IN	NS	demand.gamma.aridns.net.au.
 voyage.			86400	IN	DS	12157 8 1 F9E3B11A416F4D564FB5EDE6FA51173F15FE5A0B
 voyage.			86400	IN	DS	12157 8 2 2911454B2BB4CD5CE2AA0330C99049A7140773965691AC862A4E5904D2F53FB3
-vu.			172800	IN	NS	rip.psg.com.
-vu.			172800	IN	NS	fork.sth.dnsnode.net.
-vu.			172800	IN	NS	efate.vanuatu.com.vu.
-vu.			172800	IN	NS	santo.vanuatu.com.vu.
-vu.			172800	IN	NS	anytld.apnic.net.
-vu.			172800	IN	NS	ns1-cctld.vunic.vu.
-vu.			172800	IN	NS	ns2-cctld.vunic.vu.
-vu.			86400	IN	DS	32532 10 1 77F5F1C79BA3382000CCD4BB82C1E39B1E8752B5
-vu.			86400	IN	DS	32532 10 2 33849E9D4718FAF292F13D7CA863B5836871E63E8D432509A1E6EC11AA0D1596
-efate.vanuatu.com.vu.	172800	IN	A	202.80.32.5
-santo.vanuatu.com.vu.	172800	IN	A	202.80.32.7
-ns1-cctld.vunic.vu.	172800	IN	A	202.80.32.9
-ns2-cctld.vunic.vu.	172800	IN	A	202.80.32.10
+vu.			172800	IN	NS	ns1.neustar.vu.
+vu.			172800	IN	NS	ns2.neustar.vu.
+vu.			172800	IN	NS	ns3.neustar.vu.
+vu.			172800	IN	NS	ns4.neustar.vu.
+ns1.neustar.vu.		172800	IN	A	37.209.192.6
+ns1.neustar.vu.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:6
+ns2.neustar.vu.		172800	IN	A	37.209.194.6
+ns2.neustar.vu.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:6
+ns3.neustar.vu.		172800	IN	A	37.209.196.6
+ns3.neustar.vu.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:6
+ns4.neustar.vu.		172800	IN	A	37.209.198.6
+ns4.neustar.vu.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:6
 vuelos.			172800	IN	NS	ns1.dns.nic.vuelos.
 vuelos.			172800	IN	NS	ns2.dns.nic.vuelos.
 vuelos.			172800	IN	NS	ns3.dns.nic.vuelos.
