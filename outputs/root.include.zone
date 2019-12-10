@@ -5171,8 +5171,8 @@ teri.usp.ac.fj.		172800	IN	A	144.120.8.1
 fk.			172800	IN	NS	ns1.horizon.net.fk.
 fk.			172800	IN	NS	ns2.horizon.net.fk.
 fk.			172800	IN	NS	ns3.horizon.net.fk.
-ns1.horizon.net.fk.	172800	IN	A	195.248.193.250
-ns2.horizon.net.fk.	172800	IN	A	195.248.193.251
+ns1.horizon.net.fk.	172800	IN	A	80.73.216.250
+ns2.horizon.net.fk.	172800	IN	A	80.73.216.251
 ns3.horizon.net.fk.	172800	IN	A	93.187.151.193
 flickr.			172800	IN	NS	ns1.dns.nic.flickr.
 flickr.			172800	IN	NS	ns2.dns.nic.flickr.
@@ -8746,14 +8746,15 @@ luxury.			172800	IN	NS	b.nic.luxury.
 luxury.			172800	IN	NS	c.nic.luxury.
 luxury.			172800	IN	NS	d.nic.luxury.
 luxury.			86400	IN	DS	3664 8 2 D602E8F4FD9729146D1FB1D249544DCEECE615E528EB2E4997FB1760B004D67E
-a.nic.luxury.		172800	IN	A	37.209.192.10
-a.nic.luxury.		172800	IN	AAAA	2001:dcd:1:0:0:0:0:10
-b.nic.luxury.		172800	IN	A	37.209.194.10
-b.nic.luxury.		172800	IN	AAAA	2001:dcd:2:0:0:0:0:10
-c.nic.luxury.		172800	IN	A	37.209.196.10
-c.nic.luxury.		172800	IN	AAAA	2001:dcd:3:0:0:0:0:10
-d.nic.luxury.		172800	IN	A	37.209.198.10
-d.nic.luxury.		172800	IN	AAAA	2001:dcd:4:0:0:0:0:10
+luxury.			86400	IN	DS	32039 8 2 DEB7FE904A2E04500ACC98F3F5B9D6DB275139FBC92EBB2938BCF9E842812935
+a.nic.luxury.		172800	IN	A	194.169.218.98
+a.nic.luxury.		172800	IN	AAAA	2001:67c:13cc:0:0:0:1:98
+b.nic.luxury.		172800	IN	A	185.24.64.98
+b.nic.luxury.		172800	IN	AAAA	2a04:2b00:13cc:0:0:0:1:98
+c.nic.luxury.		172800	IN	A	212.18.248.98
+c.nic.luxury.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:85
+d.nic.luxury.		172800	IN	A	212.18.249.98
+d.nic.luxury.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:98
 lv.			172800	IN	NS	a.nic.lv.
 lv.			172800	IN	NS	b.nic.lv.
 lv.			172800	IN	NS	c.nic.lv.
@@ -9581,8 +9582,11 @@ ns2.dhivehinet.net.mv.	172800	IN	A	202.1.201.201
 mw.			172800	IN	NS	mw.cctld.authdns.ripe.net.
 mw.			172800	IN	NS	ns4.apnic.net.
 mw.			172800	IN	NS	rip.psg.com.
+mw.			172800	IN	NS	pch1.nic.mw.
 mw.			172800	IN	NS	domwe.sdn.mw.
 mw.			172800	IN	NS	chambo.sdnp.org.mw.
+pch1.nic.mw.		172800	IN	A	204.61.216.131
+pch1.nic.mw.		172800	IN	AAAA	2001:500:14:6131:ad:0:0:1
 chambo.sdnp.org.mw.	172800	IN	A	41.221.99.135
 chambo.sdnp.org.mw.	172800	IN	A	196.45.188.5
 domwe.sdn.mw.		172800	IN	A	41.87.5.162
