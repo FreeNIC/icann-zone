@@ -15140,13 +15140,10 @@ c.nic.vg.		172800	IN	A	212.18.248.104
 c.nic.vg.		172800	IN	AAAA	2a04:2b00:13ee:0:0:0:0:104
 d.nic.vg.		172800	IN	A	212.18.249.104
 d.nic.vg.		172800	IN	AAAA	2a04:2b00:13ff:0:0:0:0:104
-vi.			172800	IN	NS	ns1.nic.vi.
 vi.			172800	IN	NS	ns3.nic.vi.
 vi.			172800	IN	NS	pch.nic.vi.
 vi.			172800	IN	NS	auth100.ns.uu.net.
 vi.			172800	IN	NS	auth110.ns.uu.net.
-ns1.nic.vi.		172800	IN	A	192.5.4.1
-ns1.nic.vi.		172800	IN	AAAA	2001:500:2e:0:0:0:0:1
 ns3.nic.vi.		172800	IN	A	185.17.236.230
 pch.nic.vi.		172800	IN	A	204.61.216.133
 pch.nic.vi.		172800	IN	AAAA	2001:500:14:6133:ad:0:0:1
