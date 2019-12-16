@@ -11122,7 +11122,6 @@ c0.nic.pccw.		172800	IN	AAAA	2a01:8840:74:0:0:0:0:41
 pe.			172800	IN	NS	pch.rcp.pe.
 pe.			172800	IN	NS	pe1.dnsnode.net.
 pe.			172800	IN	NS	quipu.rcp.net.pe.
-pe.			172800	IN	NS	sns-pb.isc.org.
 pe.			86400	IN	DS	7981 8 2 7C4B12C0D916694718131C7B7607561393FB86E2A3159CE7A74EA9E29AFB26F3
 quipu.rcp.net.pe.	172800	IN	A	200.1.176.4
 pch.rcp.pe.		172800	IN	A	204.61.216.85
