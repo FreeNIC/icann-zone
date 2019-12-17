@@ -11503,11 +11503,13 @@ b0.nic.poker.		172800	IN	AAAA	2a01:8840:17:0:0:0:0:33
 c0.nic.poker.		172800	IN	A	65.22.22.33
 c0.nic.poker.		172800	IN	AAAA	2a01:8840:18:0:0:0:0:33
 politie.		172800	IN	NS	ns1.nic.politie.
+politie.		172800	IN	NS	ns2.nic.politie.
 politie.		172800	IN	NS	ns3.nic.politie.
-politie.		172800	IN	NS	sns-pb.isc.org.
 politie.		86400	IN	DS	63485 8 2 98F1793434C640FCB733F3A17C6BBE63D32666DEBE54BB4D264BC22F273A4E15
 ns1.nic.politie.	172800	IN	A	194.0.28.5
 ns1.nic.politie.	172800	IN	AAAA	2001:678:2c:0:194:0:28:5
+ns2.nic.politie.	172800	IN	A	194.146.106.42
+ns2.nic.politie.	172800	IN	AAAA	2001:67c:1010:10:0:0:0:53
 ns3.nic.politie.	172800	IN	A	194.0.25.27
 ns3.nic.politie.	172800	IN	AAAA	2001:678:20:0:0:0:0:27
 porn.			172800	IN	NS	ns1.uniregistry.net.
