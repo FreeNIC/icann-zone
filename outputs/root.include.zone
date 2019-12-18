@@ -2232,8 +2232,8 @@ business.		172800	IN	NS	demand.delta.aridns.net.au.
 business.		172800	IN	NS	demand.gamma.aridns.net.au.
 business.		86400	IN	DS	13489 8 1 C6CD864D5F6A2AE52FBC9279A150858E5C6237C2
 business.		86400	IN	DS	13489 8 2 92172960C17BAF5F9AD9E003B9D03F3B98E848F784A645FAF17FC942CF3AA145
-ns2.dns.business.	172800	IN	A	66.135.46.112
-ns2.dns.business.	172800	IN	AAAA	2001:1978:2400:6:0:0:0:112
+ns2ke.dns.business.	172800	IN	A	147.135.106.237
+ns2ke.dns.business.	172800	IN	AAAA	2604:2dc0:200:2eb:0:0:0:237
 ns2us.dns.business.	172800	IN	A	147.135.106.236
 ns2us.dns.business.	172800	IN	AAAA	2604:2dc0:200:2eb:0:0:0:2
 buy.			172800	IN	NS	dns1.nic.buy.
@@ -5363,7 +5363,6 @@ ns5.dns.nic.fox.	172800	IN	A	156.154.157.63
 ns5.dns.nic.fox.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:3f
 ns6.dns.nic.fox.	172800	IN	A	156.154.158.63
 ns6.dns.nic.fox.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:3f
-fr.			172800	IN	NS	d.ext.nic.fr.
 fr.			172800	IN	NS	d.nic.fr.
 fr.			172800	IN	NS	e.ext.nic.fr.
 fr.			172800	IN	NS	f.ext.nic.fr.
@@ -5376,8 +5375,6 @@ dns.inria.fr.		172800	IN	A	193.51.208.13
 censvrns0001.ird.fr.	172800	IN	A	91.203.32.147
 d.nic.fr.		172800	IN	A	194.0.9.1
 d.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
-d.ext.nic.fr.		172800	IN	A	192.5.4.2
-d.ext.nic.fr.		172800	IN	AAAA	2001:500:2e:0:0:0:0:2
 e.ext.nic.fr.		172800	IN	A	193.176.144.22
 e.ext.nic.fr.		172800	IN	AAAA	2a00:d78:0:102:193:176:144:22
 f.ext.nic.fr.		172800	IN	A	194.146.106.46
@@ -5390,6 +5387,8 @@ ci.hosting.nic.fr.	172800	IN	A	192.134.0.49
 ci.hosting.nic.fr.	172800	IN	AAAA	2001:660:3006:1:0:0:1:1
 ns-es.nic.fr.		172800	IN	A	194.0.9.1
 ns-es.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
+ns-gp.nic.fr.		172800	IN	A	194.0.9.1
+ns-gp.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-ma.nic.fr.		172800	IN	A	194.0.9.1
 ns-ma.nic.fr.		172800	IN	AAAA	2001:678:c:0:0:0:0:1
 ns-mr.nic.fr.		172800	IN	A	194.0.9.1
@@ -6008,7 +6007,10 @@ gov.			86400	IN	DS	7698 8 1 6F109B46A80CEA9613DC86D5A3E065520505AAFE
 gov.			86400	IN	DS	7698 8 2 6BC949E638442EAD0BDAF0935763C8D003760384FF15EBBD5CE86BB5559561F0
 gp.			172800	IN	NS	gp.cctld.authdns.ripe.net.
 gp.			172800	IN	NS	ns1.nic.gp.
+gp.			172800	IN	NS	ns2.nic.gp.
+gp.			172800	IN	NS	ns-gp.nic.fr.
 ns1.nic.gp.		172800	IN	A	193.218.114.2
+ns2.nic.gp.		172800	IN	A	193.218.114.34
 gq.			172800	IN	NS	a.ns.gq.
 gq.			172800	IN	NS	b.ns.gq.
 gq.			172800	IN	NS	c.ns.gq.
@@ -7665,10 +7667,10 @@ kddi.			172800	IN	NS	k.gmoregistry.net.
 kddi.			172800	IN	NS	l.gmoregistry.net.
 kddi.			86400	IN	DS	2134 8 2 871A87191B82D082DF95647615DB803C3CF6E7B80578B018118C2DD27D7FA00B
 ke.			172800	IN	NS	ns.anycast.kenic.or.ke.
-ke.			172800	IN	NS	ns2.dns.business.
 ke.			172800	IN	NS	kenic.anycastdns.cz.
 ke.			172800	IN	NS	mzizi.kenic.or.ke.
 ke.			172800	IN	NS	ns-ke.afrinic.net.
+ke.			172800	IN	NS	ns2ke.dns.business.
 ke.			86400	IN	DS	41201 8 1 B058C8EFCB0E064BFF7FCEAA28ECDFD6C09678DB
 ke.			86400	IN	DS	41201 8 2 E841AC6DAF0F028B35F2F23EF025F0B2A11FE6953A87B36DF354412CD218125E
 ns.anycast.kenic.or.ke.	172800	IN	A	204.61.216.7
@@ -7676,6 +7678,7 @@ ns.anycast.kenic.or.ke.	172800	IN	AAAA	2001:500:14:6007:ad:0:0:1
 mzizi.kenic.or.ke.	172800	IN	A	196.1.4.3
 mzizi.kenic.or.ke.	172800	IN	A	196.1.4.130
 mzizi.kenic.or.ke.	172800	IN	A	198.32.67.9
+mzizi.kenic.or.ke.	172800	IN	AAAA	2001:43f8:10:0:50c0:a8ff:feee:30
 kerryhotels.		172800	IN	NS	ac1.nstld.com.
 kerryhotels.		172800	IN	NS	ac2.nstld.com.
 kerryhotels.		172800	IN	NS	ac3.nstld.com.
@@ -11447,7 +11450,6 @@ plus.			172800	IN	NS	demand.delta.aridns.net.au.
 plus.			172800	IN	NS	demand.gamma.aridns.net.au.
 plus.			86400	IN	DS	3634 8 1 2C0790747D6F1CFFBE255FA717E6E8F7743042F7
 plus.			86400	IN	DS	3634 8 2 FB64AB7ED29D24D400D578A2D6D2662DB4677E55399A82AA77A2EC38D5824113
-pm.			172800	IN	NS	d.ext.nic.fr.
 pm.			172800	IN	NS	d.nic.fr.
 pm.			172800	IN	NS	e.ext.nic.fr.
 pm.			172800	IN	NS	f.ext.nic.fr.
@@ -11455,10 +11457,12 @@ pm.			172800	IN	NS	g.ext.nic.fr.
 pm.			86400	IN	DS	45104 8 2 5F4A1BF0ED0DF545553B0D97EEEC234DE7AAF6BB308F9B6A8C7741BA98720B31
 pm.			86400	IN	DS	56192 8 2 B49959AB8FFF95A45BF5F7130AB1A64C7EF1CEFB6F50CA1BE003281503325F67
 pn.			172800	IN	NS	ns0.pitcairn.net.pn.
+pn.			172800	IN	NS	ns1.pitcairn.net.pn.
 pn.			172800	IN	NS	ns2.pitcairn.net.pn.
 pn.			172800	IN	NS	fork.sth.dnsnode.net.
-pn.			172800	IN	NS	sns-pb.isc.org.
 ns0.pitcairn.net.pn.	172800	IN	A	173.230.153.180
+ns1.pitcairn.net.pn.	172800	IN	A	204.61.216.136
+ns1.pitcairn.net.pn.	172800	IN	AAAA	2001:500:14:6136:ad:0:0:1
 ns2.pitcairn.net.pn.	172800	IN	A	80.68.93.100
 pnc.			172800	IN	NS	a0.nic.pnc.
 pnc.			172800	IN	NS	a2.nic.pnc.
@@ -11957,7 +11961,6 @@ raid.			172800	IN	NS	ac2.nstld.com.
 raid.			172800	IN	NS	ac3.nstld.com.
 raid.			172800	IN	NS	ac4.nstld.com.
 raid.			86400	IN	DS	65208 8 2 D781FC1D3C474CF019EE518E24FFB614B07DD6C16628A2C91FC9B598B2EF6B31
-re.			172800	IN	NS	d.ext.nic.fr.
 re.			172800	IN	NS	d.nic.fr.
 re.			172800	IN	NS	e.ext.nic.fr.
 re.			172800	IN	NS	f.ext.nic.fr.
@@ -14240,7 +14243,6 @@ ns5.dns.nic.teva.	172800	IN	A	156.154.157.160
 ns5.dns.nic.teva.	172800	IN	AAAA	2610:a1:1075:0:0:0:0:a0
 ns6.dns.nic.teva.	172800	IN	A	156.154.158.160
 ns6.dns.nic.teva.	172800	IN	AAAA	2610:a1:1076:0:0:0:0:a0
-tf.			172800	IN	NS	d.ext.nic.fr.
 tf.			172800	IN	NS	d.nic.fr.
 tf.			172800	IN	NS	e.ext.nic.fr.
 tf.			172800	IN	NS	f.ext.nic.fr.
@@ -15692,7 +15694,6 @@ weir.			172800	IN	NS	ac2.nstld.com.
 weir.			172800	IN	NS	ac3.nstld.com.
 weir.			172800	IN	NS	ac4.nstld.com.
 weir.			86400	IN	DS	43134 8 2 1F9E4441191642A39A48CEC8DEDBDA9120D85D460CBAF2BF037F3AE3A8E8C7EE
-wf.			172800	IN	NS	d.ext.nic.fr.
 wf.			172800	IN	NS	d.nic.fr.
 wf.			172800	IN	NS	e.ext.nic.fr.
 wf.			172800	IN	NS	f.ext.nic.fr.
@@ -17550,7 +17551,6 @@ youtube.		172800	IN	NS	ns-tld3.charlestonroadregistry.com.
 youtube.		172800	IN	NS	ns-tld4.charlestonroadregistry.com.
 youtube.		172800	IN	NS	ns-tld5.charlestonroadregistry.com.
 youtube.		86400	IN	DS	63811 8 2 704005247382F846EAC39D9654488F071934FDF3E96C05BE3266009593F60617
-yt.			172800	IN	NS	d.ext.nic.fr.
 yt.			172800	IN	NS	d.nic.fr.
 yt.			172800	IN	NS	e.ext.nic.fr.
 yt.			172800	IN	NS	f.ext.nic.fr.
